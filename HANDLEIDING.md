@@ -16,11 +16,13 @@ Alles is van jou: de code, de teksten, de foto's. Geen abonnement meer nodig.
 
 ## 1. Live zetten (eenmalig, ±20 minuten)
 
-### Stap 1 – Website online op GitHub Pages
-1. Ga naar https://github.com/mdb668/demachinedokters-site/settings/pages
-2. Bij **Build and deployment → Source** kies **GitHub Actions**.
-3. Ga naar het tabblad **Actions**, open de workflow "Bouw en publiceer website" en klik **Run workflow** (of push een wijziging).
-4. Na ±2 minuten staat de site op `https://mdb668.github.io/demachinedokters-site/` (tijdelijk adres; werkt pas goed met het eigen domein, zie stap 2).
+### Stap 1 – Website online op GitHub Pages ✅ (al gedaan)
+Dit is in de nacht van 16 september al ingericht:
+- Repository `mdb668/demachinedokters-site` aangemaakt en gepusht. De repo is **publiek**, omdat GitHub Pages op een privé-repo alleen met een betaald GitHub Pro-account werkt. Er staat niets geheims in (alleen de site zoals bezoekers hem toch al zien). Wil je hem toch privé: neem GitHub Pro (±4 dollar/maand) en zet hem op privé; Pages blijft dan werken.
+- GitHub Pages staat aan (bron: GitHub Actions) en het custom domain `www.demachinedokters.nl` is al ingevuld.
+- De eerste deploy is geslaagd (groene workflow).
+
+Let op: het tijdelijke adres `mdb668.github.io/demachinedokters-site` stuurt door naar `www.demachinedokters.nl` zolang het custom domain ingesteld staat. De nieuwe site is dus pas zichtbaar zodra de DNS is omgezet (stap 2). Wil je hem vooraf bekijken: lokaal met `npm run dev` (zie hoofdstuk 3).
 
 ### Stap 2 – Domein koppelen bij one.com
 Log in op one.com → **DNS-instellingen** van `demachinedokters.nl`. Verwijder de oude Wix-records (A-records en CNAME `www` die naar Wix wijzen) en zet:

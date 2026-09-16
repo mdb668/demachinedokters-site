@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "title": "De Machinedokters",
+    "subtitle": "Versnellen. Verbeteren. Vooruitgaan.",
+    "video": "/video/hero.mp4",
+    "poster": "/images/fotos/hero-poster.jpg"
+  },
+  "intro": {
+    "line1": "Gas op jouw productieproces: waarom nieuwe machines kopen als je de huidige beter kunt maken?",
+    "line2": "Een geoptimaliseerde fabriek: hogere OEE, minder personeelsafhankelijkheid en hogere winst. Klinkt goed?",
+    "quote": "\"Anderen zien een probleem, wij zien een uitdaging. En die lossen we op.\"",
+    "button1Label": "Plan een vrijblijvend adviesgesprek",
+    "button1Link": "/contact",
+    "button2Label": "Bezoek onze machinebouw",
+    "button2Link": "https://cineworks.wixstudio.com/reboowgroup"
+  },
+  "verschil": {
+    "title": "Hoe wij het verschil maken!",
+    "items": [
+      {
+        "title": "Technisch maatwerk",
+        "text": "Elke fabriek is anders en dus vraagt elk proces om zijn eigen aanpak. De Machinedokters verbeteren bestaande machines met slimme technische aanpassingen. Geen dure vervanging of standaardoplossing, maar maatwerk dat precies past bij jouw fabriek.\n\nDoor upgrades, optimalisaties en slimme modificaties halen we méér capaciteit, betrouwbaarheid en efficiëntie uit wat er al staat."
+      },
+      {
+        "title": "Snelle ROI",
+        "text": "Wij geloven niet in lange trajecten of dikke rapporten. Wij geloven in resultaat. De Machinedokters staat bekend om het bedenken van creatieve oplossingen die snel uitvoerbaar zijn. Geen langdurige trajecten, maar praktische verbeteringen die direct resultaat opleveren.\n\nKlanten waarderen dat we problemen niet groter maken dan ze zijn, maar ze juist met inventiviteit en snelheid oplossen."
+      },
+      {
+        "title": "Persoonlijke aanpak",
+        "text": "Wij staan niet langs de zijlijn te vertellen hoe het moet. We staan ín de fabriek en werken samen met operators, monteurs en managers.\n\nDeze persoonlijke aanpak zorgt voor korte lijnen, snelle communicatie en oplossingen die perfect aansluiten bij de praktijk. Omdat we het team meenemen in de aanpassingen, blijft de kennis op de werkvloer en is onze aanpak niet alleen snel, maar levert het ook blijvend resultaat op."
+      }
+    ]
+  },
+  "klachten": {
+    "title": "Klachten die De Machinedokters genezen",
+    "intro": "Elke fabriek heeft wel eens last van klachten: machines die minder presteren, productielijnen die stilvallen of processen die stroef lopen. De Machinedokters stellen de juiste diagnose en zorgen voor een blijvende oplossing. Typische klachten waarbij je ons inschakelt zijn bijvoorbeeld:",
+    "quote": "\"Koppige machine? Perfect. Dat is onze specialiteit.\"",
+    "items": [
+      {
+        "title": "Inefficient productieproces",
+        "text": "Je machines draaien onder capaciteit en de output per uur is lager dan gewenst. Neem bijvoorbeeld onze klant Coca Cola, waarbij we het bottelproces hebben geoptimaliseerd. Dankzij onze oplossingen draait de nieuwe lijn 30% sneller!",
+        "image": "/images/fotos/bottellijn.jpg",
+        "imageAlt": "Geautomatiseerde productielijn met kleine lege flessen op lopende band in fabriek."
+      },
+      {
+        "title": "Hoge stilstand- en onderhoudskosten",
+        "text": "Onverwachte storingen en hoge onderhoudskosten drukken direct op de winst. Elke minuut stilstand betekent productieverlies. Bij Coca Cola hebben wij gezorgd voor 40% minder storingen.\n\nDoor deze twee klachten te genezen heeft Coca Cola in één jaar meer dan €50 miljoen extra omzet gedraaid.",
+        "image": "/images/fotos/transportsysteem.jpg",
+        "imageAlt": "Industrieel transportsysteem met rollenbanen, gele leuningen en controlepanelen in fabriekshal."
+      },
+      {
+        "title": "Hoge afhankelijkheid aan personeel",
+        "text": "Er is steeds meer tekort aan personeel wat de bottleneck kan zijn van een bedrijf. De Machinedokters zorgen voor slimmere en geautomatiseerde processen. Zo hebben wij een voedingsbedrijf onder andere geholpen met automatiseren van handelingen waardoor zij een 20% snellere verpakkingssnelheid kregen.",
+        "image": "/images/fotos/rco-robots.jpg",
+        "imageAlt": "Monteur op de grond bij industriële oranje robots."
+      }
+    ],
+    "button1Label": "Meer Business Cases",
+    "button1Link": "/cases",
+    "button2Label": "Contact",
+    "button2Link": "/contact"
+  },
+  "overOns": {
+    "title": "Over ons",
+    "text": "Bij De Machinedokters draait alles om beter laten draaien. Letterlijk.\nWe zijn technische probleemoplossers die bestaande machines en processen verbeteren met slimme, duurzame aanpassingen. Geen dikke rapporten of standaardoplossingen, maar praktisch maatwerk dat direct werkt.\n\nDe Machinedokters is onderdeel van **Reboow group**, een technisch bureau dat sinds 2018 fabrieken helpt om efficiënter te produceren. Vanuit die ervaring zagen we één ding duidelijk: veel machines hoeven niet vervangen te worden, ze hebben gewoon de juiste behandeling nodig.\n\nMet die gedachte zijn De Machinedokters ontstaan; een nieuwe naam, maar dezelfde vakkennis en praktijkervaring. We staan ín de fabriek, tussen de mensen en de machines. Daar zien we wat er echt speelt en wat er beter kan. Onze oplossingen zijn slim, snel en blijvend; precies wat een gezond en winstgevend productieproces nodig heeft.",
+    "linkLabel": "Lees meer...",
+    "link": "/over-ons",
+    "quote": "\"Praktisch ingesteld, hoog allergisch voor onzin.\"",
+    "image": "/images/fotos/team-banner.jpg",
+    "imageAlt": "Het team houdt een banner vast met REBOOW GROUP en DE MACHINEDOKTERS erop."
+  }
+}

@@ -1,0 +1,604 @@
+# Sveltia CMS configuratie voor demachinedokters.nl
+# Inloggen: ga naar https://www.demachinedokters.nl/admin/ en kies "Sign in with Token" (GitHub personal access token)
+# of "Work with Local Repository" als je lokaal werkt met `npm run dev`.
+
+backend:
+  name: github
+  repo: mdb668/demachinedokters-site
+  branch: main
+  commit_messages:
+    create: "Nieuw: {{collection}} “{{slug}}”"
+    update: "Bijgewerkt: {{collection}} “{{slug}}”"
+    delete: "Verwijderd: {{collection}} “{{slug}}”"
+    uploadMedia: "Afbeelding toegevoegd: {{path}}"
+    deleteMedia: "Afbeelding verwijderd: {{path}}"
+
+site_url: https://www.demachinedokters.nl
+display_url: https://www.demachinedokters.nl
+logo_url: https://www.demachinedokters.nl/images/logo-de-machinedokters-donker.png
+locale: nl
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  # ───────────── Instellingen ─────────────
+  - name: instellingen
+    label: "⚙️ Instellingen"
+    description: "Algemene gegevens: contactgegevens, menu, footer, knoppen en vaste blokken."
+    editor: { preview: false }
+    files:
+      - name: site
+        label: "Website-instellingen"
+        file: src/content/settings/site.json
+        fields:
+          - { name: siteName, label: "Naam website", widget: string }
+          - { name: tagline, label: "Slogan", widget: string, required: false }
+          - { name: seoTitle, label: "SEO-titel homepage", widget: string, hint: "Titel in Google en browsertab (max. ±60 tekens)." }
+          - { name: seoDescription, label: "SEO-omschrijving homepage", widget: text }
+          - { name: logo, label: "Logo (witte letters, voor donkere achtergrond)", widget: image }
+          - { name: logoIcon, label: "Logo-icoon", widget: image, required: false }
+          - { name: phone, label: "Telefoonnummer (weergave)", widget: string }
+          - { name: phoneLink, label: "Telefoonnummer (link, bv. tel:+31850470907)", widget: string }
+          - { name: email, label: "E-mailadres", widget: string }
+          - { name: formEmail, label: "E-mailadres waar formulieren naartoe gaan", widget: string, hint: "Contact-, sollicitatie- en downloadformulieren worden hierheen gestuurd." }
+          - { name: addressLine1, label: "Adres regel 1", widget: string }
+          - { name: addressLine2, label: "Adres regel 2 (postcode plaats)", widget: string }
+          - { name: openingHours, label: "Kantoortijden", widget: string }
+          - { name: legalName, label: "Juridische naam", widget: string, required: false }
+          - { name: kvk, label: "KVK-nummer", widget: string, required: false }
+          - { name: ctaLabel, label: "Tekst hoofdknop (Plan een adviesgesprek)", widget: string }
+          - { name: ctaLink, label: "Link hoofdknop", widget: string }
+          - { name: reboowUrl, label: "Link naar Reboow (machinebouw)", widget: string, required: false }
+          - name: socials
+            label: "Social media"
+            widget: list
+            fields:
+              - { name: platform, label: "Platform", widget: select, options: [whatsapp, instagram, facebook, linkedin, youtube] }
+              - { name: url, label: "Link", widget: string }
+          - name: nav
+            label: "Hoofdmenu"
+            widget: list
+            fields:
+              - { name: label, label: "Tekst", widget: string }
+              - { name: href, label: "Link", widget: string }
+          - name: footerBedrijf
+            label: "Footer: kolom Bedrijf"
+            widget: list
+            fields:
+              - { name: label, label: "Tekst", widget: string }
+              - { name: href, label: "Link", widget: string }
+          - name: footerSupport
+            label: "Footer: kolom Support"
+            widget: list
+            fields:
+              - { name: label, label: "Tekst", widget: string }
+              - { name: href, label: "Link", widget: string }
+          - name: footerJuridisch
+            label: "Footer: kolom Juridisch"
+            widget: list
+            fields:
+              - { name: label, label: "Tekst", widget: string }
+              - { name: href, label: "Link", widget: string }
+          - name: footerBottom
+            label: "Footer: onderste regel links"
+            widget: list
+            fields:
+              - { name: label, label: "Tekst", widget: string }
+              - { name: href, label: "Link", widget: string }
+          - { name: copyright, label: "Copyright-tekst", widget: string }
+          - { name: inzetTitle, label: "Titel blok 'De machinedokters schakel je in voor'", widget: string }
+          - name: inzet
+            label: "Items 'schakel je in voor'"
+            widget: list
+            fields:
+              - { name: label, label: "Tekst", widget: string }
+              - { name: icon, label: "Icoon", widget: select, options: [clock, factory, money, chart-down, chart-up, gear-clock, gear-up, eye, shield, check, route, robot, process, wrench, code, people, flag, growth, alert] }
+          - { name: behandelplanTitle, label: "Titel behandelplan", widget: string }
+          - name: behandelplan
+            label: "Stappen behandelplan"
+            widget: list
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - { name: text, label: "Tekst", widget: text }
+
+  # ───────────── Pagina's ─────────────
+  - name: paginas
+    label: "📄 Pagina's"
+    description: "Teksten en afbeeldingen per pagina."
+    editor: { preview: false }
+    files:
+      - name: home
+        label: "Homepage"
+        file: src/content/pages/home.json
+        fields:
+          - name: hero
+            label: "Hero (bovenaan)"
+            widget: object
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - { name: subtitle, label: "Ondertitel", widget: string }
+              - { name: video, label: "Achtergrondvideo (mp4)", widget: file, required: false, hint: "Laat leeg om alleen de afbeelding te tonen." }
+              - { name: poster, label: "Achtergrondafbeelding (ook poster van de video)", widget: image }
+          - name: intro
+            label: "Intro-blok"
+            widget: object
+            fields:
+              - { name: line1, label: "Regel 1 (vet)", widget: text }
+              - { name: line2, label: "Regel 2", widget: text }
+              - { name: quote, label: "Handgeschreven quote", widget: text }
+              - { name: button1Label, label: "Knop 1 tekst", widget: string }
+              - { name: button1Link, label: "Knop 1 link", widget: string }
+              - { name: button2Label, label: "Knop 2 tekst", widget: string }
+              - { name: button2Link, label: "Knop 2 link", widget: string }
+          - name: verschil
+            label: "Hoe wij het verschil maken"
+            widget: object
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - name: items
+                label: "Blokken"
+                widget: list
+                fields:
+                  - { name: title, label: "Titel", widget: string }
+                  - { name: text, label: "Tekst", widget: text, hint: "Lege regel = nieuwe alinea. **vet** voor vetgedrukt." }
+          - name: klachten
+            label: "Klachten die wij genezen"
+            widget: object
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - { name: intro, label: "Intro", widget: text }
+              - { name: quote, label: "Handgeschreven quote", widget: text }
+              - name: items
+                label: "Klachten"
+                widget: list
+                fields:
+                  - { name: title, label: "Titel", widget: string }
+                  - { name: text, label: "Tekst", widget: text }
+                  - { name: image, label: "Afbeelding", widget: image }
+                  - { name: imageAlt, label: "Alt-tekst afbeelding", widget: string, required: false }
+              - { name: button1Label, label: "Knop 1 tekst", widget: string }
+              - { name: button1Link, label: "Knop 1 link", widget: string }
+              - { name: button2Label, label: "Knop 2 tekst", widget: string }
+              - { name: button2Link, label: "Knop 2 link", widget: string }
+          - name: overOns
+            label: "Over ons (homepage)"
+            widget: object
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - { name: text, label: "Tekst", widget: text }
+              - { name: linkLabel, label: "Link tekst", widget: string }
+              - { name: link, label: "Link", widget: string }
+              - { name: quote, label: "Handgeschreven quote", widget: text }
+              - { name: image, label: "Afbeelding", widget: image }
+              - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
+
+      - name: diensten
+        label: "Diensten (overzicht)"
+        file: src/content/pages/diensten.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: subtitle, label: "Ondertitel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - { name: quote, label: "Handgeschreven quote", widget: text }
+          - { name: waaromTitle, label: "Titel 'Waarom kiezen voor'", widget: string }
+          - { name: waaromText, label: "Tekst 'Waarom kiezen voor'", widget: text }
+
+      - name: cases
+        label: "Cases (overzicht + vaste teksten)"
+        file: src/content/pages/cases.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: subtitle, label: "Ondertitel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - { name: readMore, label: "Tekst 'Lees meer'", widget: string }
+          - { name: backLabel, label: "Tekst 'Terug naar cases'", widget: string }
+          - { name: challengeTitle, label: "Kop 'Uitdaging'", widget: string }
+          - { name: approachTitle, label: "Kop 'Onze aanpak'", widget: string }
+          - { name: resultTitle, label: "Kop 'Het resultaat'", widget: string }
+          - { name: button1Label, label: "Knop 1 tekst", widget: string }
+          - { name: button1Link, label: "Knop 1 link", widget: string }
+          - { name: button2Label, label: "Knop 2 tekst", widget: string }
+          - { name: button2Link, label: "Knop 2 link", widget: string }
+
+      - name: over-ons
+        label: "Over ons"
+        file: src/content/pages/over-ons.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: subtitle, label: "Ondertitel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - { name: quote, label: "Handgeschreven quote", widget: text }
+          - { name: image, label: "Afbeelding pand", widget: image }
+          - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
+          - { name: woordenTitle, label: "Titel 'Onze woorden'", widget: string }
+          - name: woorden
+            label: "Onze woorden"
+            widget: list
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - { name: text, label: "Tekst", widget: text }
+          - { name: teamTitle, label: "Titel team", widget: string }
+
+      - name: contact
+        label: "Contact"
+        file: src/content/pages/contact.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - { name: subtitle, label: "Ondertitel", widget: string, required: false }
+          - name: form
+            label: "Formulier"
+            widget: object
+            fields:
+              - { name: nameLabel, label: "Label naam", widget: string }
+              - { name: emailLabel, label: "Label e-mail", widget: string }
+              - { name: phoneLabel, label: "Label telefoon", widget: string }
+              - { name: messageLabel, label: "Label bericht", widget: string }
+              - { name: submitLabel, label: "Knop", widget: string }
+              - { name: successTitle, label: "Succes titel", widget: string }
+              - { name: successText, label: "Succes tekst", widget: text }
+              - { name: errorText, label: "Fout tekst", widget: text }
+          - name: labels
+            label: "Labels contactgegevens"
+            widget: object
+            fields:
+              - { name: address, label: "Adres", widget: string }
+              - { name: phone, label: "Telefoon", widget: string }
+              - { name: email, label: "E-mail", widget: string }
+              - { name: hours, label: "Kantoortijden", widget: string }
+          - { name: mapEmbed, label: "Google Maps embed-URL", widget: string, required: false, hint: "Laat leeg om geen kaart te tonen." }
+
+      - name: werken-bij
+        label: "Werken bij"
+        file: src/content/pages/werken-bij.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - { name: waaromTitle, label: "Titel 'Waarom werken bij ons'", widget: string }
+          - name: waarom
+            label: "Redenen"
+            widget: list
+            fields:
+              - { name: icon, label: "Icoon", widget: select, options: [flag, people, growth, clock, shield, check, wrench, process, code] }
+              - { name: title, label: "Titel", widget: string }
+              - { name: text, label: "Tekst", widget: text }
+          - { name: vacaturesTitle, label: "Titel vacatures", widget: string }
+          - { name: openTitle, label: "Titel open sollicitatie", widget: string }
+          - { name: openButtonLabel, label: "Knop open sollicitatie", widget: string }
+          - { name: openButtonLink, label: "Link open sollicitatie", widget: string }
+          - { name: quote, label: "Handgeschreven quote", widget: text }
+          - { name: image, label: "Afbeelding", widget: image }
+          - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
+
+      - name: faq
+        label: "Veelgestelde vragen (pagina)"
+        file: src/content/pages/faq.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: subtitle, label: "Ondertitel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - { name: notFoundTitle, label: "Titel 'Staat je vraag er niet tussen'", widget: string }
+          - { name: notFoundButtonLabel, label: "Knop", widget: string }
+          - { name: notFoundButtonLink, label: "Knop link", widget: string }
+          - { name: quote, label: "Handgeschreven quote", widget: text }
+
+      - name: service-onderhoud
+        label: "Service & onderhoud"
+        file: src/content/pages/service-onderhoud.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: subtitle, label: "Ondertitel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - name: blocks
+            label: "Blokken"
+            widget: list
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - { name: text, label: "Tekst", widget: text }
+              - { name: listTitle, label: "Titel opsomming", widget: string }
+              - { name: list, label: "Opsomming", widget: list }
+              - { name: icon, label: "Icoon", widget: select, options: [alert, wrench, shield, clock, process, check] }
+          - { name: faqTitle, label: "Titel FAQ-blok", widget: string }
+          - { name: faqText, label: "Tekst FAQ-blok", widget: string }
+          - { name: faqButtonLabel, label: "Knop FAQ", widget: string }
+          - { name: faqButtonLink, label: "Link FAQ", widget: string }
+
+      - name: nen
+        label: "NEN 3140 / 1010"
+        file: src/content/pages/nen.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - { name: image, label: "Afbeelding", widget: image }
+          - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
+          - { name: button1Label, label: "Knop 1 tekst", widget: string }
+          - { name: button1Link, label: "Knop 1 link", widget: string }
+          - { name: button2Label, label: "Knop 2 tekst", widget: string }
+          - { name: button2Link, label: "Knop 2 link", widget: string }
+          - name: sections
+            label: "Secties"
+            widget: list
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - { name: intro, label: "Intro", widget: text, required: false }
+              - name: items
+                label: "Kaarten (optioneel)"
+                widget: list
+                required: false
+                fields:
+                  - { name: title, label: "Titel", widget: string }
+                  - { name: text, label: "Tekst", widget: text }
+              - { name: outro, label: "Tussenkop (optioneel)", widget: string, required: false }
+              - name: list
+                label: "Checklist (optioneel)"
+                widget: list
+                required: false
+                fields:
+                  - { name: title, label: "Titel", widget: string }
+                  - { name: text, label: "Tekst", widget: text }
+          - { name: quote, label: "Handgeschreven quote", widget: text }
+          - { name: planTitle, label: "Titel 'Plan uw keuring in'", widget: string }
+          - { name: planText, label: "Tekst 'Plan uw keuring in'", widget: text }
+
+      - name: blog
+        label: "Blog (overzicht + vaste teksten)"
+        file: src/content/pages/blog.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: subtitle, label: "Ondertitel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - { name: readMore, label: "Tekst 'Lees verder'", widget: string }
+          - { name: recentTitle, label: "Titel 'Recente blogposts'", widget: string }
+          - { name: allLabel, label: "Tekst 'Alles weergeven'", widget: string }
+          - { name: backLabel, label: "Tekst 'Alle posts'", widget: string }
+          - { name: readingTimeSuffix, label: "Achtervoegsel leestijd", widget: string }
+          - { name: downloadCtaLabel, label: "Download-knop tekst", widget: string }
+          - { name: downloadCtaLink, label: "Download-knop link", widget: string }
+
+      - name: download
+        label: "Download-pagina"
+        file: src/content/pages/download.json
+        fields:
+          - { name: seoTitle, label: "SEO-titel", widget: string }
+          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+          - { name: title, label: "Titel", widget: string }
+          - { name: intro, label: "Intro", widget: text }
+          - name: options
+            label: "Downloads"
+            widget: list
+            fields:
+              - { name: label, label: "Naam", widget: string }
+              - { name: file, label: "PDF-bestand", widget: file }
+          - name: form
+            label: "Formulier labels"
+            widget: object
+            fields:
+              - { name: firstNameLabel, label: "Voornaam", widget: string }
+              - { name: lastNameLabel, label: "Achternaam", widget: string }
+              - { name: emailLabel, label: "E-mail", widget: string }
+              - { name: fileLabel, label: "Selecteer bestand", widget: string }
+              - { name: filePlaceholder, label: "Placeholder", widget: string }
+              - { name: submitLabel, label: "Knop", widget: string }
+          - name: thanks
+            label: "Bedankt-pagina"
+            widget: object
+            fields:
+              - { name: seoTitle, label: "SEO-titel", widget: string }
+              - { name: title, label: "Titel", widget: string }
+              - { name: text, label: "Tekst", widget: text }
+          - { name: autoresponse, label: "Automatische antwoordmail (tekst met downloadlink)", widget: text }
+
+  # ───────────── Diensten ─────────────
+  - name: diensten
+    label: "🔧 Diensten"
+    label_singular: "Dienst"
+    folder: src/content/diensten
+    create: true
+    format: frontmatter
+    extension: md
+    slug: "{{order}}-{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [order, title]
+    fields:
+      - { name: title, label: "Titel", widget: string }
+      - { name: titleHtml, label: "Titel met regelafbreking (optioneel, gebruik <br>)", widget: string, required: false }
+      - { name: tagline, label: "Korte slogan", widget: string }
+      - { name: short, label: "Korte omschrijving (kaart)", widget: text }
+      - { name: icon, label: "Icoon", widget: select, options: [process, wrench, code, people, robot, shield, clock, gear-clock] }
+      - { name: image, label: "Afbeelding", widget: image, required: false }
+      - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
+      - { name: order, label: "Volgorde", widget: number, default: 1 }
+      - { name: body, label: "Uitgebreide tekst", widget: markdown }
+
+  # ───────────── Cases ─────────────
+  - name: cases
+    label: "🏭 Cases"
+    label_singular: "Case"
+    folder: src/content/cases
+    create: true
+    format: frontmatter
+    extension: md
+    slug: "{{order}}-{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [order, title]
+    fields:
+      - { name: title, label: "Titel (klantnaam of branche)", widget: string }
+      - { name: slug, label: "URL-slug", widget: string, hint: "Bijv. case-coca-cola → www.demachinedokters.nl/case-coca-cola" }
+      - { name: subtitle, label: "Ondertitel", widget: string }
+      - { name: intro, label: "Intro (1 zin)", widget: text }
+      - { name: summary, label: "Samenvatting (overzichtspagina)", widget: text }
+      - { name: image, label: "Afbeelding of logo", widget: image }
+      - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
+      - { name: imageIsLogo, label: "Afbeelding is een logo", widget: boolean, default: false }
+      - name: stats
+        label: "Resultaten in cijfers (3)"
+        widget: list
+        max: 3
+        fields:
+          - { name: value, label: "Waarde (bv. -66%)", widget: string }
+          - { name: label, label: "Label (bv. Ombouwtijd)", widget: string }
+          - { name: icon, label: "Icoon", widget: select, options: [gear-clock, gear-up, chart-up, chart-down, eye, shield, check, route, robot, clock, money, factory] }
+      - { name: challenge, label: "Uitdaging", widget: text }
+      - { name: approach, label: "Onze aanpak", widget: text, hint: "Lege regel = alinea; regels met '- ' worden een opsomming." }
+      - { name: results, label: "Het resultaat (opsomming)", widget: list }
+      - { name: closing, label: "Afsluitende zin", widget: string, required: false }
+      - { name: order, label: "Volgorde", widget: number, default: 1 }
+      - { name: published, label: "Gepubliceerd", widget: boolean, default: true }
+      - { name: body, label: "Extra tekst (optioneel)", widget: markdown, required: false }
+
+  # ───────────── Team ─────────────
+  - name: team
+    label: "👥 Team"
+    label_singular: "Teamlid"
+    folder: src/content/team
+    create: true
+    format: json
+    extension: json
+    slug: "{{order}}-{{name}}"
+    summary: "{{name}} – {{role}}"
+    sortable_fields: [order, name]
+    fields:
+      - { name: name, label: "Naam", widget: string }
+      - { name: role, label: "Functie", widget: string }
+      - { name: photo, label: "Foto (staand, 3:4)", widget: image, required: false }
+      - { name: order, label: "Volgorde", widget: number, default: 99 }
+
+  # ───────────── FAQ ─────────────
+  - name: faq
+    label: "❓ Veelgestelde vragen"
+    label_singular: "Vraag"
+    folder: src/content/faq
+    create: true
+    format: frontmatter
+    extension: md
+    slug: "{{order}}"
+    summary: "{{question}}"
+    sortable_fields: [order]
+    fields:
+      - { name: question, label: "Vraag", widget: string }
+      - { name: order, label: "Volgorde", widget: number, default: 99 }
+      - { name: body, label: "Antwoord", widget: markdown }
+
+  # ───────────── Blog ─────────────
+  - name: blog
+    label: "📝 Blog"
+    label_singular: "Blogpost"
+    folder: src/content/blog
+    create: true
+    format: frontmatter
+    extension: md
+    slug: "{{year}}-{{month}}-{{slug}}"
+    summary: "{{title}}"
+    sortable_fields: [date, title]
+    fields:
+      - { name: title, label: "Titel", widget: string }
+      - { name: slug, label: "URL-slug", widget: string, hint: "Wordt www.demachinedokters.nl/post/<slug>" }
+      - { name: date, label: "Datum", widget: datetime, format: "YYYY-MM-DD", date_format: "DD-MM-YYYY", time_format: false }
+      - { name: author, label: "Auteur", widget: string, default: "De Machinedokters" }
+      - { name: readingTime, label: "Leestijd (bv. 2 minuten)", widget: string, required: false }
+      - { name: excerpt, label: "Korte samenvatting", widget: text }
+      - { name: cover, label: "Omslagfoto", widget: image }
+      - { name: coverAlt, label: "Alt-tekst omslagfoto", widget: string, required: false }
+      - { name: seoDescription, label: "SEO-omschrijving (optioneel)", widget: text, required: false }
+      - { name: published, label: "Gepubliceerd", widget: boolean, default: true }
+      - { name: body, label: "Inhoud", widget: markdown }
+
+  # ───────────── Reviews ─────────────
+  - name: reviews
+    label: "⭐ Reviews"
+    label_singular: "Review"
+    folder: src/content/reviews
+    create: true
+    format: frontmatter
+    extension: md
+    slug: "{{order}}-{{name}}"
+    summary: "{{name}}"
+    sortable_fields: [order]
+    fields:
+      - { name: name, label: "Naam", widget: string }
+      - { name: company, label: "Bedrijf (optioneel)", widget: string, required: false }
+      - { name: order, label: "Volgorde", widget: number, default: 99 }
+      - { name: body, label: "Reviewtekst", widget: markdown }
+
+  # ───────────── Klanten ─────────────
+  - name: klanten
+    label: "🏢 Klantlogo's"
+    label_singular: "Klantlogo"
+    folder: src/content/klanten
+    create: true
+    format: json
+    extension: json
+    slug: "{{order}}-{{name}}"
+    summary: "{{name}}"
+    sortable_fields: [order, name]
+    fields:
+      - { name: name, label: "Naam klant", widget: string }
+      - { name: logo, label: "Logo (png met transparante achtergrond)", widget: image }
+      - { name: order, label: "Volgorde", widget: number, default: 99 }
+
+  # ───────────── Vacatures ─────────────
+  - name: vacatures
+    label: "💼 Vacatures"
+    label_singular: "Vacature"
+    folder: src/content/vacatures
+    create: true
+    format: frontmatter
+    extension: md
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    fields:
+      - { name: title, label: "Functietitel", widget: string }
+      - { name: slug, label: "URL-slug", widget: string, hint: "Bijv. solliciteer-technisch-engineer" }
+      - { name: location, label: "Standplaats", widget: string }
+      - { name: sector, label: "Sector", widget: string }
+      - { name: image, label: "Afbeelding", widget: image, required: false }
+      - { name: quote, label: "Handgeschreven quote", widget: string, required: false }
+      - { name: intro, label: "Over De Machinedokters", widget: text }
+      - { name: functie, label: "De functie", widget: text }
+      - { name: watGaJeDoen, label: "Wat ga je doen?", widget: list }
+      - { name: watWijBieden, label: "Wat wij bieden", widget: list }
+      - { name: watJeMeebrengt, label: "Wat je meebrengt", widget: list }
+      - { name: published, label: "Gepubliceerd", widget: boolean, default: true }
+      - { name: order, label: "Volgorde", widget: number, default: 1 }
+      - { name: body, label: "Afsluitende tekst bij het formulier", widget: markdown }
+
+  # ───────────── Juridisch ─────────────
+  - name: juridisch
+    label: "⚖️ Juridische pagina's"
+    label_singular: "Pagina"
+    folder: src/content/juridisch
+    create: false
+    delete: false
+    format: frontmatter
+    extension: md
+    summary: "{{title}}"
+    fields:
+      - { name: title, label: "Titel", widget: string }
+      - { name: subtitle, label: "Ondertitel", widget: string, required: false }
+      - { name: intro, label: "Intro", widget: text, required: false }
+      - { name: questionTitle, label: "Titel vragenblok", widget: string, required: false }
+      - { name: questionText, label: "Tekst vragenblok", widget: text, required: false }
+      - { name: body, label: "Inhoud", widget: markdown }

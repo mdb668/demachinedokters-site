@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import TeamGrid from '../components/TeamGrid.astro';
+import Inzet from '../components/Inzet.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { getEntry } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'over-ons'))!.data;
+---
+<Base title={p.seoTitle} description={p.seoDescription} image={p.image}>
+  <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} quote={p.quote} />
+  <section class="section-sm">
+    <div class="container">
+      <img src={p.image} alt={p.imageAlt} width="1600" height="1100" class="rounded shadow pand" loading="eager" />
+    </div>
+  </section>
+  <section class="section-sm center">
+    <div class="container">
+      <h2 class="title-underline">{p.woordenTitle}</h2>
+      <div class="grid grid-3 woorden">
+        {p.woorden.map((w: any) => (
+          <div><h3>{w.title}</h3><p class="muted">{w.text}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+  <section class="section section-bg">
+    <div class="container">
+      <h2 class="center"><span class="title-underline">{p.teamTitle}</span></h2>
+      <div class="team-wrap"><TeamGrid /></div>
+    </div>
+  </section>
+  <Inzet button1Label="Meer Business Cases" button1Link="/cases" button2Label="Contact" button2Link="/contact" />
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>
+  .pand { width: 100%; max-height: 520px; object-fit: cover; }
+  .woorden { margin-top: 32px; }
+  .team-wrap { margin-top: 40px; }
+</style>

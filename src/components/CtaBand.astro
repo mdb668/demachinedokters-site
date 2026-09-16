@@ -1,0 +1,19 @@
+---
+import Swoosh from './Swoosh.astro';
+interface Props { label: string; href: string; title?: string; text?: string }
+const { label, href, title, text } = Astro.props;
+---
+<section class="cta-band">
+  <Swoosh variant="top" fill="#ffffff" />
+  <div class="container center content">
+    {title && <h2 class="light">{title}</h2>}
+    {text && <p class="light-text">{text}</p>}
+    <a class="btn btn-primary" href={href}>{label}</a>
+  </div>
+</section>
+<style>
+  .cta-band { position: relative; background: var(--blue); padding: clamp(90px, 12vw, 150px) 0 clamp(40px, 5vw, 60px); margin-top: 40px; }
+  .content { position: relative; }
+  .light { color: #fff; }
+  .light-text { color: rgba(255, 255, 255, 0.85); max-width: 640px; margin: 0 auto 1.5em; }
+</style>

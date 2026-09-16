@@ -1,0 +1,77 @@
+---
+import Icon from './Icon.astro';
+import { getEntry } from 'astro:content';
+interface Props { transparent?: boolean }
+const { transparent = false } = Astro.props;
+const site = (await getEntry('settings', 'site'))!.data;
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+---
+<header class={`site-header ${transparent ? 'is-transparent' : ''}`} data-header>
+  <div class="container bar">
+    <a class="brand" href="/" aria-label={`${site.siteName} - home`}>
+      <img class="logo logo-light" src={site.logo} alt={`Logo ${site.siteName}`} width="600" height="164" />
+      <img class="logo logo-dark" src="/images/logo-de-machinedokters-donker.png" alt="" width="600" height="164" />
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Hoofdmenu">
+      <ul>
+        {site.nav.map((n) => (
+          <li><a href={n.href} class={isActive(n.href) ? 'active' : ''} aria-current={isActive(n.href) ? 'page' : undefined}>{n.label}</a></li>
+        ))}
+      </ul>
+      <a class="btn btn-primary btn-sm cta" href={site.ctaLink}>{site.ctaLabel}</a>
+    </nav>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav" data-burger>
+      <Icon name="menu" size={28} class="i-open" />
+      <Icon name="close" size={28} class="i-close" />
+    </button>
+  </div>
+</header>
+<script>
+  const header = document.querySelector<HTMLElement>('[data-header]');
+  const burger = document.querySelector<HTMLButtonElement>('[data-burger]');
+  const onScroll = () => header?.classList.toggle('scrolled', window.scrollY > 24);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+  burger?.addEventListener('click', () => {
+    const open = header!.classList.toggle('open');
+    burger.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+</script>
+<style>
+  .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; transition: background 0.3s, box-shadow 0.3s; background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(10px); }
+  .site-header.scrolled { box-shadow: 0 4px 24px rgba(7, 76, 130, 0.08); }
+  .bar { display: flex; align-items: center; justify-content: space-between; height: var(--header-h); gap: 24px; }
+  .brand { display: block; flex: none; }
+  .logo { height: 44px; width: auto; }
+  .logo-light { display: none; }
+  .is-transparent:not(.scrolled):not(.open) { background: transparent; backdrop-filter: none; }
+  .is-transparent:not(.scrolled):not(.open) .logo-light { display: block; }
+  .is-transparent:not(.scrolled):not(.open) .logo-dark { display: none; }
+  .is-transparent:not(.scrolled):not(.open) .nav a:not(.btn) { color: #fff; }
+  .is-transparent:not(.scrolled):not(.open) .burger { color: #fff; }
+  .nav { display: flex; align-items: center; gap: 28px; }
+  .nav ul { list-style: none; display: flex; gap: 26px; margin: 0; padding: 0; }
+  .nav a:not(.btn) { color: var(--blue); font-weight: 500; font-size: 1.02rem; text-decoration: none; position: relative; padding: 6px 0; }
+  .nav a:not(.btn)::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--green); transform: scaleX(0); transition: transform 0.2s; transform-origin: left; }
+  .nav a:not(.btn):hover::after, .nav a.active::after { transform: scaleX(1); }
+  .burger { display: none; background: none; border: 0; color: var(--blue); cursor: pointer; padding: 6px; }
+  .burger .i-close { display: none; }
+  .open .burger .i-close { display: block; }
+  .open .burger .i-open { display: none; }
+  @media (max-width: 1024px) {
+    .nav ul { gap: 18px; }
+    .nav a:not(.btn) { font-size: 0.95rem; }
+    .cta { display: none; }
+  }
+  @media (max-width: 860px) {
+    .burger { display: inline-flex; }
+    .nav { position: fixed; inset: var(--header-h) 0 0 0; background: #fff; flex-direction: column; justify-content: flex-start; padding: 32px 24px; gap: 24px; transform: translateX(100%); transition: transform 0.3s; overflow-y: auto; }
+    .open .nav { transform: none; }
+    .nav ul { flex-direction: column; gap: 6px; width: 100%; }
+    .nav ul a { display: block; font-size: 1.3rem !important; padding: 12px 0 !important; border-bottom: 1px solid var(--border); color: var(--blue) !important; }
+    .cta { display: inline-flex; width: 100%; padding: 14px; font-size: 1rem; }
+    .open .site-header, .site-header.open { background: #fff; }
+  }
+</style>

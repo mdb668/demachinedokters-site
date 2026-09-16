@@ -1,0 +1,22 @@
+---
+/** Decorative green curve. `variant="bottom"` sits at the bottom of a dark section (curve into white);
+ *  `variant="top"` sits at the top of a dark section (white above, dark below). */
+interface Props { variant?: 'bottom' | 'top'; fill?: string; class?: string }
+const { variant = 'bottom', fill = '#ffffff', class: cls = '' } = Astro.props;
+---
+{variant === 'bottom' ? (
+  <svg class={`swoosh swoosh-bottom ${cls}`} viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 120 C 420 40, 900 20, 1440 90 L1440 120 Z" fill="#8bc249" opacity="0.95" />
+    <path d="M0 120 C 420 60, 900 40, 1440 105 L1440 120 Z" fill={fill} />
+  </svg>
+) : (
+  <svg class={`swoosh swoosh-top ${cls}`} viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 0 L1440 0 L1440 40 C 1000 100, 500 120, 0 60 Z" fill={fill} />
+    <path d="M0 60 C 500 120, 1000 100, 1440 40 L1440 56 C 1000 116, 500 136, 0 78 Z" fill="#8bc249" />
+  </svg>
+)}
+<style>
+  .swoosh { display: block; width: 100%; height: clamp(40px, 8vw, 120px); }
+  .swoosh-bottom { position: absolute; left: 0; right: 0; bottom: -1px; }
+  .swoosh-top { position: absolute; left: 0; right: 0; top: -1px; }
+</style>

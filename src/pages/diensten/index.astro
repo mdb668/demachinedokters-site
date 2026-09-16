@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import ServiceCards from '../../components/ServiceCards.astro';
+import Inzet from '../../components/Inzet.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import { getEntry, getCollection, render } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'diensten'))!.data;
+const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
+const rendered = await Promise.all(services.map(async (s) => ({ ...s, Content: (await render(s)).Content })));
+---
+<Base title={p.seoTitle} description={p.seoDescription}>
+  <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} quote={p.quote} />
+
+  <section class="section-sm">
+    <div class="container"><ServiceCards linkToDetail /></div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container detail-list">
+      {rendered.map((s, i) => (
+        <article id={s.id} class={`detail ${i % 2 ? 'flip' : ''}`}>
+          <div class="text">
+            <h2>{s.data.title}</h2>
+            <p class="tag">{s.data.tagline}</p>
+            <div class="muted prose"><s.Content /></div>
+          </div>
+          {s.data.image && <img src={s.data.image} alt={s.data.imageAlt ?? s.data.title} loading="lazy" width="700" height="480" class="rounded shadow" />}
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <Inzet button1Label="Meer Business Cases" button1Link="/cases" button2Label="Contact" button2Link="/contact" />
+
+  <section class="section-sm center">
+    <div class="container-narrow">
+      <h2>{p.waaromTitle}</h2>
+      <p class="lead muted">{p.waaromText}</p>
+    </div>
+  </section>
+
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>
+  .detail-list { display: grid; gap: clamp(40px, 6vw, 80px); }
+  .detail { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; scroll-margin-top: 110px; }
+  .detail.flip .text { order: 2; }
+  .detail img { width: 100%; height: 100%; max-height: 420px; object-fit: cover; }
+  .tag { font-weight: 500; color: var(--blue); }
+  @media (max-width: 860px) { .detail { grid-template-columns: 1fr; } .detail.flip .text { order: 0; } }
+</style>

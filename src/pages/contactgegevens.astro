@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { getEntry } from 'astro:content';
+const site = (await getEntry('settings', 'site'))!.data;
+---
+<Base title={`Contactgegevens | ${site.siteName}`} description={`Contactgegevens van ${site.siteName}, een handelsnaam van ${site.legalName}. KVK ${site.kvk}.`}>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contactgegevens</h1>
+      <p class="intro">{site.siteName} is een handelsnaam van {site.legalName}.</p>
+    </div>
+  </section>
+  <section class="section-sm">
+    <div class="container-narrow">
+      <p><strong>{site.legalName}</strong><br />{site.addressLine1}<br />{site.addressLine2}<br />Nederland</p>
+      <p><strong>KVK-nummer:</strong> {site.kvk}</p>
+      <p>Voor vragen over onze service en diensten:</p>
+      <p>E-mail: <a href={`mailto:${site.email}`}>{site.email}</a><br />Tel: <a href={site.phoneLink}>{site.phone}</a></p>
+    </div>
+  </section>
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>

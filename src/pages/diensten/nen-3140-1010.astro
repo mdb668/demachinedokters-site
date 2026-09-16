@@ -1,0 +1,82 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quote from '../../components/Quote.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import Icon from '../../components/Icon.astro';
+import { renderText } from '../../lib/md';
+import { getEntry } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'nen'))!.data;
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'NEN 3140 & NEN 1010 keuring',
+  provider: { '@id': `${Astro.site}#organization` },
+  areaServed: ['Noord-Brabant', 'Alphen', 'Tilburg', 'Breda', 'Waalwijk'],
+  description: p.seoDescription,
+};
+---
+<Base title={p.seoTitle} description={p.seoDescription} image={p.image} jsonLd={ld}>
+  <section class="page-hero is-center nen-hero">
+    <div class="container center">
+      <h1>{p.title}</h1>
+      <img src={p.image} alt={p.imageAlt} width="1600" height="780" class="rounded shadow hero-img" />
+      <p class="intro" set:html={renderText(p.intro)} />
+      <div class="btn-group">
+        <a class="btn btn-primary" href={p.button1Link}>{p.button1Label}</a>
+        <a class="btn btn-outline" href={p.button2Link}>{p.button2Label}</a>
+      </div>
+    </div>
+  </section>
+
+  {p.sections.map((s: any, i: number) => (
+    <section class={`section-sm ${i % 2 ? 'section-bg' : ''}`}>
+      <div class="container-narrow">
+        <h2>{s.title}</h2>
+        {s.intro && <p class="muted">{s.intro}</p>}
+        {s.items && (
+          <div class="grid grid-2 items">
+            {s.items.map((it: any) => (
+              <div class="card"><h3>{it.title}</h3><p class="muted">{it.text}</p></div>
+            ))}
+          </div>
+        )}
+        {s.outro && <p class="outro"><strong>{s.outro}</strong></p>}
+        {s.list && (
+          <ul class="checklist">
+            {s.list.map((it: any) => (
+              <li><Icon name="check" size={24} class="ck" /><div><strong>{it.title}:</strong> {it.text}</div></li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </section>
+  ))}
+
+  <section class="section-sm center">
+    <div class="container-narrow">
+      <Quote text={p.quote} />
+      <h2 class="plan">{p.planTitle}</h2>
+      <div class="muted" set:html={renderText(p.planText)} />
+      <div class="btn-group">
+        <a class="btn btn-primary" href={p.button1Link}>{p.button1Label}</a>
+        <a class="btn btn-outline" href={p.button2Link}>{p.button2Label}</a>
+      </div>
+    </div>
+  </section>
+
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>
+  .nen-hero h1 { max-width: 900px; margin-inline: auto; }
+  .hero-img { margin: 24px auto; max-height: 420px; width: 100%; object-fit: cover; }
+  .nen-hero .intro { max-width: 800px; margin: 0 auto 24px; }
+  .items { margin: 24px 0; }
+  .items .card h3 { font-size: 1.15rem; }
+  .items .card p { margin: 0; font-size: 0.95rem; }
+  .checklist { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 12px; }
+  .checklist li { display: flex; gap: 12px; align-items: flex-start; }
+  .checklist :global(.ck) { color: var(--green); flex: none; margin-top: 3px; }
+  .plan { margin-top: 24px; }
+</style>

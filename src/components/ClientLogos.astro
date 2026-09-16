@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+const clients = (await getCollection('clients')).sort((a, b) => a.data.order - b.data.order);
+const loop = [...clients, ...clients];
+---
+<section class="logos" aria-label="Onze klanten">
+  <div class="track">
+    {loop.map((c, i) => (
+      <div class="logo" aria-hidden={i >= clients.length ? 'true' : undefined}>
+        <img src={c.data.logo} alt={i < clients.length ? `Logo ${c.data.name}` : ''} loading="lazy" width="160" height="90" />
+      </div>
+    ))}
+  </div>
+</section>
+<style>
+  .logos { overflow: hidden; padding: 28px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: #fff; }
+  .track { display: flex; gap: 48px; width: max-content; animation: scroll 70s linear infinite; }
+  .logos:hover .track { animation-play-state: paused; }
+  .logo { width: 150px; height: 84px; display: flex; align-items: center; justify-content: center; flex: none; }
+  .logo img { max-height: 70px; max-width: 140px; width: auto; height: auto; object-fit: contain; }
+  @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+</style>

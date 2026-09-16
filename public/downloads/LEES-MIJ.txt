@@ -1,0 +1,4 @@
+Plaats hier de PDF's voor de downloadpagina:
+- machinedokters-checklist.pdf        (Checklist: Hoe ziek is jouw lijn?)
+- case-study-oee-optimalisatie.pdf    (Case Study OEE-optimalisatie)
+De namen moeten overeenkomen met de instellingen in het CMS (Pagina's > Download-pagina).

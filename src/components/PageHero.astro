@@ -1,0 +1,22 @@
+---
+import Quote from './Quote.astro';
+interface Props { title: string; subtitle?: string; intro?: string; quote?: string; center?: boolean; h1?: boolean }
+const { title, subtitle, intro, quote, center = false, h1 = true } = Astro.props;
+---
+<section class={`page-hero ${center ? 'is-center' : ''}`}>
+  <div class="container inner">
+    <div>
+      {h1 ? <h1>{title}</h1> : <h2 class="as-h1">{title}</h2>}
+      {subtitle && <p class="sub">{subtitle}</p>}
+      {intro && <p class="intro" set:html={intro.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')} />}
+      <slot />
+    </div>
+    {quote && <div class="quote-wrap"><Quote text={quote} /></div>}
+  </div>
+</section>
+<style>
+  .is-center .inner { grid-template-columns: 1fr; text-align: center; }
+  .is-center .intro { margin-inline: auto; }
+  .is-center .quote-wrap { display: none; }
+  .as-h1 { font-size: clamp(2.2rem, 4.5vw, 3.4rem); }
+</style>

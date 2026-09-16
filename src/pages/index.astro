@@ -1,0 +1,150 @@
+---
+import Base from '../layouts/Base.astro';
+import Swoosh from '../components/Swoosh.astro';
+import Quote from '../components/Quote.astro';
+import ServiceCards from '../components/ServiceCards.astro';
+import Inzet from '../components/Inzet.astro';
+import Behandelplan from '../components/Behandelplan.astro';
+import Testimonials from '../components/Testimonials.astro';
+import ClientLogos from '../components/ClientLogos.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { renderText } from '../lib/md';
+import { getEntry } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'home'))!.data;
+---
+<Base transparentHeader>
+  <!-- Hero -->
+  <section class="hero">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster={p.hero.poster} aria-hidden="true">
+      <source src={p.hero.video} type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>{p.hero.title}</h1>
+      <p class="tagline">{p.hero.subtitle}</p>
+    </div>
+    <Swoosh variant="bottom" fill="#ffffff" />
+  </section>
+
+  <!-- Intro -->
+  <section class="section-sm intro">
+    <div class="container intro-grid">
+      <div class="intro-text center">
+        <p class="lead"><strong>{p.intro.line1}</strong></p>
+        <p class="muted">{p.intro.line2}</p>
+        <div class="btn-group">
+          <a class="btn btn-primary" href={p.intro.button1Link}>{p.intro.button1Label}</a>
+          <a class="btn btn-outline" href={p.intro.button2Link} target={p.intro.button2Link.startsWith('http') ? '_blank' : undefined} rel="noopener">{p.intro.button2Label}</a>
+        </div>
+      </div>
+      <div class="intro-quote"><Quote text={p.intro.quote} /></div>
+    </div>
+  </section>
+
+  <!-- Diensten -->
+  <section class="section-sm">
+    <div class="container">
+      <ServiceCards />
+    </div>
+  </section>
+
+  <!-- Verschil -->
+  <section class="section verschil">
+    <div class="container">
+      <h2 class="center"><span class="title-underline">{p.verschil.title}</span></h2>
+      <div class="grid grid-3 verschil-grid">
+        {p.verschil.items.map((it: any) => (
+          <div>
+            <h3>{it.title}</h3>
+            <div class="muted" set:html={renderText(it.text)} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Klachten -->
+  <section class="section section-bg klachten">
+    <div class="container">
+      <div class="klachten-head">
+        <div class="kq"><Quote text={p.klachten.quote} /></div>
+        <div class="center">
+          <h2>{p.klachten.title}</h2>
+          <p class="muted intro-k">{p.klachten.intro}</p>
+        </div>
+      </div>
+      <div class="klachten-list">
+        {p.klachten.items.map((it: any, i: number) => (
+          <article class={`klacht card ${i % 2 ? 'right' : ''}`}>
+            <img src={it.image} alt={it.imageAlt ?? ''} loading="lazy" width="800" height="600" />
+            <div>
+              <h3>{it.title}</h3>
+              <div class="muted" set:html={renderText(it.text)} />
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Inzet button1Label={p.klachten.button1Label} button1Link={p.klachten.button1Link} button2Label={p.klachten.button2Label} button2Link={p.klachten.button2Link} />
+
+  <Testimonials />
+  <ClientLogos />
+  <Behandelplan />
+
+  <!-- Over ons -->
+  <section class="section over">
+    <div class="container over-grid">
+      <div>
+        <h2>{p.overOns.title}</h2>
+        <div class="muted" set:html={renderText(p.overOns.text)} />
+        <a class="more" href={p.overOns.link}>{p.overOns.linkLabel}</a>
+        <div class="over-quote"><Quote text={p.overOns.quote} /></div>
+      </div>
+      <div class="over-img">
+        <img src={p.overOns.image} alt={p.overOns.imageAlt ?? ''} loading="lazy" width="800" height="533" class="rounded shadow" />
+      </div>
+    </div>
+  </section>
+
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+
+<style>
+  .hero { position: relative; min-height: min(92vh, 780px); display: flex; align-items: center; justify-content: center; text-align: center; overflow: hidden; background: var(--blue); }
+  .hero-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7, 76, 130, 0.45), rgba(7, 76, 130, 0.65)); }
+  .hero-content { position: relative; padding: 140px 0 160px; }
+  .hero h1 { color: #fff; font-size: clamp(2.6rem, 6vw, 4.4rem); margin-bottom: 0.2em; text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25); }
+  .tagline { color: #fff; font-size: clamp(1.15rem, 2vw, 1.5rem); font-weight: 500; margin: 0; letter-spacing: 0.02em; }
+
+  .intro-grid { display: grid; grid-template-columns: 1fr 280px; gap: 24px; align-items: center; }
+  .intro-text { max-width: 720px; margin-inline: auto; }
+  .intro-quote { text-align: center; }
+  @media (max-width: 860px) { .intro-grid { grid-template-columns: 1fr; } }
+
+  .verschil-grid { margin-top: 40px; }
+  .verschil h3 { font-size: 1.2rem; }
+
+  .klachten-head { display: grid; grid-template-columns: 240px 1fr 240px; align-items: center; gap: 16px; }
+  .klachten-head > .center { grid-column: 2; }
+  .kq { grid-column: 1; text-align: center; }
+  .intro-k { max-width: 820px; margin-inline: auto; }
+  .klachten-list { display: grid; gap: 28px; margin-top: 40px; }
+  .klacht { display: grid; grid-template-columns: 320px 1fr; gap: 28px; align-items: center; padding: 18px; max-width: 900px; }
+  .klacht.right { margin-left: auto; }
+  .klacht img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; }
+  .klacht h3 { font-size: 1.3rem; }
+  .klacht :global(p:last-child) { margin-bottom: 0; }
+  @media (max-width: 900px) { .klachten-head { grid-template-columns: 1fr; } .kq { display: none; } .klachten-head > .center { grid-column: 1; } }
+  @media (max-width: 700px) { .klacht { grid-template-columns: 1fr; } }
+
+  .over-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 48px; align-items: center; }
+  .more { font-weight: 500; display: inline-block; margin-bottom: 20px; }
+  .over-quote { text-align: center; padding-top: 12px; }
+  .over-img img { width: 100%; height: auto; }
+  @media (max-width: 860px) { .over-grid { grid-template-columns: 1fr; } }
+</style>

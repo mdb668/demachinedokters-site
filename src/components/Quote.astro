@@ -1,0 +1,8 @@
+---
+interface Props { text?: string; class?: string; light?: boolean }
+const { text, class: cls = '', light = false } = Astro.props;
+---
+{text && <p class={`hand-quote ${light ? 'light' : ''} ${cls}`} set:html={text.replace(/\n/g, '<br>')} />}
+<style>
+  .light { color: #fff; }
+</style>

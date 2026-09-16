@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import { formatDate } from '../../lib/md';
+import { getEntry, getCollection } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'blog'))!.data;
+const posts = (await getCollection('blog', (b) => b.data.published)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Base title={p.seoTitle} description={p.seoDescription}>
+  <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} />
+  <section class="section-sm">
+    <div class="container grid grid-3 posts">
+      {posts.map((post) => (
+        <article class="card post">
+          <a href={`/post/${post.data.slug}`} class="cover"><img src={post.data.cover} alt={post.data.coverAlt ?? post.data.title} loading="lazy" width="600" height="400" /></a>
+          <p class="meta">{post.data.author} · {formatDate(post.data.date)}{post.data.readingTime && ` · ${post.data.readingTime} ${p.readingTimeSuffix}`}</p>
+          <h2><a href={`/post/${post.data.slug}`}>{post.data.title}</a></h2>
+          <p class="muted excerpt">{post.data.excerpt}</p>
+          <a class="more" href={`/post/${post.data.slug}`}>{p.readMore} →</a>
+        </article>
+      ))}
+    </div>
+  </section>
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>
+  .post { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+  .cover img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .meta { font-size: 0.85rem; color: var(--muted); margin: 18px 22px 8px; }
+  .post h2 { font-size: 1.25rem; margin: 0 22px 10px; }
+  .post h2 a { text-decoration: none; }
+  .excerpt { margin: 0 22px 14px; font-size: 0.95rem; flex: 1; }
+  .more { margin: 0 22px 22px; font-weight: 500; }
+</style>

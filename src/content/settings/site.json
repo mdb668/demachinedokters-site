@@ -1,0 +1,73 @@
+{
+  "siteName": "De Machinedokters",
+  "tagline": "Versnellen. Verbeteren. Vooruitgaan.",
+  "seoTitle": "De Machinedokters | Procesoptimalisatie & Industriële Automatisering",
+  "seoDescription": "De Machinedokters geven gas op jouw productieproces met procesoptimalisatie en industriële automatisering. Wij maken bestaande machines en productielijnen efficiënter voor hogere OEE, minder afhankelijkheid en meer winst.",
+  "logo": "/images/logo-de-machinedokters.png",
+  "logoIcon": "/images/logo-icoon.png",
+  "phone": "+31 850 470 907",
+  "phoneLink": "tel:+31850470907",
+  "email": "info@demachinedokters.nl",
+  "addressLine1": "Looiersweg 3B",
+  "addressLine2": "5131 BE Alphen",
+  "openingHours": "Ma-vr: 09:00 - 17:00",
+  "kvk": "73163945",
+  "legalName": "Reboow B.V.",
+  "formEmail": "info@demachinedokters.nl",
+  "ctaLabel": "Plan een vrijblijvend adviesgesprek",
+  "ctaLink": "/contact",
+  "reboowUrl": "https://cineworks.wixstudio.com/reboowgroup",
+  "socials": [
+    { "platform": "whatsapp", "url": "https://wa.me/31850470907" },
+    { "platform": "instagram", "url": "https://www.instagram.com/reboow_bv" },
+    { "platform": "facebook", "url": "https://www.facebook.com/reboow" },
+    { "platform": "linkedin", "url": "https://www.linkedin.com/company/reboow" },
+    { "platform": "youtube", "url": "https://www.youtube.com/@Reboow" }
+  ],
+  "nav": [
+    { "label": "Diensten", "href": "/diensten" },
+    { "label": "Cases", "href": "/cases" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "Over ons", "href": "/over-ons" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Werken bij", "href": "/werken-bij" }
+  ],
+  "footerBedrijf": [
+    { "label": "Diensten", "href": "/diensten" },
+    { "label": "Cases", "href": "/cases" },
+    { "label": "Over ons", "href": "/over-ons" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Werken bij", "href": "/werken-bij" }
+  ],
+  "footerSupport": [
+    { "label": "Veelgestelde vragen", "href": "/veelgestelde-vragen" },
+    { "label": "Service & Onderhoud", "href": "/service-onderhoud" },
+    { "label": "NEN-3140 & NEN-1010", "href": "/diensten/nen-3140-1010" }
+  ],
+  "footerJuridisch": [
+    { "label": "Privacyverklaring", "href": "/privacyverklaring" },
+    { "label": "Cookiebeleid", "href": "/cookiebeleid" },
+    { "label": "Algemene voorwaarden", "href": "/algemene-voorwaarden" }
+  ],
+  "footerBottom": [
+    { "label": "Privacyverklaring", "href": "/privacyverklaring" },
+    { "label": "Voorwaarden", "href": "/algemene-voorwaarden" },
+    { "label": "Contactgegevens", "href": "/contactgegevens" }
+  ],
+  "copyright": "Alle rechten voorbehouden.",
+  "inzetTitle": "De machinedokters schakel je dus in voor:",
+  "inzet": [
+    { "label": "Meer output per uur", "icon": "clock" },
+    { "label": "Minder afhankelijkheid van personeel", "icon": "factory" },
+    { "label": "Hogere winst", "icon": "money" },
+    { "label": "Lagere kosten", "icon": "chart-down" }
+  ],
+  "behandelplanTitle": "Het behandelplan van De Machinedokters",
+  "behandelplan": [
+    { "title": "Analyse", "text": "Jouw situatie wordt geanalyseerd en samen bepalen we concrete doelstellingen." },
+    { "title": "Verbeterplan", "text": "Je ontvangt een verbeterplan met een duidelijk beschreven ROI." },
+    { "title": "Implementatie", "text": "Het verbeterplan wordt efficiënt geïmplementeerd op de werkvloer." },
+    { "title": "Training", "text": "Jouw team wordt getraind om de nieuwe systemen effectief te benutten." },
+    { "title": "Resultaten", "text": "Je krijgt continu inzicht in de resultaten, met bijsturing waar nodig." }
+  ]
+}

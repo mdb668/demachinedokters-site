@@ -1,0 +1,31 @@
+---
+import Icon from './Icon.astro';
+import { getEntry } from 'astro:content';
+interface Props { button1Label?: string; button1Link?: string; button2Label?: string; button2Link?: string }
+const { button1Label, button1Link, button2Label, button2Link } = Astro.props;
+const site = (await getEntry('settings', 'site'))!.data;
+---
+<section class="section-sm inzet">
+  <div class="container center">
+    <h2 class="title-underline">{site.inzetTitle}</h2>
+    <div class="grid grid-4 items">
+      {site.inzet.map((i) => (
+        <div class="item">
+          <span class="icon-circle lg"><Icon name={i.icon} size={40} stroke={1.3} /></span>
+          <p>{i.label}</p>
+        </div>
+      ))}
+    </div>
+    {(button1Label || button2Label) && (
+      <div class="btn-group">
+        {button1Label && <a class="btn btn-dark" href={button1Link}>{button1Label}</a>}
+        {button2Label && <a class="btn btn-outline" href={button2Link}>{button2Label}</a>}
+      </div>
+    )}
+  </div>
+</section>
+<style>
+  .items { margin: 36px auto 40px; max-width: 980px; }
+  .item p { margin: 14px 0 0; color: var(--muted); }
+  .item .icon-circle { border-color: transparent; }
+</style>

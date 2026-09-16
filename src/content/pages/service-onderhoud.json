@@ -1,0 +1,34 @@
+{
+  "seoTitle": "Service & onderhoud | De Machinedokters",
+  "seoDescription": "Storingsdienst, revisies & reparaties en preventief onderhoud. Wij zorgen dat jouw productielijn betrouwbaar en optimaal blijft draaien.",
+  "title": "Service & onderhoud",
+  "subtitle": "Wij zorgen dat jouw productielijnen betrouwbaar en optimaal blijven draaien",
+  "intro": "Hierbij werken we preventief, reviseren we en komen we onmiddellijk in actie bij een storing.",
+  "blocks": [
+    {
+      "title": "Storingsdiensten",
+      "text": "Een storing komt nooit gelegen. Daarom staan wij snel voor je klaar wanneer het misgaat. Onze storingsdienst is bereikbaar voor urgente technische problemen en helpt je zo snel mogelijk weer op weg. We denken mee, handelen snel en zorgen voor een blijvende oplossing, niet alleen een tijdelijke fix.",
+      "listTitle": "Wat je kunt verwachten:",
+      "list": ["Snel schakelen bij stilstand of uitval", "Ervaren monteurs die de oorzaak aanpakken", "Heldere communicatie en korte lijnen"],
+      "icon": "alert"
+    },
+    {
+      "title": "Revisies & reparaties",
+      "text": "Of het nu gaat om het vervangen van versleten onderdelen of het volledig reviseren van machines: wij zorgen dat jouw installaties weer als nieuw functioneren. Onze vakmensen brengen machines terug naar hun originele staat, met verbeterde prestaties en een langere levensduur als resultaat.",
+      "listTitle": "Wat we doen:",
+      "list": ["Vervanging van onderdelen", "Mechanische en elektrische revisies", "Verlenging van de inzetbaarheid van machines"],
+      "icon": "wrench"
+    },
+    {
+      "title": "Preventief onderhoud",
+      "text": "We voeren periodiek onderhoud uit om machines in topconditie te houden. Zo voorkomen we ongeplande stilstand, verlengen we de levensduur van installaties en zorgen we voor een constante productiviteit. Onze technici controleren essentiële componenten en voeren kleine reparaties uit voordat ze grote problemen worden.",
+      "listTitle": "Voordelen:",
+      "list": ["Minder kans op storingen", "Lagere onderhoudskosten op lange termijn", "Maximale beschikbaarheid van jouw productieproces"],
+      "icon": "shield"
+    }
+  ],
+  "faqTitle": "Heb je vragen?",
+  "faqText": "Kijk dan eens bij onze veelgestelde vragen.",
+  "faqButtonLabel": "Veelgestelde vragen",
+  "faqButtonLink": "/veelgestelde-vragen"
+}

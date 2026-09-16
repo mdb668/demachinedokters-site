@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+import { getEntry } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'download'))!.data;
+const f = p.form;
+---
+<Base title={p.seoTitle} description={p.seoDescription} noindex>
+  <section class="page-hero">
+    <div class="container-narrow center">
+      <h1>{p.title}</h1>
+      <p class="intro" style="margin-inline:auto">{p.intro}</p>
+    </div>
+  </section>
+  <section class="section-sm">
+    <div class="container-narrow dl">
+      <form class="form" method="POST" action={`https://formsubmit.co/${site.formEmail}`}>
+        <input type="hidden" name="_subject" value="Download-aanvraag via demachinedokters.nl" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value={new URL('/bedankt-voor-je-download', Astro.site).href} />
+        <input type="hidden" name="_autoresponse" value={p.autoresponse} />
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <div class="row">
+          <div><label for="d-vn">{f.firstNameLabel} *</label><input id="d-vn" name="Voornaam" required autocomplete="given-name" /></div>
+          <div><label for="d-an">{f.lastNameLabel}</label><input id="d-an" name="Achternaam" autocomplete="family-name" /></div>
+        </div>
+        <div><label for="d-em">{f.emailLabel} *</label><input id="d-em" name="E-mailadres" type="email" required autocomplete="email" /></div>
+        <div>
+          <label for="d-file">{f.fileLabel} *</label>
+          <select id="d-file" name="Bestand" required>
+            <option value="" disabled selected>{f.filePlaceholder}</option>
+            {p.options.map((o: any) => <option value={o.label}>{o.label}</option>)}
+          </select>
+        </div>
+        <div><button class="btn btn-primary" type="submit">{f.submitLabel}</button></div>
+      </form>
+    </div>
+  </section>
+</Base>
+<style>.dl { max-width: 560px; }</style>

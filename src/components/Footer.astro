@@ -1,0 +1,56 @@
+---
+import Icon from './Icon.astro';
+import { getEntry } from 'astro:content';
+const site = (await getEntry('settings', 'site'))!.data;
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>Bedrijf</h4>
+        <ul>{site.footerBedrijf.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href={site.phoneLink}>{site.phone}</a></li>
+          <li><a href={`mailto:${site.email}`}>{site.email}</a></li>
+          <li>{site.addressLine1}</li>
+          <li>{site.addressLine2}</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>{site.footerSupport.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </div>
+      <div>
+        <h4>Juridisch</h4>
+        <ul>{site.footerJuridisch.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </div>
+    </div>
+    <div class="socials">
+      {site.socials.map((s) => (
+        <a href={s.url} target="_blank" rel="noopener" aria-label={s.platform}><Icon name={s.platform} size={22} /></a>
+      ))}
+    </div>
+    <p class="bottom">
+      © {year} <a href="/">{site.siteName}</a>. {site.copyright}
+      {site.footerBottom.map((l) => <> | <a href={l.href}>{l.label}</a></>)}
+    </p>
+  </div>
+</footer>
+<style>
+  .site-footer { background: var(--blue); color: #fff; padding: 56px 0 28px; }
+  .cols { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; max-width: 980px; margin: 0 auto; }
+  h4 { color: #fff; font-size: 1.1rem; margin-bottom: 0.9em; }
+  ul { list-style: none; padding: 0; margin: 0; font-size: 0.95rem; }
+  li { margin-bottom: 0.5em; color: rgba(255, 255, 255, 0.85); }
+  a { color: #fff; }
+  .socials { display: flex; justify-content: center; gap: 22px; margin: 40px 0 20px; }
+  .socials a { color: #fff; opacity: 0.9; }
+  .socials a:hover { opacity: 1; color: var(--green); }
+  .bottom { text-align: center; font-size: 0.85rem; color: rgba(255, 255, 255, 0.8); margin: 0; }
+  @media (max-width: 860px) { .cols { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .cols { grid-template-columns: 1fr; } }
+</style>

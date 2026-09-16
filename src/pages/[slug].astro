@@ -1,0 +1,144 @@
+---
+import Base from '../layouts/Base.astro';
+import Inzet from '../components/Inzet.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import Quote from '../components/Quote.astro';
+import { renderText } from '../lib/md';
+import { getEntry, getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const cases = await getCollection('cases', (c) => c.data.published);
+  const vacancies = await getCollection('vacancies', (v) => v.data.published);
+  return [
+    ...cases.map((c) => ({ params: { slug: c.data.slug }, props: { kind: 'case', entry: c } })),
+    ...vacancies.map((v) => ({ params: { slug: v.data.slug }, props: { kind: 'vacancy', entry: v } })),
+  ];
+}
+const { kind, entry } = Astro.props as { kind: 'case' | 'vacancy'; entry: any };
+const site = (await getEntry('settings', 'site'))!.data;
+const cp = (await getEntry('pages', 'cases'))!.data;
+const d = entry.data;
+const { Content } = await render(entry);
+---
+{kind === 'case' ? (
+  <Base title={`Case - ${d.title} | ${site.siteName}`} description={d.intro} image={d.image}>
+    <section class="page-hero">
+      <div class="container">
+        <h1>{d.title}</h1>
+        <p class="sub">{d.subtitle}</p>
+        <p class="intro">{d.intro}</p>
+        <a class="back" href="/cases"><Icon name="arrow-left" size={20} /> {cp.backLabel}</a>
+      </div>
+    </section>
+    <section class="section-sm">
+      <div class="container center">
+        <div class={`case-media ${d.imageIsLogo ? 'is-logo' : ''}`}>
+          <img src={d.image} alt={d.imageAlt ?? d.title} width="900" height="600" />
+        </div>
+        <div class="stats">
+          {d.stats.map((s: any) => (
+            <div class="stat">
+              <span class="icon-circle lg"><Icon name={s.icon} size={40} stroke={1.3} /></span>
+              <strong>{s.value}</strong>
+              <span class="muted">{s.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+    <section class="section-sm">
+      <div class="container-narrow case-body">
+        <h2>{cp.challengeTitle}</h2>
+        <div class="muted" set:html={renderText(d.challenge)} />
+        <h2>{cp.approachTitle}</h2>
+        <div class="muted" set:html={renderText(d.approach)} />
+        <h2>{cp.resultTitle}</h2>
+        <ul class="results">{d.results.map((r: string) => <li><Icon name="check" size={22} class="ck" /> {r}</li>)}</ul>
+        {d.closing && <p class="closing">{d.closing}</p>}
+        <Content />
+      </div>
+    </section>
+    <Inzet button1Label={cp.button1Label} button1Link={cp.button1Link} button2Label={cp.button2Label} button2Link={cp.button2Link} />
+    <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+  </Base>
+) : (
+  <Base title={`Solliciteer ${d.title} | ${site.siteName}`} description={d.intro.split('\n')[0]} image={d.image}>
+    <section class="page-hero">
+      <div class="container inner vac-hero">
+        <div>
+          <h1>{d.title}</h1>
+          <p class="meta"><strong>Standplaats:</strong> {d.location}<br /><strong>Sector:</strong> {d.sector}</p>
+          <a class="btn btn-primary" href="#solliciteren">Solliciteer direct</a>
+        </div>
+        {d.image && <img src={d.image} alt={d.title} width="500" height="500" class="rounded shadow vac-img" />}
+      </div>
+    </section>
+    <section class="section-sm">
+      <div class="container-narrow">
+        <h2>Over {site.siteName}</h2>
+        <div class="muted" set:html={renderText(d.intro)} />
+        <h2>De functie</h2>
+        <div class="muted" set:html={renderText(d.functie)} />
+      </div>
+    </section>
+    <section class="section-sm section-bg">
+      <div class="container grid grid-3">
+        <div class="card"><h3>Wat ga je doen?</h3><ul class="muted">{d.watGaJeDoen.map((x: string) => <li>{x}</li>)}</ul></div>
+        <div class="card"><h3>Wat wij bieden</h3><ul class="muted">{d.watWijBieden.map((x: string) => <li>{x}</li>)}</ul></div>
+        <div class="card"><h3>Wat breng jij mee?</h3><ul class="muted">{d.watJeMeebrengt.map((x: string) => <li>{x}</li>)}</ul></div>
+      </div>
+    </section>
+    <section class="section-sm" id="solliciteren">
+      <div class="container apply">
+        <div>
+          <h2>Enthousiast geworden?</h2>
+          <div class="muted prose"><Content /></div>
+          <Quote text={d.quote} />
+        </div>
+        <form class="form" method="POST" action={`https://formsubmit.co/${site.formEmail}`} enctype="multipart/form-data">
+          <input type="hidden" name="_subject" value={`Sollicitatie: ${d.title}`} />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value={new URL('/bedankt?type=sollicitatie', Astro.site).href} />
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <div class="row">
+            <div><label for="s-vn">Voornaam *</label><input id="s-vn" name="Voornaam" required autocomplete="given-name" /></div>
+            <div><label for="s-an">Achternaam *</label><input id="s-an" name="Achternaam" required autocomplete="family-name" /></div>
+          </div>
+          <div class="row">
+            <div><label for="s-em">E-mail *</label><input id="s-em" name="E-mail" type="email" required autocomplete="email" /></div>
+            <div><label for="s-tel">Telefoon *</label><input id="s-tel" name="Telefoon" type="tel" required autocomplete="tel" /></div>
+          </div>
+          <div><label for="s-mot">Motivatie</label><textarea id="s-mot" name="Motivatie"></textarea></div>
+          <div><label for="s-cv">CV (PDF)</label><input id="s-cv" name="CV" type="file" accept=".pdf,.doc,.docx" /></div>
+          <div><button class="btn btn-primary" type="submit">Solliciteer nu</button></div>
+        </form>
+      </div>
+    </section>
+    <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+  </Base>
+)}
+<style>
+  .back { display: inline-flex; align-items: center; gap: 6px; font-weight: 500; margin-top: 8px; }
+  .case-media { max-width: 720px; margin: 0 auto 40px; border-radius: var(--radius); overflow: hidden; }
+  .case-media img { width: 100%; height: auto; max-height: 420px; object-fit: cover; }
+  .case-media.is-logo img { object-fit: contain; max-height: 220px; padding: 20px; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 760px; margin: 0 auto; }
+  .stat { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .stat strong { font-size: 1.7rem; color: var(--blue); margin-top: 8px; }
+  .stat .icon-circle { border-color: transparent; }
+  .case-body h2 { margin-top: 1.6em; font-size: 1.5rem; }
+  .case-body h2:first-child { margin-top: 0; }
+  .results { list-style: none; padding: 0; display: grid; gap: 8px; }
+  .results li { display: flex; gap: 10px; align-items: flex-start; }
+  .results :global(.ck) { color: var(--green); flex: none; margin-top: 3px; }
+  .closing { font-style: italic; color: var(--blue); font-weight: 500; font-size: 1.15rem; margin-top: 1.5em; }
+  @media (max-width: 640px) { .stats { grid-template-columns: 1fr; } }
+
+  .vac-hero { grid-template-columns: 1fr 320px !important; align-items: center !important; }
+  .vac-img { width: 100%; height: auto; }
+  .meta { color: var(--muted); margin-bottom: 1.5em; }
+  .apply { display: grid; grid-template-columns: 1fr 1.1fr; gap: 48px; align-items: start; }
+  @media (max-width: 860px) { .vac-hero { grid-template-columns: 1fr !important; } .vac-img { max-width: 300px; } .apply { grid-template-columns: 1fr; } }
+</style>

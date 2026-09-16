@@ -1,0 +1,68 @@
+---
+import Base from '../../layouts/Base.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import Icon from '../../components/Icon.astro';
+import { formatDate } from '../../lib/md';
+import { getEntry, getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', (b) => b.data.published);
+  return posts.map((post) => ({ params: { slug: post.data.slug }, props: { post } }));
+}
+const { post } = Astro.props;
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'blog'))!.data;
+const { Content } = await render(post);
+const others = (await getCollection('blog', (b) => b.data.published && b.id !== post.id)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.data.title,
+  description: post.data.seoDescription ?? post.data.excerpt,
+  image: new URL(post.data.cover, Astro.site).href,
+  datePublished: post.data.date.toISOString(),
+  author: { '@type': 'Organization', name: post.data.author },
+  publisher: { '@id': `${Astro.site}#organization` },
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+};
+---
+<Base title={`${post.data.title} | ${site.siteName}`} description={post.data.seoDescription ?? post.data.excerpt} image={post.data.cover} type="article" jsonLd={ld}>
+  <section class="page-hero">
+    <div class="container-narrow">
+      <a class="back" href="/blog"><Icon name="arrow-left" size={18} /> {p.backLabel}</a>
+      <h1>{post.data.title}</h1>
+      <p class="meta muted">{post.data.author} · {formatDate(post.data.date)}{post.data.readingTime && ` · ${post.data.readingTime} ${p.readingTimeSuffix}`}</p>
+    </div>
+  </section>
+  <article class="section-sm">
+    <div class="container-narrow">
+      <img class="cover rounded shadow" src={post.data.cover} alt={post.data.coverAlt ?? post.data.title} width="1200" height="700" />
+      <div class="prose"><Content /></div>
+    </div>
+  </article>
+  {others.length > 0 && (
+    <section class="section-sm section-bg">
+      <div class="container">
+        <div class="recent-head"><h2>{p.recentTitle}</h2><a href="/blog">{p.allLabel} →</a></div>
+        <div class="grid grid-3">
+          {others.map((o) => (
+            <a class="card mini" href={`/post/${o.data.slug}`}>
+              <img src={o.data.cover} alt="" loading="lazy" width="400" height="260" />
+              <h3>{o.data.title}</h3>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>
+  .back { display: inline-flex; align-items: center; gap: 6px; font-size: 0.95rem; margin-bottom: 18px; }
+  .page-hero h1 { font-size: clamp(1.8rem, 3.5vw, 2.6rem); }
+  .cover { width: 100%; max-height: 460px; object-fit: cover; margin-bottom: 32px; }
+  .recent-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin-bottom: 24px; }
+  .mini { padding: 0; overflow: hidden; text-decoration: none !important; }
+  .mini img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+  .mini h3 { font-size: 1.05rem; margin: 16px 18px 18px; }
+</style>

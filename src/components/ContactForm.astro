@@ -1,0 +1,53 @@
+---
+import { getEntry } from 'astro:content';
+const site = (await getEntry('settings', 'site'))!.data;
+const page = (await getEntry('pages', 'contact'))!.data;
+const f = page.form;
+---
+<form class="form contact-form" method="POST" action={`https://formsubmit.co/ajax/${site.formEmail}`} data-ajax-form novalidate>
+  <input type="hidden" name="_subject" value="Nieuw bericht via demachinedokters.nl" />
+  <input type="hidden" name="_template" value="table" />
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+  <div>
+    <label for="cf-name">{f.nameLabel} *</label>
+    <input id="cf-name" name="Naam" type="text" required autocomplete="name" />
+  </div>
+  <div>
+    <label for="cf-email">{f.emailLabel} *</label>
+    <input id="cf-email" name="E-mailadres" type="email" required autocomplete="email" />
+  </div>
+  <div>
+    <label for="cf-phone">{f.phoneLabel}</label>
+    <input id="cf-phone" name="Telefoonnummer" type="tel" autocomplete="tel" />
+  </div>
+  <div>
+    <label for="cf-msg">{f.messageLabel} *</label>
+    <textarea id="cf-msg" name="Bericht" required></textarea>
+  </div>
+  <div>
+    <button class="btn btn-primary" type="submit">{f.submitLabel}</button>
+  </div>
+  <div class="form-msg success" role="status"><strong>{f.successTitle}</strong><br />{f.successText}</div>
+  <div class="form-msg error" role="alert">{f.errorText}</div>
+</form>
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-ajax-form]').forEach((form) => {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const ok = form.querySelector<HTMLElement>('.form-msg.success')!;
+      const err = form.querySelector<HTMLElement>('.form-msg.error')!;
+      ok.classList.remove('show'); err.classList.remove('show');
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+      btn.disabled = true;
+      try {
+        const res = await fetch(form.action, { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form) });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && (data.success === 'true' || data.success === true)) { form.reset(); ok.classList.add('show'); }
+        else err.classList.add('show');
+      } catch { err.classList.add('show'); }
+      btn.disabled = false;
+    });
+  });
+</script>

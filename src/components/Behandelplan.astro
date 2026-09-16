@@ -1,0 +1,28 @@
+---
+import { getEntry } from 'astro:content';
+const site = (await getEntry('settings', 'site'))!.data;
+---
+<section class="section behandelplan">
+  <div class="container center">
+    <h2 class="title-underline">{site.behandelplanTitle}</h2>
+    <ol class="steps">
+      {site.behandelplan.map((s, i) => (
+        <li class="step">
+          <span class="num">{i + 1}</span>
+          <h3>{s.title}</h3>
+          <p>{s.text}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+<style>
+  .steps { list-style: none; padding: 0; margin: 48px 0 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; position: relative; }
+  .steps::before { content: ''; position: absolute; top: 26px; left: 10%; right: 10%; height: 2px; background: var(--border); z-index: 0; }
+  .step { position: relative; z-index: 1; padding: 0 8px; }
+  .num { width: 54px; height: 54px; border-radius: 50%; background: var(--blue); color: #fff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: 1.2rem; margin-bottom: 18px; box-shadow: 0 0 0 8px #fff; }
+  .step h3 { font-size: 1.15rem; margin-bottom: 0.3em; }
+  .step p { color: var(--muted); font-size: 0.95rem; margin: 0; }
+  @media (max-width: 900px) { .steps { grid-template-columns: repeat(2, 1fr); gap: 32px 20px; } .steps::before { display: none; } .num { box-shadow: none; } }
+  @media (max-width: 480px) { .steps { grid-template-columns: 1fr; } }
+</style>

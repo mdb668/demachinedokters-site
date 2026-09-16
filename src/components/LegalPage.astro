@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from './PageHero.astro';
+import CtaBand from './CtaBand.astro';
+import { getEntry, render } from 'astro:content';
+interface Props { id: string }
+const { id } = Astro.props;
+const site = (await getEntry('settings', 'site'))!.data;
+const entry = (await getEntry('legal', id))!;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+<Base title={`${d.title} | ${site.siteName}`} description={d.intro ?? d.title}>
+  <PageHero title={d.title} subtitle={d.subtitle} intro={d.intro} />
+  <section class="section-sm">
+    <div class="container-narrow prose legal"><Content /></div>
+  </section>
+  {d.questionTitle && (
+    <section class="section-sm center section-bg">
+      <div class="container-narrow">
+        <h2>{d.questionTitle}</h2>
+        <p class="muted">{d.questionText}</p>
+        <a class="btn btn-outline" href="/contact">Neem contact op</a>
+      </div>
+    </section>
+  )}
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>
+  .legal :global(h2) { font-size: 1.35rem; }
+</style>

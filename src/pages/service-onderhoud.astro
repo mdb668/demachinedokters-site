@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import { getEntry } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'service-onderhoud'))!.data;
+---
+<Base title={p.seoTitle} description={p.seoDescription}>
+  <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} />
+  <section class="section-sm">
+    <div class="container blocks">
+      {p.blocks.map((b: any) => (
+        <article class="card block">
+          <span class="icon-circle lg"><Icon name={b.icon} size={40} stroke={1.3} /></span>
+          <div>
+            <h2>{b.title}</h2>
+            <p class="muted">{b.text}</p>
+            <p><strong>{b.listTitle}</strong></p>
+            <ul class="muted">{b.list.map((l: string) => <li>{l}</li>)}</ul>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+  <section class="section-sm center">
+    <div class="container-narrow">
+      <h2>{p.faqTitle}</h2>
+      <p class="muted">{p.faqText}</p>
+      <a class="btn btn-outline" href={p.faqButtonLink}>{p.faqButtonLabel}</a>
+    </div>
+  </section>
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>
+  .blocks { display: grid; gap: 28px; }
+  .block { display: grid; grid-template-columns: 84px 1fr; gap: 28px; align-items: start; padding: 36px; }
+  .block h2 { font-size: 1.6rem; }
+  .block ul { margin: 0; }
+  @media (max-width: 640px) { .block { grid-template-columns: 1fr; } }
+</style>

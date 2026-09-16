@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { getEntry } from 'astro:content';
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'download'))!.data;
+---
+<Base title={p.thanks.seoTitle} description={p.thanks.text} noindex>
+  <section class="page-hero">
+    <div class="container-narrow center thanks">
+      <span class="icon-circle lg"><Icon name="check" size={40} /></span>
+      <h1>{p.thanks.title}</h1>
+      <p class="intro" style="margin-inline:auto">{p.thanks.text}</p>
+      <div class="links">
+        {p.options.map((o: any) => <a class="btn btn-outline" href={o.file} download><Icon name="download" size={20} /> {o.label}</a>)}
+      </div>
+      <a class="btn btn-primary" href={site.ctaLink}>{site.ctaLabel}</a>
+    </div>
+  </section>
+</Base>
+<style>
+  .thanks { padding-bottom: 60px; }
+  .thanks .icon-circle { margin-bottom: 20px; color: var(--green); border-color: var(--green); }
+  .links { display: grid; gap: 12px; max-width: 520px; margin: 0 auto 28px; }
+</style>

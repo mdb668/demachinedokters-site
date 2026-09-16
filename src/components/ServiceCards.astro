@@ -1,0 +1,23 @@
+---
+import Icon from './Icon.astro';
+import { getCollection } from 'astro:content';
+interface Props { linkToDetail?: boolean }
+const { linkToDetail = true } = Astro.props;
+const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
+---
+<div class="grid grid-4 services">
+  {services.map((s) => (
+    <a class="card service" href={linkToDetail ? `/diensten#${s.id}` : undefined}>
+      <span class="icon-circle"><Icon name={s.data.icon} size={30} stroke={1.4} /></span>
+      <h3 set:html={s.data.titleHtml ?? s.data.title} />
+      <p class="tagline">{s.data.tagline}</p>
+      <p class="short">{s.data.short}</p>
+    </a>
+  ))}
+</div>
+<style>
+  .service { display: block; color: inherit; text-decoration: none !important; }
+  .service h3 { font-size: 1.2rem; margin: 18px 0 6px; }
+  .tagline { color: var(--blue); font-weight: 500; margin-bottom: 0.5em; }
+  .short { color: var(--muted); font-size: 0.95rem; margin: 0; }
+</style>

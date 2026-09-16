@@ -1,0 +1,24 @@
+{
+  "seoTitle": "Contact | De Machinedokters",
+  "seoDescription": "Neem contact op met De Machinedokters in Alphen (NB). Bel +31 850 470 907, mail info@demachinedokters.nl of vul het formulier in. We helpen je graag verder.",
+  "title": "Neem contact op met De Machinedokters",
+  "intro": "We helpen je graag verder. Vul het formulier in of neem direct contact op.",
+  "subtitle": "Onze aanpak in maatwerkoplossingen",
+  "form": {
+    "nameLabel": "Naam",
+    "emailLabel": "E-mailadres",
+    "phoneLabel": "Telefoonnummer",
+    "messageLabel": "Bericht",
+    "submitLabel": "Verstuur",
+    "successTitle": "Bedankt voor je bericht!",
+    "successText": "We hebben je bericht ontvangen en nemen zo snel mogelijk contact met je op.",
+    "errorText": "Er ging iets mis bij het versturen. Probeer het opnieuw of mail ons direct."
+  },
+  "labels": {
+    "address": "Adres",
+    "phone": "Telefoonnummer",
+    "email": "E-mail",
+    "hours": "Kantoortijden"
+  },
+  "mapEmbed": "https://www.google.com/maps?q=Looiersweg+3B,+5131+BE+Alphen&output=embed"
+}

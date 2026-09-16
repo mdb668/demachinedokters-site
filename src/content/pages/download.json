@@ -1,0 +1,24 @@
+{
+  "seoTitle": "Download | De Machinedokters",
+  "seoDescription": "Download de Machinedokters Checklist 'Hoe ziek is jouw lijn?' of de Case Study OEE-optimalisatie.",
+  "title": "Download",
+  "intro": "Zodra je op de knop klikt, sturen we de downloadlink direct naar je inbox. Check ook je spam-folder!",
+  "options": [
+    { "label": "Checklist: Hoe ziek is jouw lijn?", "file": "/downloads/machinedokters-checklist.pdf" },
+    { "label": "Case Study: OEE-optimalisatie (+20% verpakkingssnelheid)", "file": "/downloads/case-study-oee-optimalisatie.pdf" }
+  ],
+  "form": {
+    "firstNameLabel": "Voornaam",
+    "lastNameLabel": "Achternaam",
+    "emailLabel": "E-mailadres",
+    "fileLabel": "Selecteer bestand",
+    "filePlaceholder": "Kies een optie",
+    "submitLabel": "Ja, stuur mij de PDF"
+  },
+  "thanks": {
+    "seoTitle": "Bedankt voor je download | De Machinedokters",
+    "title": "Gelukt! We hebben je aanvraag ontvangen.",
+    "text": "De downloadlink is nu onderweg naar je inbox. Heb je over 5 minuten nog niets ontvangen? Check dan even je ongewenste e-mail (spam)."
+  },
+  "autoresponse": "Bedankt voor je aanvraag bij De Machinedokters! Hier is je download: https://www.demachinedokters.nl/downloads/ - Heb je vragen? Bel +31 850 470 907 of mail info@demachinedokters.nl."
+}

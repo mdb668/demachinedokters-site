@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { getEntry } from 'astro:content';
+const site = (await getEntry('settings', 'site'))!.data;
+---
+<Base title={`Bedankt | ${site.siteName}`} description="Bedankt voor je bericht. We nemen zo snel mogelijk contact met je op." noindex>
+  <section class="page-hero">
+    <div class="container-narrow center thanks">
+      <span class="icon-circle lg"><Icon name="check" size={40} /></span>
+      <h1>Bedankt!</h1>
+      <p class="intro" style="margin-inline:auto">We hebben je bericht ontvangen en nemen zo snel mogelijk contact met je op. Heb je haast? Bel ons dan op <a href={site.phoneLink}>{site.phone}</a>.</p>
+      <a class="btn btn-primary" href="/">Terug naar de homepage</a>
+    </div>
+  </section>
+</Base>
+<style>
+  .thanks { padding-bottom: 60px; }
+  .thanks .icon-circle { margin-bottom: 20px; color: var(--green); border-color: var(--green); }
+</style>

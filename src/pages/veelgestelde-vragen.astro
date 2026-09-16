@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import FaqList from '../components/FaqList.astro';
+import Quote from '../components/Quote.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { getEntry, getCollection } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'faq'))!.data;
+const faqs = (await getCollection('faq')).sort((a, b) => a.data.order - b.data.order);
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.data.question, acceptedAnswer: { '@type': 'Answer', text: (f.body ?? '').trim() } })),
+};
+---
+<Base title={p.seoTitle} description={p.seoDescription} jsonLd={ld}>
+  <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} />
+  <section class="section-sm">
+    <div class="container-narrow"><FaqList /></div>
+  </section>
+  <section class="section-sm center">
+    <div class="container-narrow">
+      <h2>{p.notFoundTitle}</h2>
+      <a class="btn btn-outline" href={p.notFoundButtonLink}>{p.notFoundButtonLabel}</a>
+      <div class="q"><Quote text={p.quote} /></div>
+    </div>
+  </section>
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>.q { margin-top: 28px; }</style>

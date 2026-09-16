@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Icon from '../components/Icon.astro';
+import Quote from '../components/Quote.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { getEntry, getCollection } from 'astro:content';
+
+const site = (await getEntry('settings', 'site'))!.data;
+const p = (await getEntry('pages', 'werken-bij'))!.data;
+const vacancies = (await getCollection('vacancies', (v) => v.data.published)).sort((a, b) => a.data.order - b.data.order);
+---
+<Base title={p.seoTitle} description={p.seoDescription} image={p.image}>
+  <PageHero title={p.title} intro={p.intro} />
+  <section class="section-sm center">
+    <div class="container">
+      <h2 class="title-underline">{p.waaromTitle}</h2>
+      <div class="grid grid-3 waarom">
+        {p.waarom.map((w: any) => (
+          <div class="card">
+            <span class="icon-circle"><Icon name={w.icon} size={30} stroke={1.4} /></span>
+            <h3>{w.title}</h3>
+            <p class="muted">{w.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+  <section class="section-sm section-bg">
+    <div class="container">
+      <h2 class="center"><span class="title-underline">{p.vacaturesTitle}</span></h2>
+      <div class="vacs">
+        {vacancies.length === 0 && <p class="center muted">Er zijn op dit moment geen openstaande vacatures.</p>}
+        {vacancies.map((v) => (
+          <a class="vac card" href={`/${v.data.slug}`}>
+            <div>
+              <h3>{v.data.title}</h3>
+              <span class="pill">{v.data.location}</span>
+              <span class="pill">{v.data.sector}</span>
+            </div>
+            <Icon name="arrow-right" size={28} class="arrow" />
+          </a>
+        ))}
+      </div>
+      <div class="open center">
+        <h3>{p.openTitle}</h3>
+        <a class="btn btn-outline" href={p.openButtonLink}>{p.openButtonLabel}</a>
+        <div class="q"><Quote text={p.quote} /></div>
+      </div>
+    </div>
+  </section>
+  <section class="section-sm">
+    <div class="container"><img src={p.image} alt={p.imageAlt} width="1600" height="1100" class="rounded shadow pand" loading="lazy" /></div>
+  </section>
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+</Base>
+<style>
+  .waarom { margin-top: 32px; text-align: left; }
+  .waarom h3 { font-size: 1.2rem; margin-top: 16px; }
+  .vacs { display: grid; gap: 16px; max-width: 860px; margin: 32px auto 48px; }
+  .vac { display: flex; justify-content: space-between; align-items: center; gap: 20px; text-decoration: none !important; color: inherit; }
+  .vac h3 { margin-bottom: 0.4em; }
+  .pill { display: inline-block; background: var(--blue-soft); color: var(--blue); border-radius: 999px; padding: 4px 12px; font-size: 0.85rem; margin-right: 8px; }
+  .vac :global(.arrow) { color: var(--green); flex: none; }
+  .open h3 { margin-bottom: 0.8em; }
+  .q { margin-top: 28px; }
+  .pand { width: 100%; max-height: 480px; object-fit: cover; }
+</style>

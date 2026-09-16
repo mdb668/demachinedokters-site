@@ -1,0 +1,27 @@
+---
+import Icon from './Icon.astro';
+import { getCollection, render } from 'astro:content';
+interface Props { limit?: number }
+const { limit } = Astro.props;
+let faqs = (await getCollection('faq')).sort((a, b) => a.data.order - b.data.order);
+if (limit) faqs = faqs.slice(0, limit);
+const items = await Promise.all(faqs.map(async (f) => ({ q: f.data.question, Content: (await render(f)).Content })));
+---
+<div class="faq">
+  {items.map((it) => (
+    <details class="item">
+      <summary><span>{it.q}</span><Icon name="chevron-down" size={22} /></summary>
+      <div class="answer"><it.Content /></div>
+    </details>
+  ))}
+</div>
+<style>
+  .faq { display: grid; gap: 10px; }
+  .item { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 0 22px; }
+  summary { display: flex; justify-content: space-between; align-items: center; gap: 16px; cursor: pointer; list-style: none; padding: 18px 0; font-weight: 500; color: var(--blue); font-size: 1.05rem; }
+  summary::-webkit-details-marker { display: none; }
+  summary svg { flex: none; transition: transform 0.25s; }
+  details[open] summary svg { transform: rotate(180deg); }
+  .answer { padding: 0 0 18px; color: var(--muted); }
+  .answer :global(p:last-child) { margin-bottom: 0; }
+</style>

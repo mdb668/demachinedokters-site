@@ -10,8 +10,6 @@ coverAlt: "Het “Gerrit-effect”: Waarom jouw lijn geen ‘fluisteraar’ nodi
 published: true
 ---
 
-![Ervaren operator werkt aan een machine](/images/blog/gerrit-effect-2.jpg)
-
 In elk productiehuis loopt er wel eentje rond: de operator die de machine kan ‘lezen’. Met een klein tikje tegen een geleider of een subtiele aanpassing aan een sensor krijgt hij de lijn weer aan de praat.
 
 Gerrit is een held!! Maar voor de continuïteit van je bedrijf is het Gerrit-effect een tikkende tijdbom.

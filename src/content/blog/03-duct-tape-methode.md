@@ -10,8 +10,6 @@ coverAlt: "De “Duct-tape” Methode: Waarom tijdelijke oplossingen je proces l
 published: true
 ---
 
-![Duct-tape methode: pleister op een machine](/images/blog/duct-tape-methode-2.jpg)
-
 In veel fabrieken zie je ze zitten: de kleine, creatieve toevoegingen aan de machine die niet in de technische tekeningen staan. Een houten blokje onder een sensor, een tiewrap om een rammelende geleider, of een stukje tape over een fotocel.
 
 Het begint vaak onschuldig als een snelle fix om de ploeg door te komen. Maar in de praktijk zien we dat deze "pleisters" maanden, of zelfs jaren, blijven zitten. Welkom bij de **Duct-tape Methode**: het punt waar improvisatie de standaard is geworden.

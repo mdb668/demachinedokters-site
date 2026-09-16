@@ -3,7 +3,8 @@
     "title": "De Machinedokters",
     "subtitle": "Versnellen. Verbeteren. Vooruitgaan.",
     "video": "/video/hero.mp4",
-    "poster": "/images/fotos/hero-poster.jpg"
+    "poster": "/images/fotos/hero-poster.jpg",
+    "videoMobile": "/video/hero-mobiel.mp4"
   },
   "intro": {
     "line1": "Gas op jouw productieproces: waarom nieuwe machines kopen als je de huidige beter kunt maken?",
@@ -12,7 +13,7 @@
     "button1Label": "Plan een vrijblijvend adviesgesprek",
     "button1Link": "/contact",
     "button2Label": "Bezoek onze machinebouw",
-    "button2Link": "https://cineworks.wixstudio.com/reboowgroup"
+    "button2Link": "https://www.reboow.nl"
   },
   "verschil": {
     "title": "Hoe wij het verschil maken!",

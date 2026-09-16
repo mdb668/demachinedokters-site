@@ -41,6 +41,7 @@ collections:
           - { name: seoTitle, label: "SEO-titel homepage", widget: string, hint: "Titel in Google en browsertab (max. ±60 tekens)." }
           - { name: seoDescription, label: "SEO-omschrijving homepage", widget: text }
           - { name: logo, label: "Logo (witte letters, voor donkere achtergrond)", widget: image }
+          - { name: logoDark, label: "Logo (donkere letters, voor lichte achtergrond)", widget: image, required: false }
           - { name: logoIcon, label: "Logo-icoon", widget: image, required: false }
           - { name: phone, label: "Telefoonnummer (weergave)", widget: string }
           - { name: phoneLink, label: "Telefoonnummer (link, bv. tel:+31850470907)", widget: string }
@@ -122,7 +123,8 @@ collections:
             fields:
               - { name: title, label: "Titel", widget: string }
               - { name: subtitle, label: "Ondertitel", widget: string }
-              - { name: video, label: "Achtergrondvideo (mp4)", widget: file, required: false, hint: "Laat leeg om alleen de afbeelding te tonen." }
+              - { name: video, label: "Achtergrondvideo desktop (mp4)", widget: file, required: false, hint: "Laat leeg om alleen de afbeelding te tonen." }
+              - { name: videoMobile, label: "Achtergrondvideo mobiel (mp4, kleiner)", widget: file, required: false }
               - { name: poster, label: "Achtergrondafbeelding (ook poster van de video)", widget: image }
           - name: intro
             label: "Intro-blok"

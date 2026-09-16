@@ -11,7 +11,7 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
   <div class="container bar">
     <a class="brand" href="/" aria-label={`${site.siteName} - home`}>
       <img class="logo logo-light" src={site.logo} alt={`Logo ${site.siteName}`} width="600" height="164" />
-      <img class="logo logo-dark" src="/images/logo-de-machinedokters-donker.png" alt="" width="600" height="164" />
+      <img class="logo logo-dark" src={site.logoDark ?? site.logo} alt="" width="600" height="164" />
     </a>
     <nav class="nav" id="site-nav" aria-label="Hoofdmenu">
       <ul>

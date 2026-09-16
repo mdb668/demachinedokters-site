@@ -13,6 +13,7 @@ const settings = defineCollection({
     seoDescription: z.string(),
     logo: img,
     logoIcon: img.optional(),
+    logoDark: img.optional(),
     phone: z.string(),
     phoneLink: z.string(),
     email: z.string(),

@@ -5,3 +5,4 @@ Disallow: /bedankt
 Disallow: /bedankt-voor-je-download
 
 Sitemap: https://www.demachinedokters.nl/sitemap-index.xml
+Sitemap: https://www.demachinedokters.nl/sitemap.xml

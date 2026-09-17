@@ -26,6 +26,7 @@ const settings = defineCollection({
     ctaLabel: z.string(),
     ctaLink: z.string(),
     reboowUrl: z.string().optional(),
+    serviceArea: z.string().optional(),
     socials: z.array(z.object({ platform: z.string(), url: z.string() })).default([]),
     nav: z.array(z.object({ label: z.string(), href: z.string() })),
     footerBedrijf: z.array(z.object({ label: z.string(), href: z.string() })),
@@ -56,6 +57,10 @@ const services = defineCollection({
     image: img.optional(),
     imageAlt: z.string().optional(),
     order: z.number().default(0),
+    slug: z.string().optional(),
+    seoTitle: z.string().optional(),
+    seoDescription: z.string().optional(),
+    relatedCases: z.array(z.string()).optional(),
   }),
 });
 
@@ -159,6 +164,7 @@ const legal = defineCollection({
     intro: z.string().optional(),
     questionTitle: z.string().optional(),
     questionText: z.string().optional(),
+    seoDescription: z.string().optional(),
   }),
 });
 

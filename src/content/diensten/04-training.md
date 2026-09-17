@@ -6,6 +6,13 @@ icon: "people"
 image: "/images/fotos/training.jpg"
 imageAlt: "Training in een klaslokaal met flip-over."
 order: 4
+slug: "training-ondersteuning"
+seoTitle: "Training & ondersteuning operators en monteurs | De Machinedokters"
+seoDescription: "Hands-on trainingen voor operators, monteurs en engineers, plus support na implementatie. Ook losse trainingen lean manufacturing en foutpreventie."
+relatedCases:
+  - "case-voedingsindustrie"
+  - "case-altrex"
+  - "case-verpakkingsindustrie"
 ---
 
 Een slimme aanpassing heeft pas echt waarde als iedereen ermee kan werken. Daarom zorgen De Machinedokters dat jouw team de nieuwe systemen begrijpt, beheerst en benut. We bieden ondersteuning tijdens en na de implementatie, zodat de overgang soepel verloopt en verbeteringen duurzaam worden verankerd. Zo groeit niet alleen je productiecapaciteit, maar ook de kennis op de werkvloer.

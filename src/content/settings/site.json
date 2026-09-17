@@ -2,7 +2,7 @@
   "siteName": "De Machinedokters",
   "tagline": "Versnellen. Verbeteren. Vooruitgaan.",
   "seoTitle": "De Machinedokters | Procesoptimalisatie & Industriële Automatisering",
-  "seoDescription": "De Machinedokters geven gas op jouw productieproces met procesoptimalisatie en industriële automatisering. Wij maken bestaande machines en productielijnen efficiënter voor hogere OEE, minder afhankelijkheid en meer winst.",
+  "seoDescription": "De Machinedokters maken bestaande machines en productielijnen efficiënter: procesoptimalisatie, onderhoud en industriële automatisering vanuit Noord-Brabant.",
   "logo": "/images/logo-de-machinedokters.png",
   "logoIcon": "/images/logo-icoon.png",
   "phone": "+31 850 470 907",
@@ -172,5 +172,6 @@
       "text": "Je krijgt continu inzicht in de resultaten, met bijsturing waar nodig."
     }
   ],
-  "logoDark": "/images/logo-de-machinedokters-donker.png"
+  "logoDark": "/images/logo-de-machinedokters-donker.png",
+  "serviceArea": "Werkgebied: Noord-Brabant (Alphen, Tilburg, Breda, Waalwijk, Eindhoven, Den Bosch) voor dagelijkse service en heel Nederland voor optimalisatieprojecten."
 }

@@ -5,6 +5,7 @@ import ServiceCards from '../../components/ServiceCards.astro';
 import Inzet from '../../components/Inzet.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import { getEntry, getCollection, render } from 'astro:content';
+import { serviceSlug } from '../../lib/slugs';
 
 const site = (await getEntry('settings', 'site'))!.data;
 const p = (await getEntry('pages', 'diensten'))!.data;
@@ -26,6 +27,7 @@ const rendered = await Promise.all(services.map(async (s) => ({ ...s, Content: (
             <h2>{s.data.title}</h2>
             <p class="tag">{s.data.tagline}</p>
             <div class="muted prose"><s.Content /></div>
+            <a class="btn btn-outline btn-sm" href={`/diensten/${serviceSlug(s)}`}>Meer over {s.data.title.toLowerCase()}</a>
           </div>
           {s.data.image && <img src={s.data.image} alt={s.data.imageAlt ?? s.data.title} loading="lazy" width="700" height="480" class="rounded shadow" />}
         </article>

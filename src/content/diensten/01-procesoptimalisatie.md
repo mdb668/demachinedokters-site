@@ -7,6 +7,13 @@ icon: "process"
 image: "/images/fotos/robots-productielijn.jpg"
 imageAlt: "Robots aan een productielijn."
 order: 1
+slug: "procesoptimalisatie-automatisering"
+seoTitle: "Procesoptimalisatie & industriële automatisering | De Machinedokters"
+seoDescription: "Hogere OEE uit je bestaande productielijn: wij analyseren bottlenecks, verbeteren machines en automatiseren slim. Praktisch maatwerk vanuit Noord-Brabant."
+relatedCases:
+  - "case-coca-cola"
+  - "case-verpakkingsindustrie"
+  - "case-voedingsindustrie"
 ---
 
 Elke fabriek heeft zijn eigen ritme, maar soms hapert dat ritme of gaat het te traag. De Machinedokters analyseren waar het proces stokt en voeren technische aanpassingen uit die de hele productielijn beter laten presteren. We kijken naar doorlooptijden, bottlenecks en onnodige handelingen en zorgen dat mens en machine beter samenwerken.

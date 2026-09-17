@@ -6,6 +6,13 @@ icon: "code"
 image: "/images/fotos/software-dashboard.jpg"
 imageAlt: "Dashboard met productiedata naast een medewerker op de werkvloer."
 order: 3
+slug: "software-integratie"
+seoTitle: "Software- en PLC-integratie voor productielijnen | De Machinedokters"
+seoDescription: "Machines van verschillende merken laten samenwerken: PLC-programmatuur, sensoren, dashboards en OEE-inzicht. Meer uit de hardware die je al hebt."
+relatedCases:
+  - "case-automotive"
+  - "case-mens-en-industrie"
+  - "case-coca-cola"
 ---
 
 Veel fabrieken werken met machines van verschillende leeftijden en merken, en die praten niet altijd met elkaar. De Machinedokters zorgen dat alles weer één geheel wordt. We integreren moderne software, sensoren en besturingen met bestaande installaties, zodat jouw fabriek slimmer en overzichtelijker werkt.

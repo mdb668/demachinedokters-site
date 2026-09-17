@@ -34,6 +34,7 @@ const year = new Date().getFullYear();
         <a href={s.url} target="_blank" rel="noopener" aria-label={s.platform}><Icon name={s.platform} size={22} /></a>
       ))}
     </div>
+    {site.serviceArea && <p class="area">{site.serviceArea}</p>}
     <p class="bottom">
       © {year} <a href="/">{site.siteName}</a>. {site.copyright}
       {site.footerBottom.map((l) => <> | <a href={l.href}>{l.label}</a></>)}
@@ -50,6 +51,7 @@ const year = new Date().getFullYear();
   .socials { display: flex; justify-content: center; gap: 22px; margin: 40px 0 20px; }
   .socials a { color: #fff; opacity: 0.9; }
   .socials a:hover { opacity: 1; color: var(--green); }
+  .area { text-align: center; font-size: 0.9rem; color: rgba(255, 255, 255, 0.85); margin: 0 0 10px; }
   .bottom { text-align: center; font-size: 0.85rem; color: rgba(255, 255, 255, 0.8); margin: 0; }
   @media (max-width: 860px) { .cols { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 480px) { .cols { grid-template-columns: 1fr; } }

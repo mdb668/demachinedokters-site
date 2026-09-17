@@ -4,6 +4,7 @@ subtitle: "Duidelijke afspraken, zonder kleine lettertjes"
 intro: "Hieronder vind je de algemene voorwaarden van Reboow B.V., waarvan De Machinedokters een handelsnaam is."
 questionTitle: "Heb je vragen over de algemene voorwaarden?"
 questionText: "Heb je vragen over onze algemene voorwaarden of over onze samenwerking?"
+seoDescription: "De algemene voorwaarden van Reboow B.V.: offertes, betaling, levering, aansprakelijkheid en intellectueel eigendom, helder uitgelegd."
 ---
 
 ## Wie we zijn

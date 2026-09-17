@@ -7,6 +7,13 @@ icon: "wrench"
 image: "/images/fotos/onderhoud-warning.jpg"
 imageAlt: "Waarschuwingsbord: als je geen tijd inplant voor onderhoud, plant je apparatuur het voor jou."
 order: 2
+slug: "onderhoud-storingsanalyse"
+seoTitle: "Onderhoud & storingsanalyse productiemachines | De Machinedokters"
+seoDescription: "Preventief, correctief en predictief onderhoud van industriële machines. Wij vinden de echte oorzaak van storingen en voorkomen stilstand structureel."
+relatedCases:
+  - "case-automotive"
+  - "case-mens-en-industrie"
+  - "case-altrex"
 ---
 
 Voorkomen is beter dan genezen, maar als er iets misgaat lossen we het duurzaam op. De Machinedokters geloven niet in tijdelijke lapmiddelen: we voeren diepgaande storingsanalyses uit om de echte oorzaak te vinden. Door onze kennis van zowel mechanica als besturingstechniek kunnen we storingen niet alleen verhelpen, maar structureel voorkomen.

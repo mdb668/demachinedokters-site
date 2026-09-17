@@ -6,6 +6,7 @@ import Icon from '../components/Icon.astro';
 import Quote from '../components/Quote.astro';
 import { renderText } from '../lib/md';
 import { getEntry, getCollection, render } from 'astro:content';
+import { serviceSlug } from '../lib/slugs';
 
 export async function getStaticPaths() {
   const cases = await getCollection('cases', (c) => c.data.published);
@@ -20,9 +21,14 @@ const site = (await getEntry('settings', 'site'))!.data;
 const cp = (await getEntry('pages', 'cases'))!.data;
 const d = entry.data;
 const { Content } = await render(entry);
+const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
+const crumbs = kind === 'case'
+  ? [{ name: 'Home', href: '/' }, { name: 'Cases', href: '/cases' }, { name: d.title, href: `/${d.slug}` }]
+  : [{ name: 'Home', href: '/' }, { name: 'Werken bij', href: '/werken-bij' }, { name: d.title, href: `/${d.slug}` }];
+const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, Astro.site).href })) };
 ---
 {kind === 'case' ? (
-  <Base title={`Case - ${d.title} | ${site.siteName}`} description={d.intro} image={d.image}>
+  <Base title={`${d.title}: ${d.subtitle} | Case ${site.siteName}`} description={`Case ${d.title}: ${d.intro}`} image={d.image} jsonLd={crumbLd}>
     <section class="page-hero">
       <div class="container">
         <h1>{d.title}</h1>
@@ -57,13 +63,20 @@ const { Content } = await render(entry);
         <ul class="results">{d.results.map((r: string) => <li><Icon name="check" size={22} class="ck" /> {r}</li>)}</ul>
         {d.closing && <p class="closing">{d.closing}</p>}
         <Content />
+        <div class="rel">
+          <h2>Ingezette expertise</h2>
+          <ul class="rel-list">
+            {services.map((s) => <li><a href={`/diensten/${serviceSlug(s)}`}>{s.data.title}</a> <span class="muted">· {s.data.tagline}</span></li>)}
+            <li><a href="/service-onderhoud">Service & onderhoud</a> <span class="muted">· Storingsdienst, revisies en preventief onderhoud</span></li>
+          </ul>
+        </div>
       </div>
     </section>
     <Inzet button1Label={cp.button1Label} button1Link={cp.button1Link} button2Label={cp.button2Label} button2Link={cp.button2Link} />
     <CtaBand label={site.ctaLabel} href={site.ctaLink} />
   </Base>
 ) : (
-  <Base title={`Solliciteer ${d.title} | ${site.siteName}`} description={d.intro.split('\n')[0]} image={d.image}>
+  <Base title={`Vacature ${d.title} in ${d.location} | ${site.siteName}`} description={d.intro.split('\n')[0]} image={d.image} jsonLd={crumbLd}>
     <section class="page-hero">
       <div class="container inner vac-hero">
         <div>
@@ -133,6 +146,9 @@ const { Content } = await render(entry);
   .results { list-style: none; padding: 0; display: grid; gap: 8px; }
   .results li { display: flex; gap: 10px; align-items: flex-start; }
   .results :global(.ck) { color: var(--green); flex: none; margin-top: 3px; }
+  .rel { margin-top: 2.5em; padding-top: 1.5em; border-top: 1px solid var(--border); }
+  .rel h2 { font-size: 1.2rem !important; margin-top: 0 !important; }
+  .rel-list { list-style: none; padding: 0; display: grid; gap: 6px; }
   .closing { font-style: italic; color: var(--blue); font-weight: 500; font-size: 1.15rem; margin-top: 1.5em; }
   @media (max-width: 640px) { .stats { grid-template-columns: 1fr; } }
 

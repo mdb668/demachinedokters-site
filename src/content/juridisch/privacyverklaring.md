@@ -4,6 +4,7 @@ subtitle: "Onze privacybelofte"
 intro: "Bij De Machinedokters werken we aan slimme oplossingen, maar we gaan ook zorgvuldig om met iets anders: jouw persoonsgegevens. Of je nu contact met ons opneemt, bij ons solliciteert, of gewoon onze website bezoekt, wij zorgen ervoor dat jouw gegevens veilig zijn. Transparantie, betrouwbaarheid en zorgvuldigheid staan voorop in alles wat we doen."
 questionTitle: "Heb je vragen over de privacyverklaring?"
 questionText: "Heb je vragen over onze privacyverklaring of over jouw privacy bij De Machinedokters?"
+seoDescription: "Hoe De Machinedokters omgaat met persoonsgegevens: welke gegevens we verzamelen, waarom, hoe lang we ze bewaren en wat jouw rechten zijn."
 ---
 
 ## Welke gegevens verzamelen we?

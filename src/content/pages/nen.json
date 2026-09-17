@@ -1,6 +1,6 @@
 {
   "seoTitle": "NEN-3140/1010 keuring in Brabant | De Machinedokters",
-  "seoDescription": "Voldoe aan de wettelijke eisen, waarborg de veiligheid van uw team en voorkom stilstand. De Machinedokters verzorgen professionele NEN 3140 en NEN 1010 inspecties voor uw volledige machinepark. Wij keuren niet alleen; wij denken technisch met u mee.",
+  "seoDescription": "NEN 3140 en NEN 1010 keuring van machines en arbeidsmiddelen in Noord-Brabant (Alphen, Tilburg, Breda, Waalwijk). Direct herstel bij afkeur, te combineren met onderhoud.",
   "title": "NEN 3140 & 1010 Keuring in Brabant: Veiligheid & Zekerheid",
   "intro": "Voldoe aan de **wettelijke eisen**, waarborg de **veiligheid** van uw team en voorkom stilstand. De Machinedokters verzorgen **professionele inspecties** voor uw volledige machinepark. Wij keuren niet alleen; wij denken technisch met u mee.",
   "image": "/images/fotos/nen-keuring.jpg",
@@ -14,33 +14,69 @@
       "title": "Wat houden onze keuringen in?",
       "intro": "In de industrie zijn twee normen essentieel voor uw veiligheid en verzekering. De Machinedokters ontzorgen u op beide vlakken:",
       "items": [
-        { "title": "NEN 3140: Periodieke inspectie van arbeidsmiddelen", "text": "Volgens de Arbowet is elke werkgever verplicht om elektrische apparatuur en machines periodiek te laten keuren. Wij testen op isolatieweerstand, aardleiding en lekstroom." },
-        { "title": "NEN 1010: Veiligheid bij nieuwe installaties", "text": "Heeft u een nieuwe machine geplaatst of een bestaande lijn uitgebreid door Reboow? De NEN 1010 inspectie waarborgt dat de vaste elektrische installatie vanaf de meterkast tot aan de machine veilig en volgens de normen is aangelegd." }
+        {
+          "title": "NEN 3140: Periodieke inspectie van arbeidsmiddelen",
+          "text": "Volgens de Arbowet is elke werkgever verplicht om elektrische apparatuur en machines periodiek te laten keuren. Wij testen op isolatieweerstand, aardleiding en lekstroom."
+        },
+        {
+          "title": "NEN 1010: Veiligheid bij nieuwe installaties",
+          "text": "Heeft u een nieuwe machine geplaatst of een bestaande lijn uitgebreid door Reboow? De NEN 1010 inspectie waarborgt dat de vaste elektrische installatie vanaf de meterkast tot aan de machine veilig en volgens de normen is aangelegd."
+        }
       ],
       "outro": "Onze keuring bestaat standaard uit:",
       "list": [
-        { "title": "Visuele inspectie", "text": "Controle op beschadigingen aan kabels, behuizingen en stekkers." },
-        { "title": "Metingen & beproevingen", "text": "Testen met gekalibreerde meetapparatuur voor maximale nauwkeurigheid." },
-        { "title": "Rapportage & certificering", "text": "Na goedkeuring ontvangt u direct de keuringsstickers en een officieel rapport voor uw administratie en verzekering." }
+        {
+          "title": "Visuele inspectie",
+          "text": "Controle op beschadigingen aan kabels, behuizingen en stekkers."
+        },
+        {
+          "title": "Metingen & beproevingen",
+          "text": "Testen met gekalibreerde meetapparatuur voor maximale nauwkeurigheid."
+        },
+        {
+          "title": "Rapportage & certificering",
+          "text": "Na goedkeuring ontvangt u direct de keuringsstickers en een officieel rapport voor uw administratie en verzekering."
+        }
       ]
     },
     {
       "title": "Welke arbeidsmiddelen keuren wij?",
       "intro": "Wij keuren alles met een stekker of vaste aansluiting op de werkvloer, van kantoor tot de zwaarste werkplaats:",
       "list": [
-        { "title": "Elektrisch handgereedschap", "text": "Boormachines, slijptollen en zaagmachines." },
-        { "title": "Verplaatsbare machines", "text": "Kolomboormachines, lasapparaten en compressoren." },
-        { "title": "Kantoormachines", "text": "Printers, laptops en koffieautomaten." },
-        { "title": "Vaste machines & productielijnen", "text": "Volledige lijnen en stationaire machines (inclusief NEN 1010 opleveringskeuring)." }
+        {
+          "title": "Elektrisch handgereedschap",
+          "text": "Boormachines, slijptollen en zaagmachines."
+        },
+        {
+          "title": "Verplaatsbare machines",
+          "text": "Kolomboormachines, lasapparaten en compressoren."
+        },
+        {
+          "title": "Kantoormachines",
+          "text": "Printers, laptops en koffieautomaten."
+        },
+        {
+          "title": "Vaste machines & productielijnen",
+          "text": "Volledige lijnen en stationaire machines (inclusief NEN 1010 opleveringskeuring)."
+        }
       ]
     },
     {
       "title": "De unieke aanpak van De Machinedokters",
       "intro": "Waarom uw keuring laten uitvoeren door een \"Machinedokter\" in plaats van een standaard keurmeester?",
       "list": [
-        { "title": "Direct herstel bij afkeur", "text": "Wordt een apparaat afgekeurd door een defecte stekker of kabel? Wij herstellen het vaak direct ter plekke. Geen nieuwe afspraak, geen extra voorrijdkosten, uw proces loopt door." },
-        { "title": "Combinatie met onderhoud", "text": "Wij kunnen de jaarlijkse keuring combineren met regulier machine-onderhoud. Dit bespaart u tijd en zorgt voor een hogere bedrijfszekerheid." },
-        { "title": "Technisch inzicht & optimalisatie", "text": "Wij begrijpen de machine áchter de stekker. Via ons zusterbedrijf Reboow adviseren we u direct als we kansen zien om uw lijn te automatiseren of te optimaliseren met bijvoorbeeld robotarmen." }
+        {
+          "title": "Direct herstel bij afkeur",
+          "text": "Wordt een apparaat afgekeurd door een defecte stekker of kabel? Wij herstellen het vaak direct ter plekke. Geen nieuwe afspraak, geen extra voorrijdkosten, uw proces loopt door."
+        },
+        {
+          "title": "Combinatie met onderhoud",
+          "text": "Wij kunnen de jaarlijkse keuring combineren met regulier machine-onderhoud. Dit bespaart u tijd en zorgt voor een hogere bedrijfszekerheid."
+        },
+        {
+          "title": "Technisch inzicht & optimalisatie",
+          "text": "Wij begrijpen de machine áchter de stekker. Via ons zusterbedrijf Reboow adviseren we u direct als we kansen zien om uw lijn te automatiseren of te optimaliseren met bijvoorbeeld robotarmen."
+        }
       ]
     }
   ],

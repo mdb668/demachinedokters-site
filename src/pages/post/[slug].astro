@@ -26,7 +26,7 @@ const ld = {
   mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
 };
 ---
-<Base title={`${post.data.title} | ${site.siteName}`} description={post.data.seoDescription ?? post.data.excerpt} image={post.data.cover} type="article" jsonLd={ld}>
+<Base title={post.data.title.length > 52 ? post.data.title : `${post.data.title} | ${site.siteName}`} description={post.data.seoDescription ?? post.data.excerpt} image={post.data.cover} type="article" jsonLd={ld}>
   <section class="page-hero">
     <div class="container-narrow">
       <a class="back" href="/blog"><Icon name="arrow-left" size={18} /> {p.backLabel}</a>

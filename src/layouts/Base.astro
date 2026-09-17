@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { getEntry } from 'astro:content';
+import { metaDescription } from '../lib/slugs';
 
 interface Props {
   title?: string;
@@ -16,7 +17,7 @@ interface Props {
 const site = (await getEntry('settings', 'site'))!.data;
 const { title, description, image, transparentHeader = false, noindex = false, jsonLd, type = 'website' } = Astro.props;
 const pageTitle = title ?? site.seoTitle;
-const pageDesc = description ?? site.seoDescription;
+const pageDesc = metaDescription(description ?? site.seoDescription);
 const canonical = new URL(Astro.url.pathname.replace(/\/$/, '') || '/', Astro.site).href;
 const ogImage = new URL(image ?? '/images/fotos/team-banner.jpg', Astro.site).href;
 

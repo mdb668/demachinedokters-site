@@ -10,7 +10,7 @@ const entry = (await getEntry('legal', id))!;
 const { Content } = await render(entry);
 const d = entry.data;
 ---
-<Base title={`${d.title} | ${site.siteName}`} description={d.intro ?? d.title}>
+<Base title={`${d.title} | ${site.siteName}`} description={d.seoDescription ?? d.intro ?? d.title}>
   <PageHero title={d.title} subtitle={d.subtitle} intro={d.intro} />
   <section class="section-sm">
     <div class="container-narrow prose legal"><Content /></div>

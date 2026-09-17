@@ -1,13 +1,14 @@
 ---
 import Icon from './Icon.astro';
 import { getCollection } from 'astro:content';
+import { serviceSlug } from '../lib/slugs';
 interface Props { linkToDetail?: boolean }
 const { linkToDetail = true } = Astro.props;
 const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
 ---
 <div class="grid grid-4 services">
   {services.map((s) => (
-    <a class="card service" href={linkToDetail ? `/diensten#${s.id}` : undefined}>
+    <a class="card service" href={`/diensten/${serviceSlug(s)}`}>
       <span class="icon-circle"><Icon name={s.data.icon} size={30} stroke={1.4} /></span>
       <h3 set:html={s.data.titleHtml ?? s.data.title} />
       <p class="tagline">{s.data.tagline}</p>

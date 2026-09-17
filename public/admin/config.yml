@@ -91,6 +91,7 @@ collections:
             fields:
               - { name: label, label: "Tekst", widget: string }
               - { name: href, label: "Link", widget: string }
+          - { name: serviceArea, label: "Werkgebied (regel in de footer)", widget: string, required: false }
           - { name: copyright, label: "Copyright-tekst", widget: string }
           - { name: inzetTitle, label: "Titel blok 'De machinedokters schakel je in voor'", widget: string }
           - name: inzet
@@ -123,6 +124,7 @@ collections:
             fields:
               - { name: title, label: "Titel", widget: string }
               - { name: subtitle, label: "Ondertitel", widget: string }
+              - { name: lead, label: "Toelichtende zin onder de titel (goed voor Google)", widget: text, required: false }
               - { name: video, label: "Achtergrondvideo desktop (mp4)", widget: file, required: false, hint: "Laat leeg om alleen de afbeelding te tonen." }
               - { name: videoMobile, label: "Achtergrondvideo mobiel (mp4, kleiner)", widget: file, required: false }
               - { name: poster, label: "Achtergrondafbeelding (ook poster van de video)", widget: image }
@@ -433,6 +435,10 @@ collections:
       - { name: image, label: "Afbeelding", widget: image, required: false }
       - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
       - { name: order, label: "Volgorde", widget: number, default: 1 }
+      - { name: slug, label: "URL-slug (bv. procesoptimalisatie)", widget: string, required: false, hint: "Wordt /diensten/<slug>" }
+      - { name: seoTitle, label: "SEO-titel (optioneel)", widget: string, required: false }
+      - { name: seoDescription, label: "SEO-omschrijving (optioneel, max. 158 tekens)", widget: text, required: false }
+      - { name: relatedCases, label: "Gerelateerde cases (URL-slugs, bv. case-coca-cola)", widget: list, required: false }
       - { name: body, label: "Uitgebreide tekst", widget: markdown }
 
   # ───────────── Cases ─────────────
@@ -603,4 +609,5 @@ collections:
       - { name: intro, label: "Intro", widget: text, required: false }
       - { name: questionTitle, label: "Titel vragenblok", widget: string, required: false }
       - { name: questionText, label: "Tekst vragenblok", widget: text, required: false }
+      - { name: seoDescription, label: "SEO-omschrijving (optioneel)", widget: text, required: false }
       - { name: body, label: "Inhoud", widget: markdown }

@@ -4,6 +4,7 @@ subtitle: "Helder over cookies"
 intro: "Bij De Machinedokters vinden we het belangrijk dat je precies weet welke gegevens we verzamelen en waarom. Daarom leggen we in dit cookiebeleid uit hoe en waarom we cookies gebruiken op onze website."
 questionTitle: "Heb je vragen over het cookiebeleid?"
 questionText: "Heb je vragen over ons cookiebeleid of over jouw privacy bij De Machinedokters?"
+seoDescription: "Onze website plaatst geen cookies en gebruikt geen tracking. Lees hier wat dat betekent en welke externe diensten we wel gebruiken."
 ---
 
 ## Wat zijn cookies eigenlijk?

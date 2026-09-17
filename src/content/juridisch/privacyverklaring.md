@@ -42,19 +42,16 @@ We verwerken jouw gegevens altijd op basis van een wettelijke grondslag, zoals t
 
 ## Met wie delen we jouw gegevens?
 
-We delen jouw gegevens nooit zomaar. Soms is het nodig om ze te delen met betrouwbare partijen die ons helpen om onze diensten uit te voeren. Denk aan:
+We delen jouw gegevens nooit zomaar. Soms is het nodig om ze te delen met betrouwbare partijen die ons helpen om onze diensten uit te voeren. Voor deze website zijn dat:
 
-IT- en hostingproviders
+- **GitHub (GitHub Pages)**: host de website en verwerkt daarbij technische gegevens zoals IP-adressen in serverlogboeken. GitHub is gevestigd in de Verenigde Staten en gecertificeerd onder het EU-US Data Privacy Framework.
+- **FormSubmit**: verzendt de gegevens die je invult in het contact- en sollicitatieformulier (inclusief een eventueel meegestuurd cv) naar ons e-mailadres info@demachinedokters.nl. FormSubmit bewaart deze gegevens niet langer dan nodig voor de verzending.
+- **Cloudflare**: beheert de DNS van ons domein en verwerkt daarbij technische verkeersgegevens.
+- **Google Maps**: alleen als je op de contactpagina zelf op "Kaart tonen" klikt.
 
-Administratie- of boekhoudpartners
+Daarnaast werken we, los van de website, met IT- en hostingproviders, administratie- of boekhoudpartners, CRM-software en externe onderhoudspartijen (alleen als dat nodig is).
 
-CRM- of nieuwsbriefsoftware
-
-Analyse- of cookieplatforms
-
-Externe onderhoudspartijen (alleen als nodig)
-
-Met deze partijen sluiten we altijd verwerkersovereenkomsten. Zo zorgen we dat jouw gegevens ook daar veilig zijn.
+Met deze partijen sluiten we verwerkersovereenkomsten of zij bieden standaard passende waarborgen. Zo zorgen we dat jouw gegevens ook daar veilig zijn.
 
 ## Hoelang bewaren we jouw gegevens?
 
@@ -114,4 +111,4 @@ Kom je er met ons niet uit? Dan kun je terecht bij de Autoriteit Persoonsgegeven
 
 ## Versie en wijzigingen
 
-Deze privacyverklaring is voor het laatst bijgewerkt op 01-12-25. We kunnen deze verklaring aanpassen als er iets verandert in onze werkwijze, dienstverlening of wetgeving. De meest actuele versie vind je altijd op onze website.
+Deze privacyverklaring is voor het laatst bijgewerkt op 17-09-2026. We kunnen deze verklaring aanpassen als er iets verandert in onze werkwijze, dienstverlening of wetgeving. De meest actuele versie vind je altijd op onze website.

@@ -8,34 +8,29 @@ questionText: "Heb je vragen over ons cookiebeleid of over jouw privacy bij De M
 
 ## Wat zijn cookies eigenlijk?
 
-Cookies zijn kleine tekstbestanden die op je computer, tablet of telefoon worden opgeslagen wanneer je onze website bezoekt. Ze helpen ons om de website goed te laten functioneren en om inzicht te krijgen in het gebruik ervan. Sommige cookies zorgen er bijvoorbeeld voor dat de website sneller werkt, terwijl andere cookies anoniem gebruikersgedrag analyseren.
+Cookies zijn kleine tekstbestanden die op je computer, tablet of telefoon worden opgeslagen wanneer je een website bezoekt. Ze worden vaak gebruikt om bezoekers te herkennen, voorkeuren te onthouden of gedrag te meten.
 
 ## Welke cookies gebruikt De Machinedokters?
 
-Wij gebruiken drie soorten cookies:
+Onze website plaatst zelf **geen cookies** en gebruikt geen analyse- of marketingtools die je volgen. Er is daarom ook geen cookiemelding nodig. Concreet:
 
-Functionele cookies
+- Geen analytische cookies (geen Google Analytics of vergelijkbare statistieken)
+- Geen marketing- of trackingcookies (geen pixels van LinkedIn, Meta of advertentienetwerken)
+- Geen functionele cookies: de website werkt zonder iets op je apparaat op te slaan
 
-Deze cookies zijn noodzakelijk voor de werking van de website. Ze onthouden bijvoorbeeld je cookievoorkeuren of zorgen dat formulieren goed werken. Ze slaan geen persoonlijke gegevens op.
+## Externe diensten
 
-Analytische cookies
+Op twee plekken gebruiken we diensten van derden. Daarbij kan die partij technische gegevens zoals je IP-adres verwerken:
 
-Met deze cookies krijgen we inzicht in hoe bezoekers onze website gebruiken. We gebruiken hiervoor bijvoorbeeld Google Analytics (geanonimiseerd). Zo kunnen we de site verbeteren en gebruiksvriendelijker maken.
+- **Kaart op de contactpagina**: de kaart van Google Maps wordt pas geladen nadat je zelf op "Kaart tonen" klikt. Pas op dat moment kan Google cookies plaatsen volgens het privacybeleid van Google. Klik je niet, dan gebeurt er niets.
+- **Formulieren**: het contact- en sollicitatieformulier worden verzonden via de dienst FormSubmit. Die verwerkt de ingevulde gegevens uitsluitend om ze aan ons door te sturen en plaatst geen cookies op onze website.
 
-IP-adressen worden gemaskeerd
+## Veranderingen in de toekomst
 
-Gegevens worden niet gedeeld met derden
-
-We gebruiken geen 'user-ID's' of remarketing
-
-Marketingcookies (alleen met toestemming)
-
-Deze cookies gebruiken we alleen als je toestemming geeft. Ze maken het mogelijk om gepersonaliseerde content of advertenties aan te bieden op basis van jouw surfgedrag. Denk aan LinkedIn-pixels of andere trackingtools voor campagnes.
-
-## Cookie-instellingen aanpassen
-
-Bij je eerste bezoek aan onze site krijg je een cookiemelding. Daar kun je aangeven welke cookies je wel of niet wilt toestaan. Wil je je voorkeur later aanpassen? Dan kan dat altijd via je browserinstellingen of door onze cookievoorkeuren opnieuw te openen via de footer.
+Gaan we in de toekomst wél cookies of statistieken gebruiken, dan passen we dit beleid aan en vragen we waar dat verplicht is eerst om toestemming via een cookiemelding.
 
 ## Cookies verwijderen of uitschakelen
 
-Je kunt cookies altijd zelf verwijderen of uitschakelen via je browserinstellingen. Houd er rekening mee dat bepaalde onderdelen van de website dan mogelijk minder goed werken.
+Cookies van andere websites kun je altijd zelf verwijderen of uitschakelen via de instellingen van je browser.
+
+*Laatst bijgewerkt: 17-09-2026.*

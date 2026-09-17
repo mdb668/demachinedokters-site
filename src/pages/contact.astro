@@ -23,18 +23,36 @@ const p = (await getEntry('pages', 'contact'))!.data;
         <div class="block"><span class="icon-circle"><Icon name="phone" size={26} /></span><div><h4>{p.labels.phone}</h4><p><a href={site.phoneLink}>{site.phone}</a></p></div></div>
         <div class="block"><span class="icon-circle"><Icon name="mail" size={26} /></span><div><h4>{p.labels.email}</h4><p><a href={`mailto:${site.email}`}>{site.email}</a></p></div></div>
         <div class="block"><span class="icon-circle"><Icon name="clock" size={26} /></span><div><h4>{p.labels.hours}</h4><p>{site.openingHours}</p></div></div>
-        {p.mapEmbed && <iframe class="map" src={p.mapEmbed} title="Kaart met de locatie van De Machinedokters" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>}
+        {p.mapEmbed && (
+          <div class="map-wrap" data-map-src={p.mapEmbed}>
+            <p class="muted small">De kaart wordt geladen via Google Maps. Google kan daarbij cookies plaatsen; daarom laden we de kaart pas als jij dat wilt.</p>
+            <div class="btn-group" style="justify-content:flex-start">
+              <button type="button" class="btn btn-outline btn-sm" data-map-load>Kaart tonen</button>
+              <a class="btn btn-outline btn-sm" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.addressLine1 + ', ' + site.addressLine2)}`} target="_blank" rel="noopener">Openen in Google Maps</a>
+            </div>
+          </div>
+        )}
       </aside>
     </div>
   </section>
   <CtaBand label={site.ctaLabel} href={site.ctaLink} />
 </Base>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-map-src]').forEach((wrap) => {
+    wrap.querySelector('[data-map-load]')?.addEventListener('click', () => {
+      const f = document.createElement('iframe');
+      f.className = 'map'; f.src = wrap.dataset.mapSrc!; f.title = 'Kaart met onze locatie'; f.loading = 'lazy'; f.referrerPolicy = 'no-referrer-when-downgrade';
+      wrap.replaceChildren(f);
+    });
+  });
+</script>
 <style>
   .contact-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: start; }
   .info { display: grid; gap: 22px; }
   .block { display: flex; gap: 16px; align-items: flex-start; }
   .block h4 { margin-bottom: 0.2em; }
   .block p { margin: 0; color: var(--muted); }
+  .small { font-size: 0.9rem; }
   .map { width: 100%; height: 280px; border: 0; border-radius: var(--radius); margin-top: 8px; }
   @media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
 </style>

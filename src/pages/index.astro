@@ -133,6 +133,11 @@ const p = (await getEntry('pages', 'home'))!.data;
         video.addEventListener('playing', () => video.classList.add('is-playing'));
         tryPlay();
         document.addEventListener('visibilitychange', () => { if (!document.hidden && video.paused) tryPlay(); });
+        // Browsers pauzeren soms een achtergrondvideo (verborgen tab, energiebesparing): altijd weer starten.
+        video.addEventListener('pause', () => { window.setTimeout(() => { if (video.paused) tryPlay(); }, 400); });
+        window.setInterval(() => { if (video.paused && video.readyState >= 2) tryPlay(); }, 2500);
+        window.addEventListener('pageshow', tryPlay);
+        window.addEventListener('focus', tryPlay);
       }
     }
   }

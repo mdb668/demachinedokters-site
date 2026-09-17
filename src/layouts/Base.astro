@@ -40,8 +40,25 @@ const orgLd = {
   },
   openingHours: 'Mo-Fr 09:00-17:00',
   sameAs: site.socials.map((s) => s.url),
-  areaServed: 'Nederland',
+  areaServed: ['Nederland', 'Noord-Brabant'],
   description: site.seoDescription,
+  slogan: site.tagline,
+  knowsAbout: [
+    'Industriële automatisering', 'Procesoptimalisatie', 'OEE-verbetering', 'Machineonderhoud in de maakindustrie',
+    'Storingsanalyse productielijnen', 'PLC- en software-integratie', 'Retrofit van productiemachines',
+    'Robotisering', 'Speciaalmachinebouw', 'NEN 3140 en NEN 1010 keuringen', 'Verpakkingslijnen', 'Voedingsmiddelenindustrie',
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Diensten',
+    itemListElement: [
+      'Procesoptimalisatie & industriële automatisering',
+      'Onderhoud & storingsanalyse van productiemachines',
+      'Software- en PLC-integratie',
+      'Training & ondersteuning voor operators en monteurs',
+      'NEN 3140 / NEN 1010 keuring',
+    ].map((name) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name, serviceType: name, audience: { '@type': 'BusinessAudience', name: 'Productiebedrijven in de maakindustrie' } } })),
+  },
 };
 const ld = [orgLd, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
 ---

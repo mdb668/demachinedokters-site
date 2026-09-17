@@ -10,7 +10,8 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: (page) =>
-        !page.includes('/bedankt') && !page.includes('/admin') && !page.includes('/404'),
+        !page.includes('/bedankt') && !page.includes('/admin') && !page.includes('/404') &&
+        !/\/(home|merchandise|blank)\/?$/.test(page),
     }),
   ],
 });

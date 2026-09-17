@@ -1,0 +1,20 @@
+---
+/** Statische doorverwijzing voor oude URL's (GitHub Pages kent geen server-redirects). */
+interface Props { to: string }
+const { to } = Astro.props;
+const target = new URL(to, Astro.site).href;
+---
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Doorverwijzen…</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={target} />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <script set:html={`location.replace(${JSON.stringify(target)})`} />
+  </head>
+  <body>
+    <p>Deze pagina is verhuisd naar <a href={target}>{target}</a>.</p>
+  </body>
+</html>

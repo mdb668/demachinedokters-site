@@ -45,6 +45,7 @@ const f = page.form;
         const res = await fetch(form.action, { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form) });
         const data = await res.json().catch(() => ({}));
         if (res.ok && (data.success === 'true' || data.success === true)) { form.reset(); ok.classList.add('show'); }
+        else if (/activat/i.test(String(data.message ?? ''))) { err.textContent = 'Het formulier is nog niet geactiveerd. De beheerder heeft een activatiemail ontvangen; probeer het straks opnieuw of mail ons direct.'; err.classList.add('show'); }
         else err.classList.add('show');
       } catch { err.classList.add('show'); }
       btn.disabled = false;

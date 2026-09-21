@@ -1,8 +1,8 @@
 {
   "siteName": "De Machinedokters",
   "tagline": "Versnellen. Verbeteren. Vooruitgaan.",
-  "seoTitle": "De Machinedokters | Procesoptimalisatie & Industriële Automatisering",
-  "seoDescription": "De Machinedokters maken bestaande machines en productielijnen efficiënter: procesoptimalisatie, onderhoud en industriële automatisering vanuit Noord-Brabant.",
+  "seoTitle": "De Machinedokters | Procesoptimalisatie, Machinebouw & Industriële Automatisering",
+  "seoDescription": "De Machinedokters maken productielijnen efficiënter: procesoptimalisatie, onderhoud, retrofit, robotisering en speciaalmachinebouw vanuit Noord-Brabant.",
   "logo": "/images/logo-de-machinedokters.png",
   "logoIcon": "/images/logo-icoon.png",
   "phone": "+31 850 470 907",
@@ -99,6 +99,10 @@
     {
       "label": "NEN-3140 & NEN-1010",
       "href": "/diensten/nen-3140-1010"
+    },
+    {
+      "label": "Machinebouw",
+      "href": "/diensten/speciaalmachines"
     }
   ],
   "footerJuridisch": [

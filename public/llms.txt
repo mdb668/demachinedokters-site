@@ -8,7 +8,7 @@
 - Software- en PLC-integratie, dashboards met productiedata
 - Training en ondersteuning van operators, monteurs en engineers
 - NEN 3140 en NEN 1010 keuringen van arbeidsmiddelen en machines in Noord-Brabant
-- Machinebouw en robotisering via zusterbedrijf Reboow Group (www.reboow.nl)
+- Speciaalmachines en machinebouw op maat, retrofit van verouderde machines, robotisering en automatisering (voorheen onder de naam Reboow Group, nu onder De Machinedokters)
 
 ## Voor wie
 - Productiebedrijven en fabrieken in de maakindustrie, verpakkings- en voedingsmiddelenindustrie
@@ -25,6 +25,9 @@
 - Home: https://www.demachinedokters.nl/
 - Diensten: https://www.demachinedokters.nl/diensten
 - NEN 3140/1010 keuring: https://www.demachinedokters.nl/diensten/nen-3140-1010
+- Speciaalmachines: https://www.demachinedokters.nl/diensten/speciaalmachines
+- Retrofit: https://www.demachinedokters.nl/diensten/retrofit
+- Robotisering: https://www.demachinedokters.nl/diensten/robotisering
 - Service & onderhoud: https://www.demachinedokters.nl/service-onderhoud
 - Cases: https://www.demachinedokters.nl/cases
 - Blog: https://www.demachinedokters.nl/blog

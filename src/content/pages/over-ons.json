@@ -3,15 +3,24 @@
   "seoDescription": "De Machinedokters geloven in lokaal produceren. Sinds 2018 optimaliseren we productieprocessen en implementeren we maatwerkoplossingen voor de Nederlandse maakindustrie. Maak kennis met ons team.",
   "title": "Over ons",
   "subtitle": "Onze aanpak in maatwerkoplossingen",
-  "intro": "Bij De Machinedokters geloven we in lokaal produceren en streven we naar oplossingen die niet alleen resultaten opleveren, maar ook bijdragen aan een sterke en toekomstbestendige Nederlandse maakindustrie. Sinds onze oprichting in 2018 hebben we ons gespecialiseerd in het optimaliseren van productieprocessen en het implementeren van maatwerkoplossingen voor bedrijven in verschillende sectoren.",
+  "intro": "Bij De Machinedokters geloven we in lokaal produceren en streven we naar oplossingen die niet alleen resultaten opleveren, maar ook bijdragen aan een sterke en toekomstbestendige Nederlandse maakindustrie. Sinds onze oprichting in 2018 (als Reboow Group) hebben we ons gespecialiseerd in het optimaliseren van productieprocessen, het moderniseren van verouderde machines en het bouwen van speciaalmachines voor bedrijven in verschillende sectoren.",
   "quote": "\"Als jij het kunt dromen, kunnen wij het laten draaien.\"",
   "image": "/images/fotos/pand-looiersweg.jpg",
   "imageAlt": "Het pand van De Machinedokters aan de Looiersweg in Alphen.",
   "woordenTitle": "Onze woorden",
   "woorden": [
-    { "title": "Klantgericht", "text": "We luisteren, denken mee en leveren oplossingen die precies aansluiten op de behoefte van de klant. Samen bouwen we aan langdurige samenwerking en resultaat." },
-    { "title": "Innovatief", "text": "We combineren ervaring met vooruitdenken. Met slimme en vaak onverwachte oplossingen halen we meer uit bestaande machines: sneller, goedkoper en met direct rendement voor onze klanten." },
-    { "title": "Betrouwbaar", "text": "Afspraak is afspraak. We zijn helder in onze communicatie, betrokken in onze aanpak en leveren kwaliteit waar je op kunt vertrouwen." }
+    {
+      "title": "Klantgericht",
+      "text": "We luisteren, denken mee en leveren oplossingen die precies aansluiten op de behoefte van de klant. Samen bouwen we aan langdurige samenwerking en resultaat."
+    },
+    {
+      "title": "Innovatief",
+      "text": "We combineren ervaring met vooruitdenken. Met slimme en vaak onverwachte oplossingen halen we meer uit bestaande machines: sneller, goedkoper en met direct rendement voor onze klanten."
+    },
+    {
+      "title": "Betrouwbaar",
+      "text": "Afspraak is afspraak. We zijn helder in onze communicatie, betrokken in onze aanpak en leveren kwaliteit waar je op kunt vertrouwen."
+    }
   ],
   "teamTitle": "Ons team"
 }

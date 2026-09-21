@@ -5,7 +5,7 @@
     "video": "/video/hero.mp4",
     "poster": "/images/fotos/hero-poster.jpg",
     "videoMobile": "/video/hero-mobiel.mp4",
-    "lead": "Procesoptimalisatie, onderhoud en industriële automatisering van bestaande productielijnen. Vanuit Alphen (Noord-Brabant) voor fabrieken in heel Nederland."
+    "lead": "Procesoptimalisatie, onderhoud, retrofit, robotisering en machinebouw voor bestaande én nieuwe productielijnen. Vanuit Alphen (Noord-Brabant) voor fabrieken in heel Nederland."
   },
   "intro": {
     "line1": "Gas op jouw productieproces: waarom nieuwe machines kopen als je de huidige beter kunt maken?",
@@ -13,8 +13,8 @@
     "quote": "\"Anderen zien een probleem, wij zien een uitdaging. En die lossen we op.\"",
     "button1Label": "Plan een vrijblijvend adviesgesprek",
     "button1Link": "/contact",
-    "button2Label": "Bezoek onze machinebouw",
-    "button2Link": "https://www.reboow.nl"
+    "button2Label": "Bekijk onze machinebouw",
+    "button2Link": "/diensten/speciaalmachines"
   },
   "verschil": {
     "title": "Hoe wij het verschil maken!",
@@ -64,7 +64,7 @@
   },
   "overOns": {
     "title": "Over ons",
-    "text": "Bij De Machinedokters draait alles om beter laten draaien. Letterlijk.\nWe zijn technische probleemoplossers die bestaande machines en processen verbeteren met slimme, duurzame aanpassingen. Geen dikke rapporten of standaardoplossingen, maar praktisch maatwerk dat direct werkt.\n\nDe Machinedokters is onderdeel van **Reboow group**, een technisch bureau dat sinds 2018 fabrieken helpt om efficiënter te produceren. Vanuit die ervaring zagen we één ding duidelijk: veel machines hoeven niet vervangen te worden, ze hebben gewoon de juiste behandeling nodig.\n\nMet die gedachte zijn De Machinedokters ontstaan; een nieuwe naam, maar dezelfde vakkennis en praktijkervaring. We staan ín de fabriek, tussen de mensen en de machines. Daar zien we wat er echt speelt en wat er beter kan. Onze oplossingen zijn slim, snel en blijvend; precies wat een gezond en winstgevend productieproces nodig heeft.",
+    "text": "Bij De Machinedokters draait alles om beter laten draaien. Letterlijk.\nWe zijn technische probleemoplossers die bestaande machines en processen verbeteren met slimme, duurzame aanpassingen. Geen dikke rapporten of standaardoplossingen, maar praktisch maatwerk dat direct werkt.\n\nDe Machinedokters zijn voortgekomen uit **Reboow Group**, het technisch bureau dat sinds 2018 fabrieken helpt om efficiënter te produceren en speciaalmachines bouwt. Die machinebouw hoort nu bij De Machinedokters. Vanuit die ervaring zagen we één ding duidelijk: veel machines hoeven niet vervangen te worden, ze hebben gewoon de juiste behandeling nodig.\n\nMet die gedachte zijn De Machinedokters ontstaan; een nieuwe naam, maar dezelfde vakkennis en praktijkervaring. We staan ín de fabriek, tussen de mensen en de machines. Daar zien we wat er echt speelt en wat er beter kan. Onze oplossingen zijn slim, snel en blijvend; precies wat een gezond en winstgevend productieproces nodig heeft.",
     "linkLabel": "Lees meer...",
     "link": "/over-ons",
     "quote": "\"Praktisch ingesteld, hoog allergisch voor onzin.\"",

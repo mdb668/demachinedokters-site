@@ -35,3 +35,8 @@ Terugdraaien naar Wix = deze vier records terugzetten en de GitHub-records verwi
 - (plus de SPF-record van send.mail, zie Cloudflare-export)
 
 Volledige export: maak in Cloudflare via DNS → Records → **Export** een zonebestand en bewaar dat naast dit document.
+
+## Aanvulling 21-09-2026: DKIM Google Workspace (nieuw)
+
+- TXT `google._domainkey` → `v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy1V8lQUfkfQh2/8RR+dnR59P2P3WSwMKhLRVpsMzBXl04Tp/BvIqPzk657OHQMiBNV+XeCDTNZNieUgI3oyxJRPevgLKiVpLQb6ORWyngoD2EYmeDb954GRoTrd5DJ3Ctm5/wtxSMbVUuDaO6sT2x8upZu6eRKxCG8Y86NHIFglRTZB+kSERe2LbDpiJ3U+Y8DqxeQK6hg2cBB7UcV8pmGz7zrpx44gZGzG4tV2Nrs1/4lizpB5nB7hjJiptwBgbrj99LWtJ3XR9OhdKOLXo5DdMMzisJTzVY/+G+RnA61P+tPonAomMrGshenIOVYSNFPTF7GiwRJAMTQklow455wIDAQAB`
+- Daarna in admin.google.com → Gmail → E-mail verifiëren op "Verificatie starten" klikken.

@@ -10,7 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "cms:update": "npm update @sveltia/cms && node -e \"require('fs').copyFileSync('node_modules/@sveltia/cms/dist/sveltia-cms.js','public/admin/sveltia-cms.js')\""
+    "cms:update": "npm update @sveltia/cms && node -e \"require('fs').copyFileSync('node_modules/@sveltia/cms/dist/sveltia-cms.js','public/admin/sveltia-cms.js')\"",
+    "postbuild": "node scripts/postbuild.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

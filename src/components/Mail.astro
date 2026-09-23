@@ -1,0 +1,18 @@
+---
+/** Toont het e-mailadres zonder het als platte tekst in de HTML te zetten,
+ *  zodat adres-harvesters (recruitmentbureaus, spammers) het niet kunnen oogsten.
+ *  Zonder JavaScript wijst de link naar de contactpagina. */
+import { getEntry } from 'astro:content';
+interface Props { class?: string }
+const { class: cls = '' } = Astro.props;
+const site = (await getEntry('settings', 'site'))!.data;
+const [user, domain] = site.email.split('@');
+---
+<a class={`mail-link ${cls}`.trim()} href="/contact/" data-mail-user={user} data-mail-domain={domain}>{user} [at] {domain}</a>
+<script>
+  document.querySelectorAll<HTMLAnchorElement>('[data-mail-user]').forEach((a) => {
+    const address = `${a.dataset.mailUser}@${a.dataset.mailDomain}`;
+    a.href = `mailto:${address}`;
+    a.textContent = address;
+  });
+</script>

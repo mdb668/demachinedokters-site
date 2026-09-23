@@ -19,6 +19,7 @@ export async function getStaticPaths() {
 const { kind, entry } = Astro.props as { kind: 'case' | 'vacancy'; entry: any };
 const site = (await getEntry('settings', 'site'))!.data;
 const cp = (await getEntry('pages', 'cases'))!.data;
+const wb = (await getEntry('pages', 'werken-bij'))!.data;
 const d = entry.data;
 const { Content } = await render(entry);
 const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
@@ -108,8 +109,14 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
           <h2>Enthousiast geworden?</h2>
           <div class="muted prose"><Content /></div>
           <Quote text={d.quote} />
+          {wb.acquisitieText && (
+            <aside class="acquisitie">
+              <h3>{wb.acquisitieTitle}</h3>
+              <p>{wb.acquisitieText}</p>
+            </aside>
+          )}
         </div>
-        <form class="form" method="POST" action={`https://formsubmit.co/${site.formEmail}`} enctype="multipart/form-data">
+        <form class="form" method="POST" action={`https://formsubmit.co/${site.formEndpoint ?? site.formEmail}`} enctype="multipart/form-data">
           <input type="hidden" name="_subject" value={`Sollicitatie: ${d.title}`} />
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_captcha" value="false" />
@@ -152,6 +159,9 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
   .closing { font-style: italic; color: var(--blue); font-weight: 500; font-size: 1.15rem; margin-top: 1.5em; }
   @media (max-width: 640px) { .stats { grid-template-columns: 1fr; } }
 
+  .acquisitie { margin-top: 28px; padding: 18px 22px; border: 1px solid var(--border); border-left: 4px solid var(--blue); border-radius: 10px; }
+  .acquisitie h3 { font-size: 1rem; margin-bottom: 0.4em; }
+  .acquisitie p { margin: 0; color: var(--muted); font-size: 0.9rem; }
   .vac-hero { grid-template-columns: 1fr 320px !important; align-items: center !important; }
   .vac-img { width: 100%; height: auto; }
   .meta { color: var(--muted); margin-bottom: 1.5em; }

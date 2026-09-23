@@ -4,7 +4,7 @@ const site = (await getEntry('settings', 'site'))!.data;
 const page = (await getEntry('pages', 'contact'))!.data;
 const f = page.form;
 ---
-<form class="form contact-form" method="POST" action={`https://formsubmit.co/ajax/${site.formEmail}`} data-ajax-form novalidate>
+<form class="form contact-form" method="POST" action={`https://formsubmit.co/ajax/${site.formEndpoint ?? site.formEmail}`} data-ajax-form novalidate>
   <input type="hidden" name="_subject" value="Nieuw bericht via demachinedokters.nl" />
   <input type="hidden" name="_template" value="table" />
   <input type="hidden" name="_captcha" value="false" />

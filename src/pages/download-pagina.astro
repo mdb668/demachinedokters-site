@@ -15,7 +15,7 @@ const f = p.form;
   </section>
   <section class="section-sm">
     <div class="container-narrow dl">
-      <form class="form" method="POST" action={`https://formsubmit.co/${site.formEmail}`}>
+      <form class="form" method="POST" action={`https://formsubmit.co/${site.formEndpoint ?? site.formEmail}`}>
         <input type="hidden" name="_subject" value="Download-aanvraag via demachinedokters.nl" />
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_captcha" value="false" />

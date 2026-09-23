@@ -46,7 +46,7 @@ We verwerken jouw gegevens altijd op basis van een wettelijke grondslag, zoals t
 We delen jouw gegevens nooit zomaar. Soms is het nodig om ze te delen met betrouwbare partijen die ons helpen om onze diensten uit te voeren. Voor deze website zijn dat:
 
 - **GitHub (GitHub Pages)**: host de website en verwerkt daarbij technische gegevens zoals IP-adressen in serverlogboeken. GitHub is gevestigd in de Verenigde Staten en gecertificeerd onder het EU-US Data Privacy Framework.
-- **FormSubmit**: verzendt de gegevens die je invult in het contact- en sollicitatieformulier (inclusief een eventueel meegestuurd cv) naar ons e-mailadres info@demachinedokters.nl. FormSubmit bewaart deze gegevens niet langer dan nodig voor de verzending.
+- **FormSubmit**: verzendt de gegevens die je invult in het contact- en sollicitatieformulier (inclusief een eventueel meegestuurd cv) naar ons e-mailadres. FormSubmit bewaart deze gegevens niet langer dan nodig voor de verzending.
 - **Cloudflare**: beheert de DNS van ons domein en verwerkt daarbij technische verkeersgegevens.
 - **Google Maps**: alleen als je op de contactpagina zelf op "Kaart tonen" klikt.
 
@@ -98,7 +98,7 @@ Bezwaar te maken tegen het gebruik van je gegevens
 
 Gegevens over te laten dragen aan een andere partij (dataportabiliteit)
 
-Wil je één van deze rechten uitoefenen? Stuur dan een mail naar [info@demachinedokters.nl](/cdn-cgi/l/email-protection#caa3a4aca58ab8afa8a5a5bde4a4a6), we reageren altijd binnen 14 dagen.
+Wil je één van deze rechten uitoefenen? Stuur dan een bericht via [ons contactformulier](/contact/), we reageren altijd binnen 14 dagen.
 
 ## Hoe beveiligen we jouw gegevens?
 
@@ -106,7 +106,7 @@ We doen er alles aan om jouw gegevens te beschermen. We gebruiken moderne beveil
 
 ## Vragen of klachten?
 
-Heb je vragen over hoe wij omgaan met jouw gegevens? Of ben je ergens niet tevreden over? Neem dan vooral contact met ons op via [info@demachinedokters.nl](/cdn-cgi/l/email-protection#cfa6a1a9a08fbdaaada0a0b8e1a1a3).
+Heb je vragen over hoe wij omgaan met jouw gegevens? Of ben je ergens niet tevreden over? Neem dan vooral contact met ons op via [ons contactformulier](/contact/).
 
 Kom je er met ons niet uit? Dan kun je terecht bij de Autoriteit Persoonsgegevens via [www.autoriteitpersoonsgegevens.nl](http://www.autoriteitpersoonsgegevens.nl).
 

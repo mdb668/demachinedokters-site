@@ -47,6 +47,7 @@ collections:
           - { name: phoneLink, label: "Telefoonnummer (link, bv. tel:+31850470907)", widget: string }
           - { name: email, label: "E-mailadres", widget: string }
           - { name: formEmail, label: "E-mailadres waar formulieren naartoe gaan", widget: string, hint: "Contact-, sollicitatie- en downloadformulieren worden hierheen gestuurd." }
+          - { name: formEndpoint, label: "FormSubmit-code (optioneel)", widget: string, required: false, hint: "De hashed code uit je FormSubmit-activatiemail. Ingevuld? Dan staat je e-mailadres nergens meer in de broncode." }
           - { name: addressLine1, label: "Adres regel 1", widget: string }
           - { name: addressLine2, label: "Adres regel 2 (postcode plaats)", widget: string }
           - { name: openingHours, label: "Kantoortijden", widget: string }
@@ -286,6 +287,8 @@ collections:
           - { name: openButtonLabel, label: "Knop open sollicitatie", widget: string }
           - { name: openButtonLink, label: "Link open sollicitatie", widget: string }
           - { name: quote, label: "Handgeschreven quote", widget: text }
+          - { name: acquisitieTitle, label: "Titel anti-acquisitieblok", widget: string, required: false }
+          - { name: acquisitieText, label: "Tekst anti-acquisitieblok (recruiters)", widget: text, required: false }
           - { name: image, label: "Afbeelding", widget: image }
           - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
 

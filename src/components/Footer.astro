@@ -1,5 +1,6 @@
 ---
 import Icon from './Icon.astro';
+import Mail from './Mail.astro';
 import { getEntry } from 'astro:content';
 const site = (await getEntry('settings', 'site'))!.data;
 const year = new Date().getFullYear();
@@ -15,7 +16,7 @@ const year = new Date().getFullYear();
         <h4>Contact</h4>
         <ul>
           <li><a href={site.phoneLink}>{site.phone}</a></li>
-          <li><a href={`mailto:${site.email}`}>{site.email}</a></li>
+          <li><Mail /></li>
           <li>{site.addressLine1}</li>
           <li>{site.addressLine2}</li>
         </ul>

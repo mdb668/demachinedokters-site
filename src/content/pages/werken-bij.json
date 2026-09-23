@@ -5,9 +5,21 @@
   "intro": "Bekijk onze vacatures en groei mee met ons bedrijf.",
   "waaromTitle": "Waarom werken bij ons?",
   "waarom": [
-    { "icon": "flag", "title": "Veel vrijheid & verantwoordelijkheid", "text": "Bij De Machinedokters krijg je de ruimte om zelfstandig te werken, slimme keuzes te maken en écht invloed te hebben op het resultaat." },
-    { "icon": "people", "title": "Korte lijnen, direct schakelen", "text": "Je werkt direct samen met collega's én de oprichter. Geen logge structuren, maar snel schakelen en samen bouwen aan verbetering." },
-    { "icon": "growth", "title": "Afwisselend werk & groei", "text": "Van storing tot nieuwbouwproject: geen dag is hetzelfde. Je groeit mee met het bedrijf en krijgt volop kansen om jezelf te ontwikkelen." }
+    {
+      "icon": "flag",
+      "title": "Veel vrijheid & verantwoordelijkheid",
+      "text": "Bij De Machinedokters krijg je de ruimte om zelfstandig te werken, slimme keuzes te maken en écht invloed te hebben op het resultaat."
+    },
+    {
+      "icon": "people",
+      "title": "Korte lijnen, direct schakelen",
+      "text": "Je werkt direct samen met collega's én de oprichter. Geen logge structuren, maar snel schakelen en samen bouwen aan verbetering."
+    },
+    {
+      "icon": "growth",
+      "title": "Afwisselend werk & groei",
+      "text": "Van storing tot nieuwbouwproject: geen dag is hetzelfde. Je groeit mee met het bedrijf en krijgt volop kansen om jezelf te ontwikkelen."
+    }
   ],
   "vacaturesTitle": "Openstaande vacatures",
   "openTitle": "Staat jouw functie er niet tussen?",
@@ -15,5 +27,7 @@
   "openButtonLink": "/contact",
   "quote": "\"Geen match? Da's geen probleem, wij upgraden graag.\"",
   "image": "/images/fotos/pand-werken-bij.jpg",
-  "imageAlt": "Het pand van De Machinedokters in Alphen."
+  "imageAlt": "Het pand van De Machinedokters in Alphen.",
+  "acquisitieTitle": "Geen acquisitie, geen bureaus",
+  "acquisitieText": "Acquisitie naar aanleiding van onze vacatures wordt niet op prijs gesteld. We werven zelf en werken niet samen met werving- en selectiebureaus, detacheerders, uitzendbureaus of recruitmentpartijen. Ongevraagde voorstellen, cv-aanbiedingen en samenwerkingsverzoeken nemen we niet in behandeling en beantwoorden we niet. Alleen sollicitaties van kandidaten zelf, via het formulier op deze site, worden gelezen."
 }

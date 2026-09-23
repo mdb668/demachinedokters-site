@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import CtaBand from '../components/CtaBand.astro';
+import Mail from '../components/Mail.astro';
 import { getEntry } from 'astro:content';
 const site = (await getEntry('settings', 'site'))!.data;
 ---
@@ -16,7 +17,7 @@ const site = (await getEntry('settings', 'site'))!.data;
       <p><strong>{site.legalName}</strong><br />{site.addressLine1}<br />{site.addressLine2}<br />Nederland</p>
       <p><strong>KVK-nummer:</strong> {site.kvk}</p>
       <p>Voor vragen over onze service en diensten:</p>
-      <p>E-mail: <a href={`mailto:${site.email}`}>{site.email}</a><br />Tel: <a href={site.phoneLink}>{site.phone}</a></p>
+      <p>E-mail: <Mail /><br />Tel: <a href={site.phoneLink}>{site.phone}</a></p>
     </div>
   </section>
   <CtaBand label={site.ctaLabel} href={site.ctaLink} />

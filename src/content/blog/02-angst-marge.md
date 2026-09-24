@@ -66,7 +66,7 @@ We hebben de signalen die we in de praktijk tegenkomen gebundeld in een korte st
 
 Veel bedrijven herkennen daarin meer dan ze vooraf verwachten.
 
-## De machinedokters: wij genezen jouw lijn
+## De Machinedokters: wij genezen jouw lijn
 
 Doet jouw lijn ook aan symptoombestrijding? Wij genezen de onderliggende oorzaak. Wij werken niet door jouw lijn weg te gooien of te vervangen. Wij werken aan jouw lijn. Zonder compleet nieuwe machines of miljoeneninversteringen.
 

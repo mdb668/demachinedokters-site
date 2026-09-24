@@ -1,8 +1,8 @@
 ---
-title: "Coca Cola"
+title: "Coca-Cola"
 slug: "case-coca-cola"
 subtitle: "Ombouwtijd gehalveerd op meerdere high-speed blikkenlijnen"
-intro: "Samen met Coca Cola realiseerden we een snellere, betrouwbaardere bottellijn: van analyse tot implementatie."
+intro: "Samen met Coca-Cola realiseerden we een snellere, betrouwbaardere bottellijn: van analyse tot implementatie."
 summary: "Bij Coca-Cola kostten de formatwissels op meerdere blikkenlijnen onnodig veel tijd, waardoor er elke dag waardevolle productie-uren verloren gingen. De lijnen konden technisch meer aan, maar de bestaande mechanische opbouw en hoeveelheid handelingen remden de snelheid.\n\nDoor de ombouwprocedure te vereenvoudigen en de technische opbouw opnieuw te ontwerpen, daalde de ombouwtijd van drie uur naar één uur. Dat zorgde direct voor meer beschikbare productietijd, hogere lijnbeschikbaarheid en een structureel hogere output."
 image: "/images/klanten/coca-cola.png"
 imageAlt: "Coca-Cola logo"

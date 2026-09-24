@@ -29,11 +29,10 @@ const crumbs = kind === 'case'
 const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, Astro.site).href })) };
 ---
 {kind === 'case' ? (
-  <Base title={`${d.title}: ${d.subtitle} | Case ${site.siteName}`} description={`Case ${d.title}: ${d.intro}`} image={d.image} jsonLd={crumbLd}>
+  <Base title={`Case ${d.title}: ${d.subtitle}`} description={`Case ${d.title}: ${d.intro}`} image={d.image} jsonLd={crumbLd}>
     <section class="page-hero">
       <div class="container">
-        <h1>{d.title}</h1>
-        <p class="sub">{d.subtitle}</p>
+        <h1>{d.title}{' '}<span class="sub">{d.subtitle}</span></h1>
         <p class="intro">{d.intro}</p>
         <a class="back" href="/cases"><Icon name="arrow-left" size={20} /> {cp.backLabel}</a>
       </div>

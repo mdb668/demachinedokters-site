@@ -123,6 +123,7 @@ collections:
             label: "Hero (bovenaan)"
             widget: object
             fields:
+              - { name: kicker, label: "Regel boven de titel (hoort bij de hoofdkop, goed voor Google)", widget: string, required: false }
               - { name: title, label: "Titel", widget: string }
               - { name: subtitle, label: "Ondertitel", widget: string }
               - { name: lead, label: "Toelichtende zin onder de titel (goed voor Google)", widget: text, required: false }

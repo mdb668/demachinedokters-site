@@ -1,5 +1,6 @@
 {
   "hero": {
+    "kicker": "Procesoptimalisatie & machineonderhoud voor de maakindustrie",
     "title": "De Machinedokters",
     "subtitle": "Versnellen. Verbeteren. Vooruitgaan.",
     "video": "/video/hero.mp4",
@@ -39,14 +40,14 @@
     "quote": "\"Koppige machine? Perfect. Dat is onze specialiteit.\"",
     "items": [
       {
-        "title": "Inefficient productieproces",
-        "text": "Je machines draaien onder capaciteit en de output per uur is lager dan gewenst. Neem bijvoorbeeld onze klant Coca Cola, waarbij we het bottelproces hebben geoptimaliseerd. Dankzij onze oplossingen draait de nieuwe lijn 30% sneller!",
+        "title": "Inefficiënt productieproces",
+        "text": "Je machines draaien onder capaciteit en de output per uur is lager dan gewenst. Neem bijvoorbeeld onze klant Coca-Cola, waarbij we het bottelproces hebben geoptimaliseerd. Dankzij onze oplossingen draait de nieuwe lijn 30% sneller!",
         "image": "/images/fotos/bottellijn.jpg",
         "imageAlt": "Geautomatiseerde productielijn met kleine lege flessen op lopende band in fabriek."
       },
       {
         "title": "Hoge stilstand- en onderhoudskosten",
-        "text": "Onverwachte storingen en hoge onderhoudskosten drukken direct op de winst. Elke minuut stilstand betekent productieverlies. Bij Coca Cola hebben wij gezorgd voor 40% minder storingen.\n\nDoor deze twee klachten te genezen heeft Coca Cola in één jaar meer dan €50 miljoen extra omzet gedraaid.",
+        "text": "Onverwachte storingen en hoge onderhoudskosten drukken direct op de winst. Elke minuut stilstand betekent productieverlies. Bij Coca-Cola hebben wij gezorgd voor 40% minder storingen.\n\nDoor deze twee klachten te genezen heeft Coca-Cola in één jaar meer dan €50 miljoen extra omzet gedraaid.",
         "image": "/images/fotos/transportsysteem.jpg",
         "imageAlt": "Industrieel transportsysteem met rollenbanen, gele leuningen en controlepanelen in fabriekshal."
       },

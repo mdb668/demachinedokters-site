@@ -143,6 +143,7 @@ strong { font-weight: 600; }
 }
 .page-hero .inner { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: start; }
 .page-hero h1 { margin-bottom: 0.4em; }
+.page-hero h1 .sub { display: block; margin-top: 0.4em; line-height: 1.35; }
 .page-hero .sub { font-weight: 600; color: var(--blue); margin-bottom: 0.5em; font-size: 1.1rem; }
 .page-hero .intro { max-width: 760px; color: var(--muted); }
 .page-hero .quote-wrap { padding-top: 24px; }

@@ -25,7 +25,7 @@ const p = (await getEntry('pages', 'home'))!.data;
     <img class="hero-fallback" src={p.hero.poster} alt="" aria-hidden="true" />
     <div class="hero-overlay"></div>
     <div class="container hero-content">
-      <h1>{p.hero.title}</h1>
+      <h1>{p.hero.kicker && <span class="kicker">{p.hero.kicker}</span>}{' '}{p.hero.title}</h1>
       <p class="tagline">{p.hero.subtitle}</p>
       {p.hero.lead && <p class="hero-lead">{p.hero.lead}</p>}
     </div>
@@ -152,6 +152,7 @@ const p = (await getEntry('pages', 'home'))!.data;
   .hero-overlay { position: absolute; inset: 0; z-index: 2; background: linear-gradient(180deg, rgba(7, 76, 130, 0.45), rgba(7, 76, 130, 0.65)); }
   .hero-content { position: relative; z-index: 3; padding: 140px 0 160px; }
   .hero h1 { color: #fff; font-size: clamp(2.6rem, 6vw, 4.4rem); margin-bottom: 0.2em; text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25); }
+  .hero h1 .kicker { display: block; font-size: clamp(0.8rem, 1.3vw, 1rem); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sky); text-shadow: none; margin-bottom: 0.6em; }
   .hero-lead { color: rgba(255, 255, 255, 0.92); font-size: clamp(1rem, 1.4vw, 1.15rem); max-width: 720px; margin: 18px auto 0; }
   .tagline { color: #fff; font-size: clamp(1.15rem, 2vw, 1.5rem); font-weight: 500; margin: 0; letter-spacing: 0.02em; }
 

@@ -16,8 +16,10 @@ const ld = {
   areaServed: ['Noord-Brabant', 'Alphen', 'Tilburg', 'Breda', 'Waalwijk'],
   description: p.seoDescription,
 };
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Diensten', href: '/diensten' }, { name: 'NEN 3140/1010 keuring', href: '/diensten/nen-3140-1010' }];
+const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, Astro.site).href })) };
 ---
-<Base title={p.seoTitle} description={p.seoDescription} image={p.image} jsonLd={ld}>
+<Base title={p.seoTitle} description={p.seoDescription} image={p.image} jsonLd={[ld, crumbLd]}>
   <section class="page-hero is-center nen-hero">
     <div class="container center">
       <h1>{p.title}</h1>

@@ -9,7 +9,7 @@ seoDescription: "De algemene voorwaarden van Reboow B.V.: offertes, betaling, le
 
 ## Wie we zijn
 
-Reboow B.V. is gevestigd aan de Looiersweg 3C3 in Alpen en is ingeschreven bij de Kamer van Koophandel. We ontwerpen en realiseren technische oplossingen voor bedrijven die vooruit willen. In alles wat we doen staan kwaliteit, betrouwbaarheid en samenwerking centraal.
+Reboow B.V. is gevestigd aan de Looiersweg 3B in Alpen en is ingeschreven bij de Kamer van Koophandel. We ontwerpen en realiseren technische oplossingen voor bedrijven die vooruit willen. In alles wat we doen staan kwaliteit, betrouwbaarheid en samenwerking centraal.
 
 ## Wanneer deze voorwaarden gelden
 

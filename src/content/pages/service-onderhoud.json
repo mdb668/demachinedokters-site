@@ -1,34 +1,110 @@
 {
-  "seoTitle": "Service & onderhoud | De Machinedokters",
-  "seoDescription": "Storingsdienst, revisies & reparaties en preventief onderhoud. Wij zorgen dat jouw productielijn betrouwbaar en optimaal blijft draaien.",
-  "title": "Service & onderhoud",
-  "subtitle": "Wij zorgen dat jouw productielijnen betrouwbaar en optimaal blijven draaien",
-  "intro": "Hierbij werken we preventief, reviseren we en komen we onmiddellijk in actie bij een storing.",
+  "seoTitle": "Machineonderhoud dat storingen voorkomt | De Machinedokters",
+  "seoDescription": "Service en onderhoud voor productielijnen, gericht op storingen voorkomen. We pakken de oorzaak van stilstand aan, merkonafhankelijk, vanuit Noord-Brabant.",
+  "title": "Service & onderhoud dat storingen voorkomt",
+  "subtitle": "Minder ongeplande stilstand, niet meer onderhoudsuren",
+  "intro": "Veel onderhoud draait om vaste rondes: smeren, schoonmaken, onderdelen wisselen volgens schema. Toch blijft de lijn stilvallen. Wij kijken anders naar onderhoud. **De vraag is niet wat er volgens het boekje moet gebeuren, maar waarom jouw machine stopt.** Daar richten we ons onderhoud op.",
+  "problemTitle": "Waarom standaard onderhoud storingen niet stopt",
+  "problemText": "Een onderhoudsplan uit de handleiding gaat uit van een gemiddelde machine in een gemiddelde fabriek. Jouw lijn draait met jouw producten, jouw snelheden en jouw operators. De storingen die jou productie kosten, staan zelden in dat plan.\n\nHet resultaat herken je misschien: de monteur is druk, de onderdelen worden keurig op tijd vervangen, en toch staat de lijn elke week een paar keer stil. Steeds op dezelfde plek, steeds met hetzelfde trucje weer aan de praat.\n\nOnderhoud voegt pas waarde toe als het de storingen voorkomt die jou echt geld kosten. Daarom beginnen we niet met een schema, maar met je storingen.",
   "blocks": [
     {
-      "title": "Storingsdiensten",
-      "text": "Een storing komt nooit gelegen. Daarom staan wij snel voor je klaar wanneer het misgaat. Onze storingsdienst is bereikbaar voor urgente technische problemen en helpt je zo snel mogelijk weer op weg. We denken mee, handelen snel en zorgen voor een blijvende oplossing, niet alleen een tijdelijke fix.",
+      "title": "Storingen voorkomen",
+      "text": "We brengen in kaart welke storingen jouw lijn het vaakst en het langst stilzetten, en waar ze vandaan komen. Slijtage, een verkeerde afstelling, een sensor die net niet goed zit, een besturing die verkeerd reageert. Op die zwakke plekken richten we het onderhoud. Waar het loont, lezen we de data uit die de machine al heeft, of plaatsen we extra sensoren om afwijkingen te zien voordat de machine stopt.",
+      "listTitle": "Wat dat oplevert:",
+      "list": [
+        "Minder ongeplande stilstand op de plekken die er echt toe doen",
+        "Onderhoud op basis van de conditie van de machine, niet van de kalender",
+        "Vroegtijdig signaleren via trillingen, temperatuur, stroomopname of PLC-data",
+        "Geen onnodige onderhoudsstops en geen onderdelen die te vroeg worden vervangen"
+      ],
+      "icon": "shield"
+    },
+    {
+      "title": "Storingsdienst",
+      "text": "Gaat het toch mis, dan schakelen we snel. Eerst zorgen we dat je weer produceert. Daarna zoeken we uit waarom het gebeurde, zodat dezelfde storing niet volgende week terugkomt. Een tijdelijke fix noemen we ook zo, en we spreken af wanneer de echte oplossing volgt. Met vaste klanten leggen we de aanrijdtijd vooraf vast, afgestemd op de locatie en het servicecontract.",
       "listTitle": "Wat je kunt verwachten:",
-      "list": ["Snel schakelen bij stilstand of uitval", "Ervaren monteurs die de oorzaak aanpakken", "Heldere communicatie en korte lijnen"],
+      "list": [
+        "Snel schakelen bij stilstand of uitval",
+        "Monteurs die zowel mechanica als besturingstechniek beheersen",
+        "Na elke storing de oorzaak boven tafel, niet alleen het symptoom weg",
+        "Aanrijdtijd en bereikbaarheid vooraf afgesproken in je servicecontract"
+      ],
       "icon": "alert"
     },
     {
-      "title": "Revisies & reparaties",
-      "text": "Of het nu gaat om het vervangen van versleten onderdelen of het volledig reviseren van machines: wij zorgen dat jouw installaties weer als nieuw functioneren. Onze vakmensen brengen machines terug naar hun originele staat, met verbeterde prestaties en een langere levensduur als resultaat.",
+      "title": "Revisies & verbeteringen",
+      "text": "Bij een revisie brengen we een machine niet alleen terug naar de originele staat. Als een onderdeel steeds weer slijt of breekt, zit het probleem vaak in het ontwerp of de toepassing. Dan passen we het aan, zodat het zwakke punt verdwijnt in plaats van terugkomt. Dat doen we op locatie of in onze eigen werkplaats in Alphen.",
       "listTitle": "Wat we doen:",
-      "list": ["Vervanging van onderdelen", "Mechanische en elektrische revisies", "Verlenging van de inzetbaarheid van machines"],
+      "list": [
+        "Mechanische en elektrische revisies",
+        "Terugkerende slijtplekken constructief oplossen",
+        "Verouderde componenten vervangen voordat ze een storing veroorzaken",
+        "De levensduur en betrouwbaarheid van bestaande machines verlengen"
+      ],
       "icon": "wrench"
-    },
-    {
-      "title": "Preventief onderhoud",
-      "text": "We voeren periodiek onderhoud uit om machines in topconditie te houden. Zo voorkomen we ongeplande stilstand, verlengen we de levensduur van installaties en zorgen we voor een constante productiviteit. Onze technici controleren essentiële componenten en voeren kleine reparaties uit voordat ze grote problemen worden.",
-      "listTitle": "Voordelen:",
-      "list": ["Minder kans op storingen", "Lagere onderhoudskosten op lange termijn", "Maximale beschikbaarheid van jouw productieproces"],
-      "icon": "shield"
     }
   ],
-  "faqTitle": "Heb je vragen?",
-  "faqText": "Kijk dan eens bij onze veelgestelde vragen.",
-  "faqButtonLabel": "Veelgestelde vragen",
+  "stepsTitle": "Zo pakken we het aan",
+  "steps": [
+    {
+      "title": "Storingshistorie in kaart",
+      "text": "Samen met je operators en technische dienst zetten we op een rij waar de lijn stilvalt, hoe vaak en hoe lang. Uit storingslogs, PLC-data en vooral uit de mensen die er dagelijks naast staan."
+    },
+    {
+      "title": "Oorzaken vinden",
+      "text": "Per terugkerende storing zoeken we de echte oorzaak. Niet wat er kapotging, maar waarom het kapotging."
+    },
+    {
+      "title": "Gericht onderhoudsplan",
+      "text": "Een plan met alleen het onderhoud dat storingen voorkomt. Wat geen effect heeft op de beschikbaarheid, schrappen of verschuiven we."
+    },
+    {
+      "title": "Meten en bijsturen",
+      "text": "We volgen de stilstand en storingen na de aanpassingen. Zo zie je zwart op wit wat het oplevert, en weten we waar de volgende winst zit."
+    }
+  ],
+  "notTitle": "Samen het meeste uit je machines halen",
+  "notText": "We werken het liefst langdurig samen. Hoe beter we jouw lijn, je producten en je mensen kennen, hoe eerder we zien waar de volgende storing vandaan komt. Daarom zijn we het sterkst als vaste partner: we denken mee over het onderhoudsplan, de slimme verbeteringen en de grote stappen.\n\nVoor een losse onderhoudsstop van een week zijn wij niet de logische partij. Wel voor het voorwerk: bepalen wat er in die stop moet gebeuren, welke zwakke plekken je aanpakt en hoe je daarna minder stilstaat. Waar een onderhoudscontract meerwaarde heeft, bieden we dat aan, afgestemd op jouw situatie.",
+  "proofTitle": "Wat het oplevert",
+  "proof": [
+    {
+      "value": "30%",
+      "label": "minder ongeplande stilstand bij een automotive toeleverancier",
+      "link": "/case-automotive/"
+    },
+    {
+      "value": "40%",
+      "label": "minder storingen op de lijnen van Coca-Cola",
+      "link": "/case-coca-cola/"
+    }
+  ],
+  "faqTitle": "Veelgestelde vragen over service en onderhoud",
+  "faq": [
+    {
+      "question": "Wat is het verschil tussen correctief, preventief en predictief onderhoud?",
+      "answer": "Correctief onderhoud is repareren nadat iets kapot is. Preventief onderhoud is vervangen of controleren volgens een vast schema, ook als het onderdeel nog goed is. Predictief onderhoud is ingrijpen op basis van de werkelijke conditie van de machine, gemeten met sensoren of machinedata. Wij combineren ze zo dat je de storingen voorkomt die je het meest kosten, zonder onnodige onderhoudsstops."
+    },
+    {
+      "question": "Kunnen jullie ook ons reguliere onderhoud uitvoeren?",
+      "answer": "Waar het meerwaarde heeft, bieden we een onderhoudscontract aan, afgestemd op jouw lijn. Onze kracht zit in het denkwerk: onderhoud zo inrichten dat storingen wegblijven, en samen met jou de machines steeds beter laten draaien. Voor alleen extra handen tijdens een losse onderhoudsstop zijn wij niet de logische partij, wel voor de planning en de slimme verbeteringen daarvoor."
+    },
+    {
+      "question": "Hoe snel zijn jullie er bij een storing?",
+      "answer": "Dat spreken we vooraf met je af. De aanrijdtijd hangt af van je locatie en het type servicecontract. Vanuit Alphen zijn we snel in de regio Tilburg, Breda en Waalwijk. We bieden geen 24/7-dienst aan; wel heldere afspraken die passen bij jouw productie."
+    },
+    {
+      "question": "Werken jullie aan machines van elk merk?",
+      "answer": "Ja. We werken merkonafhankelijk aan productiemachines en complete productielijnen, onder andere in de maakindustrie, verpakkingsindustrie en voedingsmiddelenindustrie. Mechanica, elektrotechniek en besturing (PLC) pakken we in één keer mee."
+    },
+    {
+      "question": "Hoe zien jullie aankomen dat een machine gaat storen?",
+      "answer": "Veel storingen kondigen zich aan: meer trillingen, een hogere temperatuur, een motor die meer stroom trekt, een sensor die vaker een foutmelding geeft of kleine stops die toenemen. Die signalen lezen we uit de besturing en de sensoren die er al zitten, of we plaatsen extra sensoren waar dat loont. En we gebruiken de ervaring van je operators."
+    },
+    {
+      "question": "In welke regio werken jullie?",
+      "answer": "Vanuit Alphen in Noord-Brabant werken we dagelijks voor fabrieken in onder andere Tilburg, Breda en Waalwijk. Voor projecten komen we door heel Nederland."
+    }
+  ],
+  "faqButtonLabel": "Meer veelgestelde vragen",
   "faqButtonLink": "/veelgestelde-vragen"
 }

@@ -325,8 +325,35 @@ collections:
               - { name: listTitle, label: "Titel opsomming", widget: string }
               - { name: list, label: "Opsomming", widget: list }
               - { name: icon, label: "Icoon", widget: select, options: [alert, wrench, shield, clock, process, check] }
+          - { name: problemTitle, label: "Titel probleem-blok", widget: string, required: false }
+          - { name: problemText, label: "Tekst probleem-blok", widget: text, required: false }
+          - { name: stepsTitle, label: "Titel aanpak", widget: string, required: false }
+          - name: steps
+            label: "Stappen aanpak"
+            widget: list
+            required: false
+            fields:
+              - { name: title, label: "Titel", widget: string }
+              - { name: text, label: "Tekst", widget: text }
+          - { name: proofTitle, label: "Titel resultaten", widget: string, required: false }
+          - name: proof
+            label: "Resultaten (cijfers uit cases)"
+            widget: list
+            required: false
+            fields:
+              - { name: value, label: "Cijfer", widget: string }
+              - { name: label, label: "Omschrijving", widget: string }
+              - { name: link, label: "Link naar case", widget: string }
+          - { name: notTitle, label: "Titel 'wat we niet doen'", widget: string, required: false }
+          - { name: notText, label: "Tekst 'wat we niet doen'", widget: text, required: false }
           - { name: faqTitle, label: "Titel FAQ-blok", widget: string }
-          - { name: faqText, label: "Tekst FAQ-blok", widget: string }
+          - name: faq
+            label: "Veelgestelde vragen (ook voor Google)"
+            widget: list
+            required: false
+            fields:
+              - { name: question, label: "Vraag", widget: string }
+              - { name: answer, label: "Antwoord", widget: text }
           - { name: faqButtonLabel, label: "Knop FAQ", widget: string }
           - { name: faqButtonLink, label: "Link FAQ", widget: string }
 

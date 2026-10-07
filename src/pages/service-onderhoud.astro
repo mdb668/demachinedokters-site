@@ -3,14 +3,45 @@ import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Icon from '../components/Icon.astro';
+import { renderText } from '../lib/md';
 import { getEntry } from 'astro:content';
 
 const site = (await getEntry('settings', 'site'))!.data;
 const p = (await getEntry('pages', 'service-onderhoud'))!.data;
+const faq: { question: string; answer: string }[] = p.faq ?? [];
+
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Service & onderhoud', href: '/service-onderhoud' }];
+const ld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'Service en onderhoud gericht op storingen voorkomen',
+    serviceType: 'Machineonderhoud en storingsdienst voor productielijnen',
+    provider: { '@id': `${Astro.site}#organization` },
+    areaServed: ['Noord-Brabant', 'Nederland'],
+    description: p.seoDescription,
+  },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, Astro.site).href })) },
+  ...(faq.length ? [{
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })),
+  }] : []),
+];
 ---
-<Base title={p.seoTitle} description={p.seoDescription}>
+<Base title={p.seoTitle} description={p.seoDescription} jsonLd={ld}>
   <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} />
-  <section class="section-sm">
+
+  {p.problemTitle && (
+    <section class="section-sm">
+      <div class="container-narrow">
+        <h2>{p.problemTitle}</h2>
+        <div class="muted" set:html={renderText(p.problemText)} />
+      </div>
+    </section>
+  )}
+
+  <section class="section-sm section-bg">
     <div class="container blocks">
       {p.blocks.map((b: any) => (
         <article class="card block">
@@ -25,11 +56,57 @@ const p = (await getEntry('pages', 'service-onderhoud'))!.data;
       ))}
     </div>
   </section>
-  <section class="section-sm center">
+
+  {p.steps?.length && (
+    <section class="section-sm">
+      <div class="container">
+        <h2 class="center">{p.stepsTitle}</h2>
+        <ol class="steps">
+          {p.steps.map((s: any, i: number) => (
+            <li class="card"><span class="nr">{i + 1}</span><h3>{s.title}</h3><p class="muted">{s.text}</p></li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )}
+
+  {p.proof?.length && (
+    <section class="section-sm section-bg">
+      <div class="container center">
+        <h2>{p.proofTitle}</h2>
+        <div class="proof">
+          {p.proof.map((r: any) => (
+            <a class="card stat" href={r.link}><strong>{r.value}</strong><span class="muted">{r.label}</span><span class="more">Bekijk de case <Icon name="arrow-right" size={18} /></span></a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {p.notTitle && (
+    <section class="section-sm">
+      <div class="container-narrow">
+        <h2>{p.notTitle}</h2>
+        <div class="muted" set:html={renderText(p.notText)} />
+        <p class="muted">Wil je weten hoe we een storing tot op de bodem uitzoeken? Lees meer over <a href="/diensten/onderhoud-storingsanalyse/">storingsanalyse</a>. Je eigen operators en monteurs leren de signalen zelf herkennen? Dat doen we met <a href="/diensten/training-ondersteuning/">training en ondersteuning</a>.</p>
+      </div>
+    </section>
+  )}
+
+  <section class="section-sm">
     <div class="container-narrow">
-      <h2>{p.faqTitle}</h2>
-      <p class="muted">{p.faqText}</p>
-      <a class="btn btn-outline" href={p.faqButtonLink}>{p.faqButtonLabel}</a>
+      <h2 class="center">{p.faqTitle}</h2>
+      {faq.length > 0 && (
+        <div class="faq">
+          {faq.map((f) => (
+            <details class="item">
+              <summary><span>{f.question}</span><Icon name="chevron-down" size={22} /></summary>
+              <p class="answer">{f.answer}</p>
+            </details>
+          ))}
+        </div>
+      )}
+      <p class="center"><a class="btn btn-outline" href={p.faqButtonLink}>{p.faqButtonLabel}</a></p>
     </div>
   </section>
   <CtaBand label={site.ctaLabel} href={site.ctaLink} />
@@ -39,5 +116,22 @@ const p = (await getEntry('pages', 'service-onderhoud'))!.data;
   .block { display: grid; grid-template-columns: 84px 1fr; gap: 28px; align-items: start; padding: 36px; }
   .block h2 { font-size: 1.6rem; }
   .block ul { margin: 0; }
-  @media (max-width: 640px) { .block { grid-template-columns: 1fr; } }
+  .steps { list-style: none; padding: 0; margin: 28px 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+  .steps li { position: relative; padding: 28px 24px; }
+  .steps .nr { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--blue); color: #fff; font-weight: 600; margin-bottom: 14px; }
+  .steps h3 { font-size: 1.15rem; }
+  .steps p { margin: 0; }
+  .proof { display: grid; grid-template-columns: repeat(2, minmax(0, 340px)); justify-content: center; gap: 24px; margin-top: 28px; }
+  .stat { display: grid; gap: 8px; padding: 32px 28px; text-decoration: none; }
+  .stat strong { font-size: 3rem; line-height: 1; color: var(--blue); }
+  .stat .more { display: inline-flex; align-items: center; justify-content: center; gap: 6px; color: var(--blue); font-weight: 500; }
+  .faq { display: grid; gap: 10px; margin: 24px 0; }
+  .item { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 0 22px; }
+  summary { display: flex; justify-content: space-between; align-items: center; gap: 16px; cursor: pointer; list-style: none; padding: 18px 0; font-weight: 500; color: var(--blue); font-size: 1.05rem; }
+  summary::-webkit-details-marker { display: none; }
+  summary :global(svg) { flex: none; transition: transform 0.25s; }
+  details[open] summary :global(svg) { transform: rotate(180deg); }
+  .answer { padding: 0 0 18px; margin: 0; color: var(--muted); }
+  @media (max-width: 900px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .block { grid-template-columns: 1fr; } .steps, .proof { grid-template-columns: 1fr; } }
 </style>

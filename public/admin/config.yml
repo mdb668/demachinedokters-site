@@ -335,6 +335,9 @@ collections:
             fields:
               - { name: title, label: "Titel", widget: string }
               - { name: text, label: "Tekst", widget: text }
+          - { name: exampleTitle, label: "Titel praktijkvoorbeeld", widget: string, required: false }
+          - { name: exampleText, label: "Tekst praktijkvoorbeeld", widget: text, required: false, hint: "**vet** werkt; lege regel = nieuwe alinea." }
+          - { name: exampleLink, label: "Link naar de case", widget: string, required: false }
           - { name: proofTitle, label: "Titel resultaten", widget: string, required: false }
           - name: proof
             label: "Resultaten (cijfers uit cases)"

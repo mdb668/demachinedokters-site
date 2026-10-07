@@ -70,6 +70,16 @@ const ld = [
     </section>
   )}
 
+  {p.exampleTitle && (
+    <section class="section-sm">
+      <div class="container-narrow example">
+        <h2>{p.exampleTitle}</h2>
+        <div class="muted" set:html={renderText(p.exampleText)} />
+        {p.exampleLink && <a class="more-link" href={p.exampleLink}>Lees de hele case <Icon name="arrow-right" size={18} /></a>}
+      </div>
+    </section>
+  )}
+
   {p.proof?.length && (
     <section class="section-sm section-bg">
       <div class="container center">
@@ -121,7 +131,9 @@ const ld = [
   .steps .nr { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--blue); color: #fff; font-weight: 600; margin-bottom: 14px; }
   .steps h3 { font-size: 1.15rem; }
   .steps p { margin: 0; }
-  .proof { display: grid; grid-template-columns: repeat(2, minmax(0, 340px)); justify-content: center; gap: 24px; margin-top: 28px; }
+  .proof { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 320px)); justify-content: center; gap: 24px; margin-top: 28px; }
+  .example { border-left: 4px solid var(--green); padding-left: 28px; }
+  .more-link { display: inline-flex; align-items: center; gap: 6px; font-weight: 500; }
   .stat { display: grid; gap: 8px; padding: 32px 28px; text-decoration: none; }
   .stat strong { font-size: 3rem; line-height: 1; color: var(--blue); }
   .stat .more { display: inline-flex; align-items: center; justify-content: center; gap: 6px; color: var(--blue); font-weight: 500; }

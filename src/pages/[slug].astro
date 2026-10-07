@@ -7,6 +7,7 @@ import Quote from '../components/Quote.astro';
 import { renderText } from '../lib/md';
 import { getEntry, getCollection, render } from 'astro:content';
 import { serviceSlug } from '../lib/slugs';
+import { formTarget } from '../lib/form';
 
 export async function getStaticPaths() {
   const cases = await getCollection('cases', (c) => c.data.published);
@@ -115,7 +116,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
             </aside>
           )}
         </div>
-        <form class="form" method="POST" action={`https://formsubmit.co/${site.formEndpoint ?? site.formEmail}`} enctype="multipart/form-data">
+        <form class="form" method="POST" action="/contact/" data-fs={formTarget(site)} enctype="multipart/form-data">
           <input type="hidden" name="_subject" value={`Sollicitatie: ${d.title}`} />
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_captcha" value="false" />

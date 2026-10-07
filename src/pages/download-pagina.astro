@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { getEntry } from 'astro:content';
+import { formTarget } from '../lib/form';
 
 const site = (await getEntry('settings', 'site'))!.data;
 const p = (await getEntry('pages', 'download'))!.data;
@@ -15,7 +16,7 @@ const f = p.form;
   </section>
   <section class="section-sm">
     <div class="container-narrow dl">
-      <form class="form" method="POST" action={`https://formsubmit.co/${site.formEndpoint ?? site.formEmail}`}>
+      <form class="form" method="POST" action="/contact/" data-fs={formTarget(site)}>
         <input type="hidden" name="_subject" value="Download-aanvraag via demachinedokters.nl" />
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_captcha" value="false" />

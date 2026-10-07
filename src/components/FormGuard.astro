@@ -1,0 +1,21 @@
+---
+/** Bescherming tegen formulierspam:
+ *  - het FormSubmit-adres staat versleuteld in data-fs en wordt pas in de browser in de action gezet
+ *    (bots die de HTML uitlezen vinden geen adres om rechtstreeks naar te posten);
+ *  - inzendingen binnen 3 seconden na het laden of met een ingevuld honeypot-veld worden stil genegeerd. */
+---
+<script>
+  const MIN_MS = 3000;
+  document.querySelectorAll<HTMLFormElement>('form[data-fs]').forEach((form) => {
+    const target = [...atob(form.dataset.fs!)].reverse().join('');
+    form.action = `https://formsubmit.co/${form.hasAttribute('data-ajax-form') ? 'ajax/' : ''}${target}`;
+    const loaded = Date.now();
+    form.addEventListener('submit', (e) => {
+      const honey = form.querySelector<HTMLInputElement>('input[name="_honey"]');
+      if (Date.now() - loaded < MIN_MS || (honey && honey.value)) {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }
+    }, { capture: true });
+  });
+</script>

@@ -11,8 +11,8 @@ slug: "speciaalmachines"
 seoTitle: "Machinebouwer voor speciaalmachines op maat | De Machinedokters"
 seoDescription: "Machinebouw op maat: speciaalmachines, werkstations en complete lijnen, van €6.000 tot €400.000 per project. Ontwerp, bouw en inbedrijfstelling vanuit Brabant."
 relatedCases:
+  - "case-stabalkmachine"
   - "case-aluminium"
-  - "case-verpakkingsindustrie"
   - "case-altrex"
 faq:
   - question: "Wat kost een speciaalmachine?"
@@ -34,6 +34,10 @@ Sommige producten passen simpelweg niet in een machine uit de catalogus: een afw
 We beginnen altijd in de fabriek, niet achter een tekentafel. We kijken hoe het product nu door de lijn gaat, waar het hapert en wat operators dagelijks moeten corrigeren. Daaruit volgt een concept dat we samen met jouw team toetsen, voordat we ook maar één plaat laten snijden. Zo voorkomen we over-engineering en bouwen we machines die eenvoudig zijn, en daardoor betrouwbaar.
 
 Ontwerp, mechanica, besturing en inbedrijfstelling doen we in eigen huis. Van een enkel werkstation tot een complete assemblagelijn: je krijgt één aanspreekpunt, korte lijnen en een machine die aansluit op wat er al staat. En omdat we ook onderhoud en optimalisatie doen, bouwen we vanaf dag één met het oog op de jaren daarna: goed bereikbaar, snel om te bouwen en klaar voor CE-markering.
+
+## Ook zonder tekeningen
+
+Niet elk project begint bij een leeg vel. Vaak bouwen we om, verplaatsen we machines of passen we bestaande installaties aan waar we niet vanaf de tekening bij zijn geweest. Dan is niet alles gedocumenteerd, en lossen we het op zoals we het tegenkomen: in het werk, op de vloer. Zo verplaatsten en verbeterden we bij een [producent in de verpakkingsindustrie](/case-verpakkingsindustrie/) een complete lijn.
 
 ## Wat kost machinebouw op maat?
 

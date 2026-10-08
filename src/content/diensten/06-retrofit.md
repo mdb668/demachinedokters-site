@@ -11,9 +11,9 @@ slug: "retrofit"
 seoTitle: "Retrofit: verouderde machines moderniseren | De Machinedokters"
 seoDescription: "Retrofit van productiemachines: nieuwe PLC-besturing, aandrijvingen, sensoren en veiligheid voor bestaande installaties. Betrouwbaarder en langer mee, zonder nieuwbouw."
 relatedCases:
-  - "case-mens-en-industrie"
-  - "case-toeleverancier-unilever"
-  - "case-coca-cola"
+  - "case-altrex"
+  - "case-aluminium"
+  - "case-verpakkingsindustrie"
 ---
 
 Een machine van twintig jaar oud is mechanisch vaak nog prima. Wat verouderd raakt, is de besturing: een PLC waar geen onderdelen meer voor zijn, een bedieningspaneel dat niemand meer begrijpt, aandrijvingen die niet meer regelbaar zijn. Vervangen kost een vermogen en weken stilstand. Retrofit niet.

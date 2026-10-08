@@ -12,7 +12,7 @@ seoTitle: "Retrofit: verouderde machines moderniseren | De Machinedokters"
 seoDescription: "Retrofit van productiemachines: nieuwe PLC-besturing, aandrijvingen, sensoren en veiligheid voor bestaande installaties. Betrouwbaarder en langer mee, zonder nieuwbouw."
 relatedCases:
   - "case-mens-en-industrie"
-  - "case-automotive"
+  - "case-toeleverancier-unilever"
   - "case-coca-cola"
 ---
 

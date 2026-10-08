@@ -12,7 +12,7 @@ seoTitle: "Onderhoud & storingsanalyse productiemachines | De Machinedokters"
 seoDescription: "Preventief, correctief en predictief onderhoud van industriële machines. Wij vinden de echte oorzaak van storingen en voorkomen stilstand structureel."
 relatedCases:
   - "case-vulproces-voedingsproducent"
-  - "case-automotive"
+  - "case-toeleverancier-unilever"
   - "case-mens-en-industrie"
   - "case-altrex"
 ---

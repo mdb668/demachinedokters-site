@@ -14,7 +14,7 @@ export default defineConfig({
     sitemap({
       filter: (page) =>
         !page.includes('/bedankt') && !page.includes('/admin') && !page.includes('/404') &&
-        !/\/(home|merchandise|blank|behandelplan|download-pagina)\/?$/.test(page),
+        !/\/(home|merchandise|blank|behandelplan|download-pagina|case-automotive)\/?$/.test(page),
       serialize(item) {
         const path = new URL(item.url).pathname.replace(/\/?$/, '/');
         if (lastmod.has(path)) item.lastmod = lastmod.get(path);

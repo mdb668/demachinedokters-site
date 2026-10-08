@@ -17,7 +17,7 @@ Herbouw van de oude Wix-site als statische Astro-site met een eigen CMS, gehost 
 - Componenten (Header, Footer, ContactForm, Mail, enz.) zijn **niet gedeeld** met reboow-site — een wijziging moet in beide repo's apart doorgevoerd worden.
 - E-mailadres staat *niet* als platte tekst in de HTML (`src/components/Mail.astro` bouwt het in de browser op) — tegen recruitment-harvesters. Optioneel CMS-veld `formEndpoint` (Instellingen) voor de hashed FormSubmit-code, verbergt het adres ook uit formulier-URL's.
 - Team, cases, diensten, FAQ, klantlogo's, vacatures, juridische pagina's: alles bewerkbaar via het CMS, staat in `src/content/`.
-- Oude Wix-URL's blijven werken via doorverwijzingen (`src/components/Redirect.astro`): `/home`, `/merchandise`, `/blank`, `/behandelplan`, `/blog-feed.xml` (serveert de RSS-feed).
+- Oude Wix-URL's blijven werken via doorverwijzingen (`src/components/Redirect.astro`): `/home`, `/merchandise`, `/blank`, `/behandelplan`, `/blog-feed.xml` (serveert de RSS-feed), `/case-automotive` (→ `/case-toeleverancier-unilever`).
 - Sitemap-filter in `astro.config.mjs` sluit doorverwijzingspagina's en de (noindex) downloadpagina uit.
 
 ## Merkstrategie (sinds 21-09-2026)

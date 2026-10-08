@@ -11,7 +11,7 @@ slug: "software-integratie"
 seoTitle: "Software- & systeemintegratie van productielijnen | De Machinedokters"
 seoDescription: "Machines van verschillende merken laten samenwerken: PLC-programmatuur, sensoren, dashboards en OEE-inzicht. Meer uit de hardware die je al hebt."
 relatedCases:
-  - "case-automotive"
+  - "case-toeleverancier-unilever"
   - "case-mens-en-industrie"
   - "case-coca-cola"
 ---

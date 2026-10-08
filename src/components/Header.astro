@@ -57,9 +57,12 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
   .nav a:not(.btn)::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--green); transform: scaleX(0); transition: transform 0.2s; transform-origin: left; }
   .nav a:not(.btn):hover::after, .nav a.active::after { transform: scaleX(1); }
   .burger { display: none; background: none; border: 0; color: var(--blue); cursor: pointer; padding: 6px; }
-  .burger .i-close { display: none; }
-  .open .burger .i-close { display: block; }
-  .open .burger .i-open { display: none; }
+  /* Icon rendert een eigen <svg>; de scoped-stijl van Header bereikt die alleen via :global */
+  .burger :global(.i-close) { display: none; }
+  .open .burger :global(.i-close) { display: block; }
+  .open .burger :global(.i-open) { display: none; }
+  /* backdrop-filter maakt de header het referentievak voor position: fixed, waardoor het mobiele menu werd afgesneden */
+  .site-header.open { backdrop-filter: none; -webkit-backdrop-filter: none; background: #fff; }
   @media (max-width: 1024px) {
     .nav ul { gap: 18px; }
     .nav a:not(.btn) { font-size: 0.95rem; }

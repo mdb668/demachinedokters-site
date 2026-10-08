@@ -465,7 +465,7 @@ collections:
       - { name: titleHtml, label: "Titel met regelafbreking (optioneel, gebruik <br>)", widget: string, required: false }
       - { name: tagline, label: "Korte slogan", widget: string }
       - { name: short, label: "Korte omschrijving (kaart)", widget: text }
-      - { name: icon, label: "Icoon", widget: select, options: [process, wrench, code, people, robot, shield, clock, gear-clock] }
+      - { name: icon, label: "Icoon", widget: select, options: [gauge, wrench, code, people, gear, retrofit, robot-arm, robot, shield, clock, process, gear-clock] }
       - { name: image, label: "Afbeelding", widget: image, required: false }
       - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
       - { name: order, label: "Volgorde", widget: number, default: 1 }

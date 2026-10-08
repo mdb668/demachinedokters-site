@@ -3,7 +3,7 @@ title: "Retrofit van bestaande machines"
 titleHtml: "Retrofit"
 tagline: "Moderniseren van verouderde machines."
 short: "Met retrofit brengen we bestaande machines up-to-date: nieuwe besturing, aandrijvingen en automatisering, zodat je oude machines nog jaren meegaan."
-icon: "wrench"
+icon: "retrofit"
 image: "/images/fotos/nen-keuring.jpg"
 imageAlt: "Monteur werkt aan de besturing van een bestaande productiemachine."
 order: 6

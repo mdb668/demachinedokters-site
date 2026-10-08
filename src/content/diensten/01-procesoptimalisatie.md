@@ -3,7 +3,7 @@ title: "Procesoptimalisatie & automatisering"
 titleHtml: "Procesoptimalisatie<br>& automatisering"
 tagline: "Slimmere processen voor maximale efficiëntie."
 short: "We analyseren en stroomlijnen jouw werkprocessen, elimineren inefficiënties en verhogen de doorlooptijd en kwaliteit."
-icon: "process"
+icon: "gauge"
 image: "/images/fotos/robots-productielijn.jpg"
 imageAlt: "Robots aan een productielijn."
 order: 1

@@ -3,7 +3,7 @@ title: "Robotisering & automatisering"
 titleHtml: "Robotisering<br>& automatisering"
 tagline: "Slimme systemen die werk overnemen."
 short: "Robots en automatisering nemen repeterend en zwaar werk over: sneller, foutloos en zonder afhankelijkheid van steeds schaarser personeel."
-icon: "robot"
+icon: "robot-arm"
 image: "/images/fotos/rco-robots.jpg"
 imageAlt: "Industriële robots in een productiehal."
 order: 7

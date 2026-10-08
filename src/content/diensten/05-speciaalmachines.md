@@ -3,7 +3,7 @@ title: "Machinebouw & speciaalmachines"
 titleHtml: "Machinebouw<br>& speciaalmachines"
 tagline: "Maatwerk voor unieke producten."
 short: "Past jouw product niet in een standaardmachine? Als machinebouwer ontwerpen en bouwen we speciaalmachines vanaf een blanco vel, precies afgestemd op jouw productie. Van een automatisering vanaf €6.000 tot complete lijnen."
-icon: "gear-up"
+icon: "gear"
 image: "/images/fotos/transportsysteem.jpg"
 imageAlt: "Op maat gebouwd transportsysteem met rollenbanen in een fabriekshal."
 order: 5

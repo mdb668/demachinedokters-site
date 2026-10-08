@@ -10,6 +10,11 @@
 - NEN 3140 en NEN 1010 keuringen van arbeidsmiddelen en machines in Noord-Brabant
 - Speciaalmachines en machinebouw op maat, retrofit van verouderde machines, robotisering en automatisering (voorheen onder de naam Reboow Group, nu onder De Machinedokters)
 
+## Machinebouw: prijzen en doorlooptijd
+- Projecten van €6.000 tot €400.000 per project; eenvoudige automatisering vanaf ca. €6.000, standaard palletiseerrobot of cobot vanaf ca. €50.000; meerdere machines of complete lijnen kunnen samen hoger uitkomen
+- Terugverdientijd berekend op extra productie per jaar of besparing in fte per jaar
+- Doorlooptijd: werkstation ca. 10 weken, complete lijn tot ca. 40 weken
+
 ## Voor wie
 - Productiebedrijven en fabrieken in de maakindustrie, verpakkings- en voedingsmiddelenindustrie
 - Sociale werkbedrijven (SW-bedrijven), FMCG-producenten en hun toeleveranciers (zoals verpakkingsproducenten)

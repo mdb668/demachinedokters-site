@@ -4,6 +4,7 @@ import PageHero from '../../components/PageHero.astro';
 import Inzet from '../../components/Inzet.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import FaqList from '../../components/FaqList.astro';
+import PageFaq from '../../components/PageFaq.astro';
 import Icon from '../../components/Icon.astro';
 import { getEntry, getCollection, render } from 'astro:content';
 import { serviceSlug } from '../../lib/slugs';
@@ -44,6 +45,11 @@ const ld = [
       { '@type': 'ListItem', position: 3, name: d.title, item: url },
     ],
   },
+  ...(d.faq?.length ? [{
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: d.faq.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })),
+  }] : []),
 ];
 ---
 <Base title={title} description={description} image={d.image} jsonLd={ld}>
@@ -78,8 +84,8 @@ const ld = [
 
   <section class="section-sm">
     <div class="container-narrow">
-      <h2>Veelgestelde vragen</h2>
-      <FaqList limit={6} />
+      <h2>{d.faq?.length ? `Veelgestelde vragen over ${d.title.toLowerCase()}` : 'Veelgestelde vragen'}</h2>
+      {d.faq?.length ? <PageFaq items={d.faq} /> : <FaqList limit={6} />}
       <p class="center more-faq"><a href="/veelgestelde-vragen">Alle veelgestelde vragen →</a></p>
     </div>
   </section>
@@ -98,7 +104,7 @@ const ld = [
         <a class="card other" href="/service-onderhoud">
           <span class="icon-circle"><Icon name="alert" size={28} stroke={1.4} /></span>
           <h3>Service & onderhoud</h3>
-          <p class="muted">Storingsdienst, revisies en preventief onderhoud.</p>
+          <p class="muted">Storingen voorkomen, storingsdienst en revisies.</p>
         </a>
       </div>
     </div>

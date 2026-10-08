@@ -1,0 +1,25 @@
+---
+/** FAQ met eigen vragen per pagina (uit de frontmatter / JSON), in dezelfde stijl als FaqList. */
+import Icon from './Icon.astro';
+import { renderText } from '../lib/md';
+interface Props { items: { question: string; answer: string }[] }
+const { items } = Astro.props;
+---
+<div class="faq">
+  {items.map((f) => (
+    <details class="item">
+      <summary><span>{f.question}</span><Icon name="chevron-down" size={22} /></summary>
+      <div class="answer" set:html={renderText(f.answer)} />
+    </details>
+  ))}
+</div>
+<style>
+  .faq { display: grid; gap: 10px; }
+  .item { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 0 22px; }
+  summary { display: flex; justify-content: space-between; align-items: center; gap: 16px; cursor: pointer; list-style: none; padding: 18px 0; font-weight: 500; color: var(--blue); font-size: 1.05rem; }
+  summary::-webkit-details-marker { display: none; }
+  summary :global(svg) { flex: none; transition: transform 0.25s; }
+  details[open] summary :global(svg) { transform: rotate(180deg); }
+  .answer { padding: 0 0 18px; color: var(--muted); }
+  .answer :global(p:last-child) { margin-bottom: 0; }
+</style>

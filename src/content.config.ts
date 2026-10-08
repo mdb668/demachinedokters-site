@@ -62,6 +62,7 @@ const services = defineCollection({
     seoTitle: z.string().optional(),
     seoDescription: z.string().optional(),
     relatedCases: z.array(z.string()).optional(),
+    faq: z.array(z.object({ question: z.string(), answer: z.string() })).optional(),
   }),
 });
 

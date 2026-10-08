@@ -26,7 +26,7 @@
 - Home: https://www.demachinedokters.nl/
 - Diensten: https://www.demachinedokters.nl/diensten/
 - NEN 3140/1010 keuring: https://www.demachinedokters.nl/diensten/nen-3140-1010/
-- Speciaalmachines: https://www.demachinedokters.nl/diensten/speciaalmachines/
+- Machinebouw & speciaalmachines: https://www.demachinedokters.nl/diensten/speciaalmachines/
 - Retrofit: https://www.demachinedokters.nl/diensten/retrofit/
 - Robotisering: https://www.demachinedokters.nl/diensten/robotisering/
 - Service & onderhoud: https://www.demachinedokters.nl/service-onderhoud/

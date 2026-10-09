@@ -91,6 +91,8 @@ const ld = [orgLd, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#074c82" />
     <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+    {/* Cloudflare Web Analytics: cookieloze bezoekersstatistieken, geen cookiemelding nodig */}
+    <script is:inline defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "f9a41397244e440aa8cd6a4d30d1106b"}'></script>
   </head>
   <body>
     <a class="skip" href="#main">Doorgaan naar hoofdinhoud</a>

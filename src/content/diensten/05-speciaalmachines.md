@@ -16,7 +16,7 @@ relatedCases:
   - "case-altrex"
 faq:
   - question: "Wat kost een speciaalmachine?"
-    answer: "Onze projecten liggen tussen de €6.000 en €400.000 per project. Een eenvoudige automatisering van één handeling begint al rond €6.000. Een standaard palletiseerrobot of cobot kan vanaf ongeveer €50.000 geleverd worden. Complete lijnen of meerdere machines kunnen samen hoger uitkomen. Wat het jou kost, hangt af van het aantal handelingen, de snelheid, de productvariatie en hoeveel flexibiliteit je nodig hebt."
+    answer: "Onze projecten liggen tussen de €6.000 en €400.000 per project. Een eenvoudige automatisering van één handeling begint al rond €6.000. Een standaard cobot-palletiseerder kan vanaf ongeveer €45.000, al komt het in de praktijk vaak eerder richting €100.000. Complete lijnen of meerdere machines kunnen samen hoger uitkomen. Wat het jou kost, hangt af van het aantal handelingen, de snelheid, de productvariatie en hoeveel flexibiliteit je nodig hebt."
   - question: "Hoe bereken je of een speciaalmachine zich terugverdient?"
     answer: "Meestal zetten we de investering af tegen de extra productie per jaar of de besparing in fte per jaar. Kwaliteitswinst ten opzichte van handwerk, zoals minder afkeur of minder fysieke belasting, verschilt sterk per project. Die brengen we per situatie in kaart. Zo weet je vooraf waar je op uitkomt."
   - question: "Hoe lang duurt het bouwen van een speciaalmachine?"
@@ -24,7 +24,7 @@ faq:
   - question: "Wat is speciaalmachinebouw?"
     answer: "Speciaalmachinebouw is het ontwerpen en bouwen van machines die niet uit een catalogus komen, maar speciaal gemaakt worden voor één product of proces. Bijvoorbeeld omdat het product een afwijkend formaat heeft, kwetsbaar is, of omdat een handeling tot nu toe alleen met de hand lukte."
   - question: "Wat is het verschil tussen een standaardmachine en maatwerk?"
-    answer: "Een standaardmachine is gemaakt voor een gemiddeld product en een gemiddelde fabriek, en is vaak sneller leverbaar. Maatwerk is ontworpen rond jouw product, jouw aantallen en jouw lijn. Waar een standaardoplossing past, adviseren we die gewoon, bijvoorbeeld een standaard palletiseerrobot of cobot. Maatwerk loont als de standaardmachine net niet doet wat nodig is."
+    answer: "Een standaardmachine is gemaakt voor een gemiddeld product en een gemiddelde fabriek, en is vaak sneller leverbaar. Maatwerk is ontworpen rond jouw product, jouw aantallen en jouw lijn. Waar een standaardoplossing past, adviseren we die gewoon, bijvoorbeeld een standaard cobot-palletiseerder. Maatwerk loont als de standaardmachine net niet doet wat nodig is."
   - question: "Kan een nieuwe machine aansluiten op onze bestaande lijn?"
     answer: "Ja. Aansluiten op bestaande lijnen, transportsystemen of besturingen is een vast onderdeel van ons werk. In de eerste fase leggen we vast op welke machines en componenten we moeten aansluiten, zodat de nieuwe machine meedraait met wat er al staat."
 ---
@@ -41,7 +41,7 @@ Niet elk project begint bij een leeg vel. Vaak bouwen we om, verplaatsen we mach
 
 ## Wat kost machinebouw op maat?
 
-Onze projecten liggen tussen de **€6.000 en €400.000** per project. Een eenvoudige automatisering begint al rond €6.000, een standaard palletiseerrobot of cobot kan vanaf ongeveer €50.000 geleverd worden. Bij complete lijnen of meerdere machines kan het totaal hoger uitkomen.
+Onze projecten liggen tussen de **€6.000 en €400.000** per project. Een eenvoudige automatisering begint al rond €6.000, een standaard cobot-palletiseerder kan vanaf ongeveer €45.000 (in de praktijk vaak richting €100.000). Bij complete lijnen of meerdere machines kan het totaal hoger uitkomen.
 
 We rekenen de investering meestal door tegen de **extra productie per jaar** of de **besparing in fte per jaar**. Kwaliteitswinst ten opzichte van handwerk is per project anders; die brengen we samen met je in kaart.
 

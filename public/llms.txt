@@ -11,9 +11,15 @@
 - Speciaalmachines en machinebouw op maat, retrofit van verouderde machines, robotisering en automatisering (voorheen onder de naam Reboow Group, nu onder De Machinedokters)
 
 ## Machinebouw: prijzen en doorlooptijd
-- Projecten van €6.000 tot €400.000 per project; eenvoudige automatisering vanaf ca. €6.000, standaard palletiseerrobot of cobot vanaf ca. €50.000; meerdere machines of complete lijnen kunnen samen hoger uitkomen
+- Projecten van €6.000 tot €400.000 per project; eenvoudige automatisering vanaf ca. €6.000, standaard cobot-palletiseerder vanaf ca. €45.000 (vaak richting €100.000); meerdere machines of complete lijnen kunnen samen hoger uitkomen
 - Terugverdientijd berekend op extra productie per jaar of besparing in fte per jaar
 - Doorlooptijd: werkstation ca. 10 weken, complete lijn tot ca. 40 weken
+
+## Robotisering
+- Merkonafhankelijk; veel ervaring met FANUC, ABB, KUKA en Doosan, ook Rokae via NextStep Robotics; robotarm via dealer of refurbished, alles eromheen (grijpers, tooling, besturing, veiligheid) zelf, van prototype tot implementatie
+- Cobot-palletiseerder vanaf ca. €45.000, in de praktijk vaak richting €100.000; robotproject duurt ca. een half jaar
+- Een afgeschermde industriële robot is vaak sneller, goedkoper en eenvoudiger dan een cobot: veiligheid hangt ook af van grijper en product
+- Geen lasrobots en geen complete auto-assemblagelijnen
 
 ## Voor wie
 - Productiebedrijven en fabrieken in de maakindustrie, verpakkings- en voedingsmiddelenindustrie
@@ -24,6 +30,7 @@
 - Coca-Cola: ombouwtijd blikkenlijnen van 3 uur naar 1 uur
 - Altrex: snellere en veiligere assemblage van huishoudtrappen
 - Voedingsindustrie: 20% hogere verpakkingssnelheid, 25% minder afval
+- Dozen vouwen en stapelen: één robot pakt platte doosuitslagen, vouwt ze langs een eigen ontwikkelde tool, tapet ze dicht en stapelt later de gevulde dozen; pallet aan- en afvoer geautomatiseerd
 - Stabalkmachine ST-01 (nieuwbouw): perst en boort automatisch, operator assembleert en popnagelt; productwissel met twee schroefjes en een ander recept, standaard componenten, voorbereid op robotisering
 - Voedingsproducent (West-Brabant): vulproces verbeterd met betere timing en een afblaassysteem; extra controle-operator 24/7 niet meer nodig, 3 fte bespaard bij een investering onder €10.000 inclusief training
 - Verpakkingsindustrie, toeleverancier van Unilever: 30% minder ongeplande stilstand door monitoring en voorspellende analyses op de bestaande lijn, terugverdientijd minder dan 6 maanden

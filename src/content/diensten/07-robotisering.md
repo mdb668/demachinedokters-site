@@ -2,22 +2,65 @@
 title: "Robotisering & automatisering"
 titleHtml: "Robotisering<br>& automatisering"
 tagline: "Slimme systemen die werk overnemen."
-short: "Robots en automatisering nemen repeterend en zwaar werk over: sneller, foutloos en zonder afhankelijkheid van steeds schaarser personeel."
+short: "Robots en automatisering nemen repeterend en zwaar werk over: palletiseren, stapelen, dozen vouwen, verpakken en handling. Merkonafhankelijk, ingepast in je bestaande lijn, van prototype tot oplevering. Niet de goedkoopste, wel de leukste."
 icon: "robot-arm"
-image: "/images/fotos/rco-robots.jpg"
-imageAlt: "Industriële robots in een productiehal."
+image: "/images/robotisering/palletiseercel-fanuc.jpg"
+imageAlt: "Twee FANUC-palletiseerrobots in een afgeschermde robotcel naast een transportband."
 order: 7
 slug: "robotisering"
-seoTitle: "Robotisering & automatisering van productielijnen | De Machinedokters"
-seoDescription: "Robotcellen, cobots en automatisering voor stapelen, verpakken, handling en assemblage. Ingepast in je bestaande lijn, met behoud van flexibiliteit voor maatwerk."
+seoTitle: "Robotisering productielijn: robots & cobots | De Machinedokters"
+seoDescription: "Robots en cobots integreren in je productielijn: palletiseren, stapelen, dozen vouwen en handling. Merkonafhankelijk, cobot-palletiseerder vanaf €45.000."
 relatedCases:
+  - "case-dozen-vouwen-stapelen"
   - "case-aluminium"
-  - "case-altrex"
-  - "case-voedingsindustrie"
+  - "case-stabalkmachine"
+faq:
+  - question: "Wat kost een palletiseerrobot of cobot?"
+    answer: "Rechttoe rechtaan dozen stapelen met een vacuümgrijper kan met een standaard cobot-palletiseerder vanaf ongeveer €45.000. In de praktijk komt het vaak eerder richting €100.000, afhankelijk van snelheid, gewicht en wat er omheen nodig is. Door de robotarm via een dealer of via ons netwerk voor refurbished robots in te kopen, kan de prijs flink schelen."
+  - question: "Robot of cobot: wat is beter?"
+    answer: "Een cobot is uit de doos trager en aanraakveilig. Maar de veiligheid hangt ook af van de grijper en het product dat je hanteert. Een scherp of zwaar product maakt een cobot niet meer veilig. Volgens de Europese machineveiligheidsregels beoordeel je altijd de hele toepassing. In de praktijk is een afgeschermde industriële robot daardoor vaak sneller, goedkoper en eenvoudiger."
+  - question: "Met welke robotmerken werken jullie?"
+    answer: "We zijn merkonafhankelijk. We hebben veel ervaring met FANUC, ABB, KUKA en Doosan, en werken ook met Rokae via NextStep Robotics. We kiezen het merk dat past bij de toepassing en bij wat de klant wil, ook kleinere merken."
+  - question: "Hoe lang duurt een robotproject?"
+    answer: "Reken voor een robotproject op ongeveer een half jaar, van vastleggen wat er nodig is tot implementatie. Een eenvoudige toepassing kan sneller; een complexe cel met speciale grijpers en tooling duurt langer."
+  - question: "Kan een robot in onze bestaande lijn?"
+    answer: "Ja, dat is juist ons werk. We passen robots in de lijn die je al hebt, met behoud van heftruckroutes, handmatige lijnen voor speciale series en de flexibiliteit die je nodig hebt. De robotarm kopen we in, alles eromheen doen we zelf: van prototype tot oplevering en implementatie."
+  - question: "Doen jullie ook lasrobots?"
+    answer: "Nee. Met lasrobots en complete assemblagelijnen voor auto's hebben we geen ervaring, en daar richten we ons ook niet op. We zijn sterk in speciale gevallen, waar je nieuwe technieken voor moet inzetten of echt creatief moet zijn om het voor elkaar te krijgen."
 ---
 
-Personeel is schaars en repeterend werk is zwaar, saai en foutgevoelig. Precies het soort werk dat een robot beter doet. Wij robotiseren handelingen als stapelen, palletiseren, verpakken, handling tussen machines en delen van de assemblage, en passen die in de lijn die je al hebt.
+Personeel is schaars en repeterend werk is zwaar, saai en foutgevoelig. Precies het soort werk dat een robot beter doet. Wij robotiseren handelingen als **palletiseren en stapelen**, **dozen vouwen en dichtmaken**, **verpakken**, **handling tussen machines** en delen van de **assemblage**, en passen die in de lijn die je al hebt.
 
-We kiezen de techniek die past bij de taak: een industriële robot voor snelheid en zware lasten, een cobot voor werk naast mensen, of eenvoudige low-cost automatisering waar een robot overdreven zou zijn. Vision, grijpers en veiligheid ontwerpen we mee. Belangrijk is dat de rest van het proces blijft werken: heftruckroutes, handmatige lijnen voor speciale series en de flexibiliteit die jouw klanten van je verwachten.
+We zijn het sterkst in de speciale gevallen: waar een standaardoplossing niet past, waar je nieuwe technieken moet inzetten of echt creatief moet zijn. Niet de goedkoopste, wel de leukste.
 
-Het resultaat zie je terug in onze cases: hogere snelheid, constante kwaliteit en operators die zich richten op werk waar hun kennis het verschil maakt. En omdat we zelf ook onderhoud en storingsanalyse doen, weet je dat de robotcel na de oplevering blijft draaien.
+![Twee FANUC-robots palletiseren lagen blikjes op een pallet.](/images/robotisering/blikken-palletiseren.jpg)
+
+## Robot of cobot? De grootste misvatting
+
+Een cobot lijkt de veilige keuze: hij is trager en aanraakveilig. Uit de doos klopt dat. Maar wat zit er in de hand van die cobot, en wat pakt hij op?
+
+<video src="/video/cobot-mes.mp4" poster="/images/robotisering/cobot-mes-poster.jpg" autoplay muted loop playsinline width="960" height="540" aria-label="Een kleine robotarm zwaait met een mes in de grijper."></video>
+
+Hang er een mes in, of laat hem een scherp of zwaar product hanteren, en die cobot is niet meer veilig. Volgens de Europese machineveiligheidsregels beoordeel je altijd de hele toepassing, niet alleen de robotarm. **In de praktijk is een afgeschermde industriële robot daardoor vaak sneller, goedkoper en eenvoudiger.**
+
+Rechttoe rechtaan dozen stapelen met een vacuümgrijper kan prima met een standaard cobot-palletiseerder. Dat kan vanaf ongeveer **€45.000**, maar komt in de praktijk vaak eerder richting **€100.000**, afhankelijk van snelheid, gewicht en wat er omheen nodig is.
+
+## Merkonafhankelijk
+
+We kiezen de robot die past bij de toepassing. We hebben veel ervaring met **FANUC, ABB, KUKA en Doosan**, en werken ook met **Rokae via NextStep Robotics**. De robotarm kopen we in via de dealer of via ons netwerk voor **refurbished robots**; dat kan aanzienlijk in prijs schelen. Alles eromheen doen we zelf.
+
+## Zo verloopt een robotproject
+
+1. **Vastleggen wat er nodig is.** Welke producten, hoeveel per uur, welke variatie, welke gewichten, en wat moet er blijven werken in de lijn?
+2. **Simulatie en concept.** We simuleren de cel vooraf: bereik, cyclustijd en botsingen zijn bekend voordat er iets gebouwd wordt.
+3. **Prototype en bouw.** Grijpers, tooling, besturing en veiligheid ontwerpen en bouwen we zelf.
+4. **Oplevering en implementatie.** Inpassen in je lijn, in bedrijf stellen en je operators en technische dienst trainen.
+5. **Service.** Omdat we ook onderhoud en storingsanalyse doen, blijft de robotcel na oplevering draaien.
+
+![Simulatie van twee FANUC-robots met zaagbladen boven een transportband.](/images/robotisering/robotsimulatie.jpg)
+
+Reken voor een robotproject op ongeveer **een half jaar**, van eerste gesprek tot implementatie.
+
+## Wat we niet doen
+
+Lasrobots en complete assemblagelijnen voor auto's laten we aan anderen over. Daar hebben we geen ervaring mee, en we zeggen dat liever eerlijk vooraf.

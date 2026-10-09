@@ -20,4 +20,8 @@ Veel fabrieken werken met machines van verschillende leeftijden en merken, en di
 
 Met aangepaste PLC-programmatuur en de ontsluiting van productiedata maken we zichtbaar wat er écht gebeurt op de werkvloer. Zo krijg je via heldere dashboards inzicht in prestaties, stilstanden en de OEE van jouw fabriek.
 
+Ook robotcellen en nieuwe installaties simuleren we vooraf. Zo zijn bereik, cyclustijd en botsingen bekend voordat er iets in je lijn wordt ingebouwd.
+
+![Simulatie van twee FANUC-robots boven een transportband.](/images/robotisering/robotsimulatie.jpg)
+
 Door slimme software-upgrades en verbeterde aansturing halen we meer uit de hardware die al aanwezig is. Hardnekkige bugs verdwijnen, machines reageren sneller en verschillende componenten werken beter samen. Waar nodig vervangen we verouderde modules of breiden we de besturing uit, zodat jouw systeem toekomstbestendig blijft.

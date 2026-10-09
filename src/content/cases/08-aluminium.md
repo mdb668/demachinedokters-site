@@ -8,9 +8,9 @@ image: "/images/robotisering/blikken-palletiseren.jpg"
 imageAlt: "Twee FANUC-robots stapelen lagen aluminium blikjes op een pallet."
 imageIsLogo: false
 stats:
-  - { value: "+40%", label: "Snelheid", icon: "gear-clock" }
-  - { value: "Naadloze", label: "Robot-integratie", icon: "robot" }
-  - { value: "Behoud", label: "Maatwerkverpakking", icon: "check" }
+  - { value: "+40%", label: "Snelheid", icon: "gauge" }
+  - { value: "Naadloze", label: "Robot-integratie", icon: "robot-arm" }
+  - { value: "Behoud", label: "Maatwerkverpakking", icon: "package" }
 challenge: "Een producent van aluminiumblikjes werkte met een combinatie van handmatige en geautomatiseerde verpakking. De bestaande infrastructuur beperkte verdere automatisering: het heftruckpad moest behouden blijven en een handmatige verpakkingsmachine moest beschikbaar blijven voor speciale productruns.\n\nDe vraag was niet óf automatisering mogelijk was, maar hoe dat kon zonder het hele proces te verstoren."
 approach: "De Machinedokters heeft het transportsysteem volledig herzien en verplaatst naar een ondergrondse oplossing. Hierdoor ontstond ruimte aan de bovenzijde voor robotisering aan één zijde van het heftruckpad, terwijl de andere zijde functioneel intact bleef voor handmatige verpakking.\n\nEen technische oplossing die processen niet vervangt, maar slim combineert."
 results:

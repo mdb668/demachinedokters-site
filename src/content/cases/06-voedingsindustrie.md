@@ -8,8 +8,8 @@ image: "/images/fotos/bottellijn.jpg"
 imageAlt: "Geautomatiseerde productielijn met kleine lege flessen op lopende band."
 imageIsLogo: false
 stats:
-  - { value: "+20%", label: "Snelheid", icon: "gear-clock" }
-  - { value: "-25%", label: "Afval", icon: "chart-down" }
+  - { value: "+20%", label: "Snelheid", icon: "gauge" }
+  - { value: "-25%", label: "Afval", icon: "trending-down" }
   - { value: "Betere", label: "Procescontrole", icon: "eye" }
 challenge: "Een producent binnen de voedingsindustrie kampte met een instabiel primair verpakkingsproces. Handmatige correcties, inconsistenties en verhoogd verpakkingsafval drukten zwaar op kosten en kwaliteit. De lijn draaide continu, maar niet optimaal.\n\nDe wens: meer stabiliteit, minder verspilling, zonder grootschalige vervanging."
 approach: "De Machinedokters voerde een technische en procesmatige optimalisatie uit op de bestaande verpakkingslijn. Door mechanische verbeteringen, slimmere proceslogica en implementatie van eenvoudige foutpreventie werd de lijn robuuster en consistenter.\n\nOperators werden meegenomen in het verbetertraject en kregen direct zicht op prestaties en kwaliteitsafwijkingen."

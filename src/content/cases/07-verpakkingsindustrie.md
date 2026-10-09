@@ -8,9 +8,9 @@ image: "/images/fotos/transportsysteem.jpg"
 imageAlt: "Industrieel transportsysteem met rollenbanen en gele leuningen in een fabriekshal."
 imageIsLogo: false
 stats:
-  - { value: "-87%", label: "Ombouwtijd", icon: "gear-clock" }
+  - { value: "-87%", label: "Ombouwtijd", icon: "timer" }
   - { value: "Minder", label: "Loopafstanden", icon: "route" }
-  - { value: "Meer", label: "Capaciteit", icon: "chart-up" }
+  - { value: "Meer", label: "Capaciteit", icon: "trending-up" }
 challenge: "De bestaande productielijnen stonden in een U-opstelling. Dat zorgde voor onnodige looplijnen, fysieke belasting en inefficiënte inzet van mensen. Tegelijk was de productiecapaciteit onvoldoende om toekomstige groei op te vangen. Uitbreiding leek alleen mogelijk door te verhuizen of extra halruimte te creëren.\n\nDe realiteit: de ruimte was er al, maar werd verkeerd gebruikt."
 approach: "De Machinedokters heeft de volledige lijnopstelling technisch herontworpen en omgebouwd naar een rechte lineaire productiestraat. Machines zijn logisch achter elkaar gepositioneerd, waardoor de workflow directer, overzichtelijker en sneller werd.\n\nDirect meegenomen in dit traject:\n\n- Integratie van poka-yoke instellingen op cruciale instelpunten\n- Vereenvoudiging van ombouwprocedures\n- Optimalisatie van looproutes en operatorposities\n\nGeen cosmetische herinrichting, maar een structurele herdefiniëring van de productielogica."
 results:

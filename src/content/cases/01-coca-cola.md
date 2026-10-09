@@ -8,9 +8,9 @@ image: "/images/klanten/coca-cola.png"
 imageAlt: "Coca-Cola logo"
 imageIsLogo: true
 stats:
-  - { value: "-66%", label: "Ombouwtijd", icon: "gear-clock" }
-  - { value: "+2u", label: "Extra output", icon: "chart-up" }
-  - { value: "Hogere", label: "Lijnbeschikbaarheid", icon: "gear-up" }
+  - { value: "-66%", label: "Ombouwtijd", icon: "timer" }
+  - { value: "+2u", label: "Extra output", icon: "trending-up" }
+  - { value: "Hogere", label: "Lijnbeschikbaarheid", icon: "activity" }
 challenge: "Op meerdere blikkenlijnen in Nederland kostte een formaatwissel gemiddeld drie uur. In een omgeving waar elke seconde telt, betekende dat structurele productieverliezen en onnodige druk op de planning. De lijnen moesten flexibeler worden, zonder in te leveren op betrouwbaarheid of kwaliteit."
 approach: "De Machinedokters heeft de bestaande machines mechanisch herontworpen met één doel: sneller ombouwen zonder complexiteit toe te voegen.\n\nDoor kritische instelpunten te vereenvoudigen en mechanische toleranties slimmer op te vangen, is het aantal noodzakelijke handelingen drastisch teruggebracht.\n\nGeen nieuwe lijnen. Geen overbodige elektronica.\nWel een robuuste, technisch doordachte oplossing die direct toepasbaar is op de bestaande installaties."
 results:

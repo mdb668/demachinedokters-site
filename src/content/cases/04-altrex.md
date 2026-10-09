@@ -8,7 +8,7 @@ image: "/images/klanten/altrex.png"
 imageAlt: "Altrex logo"
 imageIsLogo: true
 stats:
-  - { value: "Hogere", label: "Output", icon: "chart-up" }
+  - { value: "Hogere", label: "Output", icon: "trending-up" }
   - { value: "Minder", label: "QC-verlies", icon: "check" }
   - { value: "Hogere", label: "Veiligheid", icon: "shield" }
 challenge: "De assemblage van huishoudtrappen was grotendeels handmatig ingericht. Dat leidde tot langere doorlooptijden, verhoogde fysieke belasting en kwaliteitsverlies tijdens eindcontroles. Onacceptabel in een productcategorie waar veiligheid leidend is.\n\nDe doelstelling was helder: sneller produceren, veiliger werken en minder QC-verlies."

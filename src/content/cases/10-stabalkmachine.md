@@ -8,9 +8,9 @@ image: "/images/logo-de-machinedokters-donker.png"
 imageAlt: "Logo De Machinedokters"
 imageIsLogo: true
 stats:
-  - { value: "2 schroefjes", label: "Productwissel + recept", icon: "gear-clock" }
-  - { value: "Standaard", label: "Componenten, lang leverbaar", icon: "check" }
-  - { value: "Klaar", label: "Voor verdere robotisering", icon: "robot" }
+  - { value: "2 schroefjes", label: "Productwissel + recept", icon: "swap" }
+  - { value: "Standaard", label: "Componenten, lang leverbaar", icon: "package" }
+  - { value: "Klaar", label: "Voor verdere robotisering", icon: "robot-arm" }
 challenge: "Het boren van gaten op precies de juiste plekken in een metalen buis of balk vraagt nauwkeurigheid en tijd. Gebeurt dat met de hand, dan hangt de kwaliteit af van wie er aan de lijn staat. Tegelijk is het assembleren van verschillende productvarianten werk waar een mens juist goed in is.\n\nDe vraag: hoe verdeel je het werk zo dat de machine doet waar hij goed in is, en de operator ook?"
 approach: "We ontwierpen en bouwden de ST-01 als nieuwbouwmachine rond deze verdeling van werk:\n\n- De operator plaatst de kunststof onderdelen in de producthouders en legt daarna de metalen buis of balk erin.\n- De machine perst alles op de juiste plek en boort de gaten waar ze nodig zijn.\n- Daarna presenteert de machine de geboorde plekken één voor één aan de operator, die er een popnagel in zet.\n\nVoor een ander product wisselt de operator de producthouders met twee schroefjes en kiest hij een ander recept in de besturing. Er is ruimte in het programma om later extra producten toe te voegen. We hebben de machine opgebouwd uit standaard leverbare componenten met lange ondersteuning, zodat onderdelen ook over jaren nog verkrijgbaar zijn."
 results:

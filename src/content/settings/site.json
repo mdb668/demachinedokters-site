@@ -139,19 +139,19 @@
   "inzet": [
     {
       "label": "Meer output per uur",
-      "icon": "clock"
+      "icon": "gauge"
     },
     {
       "label": "Minder afhankelijkheid van personeel",
-      "icon": "factory"
+      "icon": "user-minus"
     },
     {
       "label": "Hogere winst",
-      "icon": "money"
+      "icon": "euro"
     },
     {
       "label": "Lagere kosten",
-      "icon": "chart-down"
+      "icon": "trending-down"
     }
   ],
   "behandelplanTitle": "Het behandelplan van De Machinedokters",

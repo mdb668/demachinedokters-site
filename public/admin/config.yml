@@ -100,7 +100,7 @@ collections:
             widget: list
             fields:
               - { name: label, label: "Tekst", widget: string }
-              - { name: icon, label: "Icoon", widget: select, options: [clock, factory, money, chart-down, chart-up, gear-clock, gear-up, eye, shield, check, route, robot, process, wrench, code, people, flag, growth, alert] }
+              - { name: icon, label: "Icoon", widget: select, options: [timer, gauge, activity, trending-up, trending-down, euro, user-minus, package, swap, route, robot-arm, wrench, gear, retrofit, shield, check, eye, clock, factory, people, flag, sprout, alert, code] }
           - { name: behandelplanTitle, label: "Titel behandelplan", widget: string }
           - name: behandelplan
             label: "Stappen behandelplan"
@@ -280,7 +280,7 @@ collections:
             label: "Redenen"
             widget: list
             fields:
-              - { name: icon, label: "Icoon", widget: select, options: [flag, people, growth, clock, shield, check, wrench, process, code] }
+              - { name: icon, label: "Icoon", widget: select, options: [timer, gauge, activity, trending-up, trending-down, euro, user-minus, package, swap, route, robot-arm, wrench, gear, retrofit, shield, check, eye, clock, factory, people, flag, sprout, alert, code] }
               - { name: title, label: "Titel", widget: string }
               - { name: text, label: "Tekst", widget: text }
           - { name: vacaturesTitle, label: "Titel vacatures", widget: string }
@@ -324,7 +324,7 @@ collections:
               - { name: text, label: "Tekst", widget: text }
               - { name: listTitle, label: "Titel opsomming", widget: string }
               - { name: list, label: "Opsomming", widget: list }
-              - { name: icon, label: "Icoon", widget: select, options: [alert, wrench, shield, clock, process, check] }
+              - { name: icon, label: "Icoon", widget: select, options: [timer, gauge, activity, trending-up, trending-down, euro, user-minus, package, swap, route, robot-arm, wrench, gear, retrofit, shield, check, eye, clock, factory, people, flag, sprout, alert, code] }
           - { name: problemTitle, label: "Titel probleem-blok", widget: string, required: false }
           - { name: problemText, label: "Tekst probleem-blok", widget: text, required: false }
           - { name: stepsTitle, label: "Titel aanpak", widget: string, required: false }
@@ -465,7 +465,7 @@ collections:
       - { name: titleHtml, label: "Titel met regelafbreking (optioneel, gebruik <br>)", widget: string, required: false }
       - { name: tagline, label: "Korte slogan", widget: string }
       - { name: short, label: "Korte omschrijving (kaart)", widget: text }
-      - { name: icon, label: "Icoon", widget: select, options: [gauge, wrench, code, people, gear, retrofit, robot-arm, robot, shield, clock, process, gear-clock] }
+      - { name: icon, label: "Icoon", widget: select, options: [timer, gauge, activity, trending-up, trending-down, euro, user-minus, package, swap, route, robot-arm, wrench, gear, retrofit, shield, check, eye, clock, factory, people, flag, sprout, alert, code] }
       - { name: image, label: "Afbeelding", widget: image, required: false }
       - { name: imageAlt, label: "Alt-tekst", widget: string, required: false }
       - { name: order, label: "Volgorde", widget: number, default: 1 }
@@ -502,7 +502,7 @@ collections:
         fields:
           - { name: value, label: "Waarde (bv. -66%)", widget: string }
           - { name: label, label: "Label (bv. Ombouwtijd)", widget: string }
-          - { name: icon, label: "Icoon", widget: select, options: [gear-clock, gear-up, chart-up, chart-down, eye, shield, check, route, robot, clock, money, factory] }
+          - { name: icon, label: "Icoon", widget: select, options: [timer, gauge, activity, trending-up, trending-down, euro, user-minus, package, swap, route, robot-arm, wrench, gear, retrofit, shield, check, eye, clock, factory, people, flag, sprout, alert, code] }
       - { name: challenge, label: "Uitdaging", widget: text }
       - { name: approach, label: "Onze aanpak", widget: text, hint: "Lege regel = alinea; regels met '- ' worden een opsomming." }
       - { name: results, label: "Het resultaat (opsomming)", widget: list }

@@ -143,7 +143,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
   .back { display: inline-flex; align-items: center; gap: 6px; font-weight: 500; margin-top: 8px; }
   .case-media { max-width: 720px; margin: 0 auto 40px; border-radius: var(--radius); overflow: hidden; }
   .case-media img { width: 100%; height: auto; max-height: 420px; object-fit: cover; }
-  .case-media.is-logo img { object-fit: contain; max-height: 220px; padding: 20px; }
+  .case-media.is-logo img { display: block; width: auto; max-width: min(340px, 100%); max-height: 160px; margin: 0 auto; object-fit: contain; padding: 20px; }
   .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 760px; margin: 0 auto; }
   .stat { display: flex; flex-direction: column; align-items: center; gap: 6px; }
   .stat strong { font-size: 1.7rem; color: var(--blue); margin-top: 8px; }

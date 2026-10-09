@@ -4,8 +4,8 @@ slug: "case-aluminium"
 subtitle: "Slim transport als sleutel tot 40% hogere output"
 intro: "Een producent in de FMCG-sector kampte met lage arbeidsefficiëntie binnen hun verpakkings- en assemblagelijnen."
 summary: "De combinatie van handmatige maatwerkverpakking en geautomatiseerd transport maakte verdere groei en robotisering lastig. De beschikbare vloeroppervlakte was simpelweg te beperkt om de volgende stap te zetten.\n\nDoor het transportsysteem slim ondergronds te plaatsen, ontstond er ruimte voor robotintegratie zonder dat de handmatige verpakkingslijn werd aangetast. De lijn werd sneller, flexibeler en klaar voor toekomstige groei, met behoud van maatwerkproductie."
-image: "/images/fotos/rco-robots.jpg"
-imageAlt: "Industriële oranje robots in een productiehal."
+image: "/images/robotisering/blikken-palletiseren.jpg"
+imageAlt: "Twee FANUC-robots stapelen lagen aluminium blikjes op een pallet."
 imageIsLogo: false
 stats:
   - { value: "+40%", label: "Snelheid", icon: "gear-clock" }

@@ -115,6 +115,8 @@ strong { font-weight: 600; }
 .prose h2 { font-size: 1.5rem; margin-top: 2em; }
 .prose h3 { font-size: 1.25rem; margin-top: 1.6em; }
 .prose img { border-radius: var(--radius); margin: 1.5em 0; max-height: 520px; object-fit: cover; width: 100%; }
+.prose .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 1.5em 0; }
+.prose .gallery img { margin: 0; aspect-ratio: 4 / 3; height: 100%; }
 .prose video { display: block; width: 100%; height: auto; border-radius: var(--radius); margin: 1.5em 0; background: #000; }
 .prose ul li { margin-bottom: 0.35em; }
 .prose a { text-decoration: underline; }

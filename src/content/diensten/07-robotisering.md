@@ -52,15 +52,21 @@ We kiezen de robot die past bij de toepassing. We hebben veel ervaring met **FAN
 ## Zo verloopt een robotproject
 
 1. **Vastleggen wat er nodig is.** Welke producten, hoeveel per uur, welke variatie, welke gewichten, en wat moet er blijven werken in de lijn?
-2. **Simulatie en concept.** We simuleren de cel vooraf: bereik, cyclustijd en botsingen zijn bekend voordat er iets gebouwd wordt.
+2. **Simulatie en concept.** We simuleren de cel vooraf, zodat bereik, cyclustijd en botsingen bekend zijn voordat er iets gebouwd wordt.
 3. **Prototype en bouw.** Grijpers, tooling, besturing en veiligheid ontwerpen en bouwen we zelf.
 4. **Oplevering en implementatie.** Inpassen in je lijn, in bedrijf stellen en je operators en technische dienst trainen.
 5. **Service.** Omdat we ook onderhoud en storingsanalyse doen, blijft de robotcel na oplevering draaien.
-
-![Simulatie van twee FANUC-robots met zaagbladen boven een transportband.](/images/robotisering/robotsimulatie.jpg)
 
 Reken voor een robotproject op ongeveer **een half jaar**, van eerste gesprek tot implementatie.
 
 ## Wat we niet doen
 
 Lasrobots en complete assemblagelijnen voor auto's laten we aan anderen over. Daar hebben we geen ervaring mee, en we zeggen dat liever eerlijk vooraf.
+
+## Impressie
+
+<div class="gallery">
+  <img src="/images/robotisering/fanuc-lr-mate-werkplaats.jpg" alt="FANUC LR Mate-robot naast een transportband in een werkplaats." loading="lazy" width="1400" height="950">
+  <img src="/images/robotisering/palletiseerrobots-opbouw.jpg" alt="Twee palletiseerrobots op stellingen tijdens de opbouw." loading="lazy" width="1100" height="1467">
+  <img src="/images/robotisering/robotsimulatie.jpg" alt="Simulatie van twee FANUC-robots boven een transportband." loading="lazy" width="1597" height="838">
+</div>

@@ -12,13 +12,14 @@ stats:
   - { value: "Standaard", label: "Componenten, lang leverbaar", icon: "package" }
   - { value: "Klaar", label: "Voor verdere robotisering", icon: "robot-arm" }
 challenge: "Het boren van gaten op precies de juiste plekken in een metalen buis of balk vraagt nauwkeurigheid en tijd. Gebeurt dat met de hand, dan hangt de kwaliteit af van wie er aan de lijn staat. Tegelijk is het assembleren van verschillende productvarianten werk waar een mens juist goed in is.\n\nDe vraag: hoe verdeel je het werk zo dat de machine doet waar hij goed in is, en de operator ook?"
-approach: "We ontwierpen en bouwden de ST-01 als nieuwbouwmachine rond deze verdeling van werk:\n\n- De operator plaatst de kunststof onderdelen in de producthouders en legt daarna de metalen buis of balk erin.\n- De machine perst alles op de juiste plek en boort de gaten waar ze nodig zijn.\n- Daarna presenteert de machine de geboorde plekken één voor één aan de operator, die er een popnagel in zet.\n\nVoor een ander product wisselt de operator de producthouders met twee schroefjes en kiest hij een ander recept in de besturing. Er is ruimte in het programma om later extra producten toe te voegen. We hebben de machine opgebouwd uit standaard leverbare componenten met lange ondersteuning, zodat onderdelen ook over jaren nog verkrijgbaar zijn."
+approach: "We ontwierpen en bouwden de ST-01 als nieuwbouwmachine rond deze verdeling van werk:\n\n- De operator plaatst de kunststof onderdelen in de producthouders en legt daarna de metalen buis of balk erin.\n- De machine perst alles op de juiste plek en boort de gaten waar ze nodig zijn.\n- Daarna presenteert de machine de geboorde plekken één voor één aan de operator, die er een popnagel in zet.\n\nVoor een ander product wisselt de operator de producthouders met twee schroefjes en kiest hij een ander recept in de besturing. Er is ruimte in het programma om later extra producten toe te voegen. We hebben de machine opgebouwd uit standaard leverbare componenten met lange ondersteuning, zodat onderdelen ook over jaren nog verkrijgbaar zijn. Het CE-conformiteitsonderzoek en de CE-markering hebben we zelf uitgevoerd."
 results:
   - "Gaten altijd op de juiste plek, onafhankelijk van wie er aan de machine staat"
   - "De operator assembleert, de machine doet het precisiewerk"
   - "Productwissel met twee schroefjes en een ander recept"
   - "Ruimte in het programma voor nieuwe producten"
   - "Standaard componenten met lange ondersteuning"
+  - "CE-gemarkeerd, conformiteitsonderzoek door ons uitgevoerd"
   - "Voorbereid op verdere automatisering, bijvoorbeeld met een robot"
 closing: "Geen volautomatische machine om de automatisering, maar precies genoeg techniek om mens en machine allebei te laten doen waar ze goed in zijn."
 order: 4

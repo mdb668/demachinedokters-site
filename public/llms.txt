@@ -14,6 +14,7 @@
 - Projecten van €6.000 tot €400.000 per project; eenvoudige automatisering vanaf ca. €6.000, standaard cobot-palletiseerder vanaf ca. €45.000 (vaak richting €100.000); meerdere machines of complete lijnen kunnen samen hoger uitkomen
 - Terugverdientijd berekend op extra productie per jaar of besparing in fte per jaar
 - Doorlooptijd: werkstation ca. 10 weken, complete lijn tot ca. 40 weken
+- CE-markering in eigen huis: risicobeoordeling, technisch dossier en conformiteitsverklaring
 
 ## Robotisering
 - Merkonafhankelijk; veel ervaring met FANUC, ABB, KUKA en Doosan, ook Rokae via NextStep Robotics; robotarm via dealer of refurbished, alles eromheen (grijpers, tooling, besturing, veiligheid) zelf, van prototype tot implementatie

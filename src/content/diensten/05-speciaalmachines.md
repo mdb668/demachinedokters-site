@@ -25,6 +25,8 @@ faq:
     answer: "Speciaalmachinebouw is het ontwerpen en bouwen van machines die niet uit een catalogus komen, maar speciaal gemaakt worden voor één product of proces. Bijvoorbeeld omdat het product een afwijkend formaat heeft, kwetsbaar is, of omdat een handeling tot nu toe alleen met de hand lukte."
   - question: "Wat is het verschil tussen een standaardmachine en maatwerk?"
     answer: "Een standaardmachine is gemaakt voor een gemiddeld product en een gemiddelde fabriek, en is vaak sneller leverbaar. Maatwerk is ontworpen rond jouw product, jouw aantallen en jouw lijn. Waar een standaardoplossing past, adviseren we die gewoon, bijvoorbeeld een standaard cobot-palletiseerder. Maatwerk loont als de standaardmachine net niet doet wat nodig is."
+  - question: "Verzorgen jullie de CE-markering?"
+    answer: "Ja, de CE-markering doen we zelf. We voeren de risicobeoordeling uit, stellen het technisch dossier op en leveren de conformiteitsverklaring mee. Zo kun je de machine veilig en volgens de Europese regels in gebruik nemen, zonder dat je daarvoor een aparte partij nodig hebt."
   - question: "Kan een nieuwe machine aansluiten op onze bestaande lijn?"
     answer: "Ja. Aansluiten op bestaande lijnen, transportsystemen of besturingen is een vast onderdeel van ons werk. In de eerste fase leggen we vast op welke machines en componenten we moeten aansluiten, zodat de nieuwe machine meedraait met wat er al staat."
 ---
@@ -33,7 +35,7 @@ Sommige producten passen simpelweg niet in een machine uit de catalogus: een afw
 
 We beginnen altijd in de fabriek, niet achter een tekentafel. We kijken hoe het product nu door de lijn gaat, waar het hapert en wat operators dagelijks moeten corrigeren. Daaruit volgt een concept dat we samen met jouw team toetsen, voordat we ook maar één plaat laten snijden. Zo voorkomen we over-engineering en bouwen we machines die eenvoudig zijn, en daardoor betrouwbaar.
 
-Ontwerp, mechanica, besturing en inbedrijfstelling doen we in eigen huis. Van een enkel werkstation tot een complete assemblagelijn: je krijgt één aanspreekpunt, korte lijnen en een machine die aansluit op wat er al staat. En omdat we ook onderhoud en optimalisatie doen, bouwen we vanaf dag één met het oog op de jaren daarna: goed bereikbaar, snel om te bouwen en klaar voor CE-markering.
+Ontwerp, mechanica, besturing, inbedrijfstelling en CE-markering doen we in eigen huis. Van een enkel werkstation tot een complete assemblagelijn: je krijgt één aanspreekpunt, korte lijnen en een machine die aansluit op wat er al staat. En omdat we ook onderhoud en optimalisatie doen, bouwen we vanaf dag één met het oog op de jaren daarna: goed bereikbaar en snel om te bouwen.
 
 ## Ook zonder tekeningen
 
@@ -50,7 +52,8 @@ We rekenen de investering meestal door tegen de **extra productie per jaar** of 
 1. **Heel goed vastleggen wat er nodig is.** Hoeveel producten per uur of per dag? Hoeveel variatie, wat is het grootste en het kleinste product? Moet de machine flexibel zijn? Komt er volgend jaar nog een bij, maar dan groter? Moeten we aansluiten op bestaande lijnen of componenten? En wat willen we met z'n allen bereiken?
 2. **Concept en businesscase.** Een oplossingsrichting met een investering die je kunt afzetten tegen productie of fte-besparing per jaar. Die toetsen we met je team.
 3. **Ontwerp en bouw.** Mechanica, besturing en software in eigen huis, ontworpen voor betrouwbaarheid en onderhoudsgemak.
-4. **Installatie en inbedrijfstelling.** We sluiten de machine aan op je bestaande proces en trainen je operators en technische dienst.
-5. **Servicecontract.** Na de oplevering blijven we betrokken, met afspraken over service, onderhoud en verbeteringen.
+4. **CE-markering.** De risicobeoordeling, het technisch dossier en de conformiteitsverklaring verzorgen we zelf, zodat je een machine krijgt die veilig en volgens de regels in gebruik genomen kan worden.
+5. **Installatie en inbedrijfstelling.** We sluiten de machine aan op je bestaande proces en trainen je operators en technische dienst.
+6. **Servicecontract.** Na de oplevering blijven we betrokken, met afspraken over service, onderhoud en verbeteringen.
 
 Een werkstation kan in ongeveer **10 weken** klaar zijn, een complete lijn in **tot 40 weken**. Hoe flexibeler en complexer de machine, hoe langer het traject. De meeste tijd zit in de voorbereiding; daar zit ook de winst.

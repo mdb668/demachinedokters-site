@@ -2,8 +2,12 @@
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import { getEntry } from 'astro:content';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 const site = (await getEntry('settings', 'site'))!.data;
 const p = (await getEntry('pages', 'download'))!.data;
+// Alleen downloads tonen die echt in public/ staan, anders linkt de pagina naar een 404
+const options = p.options.filter((o: any) => existsSync(join(process.cwd(), 'public', o.file)));
 ---
 <Base title={p.thanks.seoTitle} description={p.thanks.text} noindex>
   <section class="page-hero">
@@ -12,7 +16,7 @@ const p = (await getEntry('pages', 'download'))!.data;
       <h1>{p.thanks.title}</h1>
       <p class="intro" style="margin-inline:auto">{p.thanks.text}</p>
       <div class="links">
-        {p.options.map((o: any) => <a class="btn btn-outline" href={o.file} download><Icon name="download" size={20} /> {o.label}</a>)}
+        {options.map((o: any) => <a class="btn btn-outline" href={o.file} download><Icon name="download" size={20} /> {o.label}</a>)}
       </div>
       <a class="btn btn-primary" href={site.ctaLink}>{site.ctaLabel}</a>
     </div>

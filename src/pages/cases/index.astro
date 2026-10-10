@@ -30,7 +30,7 @@ const cases = (await getCollection('cases', (c) => c.data.published)).sort((a, b
     </div>
   </section>
   <Behandelplan />
-  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} title="Herken je dit in jouw fabriek?" text="Vertel ons wat er speelt, dan kijken we samen waar de winst zit." />
 </Base>
 <style>
   .list { display: grid; gap: clamp(40px, 6vw, 72px); }

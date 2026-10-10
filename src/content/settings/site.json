@@ -7,6 +7,10 @@
   "logoIcon": "/images/logo-icoon.png",
   "phone": "+31 850 470 907",
   "phoneLink": "tel:+31850470907",
+  "whatsapp": "06 13 86 09 43",
+  "whatsappLink": "https://wa.me/31613860943",
+  "whatsappText": "Hallo De Machinedokters, ik heb een vraag over een machine of storing. Ik stuur een foto of filmpje mee.",
+  "whatsappPromise": "Stuur een foto of filmpje van je machine of storing via WhatsApp. We reageren normaal binnen 24 uur.",
   "email": "info@demachinedokters.nl",
   "addressLine1": "Looiersweg 3B",
   "addressLine2": "5131 BE Alphen",
@@ -21,7 +25,7 @@
   "socials": [
     {
       "platform": "whatsapp",
-      "url": "https://wa.me/31850470907"
+      "url": "https://wa.me/31613860943"
     },
     {
       "platform": "instagram",
@@ -178,5 +182,5 @@
     }
   ],
   "logoDark": "/images/logo-de-machinedokters-donker.png",
-  "serviceArea": "Werkgebied: Noord-Brabant (Alphen, Tilburg, Breda, Waalwijk, Eindhoven, Den Bosch) voor dagelijkse service en heel Nederland voor optimalisatieprojecten."
+  "serviceArea": "Werkgebied: Noord-Brabant voor dagelijkse service en heel Nederland voor projecten."
 }

@@ -9,7 +9,7 @@ const site = (await getEntry('settings', 'site'))!.data;
     <div class="container-narrow center thanks">
       <span class="icon-circle lg"><Icon name="check" size={40} /></span>
       <h1>Bedankt!</h1>
-      <p class="intro" style="margin-inline:auto">We hebben je bericht ontvangen en nemen zo snel mogelijk contact met je op. Heb je haast? Bel ons dan op <a href={site.phoneLink}>{site.phone}</a>.</p>
+      <p class="intro" style="margin-inline:auto">We hebben je bericht ontvangen en nemen zo snel mogelijk contact met je op. Heb je haast? Bel ons dan op <a href={site.phoneLink}>{site.phone}</a>{site.whatsapp && <> of app ons op <a href={site.whatsappLink} target="_blank" rel="noopener">{site.whatsapp}</a></>}.</p>
       <a class="btn btn-primary" href="/">Terug naar de homepage</a>
     </div>
   </section>

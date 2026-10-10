@@ -16,6 +16,10 @@ const settings = defineCollection({
     logoDark: img.optional(),
     phone: z.string(),
     phoneLink: z.string(),
+    whatsapp: z.string().optional(),
+    whatsappLink: z.string().optional(),
+    whatsappText: z.string().optional(),
+    whatsappPromise: z.string().optional(),
     email: z.string(),
     addressLine1: z.string(),
     addressLine2: z.string(),
@@ -63,6 +67,8 @@ const services = defineCollection({
     seoDescription: z.string().optional(),
     relatedCases: z.array(z.string()).optional(),
     faq: z.array(z.object({ question: z.string(), answer: z.string() })).optional(),
+    ctaTitle: z.string().optional(),
+    ctaText: z.string().optional(),
   }),
 });
 

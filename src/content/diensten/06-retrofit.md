@@ -10,6 +10,8 @@ order: 6
 slug: "retrofit"
 seoTitle: "Retrofit: verouderde machines moderniseren | De Machinedokters"
 seoDescription: "Retrofit van productiemachines: nieuwe PLC-besturing, aandrijvingen, sensoren en veiligheid voor bestaande installaties. Betrouwbaarder en langer mee, zonder nieuwbouw."
+ctaTitle: "Machine verouderd, maar nog goed?"
+ctaText: "We kijken eerlijk of retrofit loont voordat je investeert in iets nieuws."
 relatedCases:
   - "case-altrex"
   - "case-aluminium"

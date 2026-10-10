@@ -10,6 +10,8 @@ order: 1
 slug: "procesoptimalisatie-automatisering"
 seoTitle: "Procesoptimalisatie & industriële automatisering | De Machinedokters"
 seoDescription: "Hogere OEE uit je bestaande productielijn: wij analyseren bottlenecks, verbeteren machines en automatiseren slim. Praktisch maatwerk vanuit Noord-Brabant."
+ctaTitle: "Haalt je lijn niet wat hij zou moeten halen?"
+ctaText: "We kijken mee waar het stokt en wat het oplevert om dat op te lossen."
 relatedCases:
   - "case-coca-cola"
   - "case-verpakkingsindustrie"

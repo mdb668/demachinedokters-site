@@ -10,6 +10,8 @@ order: 7
 slug: "robotisering"
 seoTitle: "Robotisering productielijn: robots & cobots | De Machinedokters"
 seoDescription: "Robots en cobots integreren in je productielijn: palletiseren, stapelen, dozen vouwen en handling. Merkonafhankelijk, cobot-palletiseerder vanaf €45.000."
+ctaTitle: "Repeterend werk dat een robot kan overnemen?"
+ctaText: "We kijken eerlijk of een robot, cobot of eenvoudige automatisering het beste past."
 relatedCases:
   - "case-dozen-vouwen-stapelen"
   - "case-aluminium"

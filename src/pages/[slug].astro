@@ -74,7 +74,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
       </div>
     </section>
     <Inzet button1Label={cp.button1Label} button1Link={cp.button1Link} button2Label={cp.button2Label} button2Link={cp.button2Link} />
-    <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+    <CtaBand label={site.ctaLabel} href={site.ctaLink} title="Herken je dit in jouw fabriek?" text="Vertel ons wat er speelt, dan kijken we samen waar de winst zit." />
   </Base>
 ) : (
   <Base title={`Vacature ${d.title} in ${d.location} | ${site.siteName}`} description={d.intro.split('\n')[0]} image={d.image} jsonLd={crumbLd}>
@@ -136,7 +136,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
         </form>
       </div>
     </section>
-    <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+    <CtaBand label="Bekijk alle vacatures" href="/werken-bij" title="" text="" contactOptions={false} />
   </Base>
 )}
 <style>

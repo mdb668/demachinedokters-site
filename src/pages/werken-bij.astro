@@ -58,7 +58,7 @@ const vacancies = (await getCollection('vacancies', (v) => v.data.published)).so
   <section class="section-sm">
     <div class="container"><img src={p.image} alt={p.imageAlt} width="1600" height="1100" class="rounded shadow pand" loading="lazy" /></div>
   </section>
-  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+  <CtaBand label="Neem contact op" href="/contact" title="Vragen over werken bij De Machinedokters?" text="Bel of app ons gerust, of stuur een bericht." />
 </Base>
 <style>
   .waarom { margin-top: 32px; text-align: left; }

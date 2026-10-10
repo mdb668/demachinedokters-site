@@ -13,7 +13,7 @@ const ld = {
   '@type': 'Service',
   name: 'NEN 3140 & NEN 1010 keuring',
   provider: { '@id': `${Astro.site}#organization` },
-  areaServed: ['Noord-Brabant', 'Alphen', 'Tilburg', 'Breda', 'Waalwijk'],
+  areaServed: ['Noord-Brabant'],
   description: p.seoDescription,
 };
 const crumbs = [{ name: 'Home', href: '/' }, { name: 'Diensten', href: '/diensten' }, { name: 'NEN 3140/1010 keuring', href: '/diensten/nen-3140-1010' }];
@@ -68,7 +68,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
     </div>
   </section>
 
-  <CtaBand label={site.ctaLabel} href={site.ctaLink} />
+  <CtaBand label={site.ctaLabel} href={site.ctaLink} title="NEN 3140 of NEN 1010 keuring nodig?" text="Vraag een offerte aan of plan direct een keuringsronde in Noord-Brabant." />
 </Base>
 <style>
   .nen-hero h1 { max-width: 900px; margin-inline: auto; }

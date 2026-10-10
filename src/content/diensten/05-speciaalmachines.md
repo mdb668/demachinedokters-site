@@ -10,6 +10,8 @@ order: 5
 slug: "speciaalmachines"
 seoTitle: "Machinebouwer voor speciaalmachines op maat | De Machinedokters"
 seoDescription: "Machinebouw op maat: speciaalmachines, werkstations en complete lijnen, van €6.000 tot €400.000 per project. Ontwerp, bouw en inbedrijfstelling vanuit Brabant."
+ctaTitle: "Idee voor een machine?"
+ctaText: "Bespreek het met ons. We denken mee over haalbaarheid, investering en terugverdientijd."
 relatedCases:
   - "case-stabalkmachine"
   - "case-aluminium"

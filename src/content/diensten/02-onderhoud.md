@@ -10,6 +10,8 @@ order: 2
 slug: "onderhoud-storingsanalyse"
 seoTitle: "Storingsanalyse productiemachines: de echte oorzaak | De Machinedokters"
 seoDescription: "Storingsanalyse van productielijnen en machines: we vinden de echte oorzaak van terugkerende storingen en kleine stops, en voorkomen dat ze terugkomen."
+ctaTitle: "Storing die blijft terugkomen?"
+ctaText: "Stuur een foto of filmpje via WhatsApp of plan een storingsanalyse. Dan zoeken we samen de echte oorzaak."
 relatedCases:
   - "case-vulproces-voedingsproducent"
   - "case-toeleverancier-unilever"

@@ -1,14 +1,30 @@
 ---
 import Swoosh from './Swoosh.astro';
-interface Props { label: string; href: string; title?: string; text?: string }
-const { label, href, title, text } = Astro.props;
+import Icon from './Icon.astro';
+import { getEntry } from 'astro:content';
+import { whatsappHref } from '../lib/whatsapp';
+/** Contactblok onderaan de pagina. title/text per pagina; zonder title de algemene tekst, met title="" geen kop. */
+interface Props { label: string; href: string; title?: string; text?: string; contactOptions?: boolean }
+const site = (await getEntry('settings', 'site'))!.data;
+const {
+  label, href,
+  title = 'Klaar om je lijn beter te laten draaien?',
+  text = 'Plan een vrijblijvend adviesgesprek, bel ons direct of stuur een foto of filmpje via WhatsApp.',
+  contactOptions = true,
+} = Astro.props;
+const wa = whatsappHref(site);
 ---
 <section class="cta-band">
   <Swoosh variant="top" fill="#ffffff" />
   <div class="container center content">
     {title && <h2 class="light">{title}</h2>}
     {text && <p class="light-text">{text}</p>}
-    <a class="btn btn-primary" href={href}>{label}</a>
+    <div class="actions">
+      <a class="btn btn-primary" href={href}>{label}</a>
+      {contactOptions && <a class="btn btn-ghost" href={site.phoneLink}><Icon name="phone" size={20} /> Bel {site.phone}</a>}
+      {contactOptions && wa && <a class="btn btn-ghost" href={wa} target="_blank" rel="noopener"><Icon name="whatsapp" size={20} /> WhatsApp</a>}
+    </div>
+    {contactOptions && wa && site.whatsappPromise && <p class="promise">{site.whatsappPromise}</p>}
   </div>
 </section>
 <style>
@@ -16,4 +32,8 @@ const { label, href, title, text } = Astro.props;
   .content { position: relative; }
   .light { color: #fff; }
   .light-text { color: rgba(255, 255, 255, 0.85); max-width: 640px; margin: 0 auto 1.5em; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+  .btn-ghost { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.6); display: inline-flex; align-items: center; gap: 8px; }
+  .btn-ghost:hover { background: #fff; color: var(--blue); }
+  .promise { color: rgba(255, 255, 255, 0.75); font-size: 0.92rem; margin: 1.2em auto 0; max-width: 560px; }
 </style>

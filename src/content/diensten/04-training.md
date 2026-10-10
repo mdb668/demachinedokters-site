@@ -9,6 +9,8 @@ order: 4
 slug: "training-ondersteuning"
 seoTitle: "Training & ondersteuning operators en monteurs | De Machinedokters"
 seoDescription: "Hands-on trainingen voor operators, monteurs en engineers, plus support na implementatie. Ook losse trainingen lean manufacturing en foutpreventie."
+ctaTitle: "Wil je dat je team de lijn zelf beter begrijpt?"
+ctaText: "We stemmen de training af op jouw machines en jouw mensen."
 relatedCases:
   - "case-voedingsindustrie"
   - "case-altrex"

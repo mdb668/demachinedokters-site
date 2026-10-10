@@ -2,7 +2,7 @@
   "seoTitle": "Contact | De Machinedokters",
   "seoDescription": "Neem contact op met De Machinedokters in Alphen (NB). Bel +31 850 470 907 of vul het formulier in. We helpen je graag verder.",
   "title": "Neem contact op met De Machinedokters",
-  "intro": "We helpen je graag verder. Vul het formulier in of neem direct contact op.",
+  "intro": "Vul het formulier in, bel ons, of stuur een foto of filmpje van je machine of storing via WhatsApp. Je krijgt persoonlijk antwoord.",
   "subtitle": "Onze aanpak in maatwerkoplossingen",
   "form": {
     "nameLabel": "Naam",
@@ -20,5 +20,15 @@
     "email": "E-mail",
     "hours": "Kantoortijden"
   },
-  "mapEmbed": "https://www.google.com/maps?q=Looiersweg+3B,+5131+BE+Alphen&output=embed"
+  "mapEmbed": "https://www.google.com/maps?q=Looiersweg+3B,+5131+BE+Alphen&output=embed",
+  "personal": {
+    "photo": "/images/team/mike.jpg",
+    "photoAlt": "Mike de Bresser, oprichter van De Machinedokters",
+    "title": "Je krijgt persoonlijk antwoord van Mike",
+    "text": "Oprichter van De Machinedokters. Geen callcenter, maar iemand die je machine begrijpt."
+  },
+  "review": {
+    "text": "De communicatie is direct en duidelijk, en er wordt voortdurend gedacht in termen van wat er wél mogelijk is.",
+    "name": "Alex Dekkers, over de samenwerking (toen nog als Reboow)"
+  }
 }

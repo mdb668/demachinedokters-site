@@ -1,0 +1,22 @@
+---
+/** Vaste contactbalk onderaan het scherm op mobiel: bellen, WhatsApp en adviesgesprek met één duim. */
+import Icon from './Icon.astro';
+import { getEntry } from 'astro:content';
+import { whatsappHref } from '../lib/whatsapp';
+const site = (await getEntry('settings', 'site'))!.data;
+const wa = whatsappHref(site);
+---
+<nav class="mobile-contact" aria-label="Snel contact">
+  <a href={site.phoneLink}><Icon name="phone" size={22} /><span>Bellen</span></a>
+  {wa && <a href={wa} target="_blank" rel="noopener"><Icon name="whatsapp" size={22} /><span>WhatsApp</span></a>}
+  <a class="primary" href={site.ctaLink}><Icon name="mail" size={22} /><span>Adviesgesprek</span></a>
+</nav>
+<style>
+  .mobile-contact { display: none; }
+  @media (max-width: 860px) {
+    .mobile-contact { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; position: fixed; left: 0; right: 0; bottom: 0; z-index: 90; background: #fff; border-top: 1px solid var(--border); box-shadow: 0 -4px 18px rgba(7, 76, 130, 0.1); padding-bottom: env(safe-area-inset-bottom); }
+    .mobile-contact a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 9px 4px 8px; color: var(--blue); font-size: 0.8rem; font-weight: 600; text-decoration: none; }
+    .mobile-contact a.primary { background: var(--blue); color: #fff; }
+    :global(body) { padding-bottom: calc(64px + env(safe-area-inset-bottom)); }
+  }
+</style>

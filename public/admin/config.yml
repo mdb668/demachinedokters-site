@@ -46,7 +46,7 @@ collections:
           - { name: phone, label: "Telefoonnummer (weergave)", widget: string }
           - { name: phoneLink, label: "Telefoonnummer (link, bv. tel:+31850470907)", widget: string }
           - { name: email, label: "E-mailadres", widget: string }
-          - { name: formEmail, label: "E-mailadres waar formulieren naartoe gaan", widget: string, hint: "Contact-, sollicitatie- en downloadformulieren worden hierheen gestuurd." }
+          - { name: formEmail, label: "E-mailadres waar formulieren naartoe gaan", widget: string, hint: "Contact- en sollicitatieformulieren worden hierheen gestuurd." }
           - { name: formEndpoint, label: "FormSubmit-code (optioneel)", widget: string, required: false, hint: "De hashed code uit je FormSubmit-activatiemail. Ingevuld? Dan staat je e-mailadres nergens meer in de broncode." }
           - { name: addressLine1, label: "Adres regel 1", widget: string }
           - { name: addressLine2, label: "Adres regel 2 (postcode plaats)", widget: string }
@@ -413,41 +413,7 @@ collections:
           - { name: allLabel, label: "Tekst 'Alles weergeven'", widget: string }
           - { name: backLabel, label: "Tekst 'Alle posts'", widget: string }
           - { name: readingTimeSuffix, label: "Achtervoegsel leestijd", widget: string }
-          - { name: downloadCtaLabel, label: "Download-knop tekst", widget: string }
-          - { name: downloadCtaLink, label: "Download-knop link", widget: string }
 
-      - name: download
-        label: "Download-pagina"
-        file: src/content/pages/download.json
-        fields:
-          - { name: seoTitle, label: "SEO-titel", widget: string }
-          - { name: seoDescription, label: "SEO-omschrijving", widget: text }
-          - { name: title, label: "Titel", widget: string }
-          - { name: intro, label: "Intro", widget: text }
-          - name: options
-            label: "Downloads"
-            widget: list
-            fields:
-              - { name: label, label: "Naam", widget: string }
-              - { name: file, label: "PDF-bestand", widget: file }
-          - name: form
-            label: "Formulier labels"
-            widget: object
-            fields:
-              - { name: firstNameLabel, label: "Voornaam", widget: string }
-              - { name: lastNameLabel, label: "Achternaam", widget: string }
-              - { name: emailLabel, label: "E-mail", widget: string }
-              - { name: fileLabel, label: "Selecteer bestand", widget: string }
-              - { name: filePlaceholder, label: "Placeholder", widget: string }
-              - { name: submitLabel, label: "Knop", widget: string }
-          - name: thanks
-            label: "Bedankt-pagina"
-            widget: object
-            fields:
-              - { name: seoTitle, label: "SEO-titel", widget: string }
-              - { name: title, label: "Titel", widget: string }
-              - { name: text, label: "Tekst", widget: text }
-          - { name: autoresponse, label: "Automatische antwoordmail (tekst met downloadlink)", widget: text }
 
   # ───────────── Diensten ─────────────
   - name: diensten

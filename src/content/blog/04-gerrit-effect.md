@@ -20,7 +20,7 @@ Het Gerrit-effect ontstaat wanneer een machine zo onvoorspelbaar is geworden, da
 
 Het resultaat? Een enorme variatie in je OEE. De ene ploeg draait recordcijfers, de andere ploeg vecht de hele dag tegen micro stilstanden.
 
-<a class="btn btn-primary" href="/download-pagina">Download de volledige Machinedokters Checklist</a>
+<a class="btn btn-primary" href="/contact/">Plan een vrijblijvend adviesgesprek</a>
 
 ## Waarom dit je productiehuis in de weg staat
 
@@ -52,4 +52,4 @@ Dit zijn slechts 3 punten uit onze machinedokters checklist: “hoe ziek is jouw
 
 Wij maken je proces weer onafhankelijk. Niet door de kennis van je mensen te negeren, maar door die kennis te integreren in de machine en de werkwijze. Zo draait je lijn op dinsdag net zo goed als op maandag.
 
-**Klaar voor een stabiel resultaat, het hele jaar door?** Plan een [vrijblijvend adviesgesprek](/contact) in of lees in onze [Case Study ](/download-pagina)hoe wij bij een productiehuis zorgden voor een 20% snellere lijn.
+**Klaar voor een stabiel resultaat, het hele jaar door?** Plan een [vrijblijvend adviesgesprek](/contact) in of lees in onze [case](/case-voedingsindustrie/) hoe wij bij een productiehuis zorgden voor een 20% snellere lijn.

@@ -22,7 +22,7 @@ Voor de operatie is dat logisch. Minder verstoringen, minder correcties, minder 
 
 Maar die lagere snelheid is een teken dat je aan het corrigeren bent voor een instabiele lijn. En meestal is dat niet het enige teken dat je lijn ziek is (om het even in machinedokters termen te zeggen). Wat we in de praktijk zien is dat dit soort lijnen links en rechts worden gecorrigeerd, en dat het dweilen met de kraan open is.
 
-<a class="btn btn-primary" href="/download-pagina">Download de checklist en kijk welke signalen bij jullie spelen.</a>
+<a class="btn btn-primary" href="/contact/">Plan een vrijblijvende diagnose van jouw lijn</a>
 
 ## Waarom dit vaak niet als probleem wordt gezien
 
@@ -70,4 +70,4 @@ Veel bedrijven herkennen daarin meer dan ze vooraf verwachten.
 
 Doet jouw lijn ook aan symptoombestrijding? Wij genezen de onderliggende oorzaak. Wij werken niet door jouw lijn weg te gooien of te vervangen. Wij werken aan jouw lijn. Zonder compleet nieuwe machines of miljoeneninversteringen.
 
-Benieuwd hoe we dat doen? Neem gerust [contact](/contact) met ons op voor meer informatie, of [download](/download-pagina) onze case study “OEE-optimalisatie”, waarin we één van onze opdrachten hebben uitgeschreven.
+Benieuwd hoe we dat doen? Neem gerust [contact](/contact) met ons op voor meer informatie, of bekijk in onze [cases](/cases/) hoe we dat bij andere producenten hebben aangepakt.

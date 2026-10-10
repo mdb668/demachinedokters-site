@@ -22,7 +22,7 @@ Grote storingen vallen op. Maar het echte rendement lekt weg via de ‘kleine be
 
 Op dagbasis lijkt het verwaarloosbaar. Maar tel deze tijd- en bewegingsverliezen op over een maand, en je praat bijvoorbeeld over tienduizenden euro’s aan verloren capaciteit. Zonder een diepgaande tijd- en bewegingsanalyse blijven deze verliezen onzichtbaar. Ze worden simpelweg onderdeel van “hoe we het hier nu eenmaal doen”.
 
-<a class="btn btn-primary" href="/download-pagina">Download hier de Case Study</a>
+<a class="btn btn-primary" href="/cases/">Bekijk onze cases</a>
 
 ## 2. Symptoombestrijding is geen stabiliteit
 

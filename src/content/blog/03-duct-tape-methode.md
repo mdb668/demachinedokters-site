@@ -14,7 +14,7 @@ In veel fabrieken zie je ze zitten: de kleine, creatieve toevoegingen aan de mac
 
 Het begint vaak onschuldig als een snelle fix om de ploeg door te komen. Maar in de praktijk zien we dat deze "pleisters" maanden, of zelfs jaren, blijven zitten. Welkom bij de **Duct-tape Methode**: het punt waar improvisatie de standaard is geworden.
 
-<a class="btn btn-primary" href="/download-pagina">Download de gratis Checklist: Hoe ziek is jouw lijn?</a>
+<a class="btn btn-primary" href="/contact/">Plan een vrijblijvend diagnosegesprek</a>
 
 ## De diagnose: Creativiteit uit noodzaak
 
@@ -50,4 +50,4 @@ Wil je weten wat de andere 15 signalen zijn van een 'zieke' lijn? We hebben de *
 
 Ziet jouw lijn er uit als een verzameling pleisters? Wij helpen je om van symptoombestrijding naar echte genezing te gaan. Wij werken met je team aan de bestaande lijn om de stabiliteit en betrouwbaarheid weer terug te brengen. Zónder dat er direct een nieuwe machine besteld hoeft te worden.
 
-**Benieuwd hoe we jouw 'Duct-tape' problemen definitief oplossen?** Neem [contact](/contact) op voor een diagnose-gesprek of [download](/download-pagina) onze Case Study.
+**Benieuwd hoe we jouw 'Duct-tape' problemen definitief oplossen?** Neem [contact](/contact) op voor een diagnose-gesprek of bekijk onze [cases](/cases/).

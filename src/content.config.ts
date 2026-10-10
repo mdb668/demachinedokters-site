@@ -28,6 +28,7 @@ const settings = defineCollection({
     legalName: z.string().optional(),
     formEmail: z.string(),
     formEndpoint: z.string().optional(),
+    formBlacklist: z.string().optional(),
     ctaLabel: z.string(),
     ctaLink: z.string(),
     reboowUrl: z.string().optional(),

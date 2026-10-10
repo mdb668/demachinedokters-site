@@ -9,6 +9,7 @@ const f = page.form;
   <input type="hidden" name="_subject" value="Nieuw bericht via demachinedokters.nl" />
   <input type="hidden" name="_template" value="table" />
   <input type="hidden" name="_captcha" value="false" />
+  {site.formBlacklist && <input type="hidden" name="_blacklist" value={site.formBlacklist} />}
   <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
   <div>
     <label for="cf-name">{f.nameLabel} *</label>

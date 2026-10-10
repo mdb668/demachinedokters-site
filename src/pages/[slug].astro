@@ -121,6 +121,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value={new URL('/bedankt?type=sollicitatie', Astro.site).href} />
+          {site.formBlacklist && <input type="hidden" name="_blacklist" value={site.formBlacklist} />}
           <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <div class="row">
             <div><label for="s-vn">Voornaam *</label><input id="s-vn" name="Voornaam" required autocomplete="given-name" /></div>

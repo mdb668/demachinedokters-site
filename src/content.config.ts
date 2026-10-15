@@ -124,6 +124,7 @@ const blog = defineCollection({
     cover: img,
     coverAlt: z.string().optional(),
     seoDescription: z.string().optional(),
+    faq: z.array(z.object({ question: z.string(), answer: z.string() })).optional(),
     published: z.boolean().default(true),
   }),
 });

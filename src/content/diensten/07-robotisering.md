@@ -47,6 +47,8 @@ Hang er een mes in, of laat hem een scherp of zwaar product hanteren, en die cob
 
 Rechttoe rechtaan dozen stapelen met een vacuümgrijper kan prima met een standaard cobot-palletiseerder. Dat kan vanaf ongeveer **€45.000**, maar komt in de praktijk vaak eerder richting **€100.000**, afhankelijk van snelheid, gewicht en wat er omheen nodig is.
 
+Wil je de verschillen op een rij, van samenwerkingsvormen tot normen? Lees onze blog [Robot of cobot? Zo maak je de juiste keuze](/post/robot-of-cobot/).
+
 ## Merkonafhankelijk
 
 We kiezen de robot die past bij de toepassing. We hebben veel ervaring met **FANUC, ABB, KUKA en Doosan**, en werken ook met **Rokae via NextStep Robotics**. De robotarm kopen we in via de dealer of via ons netwerk voor **refurbished robots**; dat kan aanzienlijk in prijs schelen. Alles eromheen doen we zelf.

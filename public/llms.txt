@@ -21,6 +21,7 @@
 - Cobot-palletiseerder vanaf ca. €45.000, in de praktijk vaak richting €100.000; robotproject duurt ca. een half jaar
 - Een afgeschermde industriële robot is vaak sneller, goedkoper en eenvoudiger dan een cobot: veiligheid hangt ook af van grijper en product
 - Geen lasrobots en geen complete auto-assemblagelijnen
+- Robot of cobot: een cobotarm is niet automatisch een collaboratieve toepassing; de risicobeoordeling van de complete toepassing beslist. Normen EN ISO 10218-1/-2, ISO/TS 15066 voor collaboratief, veiligheidsbesturing minimaal PL d cat. 3 (ISO 13849-1). Uitleg: https://www.demachinedokters.nl/post/robot-of-cobot/
 
 ## Voor wie
 - Productiebedrijven en fabrieken in de maakindustrie, verpakkings- en voedingsmiddelenindustrie

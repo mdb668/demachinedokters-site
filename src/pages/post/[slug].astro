@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import Icon from '../../components/Icon.astro';
+import PageFaq from '../../components/PageFaq.astro';
 import { formatDate } from '../../lib/md';
 import { getEntry, getCollection, render } from 'astro:content';
 
@@ -25,8 +26,14 @@ const ld = {
   publisher: { '@id': `${Astro.site}#organization` },
   mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
 };
+const faq = post.data.faq ?? [];
+const faqLd = faq.length ? [{
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })),
+}] : [];
 ---
-<Base title={post.data.title.length > 52 ? post.data.title : `${post.data.title} | ${site.siteName}`} description={post.data.seoDescription ?? post.data.excerpt} image={post.data.cover} type="article" jsonLd={ld}>
+<Base title={post.data.title.length > 52 ? post.data.title : `${post.data.title} | ${site.siteName}`} description={post.data.seoDescription ?? post.data.excerpt} image={post.data.cover} type="article" jsonLd={[ld, ...faqLd]}>
   <section class="page-hero">
     <div class="container-narrow">
       <a class="back" href="/blog"><Icon name="arrow-left" size={18} /> {p.backLabel}</a>
@@ -38,6 +45,12 @@ const ld = {
     <div class="container-narrow">
       <img class="cover rounded shadow" src={post.data.cover} alt={post.data.coverAlt ?? post.data.title} width="1200" height="700" />
       <div class="prose"><Content /></div>
+      {faq.length > 0 && (
+        <div class="post-faq">
+          <h2>Veelgestelde vragen</h2>
+          <PageFaq items={faq} />
+        </div>
+      )}
     </div>
   </article>
   {others.length > 0 && (
@@ -60,6 +73,7 @@ const ld = {
 <style>
   .back { display: inline-flex; align-items: center; gap: 6px; font-size: 0.95rem; margin-bottom: 18px; }
   .page-hero h1 { font-size: clamp(1.8rem, 3.5vw, 2.6rem); }
+  .post-faq { margin-top: 48px; }
   .cover { width: 100%; max-height: 460px; object-fit: cover; margin-bottom: 32px; }
   .recent-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin-bottom: 24px; }
   .mini { padding: 0; overflow: hidden; text-decoration: none !important; }

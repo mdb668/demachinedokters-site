@@ -554,6 +554,13 @@ collections:
       - { name: cover, label: "Omslagfoto", widget: image }
       - { name: coverAlt, label: "Alt-tekst omslagfoto", widget: string, required: false }
       - { name: seoDescription, label: "SEO-omschrijving (optioneel)", widget: text, required: false }
+      - name: faq
+        label: "Veelgestelde vragen (optioneel, ook voor Google)"
+        widget: list
+        required: false
+        fields:
+          - { name: question, label: "Vraag", widget: string }
+          - { name: answer, label: "Antwoord", widget: text }
       - { name: published, label: "Gepubliceerd", widget: boolean, default: true }
       - { name: body, label: "Inhoud", widget: markdown }
 

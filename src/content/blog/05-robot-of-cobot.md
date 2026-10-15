@@ -3,18 +3,20 @@ title: "Robot of cobot? Zo maak je de juiste keuze voor je productielijn"
 slug: "robot-of-cobot"
 date: 2026-10-15
 author: "De Machinedokters"
-readingTime: "6 minuten"
+readingTime: "7 minuten"
 excerpt: "Een cobot voelt als de veilige, makkelijke keuze. Maar een cobotarm is niet automatisch een collaboratieve toepassing. Wat de doorslag geeft is hoe mens en robot samenwerken, wat de risico's van de toepassing zijn en hoeveel output je nodig hebt."
-cover: "/images/robotisering/fanuc-lr-mate-werkplaats.jpg"
-coverAlt: "FANUC LR Mate-robot naast een transportband in een werkplaats."
-seoDescription: "Robot of cobot? Vergelijking op kosten, snelheid, veiligheid, samenwerking en normen (ISO 10218, ISO/TS 15066, PL d). Met keuzehulp voor je productielijn."
+cover: "/images/robotisering/cobot-palletiseerders-hal.jpg"
+coverAlt: "Twee cobot-palletiseerders stapelen dozen op pallets in een productiehal."
+seoDescription: "Robot of cobot? Vergelijking op kosten, snelheid, veiligheid en normen (ISO 10218, ISO/TS 15066, PL d), plus de TÜV-gekeurde cobot-palletiseerder voor dozen."
 faq:
   - question: "Wat is het verschil tussen een robot en een cobot?"
     answer: "Een cobot (collaboratieve robot) is gebouwd om dicht bij mensen te kunnen werken: hij kan kracht en snelheid begrenzen en stopt bij contact. Een industriële robot is sneller, sterker en nauwkeuriger, maar werkt afgeschermd achter een hekwerk of andere veiligheidsvoorziening. Of een toepassing echt collaboratief mag werken, bepaalt de risicobeoordeling van de complete toepassing, niet het type robotarm."
   - question: "Is een cobot altijd veiliger dan een industriële robot?"
     answer: "Nee. De cobotarm zelf is begrensd, maar de veiligheid hangt af van de hele toepassing: de grijper, het product, de snelheid en hoe dicht de operator erbij werkt. Een scherp of zwaar product maakt een cobot niet meer veilig. Daarom moet de risicobeoordeling aantonen dat de toepassing binnen de grenswaarden voor kracht en druk blijft."
   - question: "Is een cobot goedkoper dan een robot?"
-    answer: "De robotarm zelf kost ongeveer hetzelfde. Het verschil zit in de integratie. Een cobot heeft vaak minder afscherming nodig, maar ongeplande veiligheidsstops kunnen productietijd kosten. Bij een industriële robot is een hekwerk met deur juist een relatief goedkope en voorspelbare veiligheidsmaatregel."
+    answer: "Nee. Een cobotarm is in dezelfde gewichtsklasse meestal duurder dan een industriële robot. Een cobot wordt pas voordelig als je minder afscherming nodig hebt of als hij kant-en-klaar te leveren is, zoals een TÜV-gekeurde cobot-palletiseerder voor het stapelen van dozen. Bij een industriële robot is een hekwerk met deur juist een relatief goedkope en voorspelbare veiligheidsmaatregel."
+  - question: "Kan ik een cobot-palletiseerder kant-en-klaar kopen?"
+    answer: "Ja. Voor het stapelen van dozen leveren wij een complete cobot-palletiseerder, out of the box en TÜV-gekeurd. We installeren hem met een standaard pickpoint, waarna hij direct kan draaien. Prijs vanaf ongeveer €41.500 excl. btw. Hij stapelt tot 220 cm hoog op twee palletplaatsen, en een nieuw stapelpatroon stel je in op het touchscreen zonder te programmeren. Afhankelijk van de uitvoering stapelt hij 9 tot 20 dozen per minuut en dozen tot ongeveer 38 kg."
   - question: "Welke normen gelden voor robots en cobots?"
     answer: "Voor beide gelden EN ISO 10218-1 (veiligheidseisen voor de robot zelf, voor de fabrikant) en EN ISO 10218-2 (veiligheid van de complete robotcel en de integratie). Voor collaboratieve toepassingen komt daar ISO/TS 15066 bij, met grenswaarden voor kracht en druk. Het veiligheidsdeel van de besturing moet in beide gevallen minimaal PL d, categorie 3 halen volgens ISO 13849-1."
   - question: "Wanneer kies je voor een cobot?"
@@ -40,9 +42,13 @@ De partij die de robot integreert, voert daarom een risicobeoordeling uit op het
 
 Een cobot met een mes in de grijper is geen veilige cobot meer. Hetzelfde geldt voor een scherp, heet of zwaar product.
 
+![Twee industriële robots in een afgeschermde cel, met een operator buiten het hekwerk.](/images/robotisering/industriele-robots-afgeschermde-cel.jpg)
+
 ## Begin met één vraag: hoe moet de operator samenwerken?
 
 De keuze tussen robot en cobot begint niet bij de robotarm, maar bij de samenwerking die je nodig hebt.
+
+![Cobots aan het werk naast operators, die de robot bedienen met een tablet.](/images/robotisering/cobots-met-operators.jpg)
 
 <div class="keuze">
   <div>
@@ -91,8 +97,8 @@ Het nadeel: zodra er mensen dichtbij werken, moet de cobot langzamer of minder k
     <tr><th></th><th>Cobot</th><th>Industriële robot</th></tr>
   </thead>
   <tbody>
-    <tr><th>Kosten</th><td colspan="2">De robotarm zelf kost ongeveer hetzelfde. Het verschil zit in de integratie.</td></tr>
-    <tr><th>Integratie</th><td>Sterk afhankelijk van de toepassing. Ongeplande veiligheidsstops kunnen productietijd kosten.</td><td>Afhankelijk van de ruimte en de eisen van het proces. Een hekwerk met deur is relatief goedkoop.</td></tr>
+    <tr><th>Kosten</th><td>Duurder dan een industriële robot in dezelfde gewichtsklasse. Wat je soms terugwint, is minder afscherming.</td><td>Voordeliger per kilo draagvermogen. Een hekwerk met deur is een relatief goedkope veiligheidsmaatregel.</td></tr>
+    <tr><th>Integratie</th><td>Sterk afhankelijk van de toepassing. Ongeplande veiligheidsstops kunnen productietijd kosten.</td><td>Afhankelijk van de ruimte en de eisen van het proces.</td></tr>
     <tr><th>Toepassing</th><td>Als samenwerking met de operator iets oplevert, of bij veel variatie en kleine series. Niet automatisch de veiligste keuze.</td><td>Als productiviteit, output, voorspelbaarheid en beheersing van risico's voorop staan.</td></tr>
     <tr><th>Samenwerking</th><td>Co-existentie, om de beurt of tegelijk</td><td>Geen: traditionele cel met hekwerk</td></tr>
     <tr><th>Veiligheid</th><td>Stop bij betreden, handgeleiding, afstandsbewaking, kracht- en snelheidsbegrenzing</td><td>Fysieke scheiding en toegangsbeveiliging</td></tr>
@@ -119,8 +125,9 @@ Het nadeel: zodra er mensen dichtbij werken, moet de cobot langzamer of minder k
       <li>+ Compact en flexibel inzetbaar</li>
       <li>+ Snel te implementeren en eenvoudiger te programmeren</li>
       <li>+ Kan samenwerken met operators</li>
-      <li>+ Vaak lagere opstartkosten en minder afscherming</li>
+      <li>+ Minder afscherming nodig</li>
       <li>+ Sterk bij kleine series en wisselende producten</li>
+      <li>− Duurder dan een industriële robot met hetzelfde draagvermogen</li>
       <li>− Lagere snelheid, langere cyclustijd</li>
       <li>− Beperkt in gewicht en bereik</li>
       <li>− Minder geschikt voor zware of gevaarlijke processen</li>
@@ -137,13 +144,30 @@ Het nadeel: zodra er mensen dichtbij werken, moet de cobot langzamer of minder k
       <li>+ Gemaakt voor continu draaien</li>
       <li>+ Hoge nauwkeurigheid en herhaalbaarheid</li>
       <li>+ Beste keuze bij hoge volumes</li>
-      <li>− Hogere investering en integratiekosten</li>
+      <li>− Meer engineering en integratie per toepassing</li>
       <li>− Meer afscherming en meer ruimte nodig</li>
       <li>− Minder flexibel bij productwissels</li>
-      <li>− Meer engineering en veiligheidsvalidatie</li>
+      <li>− Meer veiligheidsvalidatie</li>
     </ul>
   </div>
 </div>
+
+## De uitzondering: dozen stapelen met een kant-en-klare cobot-palletiseerder
+
+Voor het stapelen van dozen hoef je geen maatwerkcel te laten bouwen. Wij leveren een complete cobot-palletiseerder, out of the box en **TÜV-gekeurd**.
+
+![Cobot-palletiseerder met een volle pallet dozen.](/images/robotisering/cobot-palletiseerder-dozen.jpg)
+
+- **Out of the box met een standaard pickpoint.** We installeren hem, de dozen komen aan op een vaste oppakplek en hij kan direct draaien.
+- **Stapelt tot 220 cm hoog**, inclusief pallet.
+- **Twee palletplaatsen.** De robot stapelt door op de tweede pallet terwijl de eerste wordt weggereden.
+- **Geen programmeerkennis nodig.** Een nieuw stapelpatroon stel je in op het touchscreen, in een paar minuten.
+- **9 tot 20 dozen per minuut**, afhankelijk van de uitvoering en het stapelpatroon (met enkele of dubbele grijper).
+- **Dozen tot ongeveer 38 kg**, afhankelijk van de uitvoering.
+
+Kant-en-klaar geïnstalleerd met een standaard pickpoint vanaf ongeveer **€41.500** excl. btw. Extra's zoals een rollenbaan of een dubbele grijper komen erbij.
+
+Dit is de situatie waarin een cobot echt de snelste en voordeligste keuze is: de toepassing is standaard, de veiligheid is als geheel gekeurd en je hoeft niets te laten ontwikkelen.
 
 ## Dus: robot of cobot?
 
@@ -161,7 +185,7 @@ Het nadeel: zodra er mensen dichtbij werken, moet de cobot langzamer of minder k
 - de lijn continu moet draaien;
 - je maximale betrouwbaarheid en output nodig hebt.
 
-In de praktijk komen we vaak uit bij een afgeschermde industriële robot: sneller, voorspelbaarder en de veiligheid is eenvoudiger rond te krijgen. Maar er zijn genoeg situaties waarin een cobot precies past, zoals rechttoe rechtaan dozen stapelen met een vacuümgrijper.
+In de praktijk komen we vaak uit bij een afgeschermde industriële robot: sneller, voorspelbaarder en de veiligheid is eenvoudiger rond te krijgen. Maar er zijn genoeg situaties waarin een cobot precies past, zoals [dozen stapelen met een kant-en-klare cobot-palletiseerder](#de-uitzondering-dozen-stapelen-met-een-kant-en-klare-cobot-palletiseerder).
 
 ## Twijfel je?
 

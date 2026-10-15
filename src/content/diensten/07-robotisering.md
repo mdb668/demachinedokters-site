@@ -9,7 +9,7 @@ imageAlt: "Twee FANUC-palletiseerrobots in een afgeschermde robotcel naast een t
 order: 7
 slug: "robotisering"
 seoTitle: "Robotisering productielijn: robots & cobots | De Machinedokters"
-seoDescription: "Robots en cobots integreren in je productielijn: palletiseren, stapelen, dozen vouwen en handling. Merkonafhankelijk, cobot-palletiseerder vanaf €45.000."
+seoDescription: "Robots en cobots integreren in je productielijn: palletiseren, stapelen, dozen vouwen en handling. Merkonafhankelijk, kant-en-klare cobot-palletiseerder vanaf €41.500."
 ctaTitle: "Repeterend werk dat een robot kan overnemen?"
 ctaText: "We kijken eerlijk of een robot, cobot of eenvoudige automatisering het beste past."
 relatedCases:
@@ -18,11 +18,11 @@ relatedCases:
   - "case-stabalkmachine"
 faq:
   - question: "Wat kost een palletiseerrobot of cobot?"
-    answer: "Rechttoe rechtaan dozen stapelen met een vacuümgrijper kan met een standaard cobot-palletiseerder vanaf ongeveer €45.000. In de praktijk komt het vaak eerder richting €100.000, afhankelijk van snelheid, gewicht en wat er omheen nodig is. Door de robotarm via een dealer of via ons netwerk voor refurbished robots in te kopen, kan de prijs flink schelen."
+    answer: "Voor het stapelen van dozen leveren we een kant-en-klare, TÜV-gekeurde cobot-palletiseerder vanaf ongeveer €41.500 excl. btw. Daarvoor installeren we hem met een standaard pickpoint en kan hij direct draaien. Extra's zoals een rollenbaan of een aangepaste grijper komen erbij. Een robotcel op maat hangt af van snelheid, gewicht en wat er omheen nodig is. Door de robotarm via een dealer of via ons netwerk voor refurbished robots in te kopen, kan de prijs flink schelen."
   - question: "Robot of cobot: wat is beter?"
     answer: "Een cobot is uit de doos trager en aanraakveilig. Maar de veiligheid hangt ook af van de grijper en het product dat je hanteert. Een scherp of zwaar product maakt een cobot niet meer veilig. Volgens de Europese machineveiligheidsregels beoordeel je altijd de hele toepassing. In de praktijk is een afgeschermde industriële robot daardoor vaak sneller, goedkoper en eenvoudiger."
   - question: "Met welke robotmerken werken jullie?"
-    answer: "We zijn merkonafhankelijk. We hebben veel ervaring met FANUC, ABB, KUKA en Doosan, en werken ook met Rokae via NextStep Robotics. We kiezen het merk dat past bij de toepassing en bij wat de klant wil, ook kleinere merken."
+    answer: "We zijn merkonafhankelijk. We hebben veel ervaring met FANUC, ABB, KUKA en Doosan, en werken ook met Rokae via NexStep Robotics. We kiezen het merk dat past bij de toepassing en bij wat de klant wil, ook kleinere merken."
   - question: "Hoe lang duurt een robotproject?"
     answer: "Reken voor een robotproject op ongeveer een half jaar, van vastleggen wat er nodig is tot implementatie. Een eenvoudige toepassing kan sneller; een complexe cel met speciale grijpers en tooling duurt langer."
   - question: "Kan een robot in onze bestaande lijn?"
@@ -45,13 +45,24 @@ Een cobot lijkt de veilige keuze: hij is trager en aanraakveilig. Uit de doos kl
 
 Hang er een mes in, of laat hem een scherp of zwaar product hanteren, en die cobot is niet meer veilig. Volgens de Europese machineveiligheidsregels beoordeel je altijd de hele toepassing, niet alleen de robotarm. **In de praktijk is een afgeschermde industriële robot daardoor vaak sneller, goedkoper en eenvoudiger.**
 
-Rechttoe rechtaan dozen stapelen met een vacuümgrijper kan prima met een standaard cobot-palletiseerder. Dat kan vanaf ongeveer **€45.000**, maar komt in de praktijk vaak eerder richting **€100.000**, afhankelijk van snelheid, gewicht en wat er omheen nodig is.
+Wil je de verschillen op een rij, van kosten en samenwerkingsvormen tot normen? Lees onze blog [Robot of cobot? Zo maak je de juiste keuze](/post/robot-of-cobot/).
 
-Wil je de verschillen op een rij, van samenwerkingsvormen tot normen? Lees onze blog [Robot of cobot? Zo maak je de juiste keuze](/post/robot-of-cobot/).
+## Kant-en-klare cobot-palletiseerder voor dozen
+
+Dozen stapelen is de uitzondering waarin een cobot wel de snelste en voordeligste keuze is. Daarvoor leveren we een complete cobot-palletiseerder, **out of the box en TÜV-gekeurd**.
+
+![Cobot-palletiseerder met een volle pallet dozen.](/images/robotisering/cobot-palletiseerder-dozen.jpg)
+
+- **Out of the box met een standaard pickpoint.** We installeren hem, de dozen komen aan op een vaste oppakplek en hij kan direct draaien.
+- Stapelt tot **220 cm** hoog, op **twee palletplaatsen**: de robot stapelt door terwijl de volle pallet wordt weggereden.
+- Nieuw stapelpatroon instellen op het touchscreen, **zonder te programmeren**.
+- **9 tot 20 dozen per minuut** en dozen tot ongeveer **38 kg**, afhankelijk van de uitvoering.
+
+Kant-en-klaar geïnstalleerd met een standaard pickpoint vanaf ongeveer **€41.500** excl. btw. Extra's zoals een rollenbaan, een dubbele grijper of een aangepaste aanvoer komen erbij.
 
 ## Merkonafhankelijk
 
-We kiezen de robot die past bij de toepassing. We hebben veel ervaring met **FANUC, ABB, KUKA en Doosan**, en werken ook met **Rokae via NextStep Robotics**. De robotarm kopen we in via de dealer of via ons netwerk voor **refurbished robots**; dat kan aanzienlijk in prijs schelen. Alles eromheen doen we zelf.
+We kiezen de robot die past bij de toepassing. We hebben veel ervaring met **FANUC, ABB, KUKA en Doosan**, en werken ook met **Rokae via NexStep Robotics**. De robotarm kopen we in via de dealer of via ons netwerk voor **refurbished robots**; dat kan aanzienlijk in prijs schelen. Alles eromheen doen we zelf.
 
 ## Zo verloopt een robotproject
 

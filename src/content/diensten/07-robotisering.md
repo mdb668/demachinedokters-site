@@ -8,8 +8,8 @@ image: "/images/robotisering/palletiseercel-fanuc.jpg"
 imageAlt: "Twee FANUC-palletiseerrobots in een afgeschermde robotcel naast een transportband."
 order: 7
 slug: "robotisering"
-seoTitle: "Robotisering productielijn: robots & cobots | De Machinedokters"
-seoDescription: "Robots en cobots integreren in je productielijn: palletiseren, stapelen, dozen vouwen en handling. Merkonafhankelijk, kant-en-klare cobot-palletiseerder vanaf €41.500."
+seoTitle: "Robotisering met robots en cobots | De Machinedokters"
+seoDescription: "Robotisering van palletiseren, stapelen, dozen vouwen en handling, ingepast in je bestaande lijn. Merkonafhankelijk. Cobot-palletiseerder vanaf €41.500."
 ctaTitle: "Repeterend werk dat een robot kan overnemen?"
 ctaText: "We kijken eerlijk of een robot, cobot of eenvoudige automatisering het beste past."
 relatedCases:

@@ -161,6 +161,7 @@ const vacancies = defineCollection({
     watGaJeDoen: z.array(z.string()),
     watWijBieden: z.array(z.string()),
     watJeMeebrengt: z.array(z.string()),
+    datePosted: z.coerce.date().optional(),
     published: z.boolean().default(true),
     order: z.number().default(0),
   }),

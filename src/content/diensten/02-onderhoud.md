@@ -8,8 +8,8 @@ image: "/images/fotos/onderhoud-warning.jpg"
 imageAlt: "Waarschuwingsbord: als je geen tijd inplant voor onderhoud, plant je apparatuur het voor jou."
 order: 2
 slug: "onderhoud-storingsanalyse"
-seoTitle: "Storingsanalyse productiemachines: de echte oorzaak | De Machinedokters"
-seoDescription: "Storingsanalyse van productielijnen en machines: we vinden de echte oorzaak van terugkerende storingen en kleine stops, en voorkomen dat ze terugkomen."
+seoTitle: "Storingsanalyse van machines en lijnen | De Machinedokters"
+seoDescription: "Storingsanalyse van machines: we vinden de echte oorzaak van terugkerende storingen en kleine stops, en richten het onderhoud zo in dat ze wegblijven."
 ctaTitle: "Storing die blijft terugkomen?"
 ctaText: "Stuur een foto of filmpje via WhatsApp of plan een storingsanalyse. Dan zoeken we samen de echte oorzaak."
 relatedCases:
@@ -27,6 +27,16 @@ faq:
     answer: "Ja. Storingen zitten vaak precies op het grensvlak tussen mechanica, elektrotechniek en besturing (PLC). Omdat we die disciplines samen bekijken, vinden we oorzaken die bij een losse monteur of programmeur tussen wal en schip vallen. We werken merkonafhankelijk."
   - question: "Hoe weten jullie zeker dat de oplossing werkt?"
     answer: "Waar het kan, bouwen we een oplossing eerst tijdelijk op om in de praktijk te testen en fijn af te stellen. Pas als het resultaat bewezen is, voeren we hem definitief uit. Daarna volgen we de stilstand en storingen, zodat je ziet wat het oplevert."
+  - question: "Kunnen jullie alleen een storingsanalyse doen, zonder uitvoering?"
+    answer: "Ja. Je krijgt dan een helder rapport met prioriteiten, risico's en verwacht rendement."
+  - question: "Hoe richten jullie het machineonderhoud in na een storingsanalyse?"
+    answer: "We maken een gericht onderhoudsplan met alleen het onderhoud dat storingen voorkomt. Wat geen effect heeft op de beschikbaarheid, schrappen of verschuiven we. Daarna volgen we de stilstand en storingen, zodat je zwart op wit ziet wat het oplevert. En we leren je mensen de signalen zelf te herkennen."
+  - question: "Werken jullie samen met onze eigen technische dienst?"
+    answer: "Ja, dat werkt meestal het beste. We vergroten capaciteit en expertise zonder de interne organisatie te verdringen. Bij de analyse halen we juist de ervaring op van de operators en technische dienst die er dagelijks naast staan."
+  - question: "Wat levert een storingsanalyse op?"
+    answer: "Bij een voedingsproducent in West-Brabant bleek de vuller niet precies op tijd te starten en te stoppen. Met betere timing en een afblaassysteem was een extra controle-operator niet meer nodig: 3 fte bespaard, voor minder dan €10.000 inclusief training en inbedrijfstelling. Bij een verpakkingsproducent die levert aan Unilever daalde de ongeplande stilstand met 30%."
+  - question: "In welke regio werken jullie?"
+    answer: "Vanuit Alphen werken we dagelijks voor fabrieken in heel Noord-Brabant. Voor projecten komen we door heel Nederland."
 ---
 
 Voorkomen is beter dan genezen, maar als er iets misgaat lossen we het duurzaam op. De Machinedokters geloven niet in tijdelijke lapmiddelen: met een storingsanalyse vinden we de echte oorzaak. Door onze kennis van zowel mechanica als besturingstechniek kunnen we storingen niet alleen verhelpen, maar structureel voorkomen.

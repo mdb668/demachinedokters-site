@@ -27,6 +27,23 @@ const services = (await getCollection('services')).sort((a, b) => a.data.order -
 const crumbs = kind === 'case'
   ? [{ name: 'Home', href: '/' }, { name: 'Cases', href: '/cases' }, { name: d.title, href: `/${d.slug}` }]
   : [{ name: 'Home', href: '/' }, { name: 'Werken bij', href: '/werken-bij' }, { name: d.title, href: `/${d.slug}` }];
+const plain = (s: string) => s.replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').trim();
+const jobLd = kind === 'vacancy' ? {
+  '@context': 'https://schema.org',
+  '@type': 'JobPosting',
+  title: d.title.replace(/\s*\(.*?\)\s*$/, ''),
+  description: [d.intro, d.functie].map(plain).join('\n\n')
+    + '\n\nWat ga je doen?\n' + d.watGaJeDoen.map((x: string) => `- ${x}`).join('\n')
+    + '\n\nWat wij bieden\n' + d.watWijBieden.map((x: string) => `- ${x}`).join('\n')
+    + '\n\nWat breng jij mee?\n' + d.watJeMeebrengt.map((x: string) => `- ${x}`).join('\n'),
+  ...(d.datePosted ? { datePosted: new Date(d.datePosted).toISOString().slice(0, 10) } : {}),
+  ...(/fulltime/i.test(d.title) ? { employmentType: 'FULL_TIME' } : {}),
+  industry: d.sector,
+  hiringOrganization: { '@type': 'Organization', '@id': `${Astro.site}#organization`, name: site.siteName, sameAs: Astro.site?.href },
+  jobLocation: { '@type': 'Place', address: { '@type': 'PostalAddress', addressRegion: d.location, addressCountry: 'NL' } },
+  url: new URL(`/${d.slug}`, Astro.site).href,
+  ...(d.image ? { image: new URL(d.image, Astro.site).href } : {}),
+} : null;
 const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, Astro.site).href })) };
 ---
 {kind === 'case' ? (
@@ -77,7 +94,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
     <CtaBand label={site.ctaLabel} href={site.ctaLink} title="Herken je dit in jouw fabriek?" text="Vertel ons wat er speelt, dan kijken we samen waar de winst zit." />
   </Base>
 ) : (
-  <Base title={`Vacature ${d.title} in ${d.location} | ${site.siteName}`} description={d.intro.split('\n')[0]} image={d.image} jsonLd={crumbLd}>
+  <Base title={`Vacature ${d.title} in ${d.location} | ${site.siteName}`} description={d.intro.split('\n')[0]} image={d.image} jsonLd={[crumbLd, jobLd!]}>
     <section class="page-hero">
       <div class="container inner vac-hero">
         <div>

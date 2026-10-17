@@ -8,8 +8,8 @@ image: "/images/fotos/transportsysteem.jpg"
 imageAlt: "Op maat gebouwd transportsysteem met rollenbanen in een fabriekshal."
 order: 5
 slug: "speciaalmachines"
-seoTitle: "Machinebouwer voor speciaalmachines op maat | De Machinedokters"
-seoDescription: "Machinebouw op maat: speciaalmachines, werkstations en complete lijnen, van €6.000 tot €400.000 per project. Ontwerp, bouw en inbedrijfstelling vanuit Brabant."
+seoTitle: "Speciaalmachines en machinebouw op maat | De Machinedokters"
+seoDescription: "Machine laten bouwen? Wij bouwen speciaalmachines op maat, van werkstation tot complete lijn, inclusief CE-markering. Vanaf €6.000, vanuit Brabant."
 ctaTitle: "Idee voor een machine?"
 ctaText: "Bespreek het met ons. We denken mee over haalbaarheid, investering en terugverdientijd."
 relatedCases:

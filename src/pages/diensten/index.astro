@@ -4,6 +4,7 @@ import PageHero from '../../components/PageHero.astro';
 import ServiceCards from '../../components/ServiceCards.astro';
 import Inzet from '../../components/Inzet.astro';
 import CtaBand from '../../components/CtaBand.astro';
+import Icon from '../../components/Icon.astro';
 import { getEntry, getCollection, render } from 'astro:content';
 import { serviceSlug } from '../../lib/slugs';
 
@@ -17,6 +18,15 @@ const rendered = await Promise.all(services.map(async (s) => ({ ...s, Content: (
 
   <section class="section-sm">
     <div class="container"><ServiceCards linkToDetail /></div>
+    <div class="container">
+      <a class="card nen" href="/diensten/nen-3140-1010">
+        <span class="icon-circle"><Icon name="shield" size={30} stroke={1.4} /></span>
+        <div>
+          <h3>NEN 3140 & NEN 1010 keuring</h3>
+          <p class="muted">Keuring van machines en arbeidsmiddelen in Noord-Brabant. Direct herstel bij afkeur, te combineren met onderhoud.</p>
+        </div>
+      </a>
+    </div>
   </section>
 
   <section class="section-sm">
@@ -47,6 +57,10 @@ const rendered = await Promise.all(services.map(async (s) => ({ ...s, Content: (
   <CtaBand label={site.ctaLabel} href={site.ctaLink} />
 </Base>
 <style>
+  .nen { display: flex; gap: 20px; align-items: center; max-width: 760px; margin: 28px auto 0; color: inherit; text-decoration: none !important; }
+  .nen .icon-circle { flex: none; }
+  .nen h3 { font-size: 1.2rem; margin: 0 0 6px; }
+  .nen p { margin: 0; font-size: 0.95rem; }
   .detail-list { display: grid; gap: clamp(40px, 6vw, 80px); }
   .detail { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; scroll-margin-top: 110px; }
   .detail.flip .text { order: 2; }

@@ -8,8 +8,8 @@ image: "/images/fotos/nen-keuring.jpg"
 imageAlt: "Monteur werkt aan de besturing van een bestaande productiemachine."
 order: 6
 slug: "retrofit"
-seoTitle: "Retrofit: verouderde machines moderniseren | De Machinedokters"
-seoDescription: "Retrofit van productiemachines: nieuwe PLC-besturing, aandrijvingen, sensoren en veiligheid voor bestaande installaties. Betrouwbaarder en langer mee, zonder nieuwbouw."
+seoTitle: "Retrofit: verouderde machines vernieuwen | De Machinedokters"
+seoDescription: "Retrofit van bestaande productiemachines: nieuwe PLC-besturing, aandrijvingen, sensoren en veiligheid. Je machine gaat weer jaren mee, zonder nieuwbouw."
 ctaTitle: "Machine verouderd, maar nog goed?"
 ctaText: "We kijken eerlijk of retrofit loont voordat je investeert in iets nieuws."
 relatedCases:
@@ -20,6 +20,6 @@ relatedCases:
 
 Een machine van twintig jaar oud is mechanisch vaak nog prima. Wat verouderd raakt, is de besturing: een PLC waar geen onderdelen meer voor zijn, een bedieningspaneel dat niemand meer begrijpt, aandrijvingen die niet meer regelbaar zijn. Vervangen kost een vermogen en weken stilstand. Retrofit niet.
 
-Bij een retrofit houden we het goede en vernieuwen we wat achterloopt. We vervangen de besturing door moderne PLC- en HMI-techniek, zetten nieuwe servo- of frequentiegeregelde aandrijvingen in, voegen sensoren toe voor foutpreventie en brengen de veiligheid op het niveau van vandaag, inclusief nieuwe CE-markering als dat nodig is. De machine staat daarna niet alleen weer stabiel, hij is ook sneller om te bouwen en geeft eindelijk inzicht in wat hij doet.
+Bij een retrofit houden we het goede en vernieuwen we wat achterloopt. We vervangen de besturing door moderne PLC- en HMI-techniek, zetten nieuwe servo- of frequentiegeregelde aandrijvingen in, voegen sensoren toe voor foutpreventie en brengen de veiligheid op het niveau van vandaag, inclusief nieuwe CE-markering als dat nodig is. Hoort er een keuring bij, dan verzorgen we ook de [NEN 3140 en NEN 1010 keuring](/diensten/nen-3140-1010/). De machine staat daarna niet alleen weer stabiel, hij is ook sneller om te bouwen en geeft eindelijk inzicht in wat hij doet.
 
 We plannen een retrofit zo dat de productie er zo min mogelijk van merkt: voorbereiden en testen buiten de lijn, ombouwen in een geplande stop, direct daarna opstarten met ons team ernaast. Het resultaat is een machine die weer jaren meegaat, met de betrouwbaarheid en de data van een nieuwe, voor een fractie van de prijs.

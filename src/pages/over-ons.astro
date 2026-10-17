@@ -4,10 +4,11 @@ import PageHero from '../components/PageHero.astro';
 import TeamGrid from '../components/TeamGrid.astro';
 import Inzet from '../components/Inzet.astro';
 import CtaBand from '../components/CtaBand.astro';
-import { getEntry } from 'astro:content';
+import { getEntry, getCollection } from 'astro:content';
 
 const site = (await getEntry('settings', 'site'))!.data;
 const p = (await getEntry('pages', 'over-ons'))!.data;
+const vacancies = (await getCollection('vacancies', (v) => v.data.published)).sort((a, b) => a.data.order - b.data.order);
 ---
 <Base title={p.seoTitle} description={p.seoDescription} image={p.image}>
   <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} quote={p.quote} />
@@ -30,6 +31,9 @@ const p = (await getEntry('pages', 'over-ons'))!.data;
     <div class="container">
       <h2 class="center"><span class="title-underline">{p.teamTitle}</span></h2>
       <div class="team-wrap"><TeamGrid /></div>
+      {vacancies.length > 0 && (
+        <p class="center vac">Wil je ons team versterken? Bekijk de vacature {vacancies.map((v, i) => (<>{i > 0 && ', '}<a href={`/${v.data.slug}`}>{v.data.title}</a></>))} of kijk op <a href="/werken-bij">werken bij</a>.</p>
+      )}
     </div>
   </section>
   <Inzet button1Label="Meer Business Cases" button1Link="/cases" button2Label="Contact" button2Link="/contact" />
@@ -39,4 +43,5 @@ const p = (await getEntry('pages', 'over-ons'))!.data;
   .pand { width: 100%; max-height: 520px; object-fit: cover; }
   .woorden { margin-top: 32px; }
   .team-wrap { margin-top: 40px; }
+  .vac { margin-top: 32px; }
 </style>

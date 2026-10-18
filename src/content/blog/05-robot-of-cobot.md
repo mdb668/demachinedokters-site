@@ -5,8 +5,8 @@ date: 2026-10-15
 author: "De Machinedokters"
 readingTime: "7 minuten"
 excerpt: "Een cobot voelt als de veilige, makkelijke keuze. Maar een cobotarm is niet automatisch een collaboratieve toepassing. Wat de doorslag geeft is hoe mens en robot samenwerken, wat de risico's van de toepassing zijn en hoeveel output je nodig hebt."
-cover: "/images/robotisering/cobot-palletiseerders-hal.jpg"
-coverAlt: "Twee cobot-palletiseerders stapelen dozen op pallets in een productiehal."
+cover: "/images/robotisering/robot-vs-cobot.jpg"
+coverAlt: "Robot versus cobot: links een cobot-palletiseerder met dozen, rechts een industriële FANUC-robot in een afgeschermde cel."
 seoDescription: "Robot of cobot? Vergelijking op kosten, snelheid, veiligheid en normen (ISO 10218, ISO/TS 15066, PL d), plus de TÜV-gekeurde cobot-palletiseerder voor dozen."
 faq:
   - question: "Wat is het verschil tussen een robot en een cobot?"

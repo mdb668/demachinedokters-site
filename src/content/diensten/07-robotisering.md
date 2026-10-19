@@ -27,8 +27,8 @@ faq:
     answer: "Reken voor een robotproject op ongeveer een half jaar, van vastleggen wat er nodig is tot implementatie. Een eenvoudige toepassing kan sneller; een complexe cel met speciale grijpers en tooling duurt langer."
   - question: "Kan een robot in onze bestaande lijn?"
     answer: "Ja, dat is juist ons werk. We passen robots in de lijn die je al hebt, met behoud van heftruckroutes, handmatige lijnen voor speciale series en de flexibiliteit die je nodig hebt. De robotarm kopen we in, alles eromheen doen we zelf: van prototype tot oplevering en implementatie."
-  - question: "Doen jullie ook lasrobots?"
-    answer: "Nee. Met lasrobots en complete assemblagelijnen voor auto's hebben we geen ervaring, en daar richten we ons ook niet op. We zijn sterk in speciale gevallen, waar je nieuwe technieken voor moet inzetten of echt creatief moet zijn om het voor elkaar te krijgen."
+  - question: "Bouwen jullie ook lasrobotlijnen?"
+    answer: "Grote lasrobotlijnen bouwen we niet. Wij zijn sterk in palletiseren, stapelen, handling en one-off specials."
 ---
 
 Personeel is schaars en repeterend werk is zwaar, saai en foutgevoelig. Precies het soort werk dat een robot beter doet. Wij robotiseren handelingen als **palletiseren en stapelen**, **dozen vouwen en dichtmaken**, **verpakken**, **handling tussen machines** en delen van de **assemblage**, en passen die in de lijn die je al hebt.
@@ -76,7 +76,7 @@ Reken voor een robotproject op ongeveer **een half jaar**, van eerste gesprek to
 
 ## Wat we niet doen
 
-Lasrobots en complete assemblagelijnen voor auto's laten we aan anderen over. Daar hebben we geen ervaring mee, en we zeggen dat liever eerlijk vooraf.
+Grote lasrobotlijnen laten we aan anderen over. Daar hebben we geen ervaring mee, en we zeggen dat liever eerlijk vooraf.
 
 ## Impressie
 

@@ -20,7 +20,7 @@
 - Merkonafhankelijk; veel ervaring met FANUC, ABB, KUKA en Doosan, ook Rokae via NexStep Robotics; robotarm via dealer of refurbished, alles eromheen (grijpers, tooling, besturing, veiligheid) zelf, van prototype tot implementatie
 - Kant-en-klare cobot-palletiseerder vanaf ca. €41.500 excl. btw, geïnstalleerd met standaard pickpoint (extra's zoals rollenbaan apart); maatwerk robotproject duurt ca. een half jaar
 - Een afgeschermde industriële robot is vaak sneller, goedkoper en eenvoudiger dan een cobot: veiligheid hangt ook af van grijper en product
-- Geen lasrobots en geen complete auto-assemblagelijnen
+- Geen grote lasrobotlijnen
 - Kant-en-klare cobot-palletiseerder voor dozen: out of the box met standaard pickpoint, TÜV-gekeurd, stapelhoogte tot 220 cm, twee palletplaatsen, stapelpatroon instellen zonder programmeren, 9-20 dozen per minuut, dozen tot ca. 38 kg (afhankelijk van uitvoering)
 - Een cobotarm is in dezelfde gewichtsklasse duurder dan een industriële robot
 - Robot of cobot: een cobotarm is niet automatisch een collaboratieve toepassing; de risicobeoordeling van de complete toepassing beslist. Normen EN ISO 10218-1/-2, ISO/TS 15066 voor collaboratief, veiligheidsbesturing minimaal PL d cat. 3 (ISO 13849-1). Uitleg: https://www.demachinedokters.nl/post/robot-of-cobot/

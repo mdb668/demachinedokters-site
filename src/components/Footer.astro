@@ -49,6 +49,8 @@ const year = new Date().getFullYear();
   ul { list-style: none; padding: 0; margin: 0; font-size: 0.95rem; }
   li { margin-bottom: 0.5em; color: rgba(255, 255, 255, 0.85); }
   a { color: #fff; }
+  /* Mail.astro rendert de link buiten deze scope; alleen hier wit maken. */
+  .site-footer :global(.mail-link) { color: #fff; }
   .socials { display: flex; justify-content: center; gap: 22px; margin: 40px 0 20px; }
   .socials a { color: #fff; opacity: 0.9; }
   .socials a:hover { opacity: 1; color: var(--green); }

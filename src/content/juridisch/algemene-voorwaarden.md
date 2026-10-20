@@ -9,7 +9,7 @@ seoDescription: "De algemene voorwaarden van Reboow B.V.: offertes, betaling, le
 
 ## Wie we zijn
 
-Reboow B.V. is gevestigd aan de Looiersweg 3B in Alpen en is ingeschreven bij de Kamer van Koophandel. We ontwerpen en realiseren technische oplossingen voor bedrijven die vooruit willen. In alles wat we doen staan kwaliteit, betrouwbaarheid en samenwerking centraal.
+Reboow B.V. is gevestigd aan de Looiersweg 3B in Alphen en is ingeschreven bij de Kamer van Koophandel. We ontwerpen en realiseren technische oplossingen voor bedrijven die vooruit willen. In alles wat we doen staan kwaliteit, betrouwbaarheid en samenwerking centraal.
 
 ## Wanneer deze voorwaarden gelden
 
@@ -17,7 +17,7 @@ Deze voorwaarden zijn van toepassing op al onze offertes, overeenkomsten en gele
 
 ## Offertes en afspraken
 
-Alle offertes die we uitbrengen zijn vrijblijvend en geldig voor 30 dagen, tenzij we anders aangeven. Een overeenkomst komt tot stand zodra we jouw opdracht schriftelijk bevestigen of beginnen met de uitvoering ervan. Typefouten of vergissingen in een offerte binden ons niet.
+Alle offertes die we uitbrengen zijn vrijblijvend en geldig voor 14 dagen, tenzij we anders aangeven. Een overeenkomst komt tot stand zodra we jouw opdracht schriftelijk bevestigen of beginnen met de uitvoering ervan. Typefouten of vergissingen in een offerte binden ons niet.
 
 ## Prijzen en betaling
 
@@ -395,4 +395,4 @@ Deze kosten worden berekend op basis van de volgende tabel (hoofdsom incl. rente
 
 18.4 Alleen de Nederlandse burgerlijke rechter die bevoegd is in de vestigingsplaats van opdrachtnemer neemt kennis van geschillen, tenzij dit in strijd is met het dwingend recht. Opdrachtnemer mag van deze bevoegdheidsregel afwijken en de wettelijke bevoegdheidsregels hanteren.
 
-Algemene voorwaarden Reboow BV, versie 2.0 (laatste wijziging 15 november 2023)
+Algemene voorwaarden Reboow BV, versie 2.1 (laatste wijziging 15 november 2023)

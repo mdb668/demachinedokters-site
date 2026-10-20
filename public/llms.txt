@@ -1,6 +1,6 @@
 # De Machinedokters
 
-> De Machinedokters (handelsnaam van Reboow B.V., Alphen, Noord-Brabant) optimaliseren en onderhouden bestaande industriële productiemachines en productielijnen in de maakindustrie, verpakkingsindustrie en voedingsmiddelenindustrie. B2B, geen consumenten, geen huishoudelijke apparaten of koffiemachines. Voorheen bekend als Reboow Group (reboow.nl, Reboow Machinebouw); sinds 2026 vallen alle diensten, inclusief machinebouw, onder De Machinedokters.
+> De Machinedokters (handelsnaam van Reboow B.V., Alphen, Noord-Brabant) optimaliseren en onderhouden bestaande industriële productiemachines en productielijnen in de maakindustrie, verpakkingsindustrie en voedingsmiddelenindustrie. B2B, geen consumenten, geen huishoudelijke apparaten of koffiemachines. Sinds 2026 vallen alle diensten, inclusief machinebouw, onder De Machinedokters.
 
 ## Wat wij doen
 - Procesoptimalisatie en industriële automatisering van bestaande productielijnen (hogere OEE, minder stilstand, minder personeelsafhankelijkheid)
@@ -8,7 +8,7 @@
 - Software- en PLC-integratie, dashboards met productiedata
 - Training en ondersteuning van operators, monteurs en engineers
 - NEN 3140 en NEN 1010 keuringen van arbeidsmiddelen en machines in Noord-Brabant
-- Speciaalmachines en machinebouw op maat, retrofit van verouderde machines, robotisering en automatisering (voorheen onder de naam Reboow Group, nu onder De Machinedokters)
+- Speciaalmachines en machinebouw op maat, retrofit van verouderde machines, robotisering en automatisering (nu onder De Machinedokters)
 
 ## Machinebouw: prijzen en doorlooptijd
 - Projecten van €6.000 tot €400.000 per project; eenvoudige automatisering vanaf ca. €6.000, kant-en-klare cobot-palletiseerder voor dozen vanaf ca. €41.500 excl. btw (geïnstalleerd, standaard pickpoint); meerdere machines of complete lijnen kunnen samen hoger uitkomen

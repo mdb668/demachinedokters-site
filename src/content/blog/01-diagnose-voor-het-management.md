@@ -14,7 +14,7 @@ In veel boardrooms hangen prachtige dashboards. De OEE-cijfers kleuren groen, de
 
 Bij De Machinedokters noemen we dit de ‘verborgen fabriek’: de enorme hoeveelheid onzichtbare handelingen, correcties en kleine frustraties die nodig zijn om een instabiel proces draaiende te houden.
 
-Dit zijn de drie zaken die uw operators dagelijks zien, maar die zelden het MT-verslag halen:
+Dit zijn de drie zaken die jouw operators dagelijks zien, maar die zelden het MT-verslag halen:
 
 ## 1. Micro-verliezen: De lekkende kraan van het rendement
 

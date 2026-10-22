@@ -419,6 +419,14 @@ collections:
           - { name: quote, label: "Handgeschreven quote", widget: text }
           - { name: planTitle, label: "Titel 'Plan uw keuring in'", widget: string }
           - { name: planText, label: "Tekst 'Plan uw keuring in'", widget: text }
+          - { name: faqTitle, label: "Titel FAQ", widget: string, required: false }
+          - name: faq
+            label: "Veelgestelde vragen (ook voor Google)"
+            widget: list
+            required: false
+            fields:
+              - { name: question, label: "Vraag", widget: string }
+              - { name: answer, label: "Antwoord", widget: text }
 
       - name: blog
         label: "Blog (overzicht + vaste teksten)"

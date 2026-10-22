@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Quote from '../../components/Quote.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import Icon from '../../components/Icon.astro';
+import PageFaq from '../../components/PageFaq.astro';
 import { renderText } from '../../lib/md';
 import { getEntry } from 'astro:content';
 
@@ -19,7 +20,7 @@ const ld = {
 const crumbs = [{ name: 'Home', href: '/' }, { name: 'Diensten', href: '/diensten' }, { name: 'NEN 3140/1010 keuring', href: '/diensten/nen-3140-1010' }];
 const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, Astro.site).href })) };
 ---
-<Base title={p.seoTitle} description={p.seoDescription} image={p.image} jsonLd={[ld, crumbLd]}>
+<Base title={p.seoTitle} description={p.seoDescription} image={p.image} jsonLd={[ld, crumbLd, ...(p.faq?.length ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: p.faq.map((f: any) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }] : [])]}>
   <section class="page-hero is-center nen-hero">
     <div class="container center">
       <h1>{p.title}</h1>
@@ -68,6 +69,15 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
     </div>
   </section>
 
+  {p.faq?.length && (
+    <section class="section-sm">
+      <div class="container-narrow">
+        <h2>{p.faqTitle}</h2>
+        <PageFaq items={p.faq} />
+        <p class="more-links">Lees ook over <a href="/service-onderhoud/">onderhoud dat storingen voorkomt</a> en <a href="/diensten/retrofit/">retrofit van oudere machines</a>.</p>
+      </div>
+    </section>
+  )}
   <CtaBand label={site.ctaLabel} href={site.ctaLink} title="NEN 3140 of NEN 1010 keuring nodig?" text="Vraag een offerte aan of plan direct een keuringsronde in Noord-Brabant." />
 </Base>
 <style>

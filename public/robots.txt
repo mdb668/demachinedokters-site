@@ -3,6 +3,8 @@ Allow: /
 Disallow: /admin/
 Disallow: /bedankt
 Disallow: /bedankt-voor-je-download
+Disallow: /_api/
+Disallow: /cdn-cgi/
 
 Sitemap: https://www.demachinedokters.nl/sitemap-index.xml
 Sitemap: https://www.demachinedokters.nl/sitemap.xml

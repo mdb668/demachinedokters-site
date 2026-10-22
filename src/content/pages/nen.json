@@ -82,5 +82,32 @@
   ],
   "quote": "\"Anderen zien een probleem, wij zien een uitdaging. En die lossen we op.\"",
   "planTitle": "Plan uw keuring in",
-  "planText": "Voorkom boetes en onveilige situaties. Neem contact op voor een vrijblijvende offerte of om direct een keuringsronde in te plannen in de regio Noord-Brabant.\n\nWij helpen bedrijven zoals Altrex hun technische voorsprong en veiligheid te behouden."
+  "planText": "Voorkom boetes en onveilige situaties. Neem contact op voor een vrijblijvende offerte of om direct een keuringsronde in te plannen in de regio Noord-Brabant.\n\nWij helpen bedrijven zoals Altrex hun technische voorsprong en veiligheid te behouden.",
+  "faqTitle": "Veelgestelde vragen over NEN 3140 en NEN 1010",
+  "faq": [
+    {
+      "question": "Is een NEN 3140 keuring verplicht?",
+      "answer": "Volgens het Arbobesluit moet een werkgever ervoor zorgen dat arbeidsmiddelen veilig zijn en blijven, en dat ze periodiek worden geïnspecteerd. NEN 3140 is de norm waarmee u aantoont dat u elektrische arbeidsmiddelen en installaties veilig beheert. Ook verzekeraars vragen vaak om een geldig keuringsrapport."
+    },
+    {
+      "question": "Wat is het verschil tussen NEN 3140 en NEN 1010?",
+      "answer": "NEN 1010 gaat over het veilig aanleggen van een nieuwe of uitgebreide elektrische installatie: de opleveringskeuring, vanaf de meterkast tot aan de machine. NEN 3140 gaat over het veilig gebruiken en onderhouden daarna: de periodieke inspectie van arbeidsmiddelen en installaties."
+    },
+    {
+      "question": "Hoe vaak moet er gekeurd worden?",
+      "answer": "De keuringsfrequentie bepaalt u op basis van hoe intensief en onder welke omstandigheden iets gebruikt wordt. Elektrisch gereedschap dat dagelijks op de werkvloer gebruikt wordt, keurt u meestal vaker dan een vaste installatie. Wij adviseren u over een passend interval voor uw machinepark."
+    },
+    {
+      "question": "Wat gebeurt er als een apparaat wordt afgekeurd?",
+      "answer": "Is de oorzaak een defecte stekker of kabel, dan herstellen wij die vaak direct ter plekke. Zo hoeft er geen nieuwe afspraak gemaakt te worden en loopt uw proces door. Na goedkeuring ontvangt u de keuringsstickers en een rapport voor uw administratie en verzekering."
+    },
+    {
+      "question": "Kan de keuring gecombineerd worden met onderhoud?",
+      "answer": "Ja. Wij kunnen de periodieke keuring combineren met regulier machineonderhoud. Dat scheelt een extra bezoek. En omdat wij de machine achter de stekker begrijpen, zien we tijdens de keuring ook waar verbeteringen of storingen op de loer liggen."
+    },
+    {
+      "question": "In welke regio keuren jullie?",
+      "answer": "Wij keuren bij bedrijven in Noord-Brabant, vanuit Alphen."
+    }
+  ]
 }

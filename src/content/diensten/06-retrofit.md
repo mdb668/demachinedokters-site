@@ -18,13 +18,13 @@ relatedCases:
   - "case-verpakkingsindustrie"
 faq:
   - question: "Mijn oude machine doet het niet meer. Kunnen jullie hem maken of de besturing vervangen?"
-    answer: "Ja. We komen eerst één dag langs om de machine te repareren. Vaak is dat genoeg om weer te kunnen produceren. Lukt het niet in die dag, dan nemen we alles op wat nodig is en krijg je binnen een week een plan en offerte, bijvoorbeeld voor een nieuwe besturing of een complete retrofit."
-  - question: "Wat kost die eerste dag?"
-    answer: "De reparatiedag betaal je. Kies je daarna voor een grote upgrade of retrofit bij ons, dan verrekenen we de kosten van die dag met de offerte. Je betaalt het onderzoek dus niet dubbel."
+    answer: "Ja. We komen eerst één dag langs om de machine te repareren. Lukt het niet in die dag, dan nemen we alles op wat er moet gebeuren en krijg je binnen een week een plan en offerte, bijvoorbeeld voor een nieuwe besturing of een complete retrofit."
+  - question: "Moet ik die eerste dag betalen?"
+    answer: "Ja, de reparatiedag betaal je. Kies je daarna voor een grote upgrade of retrofit bij ons, dan verrekenen we de kosten van die dag met de offerte."
   - question: "Wanneer loont retrofit ten opzichte van een nieuwe machine?"
-    answer: "Als de machine mechanisch nog goed is, maar de besturing, aandrijvingen of veiligheid verouderd zijn. Dan houd je het goede en vernieuw je wat achterloopt, voor een fractie van de prijs van nieuwbouw. Is de mechaniek versleten of past de machine niet meer bij je product, dan bespreken we eerlijk of nieuwbouw beter is."
-  - question: "Werken jullie aan machines van elk merk en elke leeftijd?"
-    answer: "Ja, we werken merkonafhankelijk, ook aan machines waar geen tekeningen of documentatie meer van zijn. Wat we tegenkomen, lossen we op in het werk."
+    answer: "Als de machine mechanisch nog goed is, maar de besturing, aandrijvingen of veiligheid verouderd zijn. Dan houd je het goede en vernieuw je wat achterloopt, voor een fractie van de prijs van nieuwbouw."
+  - question: "Werken jullie aan machines van elk merk?"
+    answer: "Ja, we werken merkonafhankelijk, ook aan oudere machines waar geen tekeningen of documentatie meer van zijn. Wat we tegenkomen, lossen we op in het werk."
   - question: "Wordt mijn machine na een retrofit opnieuw CE-gemarkeerd?"
     answer: "Als de aanpassing dat nodig maakt, verzorgen we de CE-markering zelf: risicobeoordeling, technisch dossier en conformiteitsverklaring."
 ---
@@ -39,8 +39,8 @@ We plannen een retrofit zo dat de productie er zo min mogelijk van merkt: voorbe
 
 We krijgen regelmatig de vraag: *"Mijn machine doet het niet meer, kunnen jullie hem maken of de besturing vervangen?"* Meestal gaat het om een oudere machine. Onze aanpak:
 
-1. **Eén dag op locatie.** We komen langs en repareren de machine. Vaak kun je dezelfde dag weer produceren.
-2. **Lukt dat niet, dan nemen we alles op.** Besturing, aandrijvingen, bedrading, veiligheid: we brengen in kaart wat er nodig is.
+1. **Eén dag op locatie.** We komen langs en repareren de machine.
+2. **Lukt dat niet, dan nemen we alles op.** We brengen in kaart wat er moet gebeuren.
 3. **Binnen een week een plan en offerte.** Voor een gerichte reparatie, een nieuwe besturing of een complete retrofit.
 
 De reparatiedag betaal je. Kies je daarna voor een grote upgrade bij ons, dan **verrekenen we die dag met de offerte**.

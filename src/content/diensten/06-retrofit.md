@@ -11,12 +11,14 @@ slug: "retrofit"
 seoTitle: "Retrofit: verouderde machines vernieuwen | De Machinedokters"
 seoDescription: "Retrofit van bestaande productiemachines: nieuwe PLC-besturing, aandrijvingen, sensoren en veiligheid. Je machine gaat weer jaren mee, zonder nieuwbouw."
 ctaTitle: "Oude machine die het niet meer doet?"
-ctaText: "Bel of app ons. We komen één dag langs om hem te repareren. Lukt dat niet, dan heb je binnen een week een plan en offerte."
+ctaText: "Bel of app ons gewoon even, ook met alleen een foto of filmpje. We denken vrijblijvend mee en komen zo nodig één dag langs om hem te repareren."
 relatedCases:
   - "case-altrex"
   - "case-aluminium"
   - "case-verpakkingsindustrie"
 faq:
+  - question: "Kan ik eerst even bellen of een foto sturen?"
+    answer: "Ja, graag. Bel of app ons op 06 13 86 09 43, ook als je nog niet precies weet wat er mis is. Stuur gerust een foto of filmpje van de machine, de besturingskast of het typeplaatje. Op foto's en filmpjes reageren we normaal binnen 24 uur."
   - question: "Mijn oude machine doet het niet meer. Kunnen jullie hem maken of de besturing vervangen?"
     answer: "Ja. We komen eerst één dag langs om de machine te repareren. Lukt het niet in die dag, dan nemen we alles op wat er moet gebeuren en krijg je binnen een week een plan en offerte, bijvoorbeeld voor een nieuwe besturing of een complete retrofit."
   - question: "Moet ik die eerste dag betalen?"
@@ -39,8 +41,9 @@ We plannen een retrofit zo dat de productie er zo min mogelijk van merkt: voorbe
 
 We krijgen regelmatig de vraag: *"Mijn machine doet het niet meer, kunnen jullie hem maken of de besturing vervangen?"* Meestal gaat het om een oudere machine. Onze aanpak:
 
-1. **Eén dag op locatie.** We komen langs en repareren de machine.
-2. **Lukt dat niet, dan nemen we alles op.** We brengen in kaart wat er moet gebeuren.
-3. **Binnen een week een plan en offerte.** Voor een gerichte reparatie, een nieuwe besturing of een complete retrofit.
+1. **Bel of app ons gewoon even.** Ook als je nog niet weet wat er mis is. Een foto of filmpje van de machine, de besturingskast of het typeplaatje via WhatsApp is genoeg om te beginnen. We denken vrijblijvend mee.
+2. **Eén dag op locatie.** We komen langs en repareren de machine.
+3. **Lukt dat niet, dan nemen we alles op.** We brengen in kaart wat er moet gebeuren.
+4. **Binnen een week een plan en offerte.** Voor een gerichte reparatie, een nieuwe besturing of een complete retrofit.
 
 De reparatiedag betaal je. Kies je daarna voor een grote upgrade bij ons, dan **verrekenen we die dag met de offerte**.

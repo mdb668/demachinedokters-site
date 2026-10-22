@@ -9,7 +9,7 @@ const site = (await getEntry('settings', 'site'))!.data;
 const {
   label, href,
   title = 'Klaar om je lijn beter te laten draaien?',
-  text = 'Plan een vrijblijvend adviesgesprek, bel ons direct of stuur een foto of filmpje via WhatsApp.',
+  text = 'Gewoon even bellen of appen mag altijd. Ook met alleen een foto of filmpje denken we vrijblijvend mee.',
   contactOptions = true,
 } = Astro.props;
 const wa = whatsappHref(site);

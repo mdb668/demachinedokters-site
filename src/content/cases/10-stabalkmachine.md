@@ -4,9 +4,9 @@ slug: "case-stabalkmachine"
 subtitle: "De juiste verdeling tussen mens en machine"
 intro: "Een nieuwbouwmachine die automatisch perst en op precies de juiste plekken boort, zodat de operator alleen nog hoeft te assembleren. Omstellen naar een ander product kost twee schroefjes en een ander recept."
 summary: "Voor het assembleren van stabalken bouwden we de ST-01: een speciaalmachine die het nauwkeurige werk overneemt en het assembleren bij de operator laat. De machine perst de onderdelen op hun plek, boort de gaten waar ze nodig zijn en presenteert die gaten aan de operator voor het popnagelen.\n\nDe machine is opgebouwd uit standaard leverbare componenten met lange ondersteuning, er is ruimte in het programma voor nieuwe producten en hij is voorbereid op verdere automatisering, bijvoorbeeld met een robot."
-image: "/images/logo-de-machinedokters-donker.png"
-imageAlt: "Logo De Machinedokters"
-imageIsLogo: true
+image: "/images/cases/stabalkmachine-st01.jpg"
+imageAlt: "Stabalkmachine ST-01: afgeschermde werkplek met lichtschermen, bedieningspaneel en vier boorunits boven de producthouders."
+imageIsLogo: false
 stats:
   - { value: "2 schroefjes", label: "Productwissel + recept", icon: "swap" }
   - { value: "Standaard", label: "Componenten, lang leverbaar", icon: "package" }
@@ -25,3 +25,5 @@ closing: "Geen volautomatische machine om de automatisering, maar precies genoeg
 order: 4
 published: true
 ---
+
+![Vier pneumatische boorunits boven de blauwe producthouders van de ST-01, met de pijlen "Buitenkant" voor de juiste plaatsing van het product.](/images/cases/stabalkmachine-st01-boorunits.jpg)

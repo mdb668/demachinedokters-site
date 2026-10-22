@@ -8,7 +8,7 @@ image: "/images/fotos/transportsysteem.jpg"
 imageAlt: "Op maat gebouwd transportsysteem met rollenbanen in een fabriekshal."
 order: 5
 slug: "speciaalmachines"
-seoTitle: "Speciaalmachines en machinebouw op maat | De Machinedokters"
+seoTitle: "Speciaalmachinebouw en machinebouw op maat | De Machinedokters"
 seoDescription: "Machine laten bouwen? Wij bouwen speciaalmachines op maat, van werkstation tot complete lijn, inclusief CE-markering. Vanaf €6.000, vanuit Brabant."
 ctaTitle: "Idee voor een machine?"
 ctaText: "Bespreek het met ons. We denken mee over haalbaarheid, investering en terugverdientijd."
@@ -33,7 +33,7 @@ faq:
     answer: "Ja. Aansluiten op bestaande lijnen, transportsystemen of besturingen is een vast onderdeel van ons werk. In de eerste fase leggen we vast op welke machines en componenten we moeten aansluiten, zodat de nieuwe machine meedraait met wat er al staat."
 ---
 
-Sommige producten passen simpelweg niet in een machine uit de catalogus: een afwijkend formaat, een kwetsbaar materiaal, een handeling die tot nu toe alleen met de hand lukte. Dan bouwen we hem zelf. Als machinebouwer ontwerpen we speciaalmachines vanaf een blanco vel rond jouw product en jouw proces, zodat ze precies doen wat nodig is en niets overbodigs.
+Sommige producten passen simpelweg niet in een machine uit de catalogus: een afwijkend formaat, een kwetsbaar materiaal, een handeling die tot nu toe alleen met de hand lukte. Dan bouwen we hem zelf. Als machinebouwer ontwerpen we speciaalmachines vanaf een blanco vel rond jouw product en jouw proces, zodat ze precies doen wat nodig is en niets overbodigs. Dat is speciaalmachinebouw: geen machine uit de catalogus aanpassen, maar een machine laten bouwen die vanaf het begin voor jouw product is ontworpen.
 
 We beginnen altijd in de fabriek, niet achter een tekentafel. We kijken hoe het product nu door de lijn gaat, waar het hapert en wat operators dagelijks moeten corrigeren. Daaruit volgt een concept dat we samen met jouw team toetsen, voordat we ook maar één plaat laten snijden. Zo voorkomen we over-engineering en bouwen we machines die eenvoudig zijn, en daardoor betrouwbaar.
 
@@ -49,7 +49,7 @@ Onze projecten liggen tussen de **€6.000 en €400.000** per project. Een eenv
 
 We rekenen de investering meestal door tegen de **extra productie per jaar** of de **besparing in fte per jaar**. Kwaliteitswinst ten opzichte van handwerk is per project anders; die brengen we samen met je in kaart.
 
-## Zo verloopt een machinebouwtraject
+## Machine laten bouwen? Zo verloopt het traject
 
 1. **Heel goed vastleggen wat er nodig is.** Hoeveel producten per uur of per dag? Hoeveel variatie, wat is het grootste en het kleinste product? Moet de machine flexibel zijn? Komt er volgend jaar nog een bij, maar dan groter? Moeten we aansluiten op bestaande lijnen of componenten? En wat willen we met z'n allen bereiken?
 2. **Concept en businesscase.** Een oplossingsrichting met een investering die je kunt afzetten tegen productie of fte-besparing per jaar. Die toetsen we met je team.

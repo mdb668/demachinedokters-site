@@ -9,6 +9,8 @@ cover: "/images/robotisering/robot-vs-cobot.jpg"
 coverAlt: "Robot versus cobot: links een cobot-palletiseerder met dozen, rechts een industriële FANUC-robot in een afgeschermde cel."
 seoDescription: "Robot of cobot? Vergelijking op kosten, snelheid, veiligheid en normen (ISO 10218, ISO/TS 15066, PL d), plus de TÜV-gekeurde cobot-palletiseerder voor dozen."
 faq:
+  - question: "Wat is een cobot?"
+    answer: "Een cobot (collaboratieve robot) is een robotarm die gemaakt is om dicht bij mensen te werken. Hij kan zijn kracht en snelheid begrenzen en stopt bij contact. Cobots zijn compact en snel te programmeren, maar trager en minder sterk dan een industriële robot. Of een cobot echt naast mensen mag werken, hangt af van de complete toepassing: grijper, product en werkplek."
   - question: "Wat is het verschil tussen een robot en een cobot?"
     answer: "Een cobot (collaboratieve robot) is gebouwd om dicht bij mensen te kunnen werken: hij kan kracht en snelheid begrenzen en stopt bij contact. Een industriële robot is sneller, sterker en nauwkeuriger, maar werkt afgeschermd achter een hekwerk of andere veiligheidsvoorziening. Of een toepassing echt collaboratief mag werken, bepaalt de risicobeoordeling van de complete toepassing, niet het type robotarm."
   - question: "Is een cobot altijd veiliger dan een industriële robot?"
@@ -31,6 +33,10 @@ published: true
 Hieronder zetten we op een rij hoe je de juiste keuze maakt.
 
 <a class="btn btn-primary" href="/diensten/robotisering/">Bekijk onze aanpak voor robotisering</a>
+
+## Wat is een cobot?
+
+Een cobot, voluit collaboratieve robot, is een robotarm die gemaakt is om dicht bij mensen te werken. Hij kan zijn kracht en snelheid begrenzen en stopt bij contact. Daardoor is hij compact, snel te programmeren en vaak zonder groot hek in te passen. Daar staat tegenover dat een cobot trager en minder sterk is dan een industriële robot. En zoals hieronder blijkt: een cobotarm alleen maakt een toepassing nog niet veilig.
 
 ## Wie bepaalt of het veilig is?
 

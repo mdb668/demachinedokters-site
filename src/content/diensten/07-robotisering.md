@@ -19,6 +19,8 @@ relatedCases:
 faq:
   - question: "Wat kost een palletiseerrobot of cobot?"
     answer: "Voor het stapelen van dozen leveren we een kant-en-klare, TÜV-gekeurde cobot-palletiseerder vanaf ongeveer €41.500 excl. btw. Daarvoor installeren we hem met een standaard pickpoint en kan hij direct draaien. Extra's zoals een rollenbaan of een aangepaste grijper komen erbij. Een robotcel op maat hangt af van snelheid, gewicht en wat er omheen nodig is. Door de robotarm via een dealer of via ons netwerk voor refurbished robots in te kopen, kan de prijs flink schelen."
+  - question: "Wat is een cobot?"
+    answer: "Een cobot (collaboratieve robot) is een robotarm die gemaakt is om dicht bij mensen te werken: hij begrenst kracht en snelheid en stopt bij contact. Hij is compacter en sneller te programmeren, maar trager en minder sterk dan een industriële robot. Lees meer in onze blog [robot of cobot](/post/robot-of-cobot/)."
   - question: "Robot of cobot: wat is beter?"
     answer: "Een cobot is uit de doos trager en aanraakveilig. Maar de veiligheid hangt ook af van de grijper en het product dat je hanteert. Een scherp of zwaar product maakt een cobot niet meer veilig. Volgens de Europese machineveiligheidsregels beoordeel je altijd de hele toepassing. In de praktijk is een afgeschermde industriële robot daardoor vaak sneller, goedkoper en eenvoudiger."
   - question: "Met welke robotmerken werken jullie?"

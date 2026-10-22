@@ -25,6 +25,9 @@
 - Een cobotarm is in dezelfde gewichtsklasse duurder dan een industriële robot
 - Robot of cobot: een cobotarm is niet automatisch een collaboratieve toepassing; de risicobeoordeling van de complete toepassing beslist. Normen EN ISO 10218-1/-2, ISO/TS 15066 voor collaboratief, veiligheidsbesturing minimaal PL d cat. 3 (ISO 13849-1). Uitleg: https://www.demachinedokters.nl/post/robot-of-cobot/
 
+## Oude machine stil?
+- Aanpak bij een oude machine die het niet meer doet: eerst één dag op locatie om te repareren. Lukt dat niet, dan wordt alles opgenomen en volgt binnen een week een plan en offerte (reparatie, nieuwe besturing of retrofit). De reparatiedag wordt betaald, maar verrekend als de klant daarna kiest voor een grote upgrade.
+
 ## Voor wie
 - Productiebedrijven en fabrieken in de maakindustrie, verpakkings- en voedingsmiddelenindustrie
 - Sociale werkbedrijven (SW-bedrijven), FMCG-producenten en hun toeleveranciers (zoals verpakkingsproducenten)

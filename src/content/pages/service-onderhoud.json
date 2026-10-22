@@ -1,9 +1,9 @@
 {
-  "seoTitle": "Machine onderhoud dat storingen voorkomt | De Machinedokters",
+  "seoTitle": "Onderhoud industriële machines dat storingen voorkomt | De Machinedokters",
   "seoDescription": "Machineonderhoud voor industriële machines en productielijnen, gericht op storingen voorkomen. Merkonafhankelijk, als vaste partner vanuit Noord-Brabant.",
   "title": "Service & onderhoud dat storingen voorkomt",
   "subtitle": "Minder ongeplande stilstand, niet meer onderhoudsuren",
-  "intro": "Veel onderhoud draait om vaste rondes: smeren, schoonmaken, onderdelen wisselen volgens schema. Toch blijft de lijn stilvallen. Wij kijken anders naar onderhoud. **De vraag is niet wat er volgens het boekje moet gebeuren, maar waarom jouw machine stopt.** Daar richten we ons onderhoud op.",
+  "intro": "Veel onderhoud draait om vaste rondes: smeren, schoonmaken, onderdelen wisselen volgens schema. Toch blijft de lijn stilvallen. Wij kijken anders naar onderhoud. **De vraag is niet wat er volgens het boekje moet gebeuren, maar waarom jouw machine stopt.** Daar richten we ons onderhoud van industriële machines op.",
   "problemTitle": "Waarom standaard onderhoud storingen niet stopt",
   "problemText": "Een onderhoudsplan uit de handleiding gaat uit van een gemiddelde machine in een gemiddelde fabriek. Jouw lijn draait met jouw producten, jouw snelheden en jouw operators. De storingen die jou productie kosten, staan zelden in dat plan.\n\nHet resultaat herken je misschien: de monteur is druk, de onderdelen worden keurig op tijd vervangen, en toch staat de lijn elke week een paar keer stil. Steeds op dezelfde plek, steeds met hetzelfde trucje weer aan de praat.\n\nOnderhoud voegt pas waarde toe als het de storingen voorkomt die jou echt geld kosten. Daarom beginnen we niet met een schema, maar met je storingen.",
   "blocks": [
@@ -13,7 +13,7 @@
       "listTitle": "Wat dat oplevert:",
       "list": [
         "Minder ongeplande stilstand op de plekken die er echt toe doen",
-        "Onderhoud op basis van de conditie van de machine, niet van de kalender",
+        "Planbaar onderhoud op basis van de conditie van de machine, niet van de kalender",
         "Vroegtijdig signaleren via trillingen, temperatuur, stroomopname of PLC-data",
         "Geen onnodige onderhoudsstops en geen onderdelen die te vroeg worden vervangen"
       ],
@@ -91,6 +91,10 @@
     {
       "question": "Wat is het verschil tussen correctief, preventief en predictief onderhoud?",
       "answer": "Correctief onderhoud is repareren nadat iets kapot is. Preventief onderhoud is vervangen of controleren volgens een vast schema, ook als het onderdeel nog goed is. Predictief onderhoud is ingrijpen op basis van de werkelijke conditie van de machine, gemeten met sensoren of machinedata. Wij combineren ze zo dat je de storingen voorkomt die je het meest kosten, zonder onnodige onderhoudsstops."
+    },
+    {
+      "question": "Mijn oude machine doet het niet meer. Kunnen jullie hem maken of de besturing vervangen?",
+      "answer": "Ja. We komen eerst één dag langs om de machine te repareren. Lukt dat niet in die dag, dan nemen we alles op wat nodig is en krijg je binnen een week een plan en offerte, bijvoorbeeld voor een nieuwe besturing. Die dag betaal je, maar kies je daarna voor een grote upgrade bij ons, dan verrekenen we hem met de offerte. Meer hierover lees je bij retrofit."
     },
     {
       "question": "Kunnen jullie ook ons reguliere onderhoud uitvoeren?",

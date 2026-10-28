@@ -1,5 +1,6 @@
 ---
 title: "Robot of cobot? Zo maak je de juiste keuze voor je productielijn"
+seoTitle: "Robot of cobot? Zo kies je voor je productielijn"
 slug: "robot-of-cobot"
 date: 2026-10-15
 author: "De Machinedokters"
@@ -26,7 +27,7 @@ faq:
 published: true
 ---
 
-"Doe maar een cobot, dan hoeft er geen hek omheen." Die zin horen we vaak. Logisch: een cobot is compact, snel te programmeren en mag dicht bij mensen werken. Toch is het een van de grootste misvattingen in robotisering.
+"Doe maar een cobot, dan hoeft er geen hek omheen." Die zin horen we vaak. Logisch: een cobot is compact, snel te programmeren en mag dicht bij mensen werken. Toch is het een misvatting.
 
 **Een cobotarm is niet automatisch een collaboratieve toepassing.** Of mens en robot echt samen mogen werken, bepaalt de risicobeoordeling van de complete toepassing. Dus niet alleen de arm, maar ook de grijper, het product, de snelheid en de plek van de operator.
 
@@ -36,7 +37,7 @@ Hieronder zetten we op een rij hoe je de juiste keuze maakt.
 
 ## Wat is een cobot?
 
-Een cobot, voluit collaboratieve robot, is een robotarm die gemaakt is om dicht bij mensen te werken. Hij kan zijn kracht en snelheid begrenzen en stopt bij contact. Daardoor is hij compact, snel te programmeren en vaak zonder groot hek in te passen. Daar staat tegenover dat een cobot trager en minder sterk is dan een industriële robot. En zoals hieronder blijkt: een cobotarm alleen maakt een toepassing nog niet veilig.
+Een cobot, voluit collaboratieve robot, is een robotarm die gemaakt is om dicht bij mensen te werken. Hij kan zijn kracht en snelheid begrenzen en stopt bij contact. Daardoor is hij compact, snel te programmeren en vaak zonder groot hek in te passen. Daar staat tegenover dat een cobot trager en minder sterk is dan een industriële robot. En een cobotarm alleen maakt een toepassing nog niet veilig.
 
 ## Wie bepaalt of het veilig is?
 
@@ -186,7 +187,7 @@ Dit is de situatie waarin een cobot echt de snelste en voordeligste keuze is: de
 
 **Kies een industriële robot als:**
 
-- productiviteit en cyclustijd cruciaal zijn;
+- productiviteit en cyclustijd voorop staan;
 - het proces zwaar of risicovol is;
 - de lijn continu moet draaien;
 - je maximale betrouwbaarheid en output nodig hebt.

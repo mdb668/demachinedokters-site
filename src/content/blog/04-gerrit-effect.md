@@ -1,5 +1,6 @@
 ---
 title: "Het “Gerrit-effect”: Waarom jouw lijn geen ‘fluisteraar’ nodig zou moeten hebben"
+seoTitle: "Het Gerrit-effect: als je lijn een fluisteraar nodig heeft"
 slug: "het-gerrit-effect-waarom-jouw-lijn-geen-fluisteraar-nodig-zou-moeten-hebben"
 date: 2026-06-01
 author: "De Machinedokters"
@@ -18,7 +19,7 @@ Gerrit is een held! Maar voor de continuïteit van je bedrijf is het Gerrit-effe
 
 Het Gerrit-effect ontstaat wanneer een machine zo onvoorspelbaar is geworden, dat alleen jarenlange ervaring de boel draaiende kan houden. De lijn draait niet op basis van technische specificaties, maar op basis van intuïtie.
 
-Het resultaat? Een enorme variatie in je OEE. De ene ploeg draait recordcijfers, de andere ploeg vecht de hele dag tegen micro stilstanden.
+Dat geeft grote variatie in je OEE. De ene ploeg draait recordcijfers, de andere ploeg vecht de hele dag tegen micro stilstanden.
 
 <a class="btn btn-primary" href="/contact/">Plan een vrijblijvend adviesgesprek</a>
 
@@ -28,7 +29,7 @@ Het lijkt misschien een luxe probleem ("We hebben Gerrit toch?"), maar de gevolg
 
 **Onmogelijk inwerken**: Nieuwe operators raken gefrustreerd. Ze volgen de handleiding, maar de lijn loopt niet. "Tja," zegt de rest, "je moet er even gevoel voor krijgen."
 
-**Kennislekkage**: Alle cruciale informatie over hoe de lijn écht werkt, zit in het hoofd van je mensen. Als zij vertrekken, vertrekt je rendement.
+**Kennislekkage**: Alle kennis over hoe de lijn écht werkt, zit in het hoofd van je mensen. Als zij vertrekken, vertrekt je rendement.
 
 **Onzichtbare bottlenecks**: Omdat Gerrit de problemen steeds 'even oplost', krijgt de Technische Dienst nooit de kans om de structurele oorzaak aan te pakken. De pleister wordt hier niet geplakt met duct-tape, maar met menselijke handelingen.
 
@@ -50,6 +51,6 @@ Dit zijn slechts 3 punten uit onze machinedokters checklist: “hoe ziek is jouw
 
 ## De Machinedokters: Wij borgen je kennis
 
-Wij maken je proces weer onafhankelijk. Niet door de kennis van je mensen te negeren, maar door die kennis te integreren in de machine en de werkwijze. Zo draait je lijn op dinsdag net zo goed als op maandag.
+Wij maken je proces weer onafhankelijk door de kennis van je mensen vast te leggen in de machine en de werkwijze. Zo draait je lijn op dinsdag net zo goed als op maandag.
 
 **Klaar voor een stabiel resultaat, het hele jaar door?** Plan een [vrijblijvend adviesgesprek](/contact) in of lees in onze [case](/case-voedingsindustrie/) hoe wij bij een productiehuis zorgden voor een 20% snellere lijn.

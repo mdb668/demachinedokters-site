@@ -39,7 +39,7 @@ faq:
     answer: "Vanuit Alphen werken we dagelijks voor fabrieken in heel Noord-Brabant. Voor projecten komen we door heel Nederland."
 ---
 
-Voorkomen is beter dan genezen, maar als er iets misgaat lossen we het duurzaam op. De Machinedokters geloven niet in tijdelijke lapmiddelen: met een storingsanalyse vinden we de echte oorzaak. Door onze kennis van zowel mechanica als besturingstechniek kunnen we storingen niet alleen verhelpen, maar structureel voorkomen.
+Voorkomen is beter dan genezen, maar als er iets misgaat lossen we het duurzaam op. De Machinedokters geloven niet in tijdelijke lapmiddelen: met een storingsanalyse vinden we de echte oorzaak. Door onze kennis van zowel mechanica als besturingstechniek verhelpen we storingen en voorkomen we dat ze terugkomen.
 
 ## Herken je dit?
 

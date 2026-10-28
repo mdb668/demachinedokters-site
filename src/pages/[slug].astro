@@ -65,7 +65,7 @@ const jobLd = kind === 'vacancy' ? {
 const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, Astro.site).href })) };
 ---
 {kind === 'case' ? (
-  <Base title={`Case ${d.title}: ${d.subtitle}`} description={`Case ${d.title}: ${d.intro}`} image={d.image} jsonLd={crumbLd}>
+  <Base title={d.seoTitle ?? `Case ${d.title}: ${d.subtitle}`} description={d.seoDescription ?? `Case ${d.title}: ${d.intro}`} image={d.image} jsonLd={crumbLd}>
     <section class="page-hero">
       <div class="container">
         <h1>{d.title}{' '}<span class="sub">{d.subtitle}</span></h1>

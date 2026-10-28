@@ -2,6 +2,7 @@
 title: "Dozen vouwen en stapelen"
 slug: "case-dozen-vouwen-stapelen"
 subtitle: "Eén robot die dozen uitvouwt, tapet en gevuld weer stapelt"
+seoTitle: "Case: robot vouwt, tapet en stapelt dozen"
 intro: "Een klant wilde met één robot platte doosuitslagen oppakken, uitvouwen en dichttapen, en dezelfde dozen later gevuld weer opstapelen. Inclusief automatische aan- en afvoer van pallets."
 summary: "Platte dozen (plano's) oppakken en uitvouwen is precies het soort repeterend werk dat een robot overneemt, maar een uitslag is slap en elke doos moet precies goed gevouwen worden. Met afspraken met de dozenleverancier, een speciaal ontwikkelde vouwtool en één robot voor zowel vouwen als stapelen hebben we het proces volledig geautomatiseerd."
 image: "/images/robotisering/dozen-vouwen-robot.jpg"
@@ -19,7 +20,7 @@ results:
   - "Speciale vouwtool, door ons ontwikkeld"
   - "Constante aanvoer dankzij afspraken met de dozenleverancier"
   - "Automatische aan- en afvoer van pallets"
-closing: "Soms zit de oplossing niet alleen in de robot, maar ook in een goed gesprek met de leverancier."
+closing: "Een deel van de oplossing zat in een goed gesprek met de dozenleverancier."
 order: 5
 published: true
 ---

@@ -10,7 +10,7 @@ salaryMin: 3500
 salaryMax: 5500
 employmentType: "FULL_TIME"
 datePosted: 2026-10-28
-seoTitle: "Vacature elektrisch / mechatronisch engineer Alphen | De Machinedokters"
+seoTitle: "Vacature elektrisch / mechatronisch engineer in Alphen"
 seoDescription: "Elektrisch / mechatronisch engineer in Alphen (NB): schema's tekenen, PLC in TIA Portal, machines in bedrijf stellen. € 3.500 tot € 5.500 bruto per maand."
 solliciterenTitle: "Hoe het verder gaat"
 solliciteren: "Geen motivatiebrief. Stuur je cv of je LinkedIn naar {mail} of {bel}/{app} Mike op {telefoon}. Binnen 2 werkdagen hoor je van ons, binnen een week drinken we koffie. In het tweede gesprek zit Freek erbij en leggen we je een echt schema voor. Daarna weet je waar je aan toe bent."

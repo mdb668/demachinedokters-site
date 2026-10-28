@@ -1,5 +1,6 @@
 ---
 title: "De “Angst-Marge” en waarom dit een probleem is voor jouw lijn"
+seoTitle: "De Angst-marge: waarom je lijn te langzaam draait"
 slug: "de-angst-marge-en-waarom-dit-een-probleem-is-voor-jou-lijn"
 date: 2026-05-07
 author: "De Machinedokters"
@@ -46,7 +47,7 @@ verschillen tussen ploegen in hoe soepel de lijn loopt
 
 tijdelijke oplossingen die permanent zijn geworden
 
-Dat zijn geen losse incidenten. Het zijn signalen van hetzelfde onderliggende probleem: de lijn draait, maar is onstabiel.
+Het zijn signalen van hetzelfde onderliggende probleem: de lijn draait, maar is instabiel.
 
 ![Flessen op een transportband](/images/blog/angst-marge-2.jpg)
 
@@ -56,9 +57,9 @@ Zolang de snelheid iets lager staat, blijft het werkbaar. Maar het betekent ook 
 
 Je kiest dus bewust voor een lagere capaciteit. Die 5 a 10 procent klinkt misschien weinig, maar aan het einde van de streep maak je veel minder winst dan mogelijk is.
 
-De lagere lijnsnelheid is niet het probleem zelf, maar een symptoom. Het is een praktische oplossing die werkt in de operatie, maar eigenlijk een groter onderliggend probleem verhult.
+De lagere lijnsnelheid is een symptoom: een praktische oplossing die werkt in de operatie, maar een groter onderliggend probleem verhult.
 
-De vraag is daarom niet alleen waarom de snelheid omlaag is gegaan, maar ook welke andere signalen er zijn die hetzelfde verhaal vertellen.
+Vraag je daarom ook af welke andere signalen hetzelfde verhaal vertellen.
 
 ## Wil je dat inzichtelijk maken voor je eigen lijn?
 
@@ -68,6 +69,6 @@ Veel bedrijven herkennen daarin meer dan ze vooraf verwachten.
 
 ## De Machinedokters: wij genezen jouw lijn
 
-Doet jouw lijn ook aan symptoombestrijding? Wij genezen de onderliggende oorzaak. Wij werken niet door jouw lijn weg te gooien of te vervangen. Wij werken aan jouw lijn. Zonder compleet nieuwe machines of miljoeneninversteringen.
+Doet jouw lijn ook aan symptoombestrijding? Wij genezen de onderliggende oorzaak. We werken aan jouw bestaande lijn, zonder compleet nieuwe machines of miljoeneninvesteringen.
 
 Benieuwd hoe we dat doen? Neem gerust [contact](/contact) met ons op voor meer informatie, of bekijk in onze [cases](/cases/) hoe we dat bij andere producenten hebben aangepakt.

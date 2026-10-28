@@ -1,5 +1,6 @@
 ---
 title: "De “Duct-tape” Methode: Waarom tijdelijke oplossingen je proces langzaam slopen"
+seoTitle: "De Duct-tape Methode: hoe noodoplossingen je proces slopen"
 slug: "de-duct-tape-methode-waarom-tijdelijke-oplossingen-je-proces-langzaam-slopen"
 date: 2026-05-18
 author: "De Machinedokters"
@@ -18,7 +19,7 @@ Het begint vaak onschuldig als een snelle fix om de ploeg door te komen. Maar in
 
 ## De diagnose: Creativiteit uit noodzaak
 
-Waarom plakken we pleisters? Het antwoord is simpel: de druk om te draaien is groot. Als een sensor telkens verschuift en de Technische Dienst heeft pas over drie dagen tijd, dan grijpt de operator zelf in. Een tiewrap is immers zo gepakt.
+Waarom plakken we pleisters? Omdat de druk om te draaien groot is. Als een sensor telkens verschuift en de Technische Dienst heeft pas over drie dagen tijd, dan grijpt de operator zelf in. Een tiewrap is immers zo gepakt.
 
 Het probleem is dat deze handelingen de fysieke integriteit van de lijn aantasten. De machine draait niet meer zoals hij ontworpen is, maar op basis van 'MacGyver-oplossingen'.
 
@@ -28,7 +29,7 @@ De Duct-tape Methode is om drie redenen een risico voor je productie:
 
 Schijnstabiliteit: De lijn lijkt te draaien, maar de oorzaak (bijv. een versleten beugel of een trillende motor) wordt niet aangepakt. De pleister verbergt de slijtage.
 
-Onvoorspelbaarheid: Wat gebeurt er als de tiewrap knapt tijdens de nachtdienst? Niemand weet meer hoe de sensor oorspronkelijk hoorde te zitten. Het resultaat: urenlange stilstand door een 'kleinigheid'.
+Onvoorspelbaarheid: Wat gebeurt er als de tiewrap knapt tijdens de nachtdienst? Niemand weet meer hoe de sensor oorspronkelijk hoorde te zitten. Dan volgt urenlange stilstand door een 'kleinigheid'.
 
 Veiligheid & Hygiëne: Karton, tape en loshangende tiewraps horen niet thuis in een professionele productieomgeving. Ze zijn een bron van vervuiling en kunnen onveilige situaties maskeren.
 
@@ -38,7 +39,7 @@ Veiligheid & Hygiëne: Karton, tape en loshangende tiewraps horen niet thuis in
 
 Het structureel oplossen van de "Duct-tape" pleisters vraagt om een andere blik op onderhoud. In plaats van de operator te complimenteren voor zijn creativiteit om de lijn 'erdoorheen te slepen', moeten we ons afvragen: Waarom is deze ingreep nodig?
 
-De overgang van de Angst-marge (onze vorige blog) naar de Duct-tape Methode is logisch: als je de machine fysiek bij elkaar moet houden met noodgrepen, durf je hem logischerwijs ook niet op 100% snelheid te laten draaien. De pleister en de angst gaan hand in hand.
+De Duct-tape Methode hangt samen met de Angst-marge (onze vorige blog): als je de machine fysiek bij elkaar moet houden met noodgrepen, durf je hem ook niet op 100% snelheid te laten draaien.
 
 ## Hoeveel pleisters tel jij?
 

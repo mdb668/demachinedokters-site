@@ -33,7 +33,7 @@ faq:
     answer: "Ja. Aansluiten op bestaande lijnen, transportsystemen of besturingen is een vast onderdeel van ons werk. In de eerste fase leggen we vast op welke machines en componenten we moeten aansluiten, zodat de nieuwe machine meedraait met wat er al staat."
 ---
 
-Sommige producten passen simpelweg niet in een machine uit de catalogus: een afwijkend formaat, een kwetsbaar materiaal, een handeling die tot nu toe alleen met de hand lukte. Dan bouwen we hem zelf. Als machinebouwer ontwerpen we speciaalmachines vanaf een blanco vel rond jouw product en jouw proces, zodat ze precies doen wat nodig is en niets overbodigs. Dat is speciaalmachinebouw: geen machine uit de catalogus aanpassen, maar een machine laten bouwen die vanaf het begin voor jouw product is ontworpen.
+Sommige producten passen simpelweg niet in een machine uit de catalogus: een afwijkend formaat, een kwetsbaar materiaal, een handeling die tot nu toe alleen met de hand lukte. Dan bouwen we hem zelf. Als machinebouwer ontwerpen we speciaalmachines vanaf een blanco vel rond jouw product en jouw proces, zodat ze precies doen wat nodig is en niets overbodigs. Dat is speciaalmachinebouw: je laat een machine bouwen die vanaf het begin voor jouw product is ontworpen.
 
 We beginnen altijd in de fabriek, niet achter een tekentafel. We kijken hoe het product nu door de lijn gaat, waar het hapert en wat operators dagelijks moeten corrigeren. Daaruit volgt een concept dat we samen met jouw team toetsen, voordat we ook maar één plaat laten snijden. Zo voorkomen we over-engineering en bouwen we machines die eenvoudig zijn, en daardoor betrouwbaar.
 

@@ -504,6 +504,8 @@ collections:
       - { name: approach, label: "Onze aanpak", widget: text, hint: "Lege regel = alinea; regels met '- ' worden een opsomming." }
       - { name: results, label: "Het resultaat (opsomming)", widget: list }
       - { name: closing, label: "Afsluitende zin", widget: string, required: false }
+      - { name: seoTitle, label: "SEO-titel (optioneel, max. 60 tekens)", widget: string, required: false }
+      - { name: seoDescription, label: "SEO-omschrijving (optioneel, max. 158 tekens)", widget: text, required: false }
       - { name: order, label: "Volgorde", widget: number, default: 1 }
       - { name: published, label: "Gepubliceerd", widget: boolean, default: true }
       - { name: body, label: "Extra tekst (optioneel)", widget: markdown, required: false }
@@ -561,6 +563,7 @@ collections:
       - { name: excerpt, label: "Korte samenvatting", widget: text }
       - { name: cover, label: "Omslagfoto", widget: image }
       - { name: coverAlt, label: "Alt-tekst omslagfoto", widget: string, required: false }
+      - { name: seoTitle, label: "SEO-titel (optioneel, max. 60 tekens)", widget: string, required: false }
       - { name: seoDescription, label: "SEO-omschrijving (optioneel)", widget: text, required: false }
       - name: faq
         label: "Veelgestelde vragen (optioneel, ook voor Google)"

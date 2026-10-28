@@ -1,5 +1,6 @@
 ---
 title: "Diagnose voor het Management: Waarom jouw operators weten dat de lijn ‘ziek’ is (maar jij niet)."
+seoTitle: "Waarom operators zien dat de lijn ziek is (en jij niet)"
 slug: "2diagnose-voor-het-management-waarom-jouw-operators-weten-dat-de-lijn-ziek-is-maar-jij-niet"
 date: 2026-04-21
 author: "De Machinedokters"
@@ -20,7 +21,7 @@ Dit zijn de drie zaken die jouw operators dagelijks zien, maar die zelden het MT
 
 Grote storingen vallen op. Maar het echte rendement lekt weg via de ‘kleine beetjes’. Een operator die een verpakking handmatig recht moet trekken, een korte stop omdat de invoer hapert, of het onnodig wachten op een batch.
 
-Op dagbasis lijkt het verwaarloosbaar. Maar tel deze tijd- en bewegingsverliezen op over een maand, en je praat bijvoorbeeld over tienduizenden euro’s aan verloren capaciteit. Zonder een diepgaande tijd- en bewegingsanalyse blijven deze verliezen onzichtbaar. Ze worden simpelweg onderdeel van “hoe we het hier nu eenmaal doen”.
+Op dagbasis lijkt het verwaarloosbaar. Maar tel deze tijd- en bewegingsverliezen op over een maand, en je praat bijvoorbeeld over tienduizenden euro’s aan verloren capaciteit. Zonder een diepgaande tijd- en bewegingsanalyse blijven deze verliezen onzichtbaar. Ze worden onderdeel van “hoe we het hier nu eenmaal doen”.
 
 <a class="btn btn-primary" href="/cases/">Bekijk onze cases</a>
 
@@ -40,7 +41,7 @@ Als een proces afhankelijk is van menselijke perfectie bij repeterend werk onder
 
 ## Het bewijs: 20% hogere verpakkingssnelheid zonder miljoeneninvestering
 
-Dit is geen theoretisch verhaal. Recent hielpen wij een voedingsmiddelenproducent die kampte met exact deze symptomen. Door niet direct naar nieuwe (dure) machines te grijpen, maar de focus te leggen op Lean-principes en gerichte technologische aanpassingen, behaalden we:
+Recent hielpen wij een voedingsmiddelenproducent die kampte met deze symptomen. Door niet direct naar nieuwe (dure) machines te grijpen, maar de focus te leggen op Lean-principes en gerichte technologische aanpassingen, behaalden we:
 
 25% reductie in verpakkingsafval.
 
@@ -52,4 +53,4 @@ Significante stijging van de klanttevredenheid door constante kwaliteit.
 
 Benieuwd naar deze casus?
 
-Wij hebben de technische en organisatorische aanpak uitgewerkt in een heldere case study. Ontdek hoe je ook voor jouw bedrijf met slimme interventies en operator-betrokkenheid je rendement structureel verhoogt.
+Wij hebben de technische en organisatorische aanpak uitgewerkt in een case study. Daarin lees je hoe je met slimme interventies en operator-betrokkenheid je rendement structureel verhoogt.

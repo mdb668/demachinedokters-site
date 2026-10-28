@@ -72,7 +72,7 @@ We kiezen de robot die past bij de toepassing. We hebben veel ervaring met **FAN
 2. **Simulatie en concept.** We simuleren de cel vooraf, zodat bereik, cyclustijd en botsingen bekend zijn voordat er iets gebouwd wordt.
 3. **Prototype en bouw.** Grijpers, tooling, besturing en veiligheid ontwerpen en bouwen we zelf, inclusief de CE-markering van de robotcel.
 4. **Oplevering en implementatie.** Inpassen in je lijn, in bedrijf stellen en je operators en technische dienst trainen.
-5. **Service.** Omdat we ook onderhoud en storingsanalyse doen, blijft de robotcel na oplevering draaien.
+5. **Service.** Omdat we ook onderhoud en storingsanalyse doen, blijven we na oplevering betrokken bij de robotcel.
 
 Reken voor een robotproject op ongeveer **een half jaar**, van eerste gesprek tot implementatie.
 

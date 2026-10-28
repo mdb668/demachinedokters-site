@@ -36,7 +36,8 @@ const vacancies = (await getCollection('vacancies', (v) => v.data.published)).so
             <div>
               <h3>{v.data.title}</h3>
               <span class="pill">{v.data.location}</span>
-              <span class="pill">{v.data.sector}</span>
+              {v.data.sector && <span class="pill">{v.data.sector}</span>}
+              {v.data.salaryMin && <span class="pill">€ {v.data.salaryMin.toLocaleString('nl-NL')}{v.data.salaryMax && ` tot € ${v.data.salaryMax.toLocaleString('nl-NL')}`} bruto per maand</span>}
             </div>
             <Icon name="arrow-right" size={28} class="arrow" />
           </a>

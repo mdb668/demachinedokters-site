@@ -619,17 +619,29 @@ collections:
       - { name: title, label: "Functietitel", widget: string }
       - { name: slug, label: "URL-slug", widget: string, hint: "Bijv. solliciteer-technisch-engineer" }
       - { name: location, label: "Standplaats", widget: string }
-      - { name: sector, label: "Sector", widget: string }
+      - { name: sector, label: "Sector", widget: string, required: false }
       - { name: image, label: "Afbeelding", widget: image, required: false }
       - { name: quote, label: "Handgeschreven quote", widget: string, required: false }
-      - { name: intro, label: "Over De Machinedokters", widget: text }
-      - { name: functie, label: "De functie", widget: text }
-      - { name: watGaJeDoen, label: "Wat ga je doen?", widget: list }
-      - { name: watWijBieden, label: "Wat wij bieden", widget: list }
-      - { name: watJeMeebrengt, label: "Wat je meebrengt", widget: list }
+      - { name: headline, label: "Kop (h1), anders functietitel", widget: string, required: false }
+      - { name: subtitle, label: "Ondertitel onder de kop", widget: string, required: false }
+      - { name: salaryText, label: "Salaris en uren (tekst)", widget: string, required: false }
+      - { name: salaryMin, label: "Salaris minimaal (bruto per maand)", widget: number, required: false }
+      - { name: salaryMax, label: "Salaris maximaal (bruto per maand)", widget: number, required: false }
+      - { name: employmentType, label: "Dienstverband (Google)", widget: select, options: ["FULL_TIME", "PART_TIME", "CONTRACTOR", "TEMPORARY", "INTERN"], required: false }
+      - { name: addressLocality, label: "Plaats (Google)", widget: string, required: false }
+      - { name: datePosted, label: "Geplaatst op", widget: datetime, time_format: false, required: false }
+      - { name: seoTitle, label: "SEO-titel", widget: string, required: false }
+      - { name: seoDescription, label: "SEO-omschrijving", widget: text, required: false }
+      - { name: intro, label: "Over De Machinedokters (vaste opzet)", widget: text, required: false }
+      - { name: functie, label: "De functie (vaste opzet; leeg = tekst hieronder is de hele vacature)", widget: text, required: false }
+      - { name: watGaJeDoen, label: "Wat ga je doen? (vaste opzet)", widget: list, required: false }
+      - { name: watWijBieden, label: "Wat wij bieden (vaste opzet)", widget: list, required: false }
+      - { name: watJeMeebrengt, label: "Wat je meebrengt (vaste opzet)", widget: list, required: false }
+      - { name: solliciterenTitle, label: "Titel bij formulier", widget: string, required: false }
+      - { name: solliciteren, label: "Tekst bij formulier", widget: text, required: false, hint: "Gebruik {mail}, {telefoon}, {bel} en {app} voor klikbare contactgegevens." }
       - { name: published, label: "Gepubliceerd", widget: boolean, default: true }
       - { name: order, label: "Volgorde", widget: number, default: 1 }
-      - { name: body, label: "Afsluitende tekst bij het formulier", widget: markdown }
+      - { name: body, label: "Tekst (vaste opzet: afsluiting bij formulier; anders de hele vacature)", widget: markdown }
 
   # ───────────── Juridisch ─────────────
   - name: juridisch

@@ -49,17 +49,6 @@ Onze projecten liggen tussen de **€6.000 en €400.000** per project. Een eenv
 
 We rekenen de investering meestal door tegen de **extra productie per jaar** of de **besparing in fte per jaar**. Kwaliteitswinst ten opzichte van handwerk is per project anders; die brengen we samen met je in kaart.
 
-## Machine laten bouwen? Zo verloopt het traject
-
-1. **Heel goed vastleggen wat er nodig is.** Hoeveel producten per uur of per dag? Hoeveel variatie, wat is het grootste en het kleinste product? Moet de machine flexibel zijn? Komt er volgend jaar nog een bij, maar dan groter? Moeten we aansluiten op bestaande lijnen of componenten? En wat willen we met z'n allen bereiken?
-2. **Concept en businesscase.** Een oplossingsrichting met een investering die je kunt afzetten tegen productie of fte-besparing per jaar. Die toetsen we met je team.
-3. **Ontwerp en bouw.** Mechanica, besturing en software in eigen huis, ontworpen voor betrouwbaarheid en onderhoudsgemak.
-4. **CE-markering.** De risicobeoordeling, het technisch dossier en de conformiteitsverklaring verzorgen we zelf, zodat je een machine krijgt die veilig en volgens de regels in gebruik genomen kan worden.
-5. **Installatie en inbedrijfstelling.** We sluiten de machine aan op je bestaande proces en trainen je operators en technische dienst.
-6. **Servicecontract.** Na de oplevering blijven we betrokken, met afspraken over service, onderhoud en verbeteringen.
-
-Een werkstation kan in ongeveer **10 weken** klaar zijn, een complete lijn in **tot 40 weken**. Hoe flexibeler en complexer de machine, hoe langer het traject. De meeste tijd zit in de voorbereiding; daar zit ook de winst.
-
 ## Een machine laten bouwen: zo werkt het
 
 Meestal gaat het om repeterend werk. Een machine neemt dat over, zodat je mensen kunt inzetten voor leuker werk.

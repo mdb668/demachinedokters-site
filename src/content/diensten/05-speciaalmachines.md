@@ -59,3 +59,39 @@ We rekenen de investering meestal door tegen de **extra productie per jaar** of 
 6. **Servicecontract.** Na de oplevering blijven we betrokken, met afspraken over service, onderhoud en verbeteringen.
 
 Een werkstation kan in ongeveer **10 weken** klaar zijn, een complete lijn in **tot 40 weken**. Hoe flexibeler en complexer de machine, hoe langer het traject. De meeste tijd zit in de voorbereiding; daar zit ook de winst.
+
+## Een machine laten bouwen: zo werkt het
+
+Meestal gaat het om repeterend werk. Een machine neemt dat over, zodat je mensen kunt inzetten voor leuker werk.
+
+### 1. Kennismaken en goed kijken
+
+We komen bij je langs. Dat eerste bezoek is altijd gratis, als er maar koffie is. We zoeken uit wat er echt nodig is. Om welke producten gaat het, en hoeveel? Wat zijn de grootste en kleinste maten, en hoeveel varianten zijn er? Wil je één instelbare machine of een machine per product? Handmatig of automatisch?
+
+We praten ook meteen over de investering. Meestal kunnen we na dat eerste bezoek al zeggen waar je ongeveer aan moet denken. Lukt dat nog niet, dan zeggen we dat eerlijk.
+
+Daarna maken we het concreet: productieaantallen, cyclustijden en de output die je nodig hebt. Dat leggen we vast in een specificatiedocument, nog voordat we iets ontwerpen. Vanaf het begin is ook de collega betrokken die je project technisch uitwerkt. Gaandeweg neemt die het inhoudelijke contact over.
+
+### 2. Laten bezinken en whiteboarden
+
+Na het eerste bezoek schrijven we een verslag en laten we het even rusten. De beste ideeën komen vaak onder de douche of tijdens het uitlaten van de hond. Daarna whiteboarden we, bij ons en bij jou. We kijken ook wat er al te koop is. Werkt een bestaande machine met een paar aanpassingen, dan ben je sneller klaar en goedkoper uit.
+
+Onze eerste inschatting stellen we bij elke stap bij. Bouwen doen we pas als jij akkoord geeft.
+
+### 3. Bouwen
+
+Waar het kan, bouwen we de machine in onze werkplaats in Alphen. Een aanpassing of een deel van een productielijn bouwen we bij jou op locatie. Een voorbeeld is de [stabalkmachine](/case-stabalkmachine/).
+
+We gaan door tot we opleveren wat we samen hebben afgesproken. Ontdekken we halverwege dat er iets mist, dan zoeken we samen een oplossing.
+
+### 4. Testen en opleveren
+
+Eerst testen we de machine bij ons, daarna bij jou in de productie. Je kunt ook beide tests bij jou laten doen. Installeren en inregelen doen we op verzoek. Bouwen we het hele systeem, dan leveren we op met CE-markering. Bij een deelsysteem leveren we een inbouwverklaring. Waar nodig trainen we je operators en technische dienst.
+
+### 5. Na de oplevering
+
+In een SLA (Service Level Agreement) leggen we vast wat je van ons kunt verwachten bij onderhoud en storingen.
+
+### Hoe lang duurt het?
+
+Gemiddeld zit er een half jaar tussen het eerste bezoek en een draaiende machine. Een eenvoudige machine of een aangepaste bestaande machine kan sneller. Een groot engineeringproject duurt meestal langer.

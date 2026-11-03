@@ -22,7 +22,7 @@ faq:
   - question: "Hoe bereken je of een speciaalmachine zich terugverdient?"
     answer: "Meestal zetten we de investering af tegen de extra productie per jaar of de besparing in fte per jaar. Kwaliteitswinst ten opzichte van handwerk, zoals minder afkeur of minder fysieke belasting, verschilt sterk per project. Die brengen we per situatie in kaart. Zo weet je vooraf waar je op uitkomt."
   - question: "Hoe lang duurt het bouwen van een speciaalmachine?"
-    answer: "Een werkstation kan in ongeveer 10 weken klaar zijn. Een complete lijn duurt tot zo'n 40 weken. De doorlooptijd hangt vooral af van de complexiteit en hoe flexibel de machine moet zijn. Het bouwen zelf hoeft niet lang te duren; de meeste tijd zit in het goed vastleggen wat de machine moet kunnen."
+    answer: "Gemiddeld zit er een half jaar tussen het eerste bezoek en een draaiende machine. Een eenvoudige machine of een aangepaste bestaande machine kan sneller. Een groot engineeringproject duurt meestal langer. De doorlooptijd hangt vooral af van de complexiteit en hoe flexibel de machine moet zijn. Het bouwen zelf hoeft niet lang te duren; de meeste tijd zit in het goed vastleggen wat de machine moet kunnen."
   - question: "Wat is speciaalmachinebouw?"
     answer: "Speciaalmachinebouw is het ontwerpen en bouwen van machines die niet uit een catalogus komen, maar speciaal gemaakt worden voor één product of proces. Bijvoorbeeld omdat het product een afwijkend formaat heeft, kwetsbaar is, of omdat een handeling tot nu toe alleen met de hand lukte."
   - question: "Wat is het verschil tussen een standaardmachine en maatwerk?"

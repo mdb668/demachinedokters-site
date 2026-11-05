@@ -1,13 +1,15 @@
 ---
-title: "De “Duct-tape” Methode: Waarom tijdelijke oplossingen je proces langzaam slopen"
-seoTitle: "De Duct-tape Methode: hoe noodoplossingen je proces slopen"
-slug: "de-duct-tape-methode-waarom-tijdelijke-oplossingen-je-proces-langzaam-slopen"
+title: 'De “Duct-tape” Methode: Waarom tijdelijke oplossingen je proces langzaam slopen'
+slug: de-duct-tape-methode-waarom-tijdelijke-oplossingen-je-proces-langzaam-slopen
 date: 2026-05-18
-author: "De Machinedokters"
-readingTime: "2 minuten"
-excerpt: "Een houten blokje onder een sensor, een tiewrap om een rammelende geleider, een stukje tape over een fotocel. Het begint onschuldig, maar deze pleisters blijven maanden of jaren zitten. Welkom bij de Duct-tape Methode."
-cover: "/images/blog/duct-tape-methode.jpg"
-coverAlt: "De “Duct-tape” Methode: Waarom tijdelijke oplossingen je proces langzaam slopen"
+author: De Machinedokters
+readingTime: 2 minuten
+excerpt: Een houten blokje onder een sensor, een tiewrap om een rammelende geleider, een stukje tape over een fotocel. Het begint onschuldig, maar deze pleisters blijven maanden of jaren zitten. Welkom bij de Duct-tape Methode.
+cover: /images/blog/duct-tape-methode.jpg
+coverAlt: 'De “Duct-tape” Methode: Waarom tijdelijke oplossingen je proces langzaam slopen'
+seoTitle: 'De Duct-tape Methode: hoe noodoplossingen je proces slopen'
+seoDescription: ''
+faq: []
 published: true
 ---
 
@@ -23,7 +25,7 @@ Waarom plakken we pleisters? Omdat de druk om te draaien groot is. Als een senso
 
 Het probleem is dat deze handelingen de fysieke integriteit van de lijn aantasten. De machine draait niet meer zoals hij ontworpen is, maar op basis van 'MacGyver-oplossingen'.
 
-## Het gevaar van de "Permanente Pleister"
+## Het gevaar  van de "Permanente Pleister"
 
 De Duct-tape Methode is om drie redenen een risico voor je productie:
 

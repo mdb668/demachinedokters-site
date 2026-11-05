@@ -65,7 +65,7 @@ const jobLd = kind === 'vacancy' ? {
 const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs.map((c, i) => ({ '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.href, Astro.site).href })) };
 ---
 {kind === 'case' ? (
-  <Base title={d.seoTitle ?? `Case ${d.title}: ${d.subtitle}`} description={d.seoDescription ?? `Case ${d.title}: ${d.intro}`} image={d.image} jsonLd={crumbLd}>
+  <Base title={d.seoTitle || `Case ${d.title}: ${d.subtitle}`} description={d.seoDescription || `Case ${d.title}: ${d.intro}`} image={d.image} jsonLd={crumbLd}>
     <section class="page-hero">
       <div class="container">
         <h1>{d.title}{' '}<span class="sub">{d.subtitle}</span></h1>
@@ -112,7 +112,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
     <CtaBand label={site.ctaLabel} href={site.ctaLink} title="Herken je dit in jouw fabriek?" text="Vertel ons wat er speelt, dan kijken we samen waar de winst zit." />
   </Base>
 ) : (
-  <Base title={d.seoTitle ?? `Vacature ${d.title} in ${d.location} | ${site.siteName}`} description={d.seoDescription ?? (d.intro ?? d.subtitle ?? d.title).split('\n')[0]} image={d.image} jsonLd={[crumbLd, jobLd!]}>
+  <Base title={d.seoTitle || `Vacature ${d.title} in ${d.location} | ${site.siteName}`} description={d.seoDescription || (d.intro ?? d.subtitle ?? d.title).split('\n')[0]} image={d.image} jsonLd={[crumbLd, jobLd!]}>
     <section class="page-hero">
       <div class={`container inner vac-hero ${d.image ? '' : 'no-img'}`}>
         <div>

@@ -19,7 +19,7 @@ const ld = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
   headline: post.data.title,
-  description: post.data.seoDescription ?? post.data.excerpt,
+  description: post.data.seoDescription || post.data.excerpt,
   image: new URL(post.data.cover, Astro.site).href,
   datePublished: post.data.date.toISOString(),
   author: { '@type': 'Organization', name: post.data.author },
@@ -33,7 +33,7 @@ const faqLd = faq.length ? [{
   mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })),
 }] : [];
 ---
-<Base title={post.data.seoTitle ?? (post.data.title.length > 52 ? post.data.title : `${post.data.title} | ${site.siteName}`)} description={post.data.seoDescription ?? post.data.excerpt} image={post.data.cover} type="article" jsonLd={[ld, ...faqLd]}>
+<Base title={post.data.seoTitle || (post.data.title.length > 52 ? post.data.title : `${post.data.title} | ${site.siteName}`)} description={post.data.seoDescription || post.data.excerpt} image={post.data.cover} type="article" jsonLd={[ld, ...faqLd]}>
   <section class="page-hero">
     <div class="container-narrow">
       <a class="back" href="/blog"><Icon name="arrow-left" size={18} /> {p.backLabel}</a>

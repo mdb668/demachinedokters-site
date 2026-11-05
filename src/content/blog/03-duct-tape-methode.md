@@ -25,7 +25,7 @@ Waarom plakken we pleisters? Omdat de druk om te draaien groot is. Als een senso
 
 Het probleem is dat deze handelingen de fysieke integriteit van de lijn aantasten. De machine draait niet meer zoals hij ontworpen is, maar op basis van 'MacGyver-oplossingen'.
 
-## Het gevaar  van de "Permanente Pleister"
+## Het gevaar van de "Permanente Pleister"
 
 De Duct-tape Methode is om drie redenen een risico voor je productie:
 

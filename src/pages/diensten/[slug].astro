@@ -21,8 +21,8 @@ const slug = serviceSlug(service);
 const others = (await getCollection('services')).filter((s) => s.id !== service.id).sort((a, b) => a.data.order - b.data.order);
 const allCases = (await getCollection('cases', (c) => c.data.published)).sort((a, b) => a.data.order - b.data.order);
 const related = d.relatedCases?.length ? allCases.filter((c) => d.relatedCases!.includes(c.data.slug)) : allCases.slice(0, 3);
-const title = d.seoTitle ?? `${d.title} | ${site.siteName}`;
-const description = d.seoDescription ?? d.short;
+const title = d.seoTitle || `${d.title} | ${site.siteName}`;
+const description = d.seoDescription || d.short;
 const url = new URL(`/diensten/${slug}`, Astro.site).href;
 const ld = [
   {

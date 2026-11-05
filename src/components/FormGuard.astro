@@ -1,18 +1,25 @@
 ---
 /** Bescherming tegen formulierspam:
- *  - het FormSubmit-adres staat versleuteld in data-fs en wordt pas in de browser in de action gezet
- *    (bots die de HTML uitlezen vinden geen adres om rechtstreeks naar te posten);
- *  - inzendingen binnen 3 seconden na het laden of met een ingevuld honeypot-veld worden stil genegeerd. */
+ *  - de Web3Forms access key staat versleuteld in data-fs en wordt pas in de browser als verborgen veld toegevoegd
+ *    (bots die de HTML uitlezen vinden geen key om rechtstreeks mee te posten);
+ *  - inzendingen binnen 3 seconden na het laden, met een ingevuld honeypot-veld of met een spamwoord
+ *    uit data-blacklist worden stil genegeerd. */
 ---
 <script>
   const MIN_MS = 3000;
   document.querySelectorAll<HTMLFormElement>('form[data-fs]').forEach((form) => {
-    const target = [...atob(form.dataset.fs!)].reverse().join('');
-    form.action = `https://formsubmit.co/${form.hasAttribute('data-ajax-form') ? 'ajax/' : ''}${target}`;
+    const key = document.createElement('input');
+    key.type = 'hidden';
+    key.name = 'access_key';
+    key.value = [...atob(form.dataset.fs!)].reverse().join('');
+    form.prepend(key);
+    form.action = 'https://api.web3forms.com/submit';
+    const blacklist = (form.dataset.blacklist ?? '').split(',').map((w) => w.trim().toLowerCase()).filter(Boolean);
     const loaded = Date.now();
     form.addEventListener('submit', (e) => {
-      const honey = form.querySelector<HTMLInputElement>('input[name="_honey"]');
-      if (Date.now() - loaded < MIN_MS || (honey && honey.value)) {
+      const honey = form.querySelector<HTMLInputElement>('input[name="botcheck"]');
+      const text = [...new FormData(form).values()].filter((v) => typeof v === 'string').join(' ').toLowerCase();
+      if (Date.now() - loaded < MIN_MS || (honey && honey.value) || blacklist.some((w) => text.includes(w))) {
         e.preventDefault();
         e.stopImmediatePropagation();
       }

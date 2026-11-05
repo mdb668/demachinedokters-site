@@ -46,7 +46,7 @@ We verwerken jouw gegevens altijd op basis van een wettelijke grondslag, zoals t
 We delen jouw gegevens nooit zomaar. Soms is het nodig om ze te delen met betrouwbare partijen die ons helpen om onze diensten uit te voeren. Voor deze website zijn dat:
 
 - **GitHub (GitHub Pages)**: host de website en verwerkt daarbij technische gegevens zoals IP-adressen in serverlogboeken. GitHub is gevestigd in de Verenigde Staten en gecertificeerd onder het EU-US Data Privacy Framework.
-- **FormSubmit**: verzendt de gegevens die je invult in het contact- en sollicitatieformulier (inclusief een eventueel meegestuurd cv) naar ons e-mailadres. FormSubmit bewaart deze gegevens niet langer dan nodig voor de verzending.
+- **Web3Forms**: verzendt de gegevens die je invult in het contact- en sollicitatieformulier naar ons e-mailadres.
 - **Cloudflare**: beheert de DNS van ons domein en verwerkt daarbij technische verkeersgegevens. Daarnaast meten we met Cloudflare Web Analytics anoniem het bezoek aan de website (aantallen bezoekers, bekeken pagina's, verwijzende websites), zonder cookies en zonder bezoekers te volgen.
 - **Google Maps**: alleen als je op de contactpagina zelf op "Kaart tonen" klikt.
 

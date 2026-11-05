@@ -166,25 +166,22 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
             </aside>
           )}
         </div>
-        <form class="form" method="POST" action="/contact/" data-fs={formTarget(site)} enctype="multipart/form-data">
-          <input type="hidden" name="_subject" value={`Sollicitatie: ${d.title}`} />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value={new URL('/bedankt?type=sollicitatie', Astro.site).href} />
-          {site.formBlacklist && <input type="hidden" name="_blacklist" value={site.formBlacklist} />}
-          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <form class="form" method="POST" action="/contact/" data-fs={formTarget(site)} data-blacklist={site.formBlacklist}>
+          <input type="hidden" name="subject" value={`Sollicitatie: ${d.title}`} />
+          <input type="hidden" name="from_name" value="demachinedokters.nl" />
+          <input type="hidden" name="redirect" value={new URL('/bedankt/?type=sollicitatie', Astro.site).href} />
+          <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <div class="row">
             <div><label for="s-vn">Voornaam *</label><input id="s-vn" name="Voornaam" required autocomplete="given-name" /></div>
             <div><label for="s-an">Achternaam *</label><input id="s-an" name="Achternaam" required autocomplete="family-name" /></div>
           </div>
           <div class="row">
-            <div><label for="s-em">E-mail *</label><input id="s-em" name="E-mail" type="email" required autocomplete="email" /></div>
+            <div><label for="s-em">E-mail *</label><input id="s-em" name="email" type="email" required autocomplete="email" /></div>
             <div><label for="s-tel">Telefoon *</label><input id="s-tel" name="Telefoon" type="tel" required autocomplete="tel" /></div>
           </div>
           {story
             ? <div><label for="s-li">LinkedIn-profiel</label><input id="s-li" name="LinkedIn" type="url" placeholder="https://www.linkedin.com/in/..." /></div>
             : <div><label for="s-mot">Motivatie</label><textarea id="s-mot" name="Motivatie"></textarea></div>}
-          <div><label for="s-cv">CV (PDF)</label><input id="s-cv" name="CV" type="file" accept=".pdf,.doc,.docx" /></div>
           <div><button class="btn btn-primary" type="submit">Solliciteer nu</button></div>
         </form>
       </div>

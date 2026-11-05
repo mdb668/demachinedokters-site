@@ -5,19 +5,17 @@ const site = (await getEntry('settings', 'site'))!.data;
 const page = (await getEntry('pages', 'contact'))!.data;
 const f = page.form;
 ---
-<form class="form contact-form" method="POST" action="/contact/" data-fs={formTarget(site)} data-ajax-form novalidate>
-  <input type="hidden" name="_subject" value="Nieuw bericht via demachinedokters.nl" />
-  <input type="hidden" name="_template" value="table" />
-  <input type="hidden" name="_captcha" value="false" />
-  {site.formBlacklist && <input type="hidden" name="_blacklist" value={site.formBlacklist} />}
-  <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+<form class="form contact-form" method="POST" action="/contact/" data-fs={formTarget(site)} data-blacklist={site.formBlacklist} data-ajax-form novalidate>
+  <input type="hidden" name="subject" value="Nieuw bericht via demachinedokters.nl" />
+  <input type="hidden" name="from_name" value="demachinedokters.nl" />
+  <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
   <div>
     <label for="cf-name">{f.nameLabel} *</label>
     <input id="cf-name" name="Naam" type="text" required autocomplete="name" />
   </div>
   <div>
     <label for="cf-email">{f.emailLabel} *</label>
-    <input id="cf-email" name="E-mailadres" type="email" required autocomplete="email" />
+    <input id="cf-email" name="email" type="email" required autocomplete="email" />
   </div>
   <div>
     <label for="cf-phone">{f.phoneLabel}</label>
@@ -42,15 +40,18 @@ const f = page.form;
       ok.classList.remove('show'); err.classList.remove('show');
       if (!form.checkValidity()) { form.reportValidity(); return; }
       const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+      const label = btn.textContent;
       btn.disabled = true;
+      btn.textContent = 'Bezig met versturen…';
       try {
-        const res = await fetch(form.action, { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form) });
+        // Na 15 seconden geven we het op, zodat een storing bij Web3Forms direct een foutmelding geeft.
+        const res = await fetch(form.action, { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form), signal: AbortSignal.timeout(15000) });
         const data = await res.json().catch(() => ({}));
-        if (res.ok && (data.success === 'true' || data.success === true)) { form.reset(); ok.classList.add('show'); window.location.href = '/bedankt/?bron=contactformulier'; }
-        else if (/activat/i.test(String(data.message ?? ''))) { err.textContent = 'Het formulier is nog niet geactiveerd. De beheerder heeft een activatiemail ontvangen; probeer het straks opnieuw of mail ons direct.'; err.classList.add('show'); }
-        else err.classList.add('show');
+        if (res.ok && data.success === true) { form.reset(); ok.classList.add('show'); window.location.href = '/bedankt/?bron=contactformulier'; return; }
+        err.classList.add('show');
       } catch { err.classList.add('show'); }
       btn.disabled = false;
+      btn.textContent = label;
     });
   });
 </script>

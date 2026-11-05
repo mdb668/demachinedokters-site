@@ -25,7 +25,7 @@ Op drie plekken gebruiken we diensten van derden. Daarbij kan die partij technis
 
 - **Bezoekersstatistieken**: met Cloudflare Web Analytics zien we hoeveel bezoekers de website heeft, welke pagina's ze bekijken en via welke website ze binnenkomen. Dit werkt zonder cookies en zonder iets op je apparaat op te slaan. Cloudflare maakt geen profielen van bezoekers en volgt je niet over andere websites; we zien alleen totalen.
 - **Kaart op de contactpagina**: de kaart van Google Maps wordt pas geladen nadat je zelf op "Kaart tonen" klikt. Pas op dat moment kan Google cookies plaatsen volgens het privacybeleid van Google. Klik je niet, dan gebeurt er niets.
-- **Formulieren**: het contact- en sollicitatieformulier worden verzonden via de dienst FormSubmit. Die verwerkt de ingevulde gegevens uitsluitend om ze aan ons door te sturen en plaatst geen cookies op onze website.
+- **Formulieren**: het contact- en sollicitatieformulier worden verzonden via de dienst Web3Forms. Die verwerkt de ingevulde gegevens uitsluitend om ze aan ons door te sturen en plaatst geen cookies op onze website.
 
 ## Veranderingen in de toekomst
 

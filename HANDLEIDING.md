@@ -9,7 +9,7 @@ Alles is van jou: de code, de teksten, de foto's. Geen abonnement meer nodig.
 | Beheer (CMS) | **Sveltia CMS** op `/admin/` – teksten, foto's, cases, blog, team, FAQ, vacatures aanpassen in je browser |
 | Opslag | GitHub-repository `mdb668/demachinedokters-site` (elke wijziging is een commit, dus alles heeft een historie) |
 | Hosting | **GitHub Pages** (gratis, wereldwijd CDN, automatisch HTTPS) |
-| Formulieren | **FormSubmit.co** stuurt contact-, sollicitatie- en downloadformulieren naar `info@demachinedokters.nl` |
+| Formulieren | **Web3Forms** stuurt contact- en sollicitatieformulieren naar `formulier@demachinedokters.nl` (access key in Instellingen → Web3Forms access key) |
 | Domein | Blijft bij one.com; alleen de DNS-records wijzen naar GitHub Pages |
 
 ---
@@ -41,7 +41,7 @@ Daarna in GitHub: **Settings → Pages → Custom domain** = `www.demachinedokte
 Het bestand `public/CNAME` bevat al `www.demachinedokters.nl`, zodat GitHub het domein onthoudt bij elke nieuwe publicatie.
 
 ### Stap 3 – Formulieren activeren
-Bij de **eerste** inzending van een formulier stuurt FormSubmit een activatiemail naar `info@demachinedokters.nl` met de knop **Activate form**. Klik erop; daarna komen alle berichten gewoon binnen.
+De formulieren werken met een access key van web3forms.com, aangevraagd voor `formulier@demachinedokters.nl`. Er is geen activatiemail nodig. Wil je berichten op een ander adres, vraag dan op web3forms.com een nieuwe key aan voor dat adres en vul die in het CMS in.
 Test na livegang dus één keer het contactformulier zelf.
 
 ### Stap 4 – Inloggen op het CMS
@@ -100,7 +100,7 @@ Lokaal het CMS gebruiken zonder token: start `npm run dev`, open http://localhos
 ## 4. Wat er bewust anders is dan op Wix
 - **Geen cookiebanner**: de site plaatst zelf geen tracking-cookies. Voeg je later Google Analytics of een pixel toe, plaats dan weer een cookiemelding.
 - **Hero-video** is verkleind naar 480p (6 MB) voor snelheid; de originele 720p-versie staat in de map van de studie-bestanden. Wil je hem vervangen: `public/video/hero.mp4`.
-- **Formulieren** via FormSubmit in plaats van Wix Forms. Bijlagen (CV) werken via het gewone formulier; het contactformulier verstuurt zonder pagina-herlaad.
+- **Formulieren** via Web3Forms in plaats van Wix Forms (eerder FormSubmit). Geen bijlagen (CV) op het gratis plan; het contactformulier verstuurt zonder pagina-herlaad.
 - **Downloads** (checklist en case study) stonden niet publiek op Wix; plaats de PDF's in `public/downloads/` (zie LEES-MIJ.txt daar) of upload via het CMS.
 - **Case WVS** staat op "niet gepubliceerd" omdat er op de oude site nog geen inhoud voor was.
 - Alle oude URL's (`/case-coca-cola`, `/post/...`, `/diensten/nen-3140-1010`, enz.) zijn behouden voor SEO. Sitemap: `/sitemap-index.xml`, RSS: `/rss.xml`.

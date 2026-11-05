@@ -27,7 +27,7 @@ const settings = defineCollection({
     kvk: z.string().optional(),
     legalName: z.string().optional(),
     formEmail: z.string(),
-    formEndpoint: z.string().optional(),
+    formKey: z.string().optional(),
     formBlacklist: z.string().optional(),
     ctaLabel: z.string(),
     ctaLink: z.string(),

@@ -54,6 +54,14 @@ Daarnaast werken we, los van de website, met IT- en hostingproviders, administra
 
 Met deze partijen sluiten we verwerkersovereenkomsten of zij bieden standaard passende waarborgen. Zo zorgen we dat jouw gegevens ook daar veilig zijn.
 
+## Ons klantportaal
+
+Voor onderhoud, inspecties, urenregistratie en planning gebruiken we een eigen portal (machinedokters-prod.web.app). Daarin verwerken we gegevens van onze medewerkers, zzp'ers en contactpersonen bij klanten: naam, e-mailadres, telefoonnummer, gewerkte uren en kilometers, handtekeningen en foto's van machines die bij een inspectie worden gemaakt. Wie een QR-code op een machine scant, ziet zonder in te loggen alleen algemene machinegegevens en geen persoonsgegevens.
+
+De portal draait op Google Cloud (Firebase). De gegevens staan in Nederland. E-mails uit de portal versturen we via Resend, facturen en offertes staan in WeFact. Met al deze partijen gelden verwerkersovereenkomsten.
+
+Inloggen kan alleen op uitnodiging, met een sterk wachtwoord en voor beheerders met tweestapsverificatie. Iedereen ziet alleen wat bij zijn of haar rol hoort. Wijzigingen worden vastgelegd en we maken dagelijks back-ups. Uren- en factuurgegevens bewaren we 7 jaar, omdat de wet dat vraagt.
+
 ## Hoelang bewaren we jouw gegevens?
 
 We bewaren persoonsgegevens niet langer dan nodig is. Hoe lang precies, hangt af van het doel waarvoor we ze verzameld hebben. Een paar voorbeelden:
@@ -112,4 +120,4 @@ Kom je er met ons niet uit? Dan kun je terecht bij de Autoriteit Persoonsgegeven
 
 ## Versie en wijzigingen
 
-Deze privacyverklaring is voor het laatst bijgewerkt op 09-10-2026. We kunnen deze verklaring aanpassen als er iets verandert in onze werkwijze, dienstverlening of wetgeving. De meest actuele versie vind je altijd op onze website.
+Deze privacyverklaring is voor het laatst bijgewerkt op 05-11-2026. We kunnen deze verklaring aanpassen als er iets verandert in onze werkwijze, dienstverlening of wetgeving. De meest actuele versie vind je altijd op onze website.

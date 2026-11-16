@@ -53,6 +53,7 @@
 - Cases: https://www.demachinedokters.nl/cases/
 - Blog: https://www.demachinedokters.nl/blog/
 - Veelgestelde vragen: https://www.demachinedokters.nl/veelgestelde-vragen/
+- Machinecheck (speelse keuzehulp: duct tape, WD-40, een Machinedokter op locatie of een nieuwe machine; tape en WD-40 staan voor noodgrepen, geen reparatie): https://www.demachinedokters.nl/machinecheck/
 - Over ons: https://www.demachinedokters.nl/over-ons/
 - Contact: https://www.demachinedokters.nl/contact/
 

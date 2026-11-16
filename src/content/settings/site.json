@@ -117,6 +117,10 @@
     {
       "label": "Machinebouw",
       "href": "/diensten/speciaalmachines"
+    },
+    {
+      "label": "Machinecheck",
+      "href": "/machinecheck"
     }
   ],
   "footerJuridisch": [

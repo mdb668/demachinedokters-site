@@ -54,3 +54,5 @@ Wil je weten wat de andere 15 signalen zijn van een 'zieke' lijn? We hebben de *
 Ziet jouw lijn er uit als een verzameling pleisters? Wij helpen je om van symptoombestrijding naar echte genezing te gaan. Wij werken met je team aan de bestaande lijn om de stabiliteit en betrouwbaarheid weer terug te brengen. Zónder dat er direct een nieuwe machine besteld hoeft te worden.
 
 **Benieuwd hoe we jouw 'Duct-tape' problemen definitief oplossen?** Neem [contact](/contact) op voor een diagnose-gesprek of bekijk onze [cases](/cases/).
+
+Heeft je technische dienst geen tijd om de oorzaak aan te pakken? Lees hoe we [je technische dienst ondersteunen](/diensten/technische-dienst-ondersteunen/).

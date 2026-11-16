@@ -8,8 +8,8 @@ image: "/images/fotos/transportsysteem.jpg"
 imageAlt: "Op maat gebouwd transportsysteem met rollenbanen in een fabriekshal."
 order: 5
 slug: "speciaalmachines"
-seoTitle: "Machine laten bouwen op maat | De Machinedokters"
-seoDescription: "Machine laten bouwen? Machinebouw op maat, van €6.000 tot €400.000 per project. Gemiddeld een half jaar van eerste bezoek tot draaiende machine."
+seoTitle: "Machine laten bouwen: machinebouw op maat | De Machinedokters"
+seoDescription: "Machine laten bouwen voor handling, palletiseren, bewerkingen of assemblage? Wij bouwen hem op maat in Alphen. Gemiddeld een half jaar tot hij draait."
 ctaTitle: "Idee voor een machine?"
 ctaText: "Bespreek het met ons. We denken mee over haalbaarheid, investering en terugverdientijd."
 relatedCases:

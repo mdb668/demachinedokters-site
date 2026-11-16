@@ -60,7 +60,7 @@ Pas nadat de nieuwe site op het domein draait en je alles gecontroleerd hebt. Ze
 |---|---|
 | ⚙️ Instellingen | Telefoon, e-mail, adres, menu, footer, socials, de vaste blokken "schakel je in voor" en "behandelplan" |
 | 📄 Pagina's | Teksten, quotes, knoppen en afbeeldingen van homepage, diensten, over ons, contact, werken bij, FAQ, NEN, service & onderhoud, blog, download |
-| 🔧 Diensten | De vier diensten (kaartjes + uitgebreide tekst) |
+| 🔧 Diensten | Alle diensten (kaartjes + uitgebreide tekst) |
 | 🏭 Cases | Klantcases met cijfers, uitdaging, aanpak en resultaat. Vinkje "Gepubliceerd" uit = tijdelijk verbergen |
 | 👥 Team | Naam, functie, foto, volgorde |
 | ❓ Veelgestelde vragen | Vraag + antwoord |

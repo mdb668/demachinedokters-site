@@ -7,6 +7,7 @@
 - Onderhoud en storingsanalyse van productiemachines: preventief, correctief en predictief
 - Software- en PLC-integratie, dashboards met productiedata
 - Training en ondersteuning van operators, monteurs en engineers
+- Technische dienst ondersteunen: samen met de technische dienst hardnekkige storingen oplossen en de mensen trainen, zodat ze het daarna zelf kunnen
 - NEN 3140 en NEN 1010 keuringen van arbeidsmiddelen en machines in Noord-Brabant
 - Speciaalmachines en machinebouw op maat, retrofit van verouderde machines, robotisering en automatisering (nu onder De Machinedokters)
 
@@ -49,6 +50,7 @@
 - Machinebouw & speciaalmachines: https://www.demachinedokters.nl/diensten/speciaalmachines/
 - Retrofit: https://www.demachinedokters.nl/diensten/retrofit/
 - Robotisering: https://www.demachinedokters.nl/diensten/robotisering/
+- Technische dienst ondersteunen: https://www.demachinedokters.nl/diensten/technische-dienst-ondersteunen/
 - Service & onderhoud: https://www.demachinedokters.nl/service-onderhoud/
 - Cases: https://www.demachinedokters.nl/cases/
 - Blog: https://www.demachinedokters.nl/blog/

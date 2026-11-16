@@ -32,7 +32,7 @@ faq:
   - question: "Hoe richten jullie het machineonderhoud in na een storingsanalyse?"
     answer: "We maken een gericht onderhoudsplan met alleen het onderhoud dat storingen voorkomt. Wat geen effect heeft op de beschikbaarheid, schrappen of verschuiven we. Daarna volgen we de stilstand en storingen, zodat je zwart op wit ziet wat het oplevert. En we leren je mensen de signalen zelf te herkennen."
   - question: "Werken jullie samen met onze eigen technische dienst?"
-    answer: "Ja, dat werkt meestal het beste. We vergroten capaciteit en expertise zonder de interne organisatie te verdringen. Bij de analyse halen we juist de ervaring op van de operators en technische dienst die er dagelijks naast staan."
+    answer: "Ja, dat werkt meestal het beste. We pakken de storingen samen aan en leren je mensen hoe we de oorzaak vinden, zonder de interne organisatie te verdringen. Bij de analyse halen we juist de ervaring op van de operators en technische dienst die er dagelijks naast staan. Wil je je TD voor langere tijd sterker maken? Lees hoe we [je technische dienst ondersteunen](/diensten/technische-dienst-ondersteunen/)."
   - question: "Wat levert een storingsanalyse op?"
     answer: "Bij een voedingsproducent in West-Brabant bleek de vuller niet precies op tijd te starten en te stoppen. Met betere timing en een afblaassysteem was een extra controle-operator niet meer nodig: 3 fte bespaard, voor minder dan €10.000 inclusief training en inbedrijfstelling. Bij een verpakkingsproducent die levert aan Unilever daalde de ongeplande stilstand met 30%."
   - question: "In welke regio werken jullie?"

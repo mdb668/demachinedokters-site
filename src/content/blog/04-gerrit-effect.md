@@ -54,3 +54,5 @@ Dit zijn slechts 3 punten uit onze machinedokters checklist: “hoe ziek is jouw
 Wij maken je proces weer onafhankelijk door de kennis van je mensen vast te leggen in de machine en de werkwijze. Zo draait je lijn op dinsdag net zo goed als op maandag.
 
 **Klaar voor een stabiel resultaat, het hele jaar door?** Plan een [vrijblijvend adviesgesprek](/contact) in of lees in onze [case](/case-voedingsindustrie/) hoe wij bij een productiehuis zorgden voor een 20% snellere lijn.
+
+Heeft je technische dienst geen tijd om de oorzaak aan te pakken? Lees hoe we [je technische dienst ondersteunen](/diensten/technische-dienst-ondersteunen/).

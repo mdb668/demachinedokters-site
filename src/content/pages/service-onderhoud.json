@@ -1,9 +1,9 @@
 {
-  "seoTitle": "Machine onderhoud dat storingen voorkomt | De Machinedokters",
-  "seoDescription": "Machine onderhoud dat storingen voorkomt, in langdurige samenwerking. Analytisch sterk, samen met mensen die verstand hebben van hun eigen proces.",
-  "title": "Service & onderhoud dat storingen voorkomt",
-  "subtitle": "Minder ongeplande stilstand, niet meer onderhoudsuren",
-  "intro": "Veel onderhoud draait om vaste rondes: smeren, schoonmaken, onderdelen wisselen volgens schema. Toch blijft de lijn stilvallen. **De vraag is niet wat er volgens het boekje moet gebeuren, maar waarom jouw machine stopt.** Daar richten we ons onderhoud van industriële machines op.",
+  "seoTitle": "Machine onderhoud voor industriële machines | De Machinedokters",
+  "seoDescription": "Machineonderhoud dat begint bij jouw storingen, niet bij een schema. 40% minder storingen op de lijnen van Coca-Cola. Merkonafhankelijk, in Noord-Brabant.",
+  "title": "Machineonderhoud dat storingen voorkomt",
+  "subtitle": "Minder ongeplande stilstand zonder extra onderhoudsuren",
+  "intro": "Veel onderhoud draait om vaste rondes: smeren, schoonmaken, onderdelen wisselen volgens schema. Toch blijft de lijn stilvallen. **De vraag is niet wat er volgens het boekje moet gebeuren, maar waarom jouw machine stopt.** Zo doen wij onderhoud aan industriële machines.",
   "problemTitle": "Waarom standaard onderhoud storingen niet stopt",
   "problemText": "Een onderhoudsplan uit de handleiding gaat uit van een gemiddelde machine in een gemiddelde fabriek. Jouw lijn draait met jouw producten, jouw snelheden en jouw operators. De storingen die jou productie kosten, staan zelden in dat plan.\n\nHet resultaat herken je misschien: de monteur is druk, de onderdelen worden keurig op tijd vervangen, en toch staat de lijn elke week een paar keer stil. Steeds op dezelfde plek, steeds met hetzelfde trucje weer aan de praat.\n\nOnderhoud voegt pas waarde toe als het de storingen voorkomt die jou echt geld kosten. Daarom beginnen we niet met een schema, maar met je storingen.",
   "blocks": [
@@ -21,7 +21,7 @@
     },
     {
       "title": "Storingsdienst",
-      "text": "Gaat het toch mis, dan schakelen we snel. Eerst zorgen we dat je weer produceert. Daarna zoeken we uit waarom het gebeurde, zodat dezelfde storing niet volgende week terugkomt. Een tijdelijke fix noemen we ook zo, en we spreken af wanneer de echte oplossing volgt. Met vaste klanten leggen we de aanrijdtijd vooraf vast, afgestemd op de locatie en het servicecontract.",
+      "text": "Gaat het toch mis, dan schakelen we snel. Eerst zorgen we dat je weer produceert. Daarna zoeken we uit waarom het gebeurde, zodat dezelfde storing niet volgende week terugkomt. Een tijdelijke fix noemen we ook zo, en we spreken af wanneer de echte oplossing volgt. Met vaste klanten leggen we de aanrijdtijd vooraf vast, afgestemd op de locatie en het servicecontract.\n\nStaat een oude machine stil? Bel of app ons, ook met alleen een foto of filmpje van de machine. Daarna komen we één dag langs om hem te repareren. Lukt dat niet in die dag, dan nemen we alles op wat nodig is en krijg je binnen een week een plan en offerte. [Neem contact op](/contact/).",
       "listTitle": "Wat je kunt verwachten:",
       "list": [
         "Snel schakelen bij stilstand of uitval",
@@ -32,14 +32,14 @@
       "icon": "alert"
     },
     {
-      "title": "Revisies & verbeteringen",
+      "title": "Machines reviseren en verbeteren",
       "text": "Bij een revisie brengen we een machine niet alleen terug naar de originele staat. Als een onderdeel steeds weer slijt of breekt, zit het probleem vaak in het ontwerp of de toepassing. Dan passen we het aan, zodat het zwakke punt verdwijnt in plaats van terugkomt. Dat doen we op locatie of in onze eigen werkplaats in Alphen.\n\nCombineer onderhoud met een [NEN 3140 keuring](/diensten/nen-3140-1010/): bij afkeur herstellen we vaak direct ter plekke.",
       "listTitle": "Wat we doen:",
       "list": [
         "Mechanische en elektrische revisies",
         "Terugkerende slijtplekken constructief oplossen",
         "Verouderde componenten vervangen voordat ze een storing veroorzaken",
-        "De levensduur en betrouwbaarheid van bestaande machines verlengen"
+        "Bestaande machines langer en betrouwbaarder laten draaien"
       ],
       "icon": "wrench"
     }
@@ -63,9 +63,9 @@
       "text": "We volgen de stilstand en storingen na de aanpassingen. Zo zie je zwart op wit wat het oplevert, en weten we waar de volgende winst zit."
     }
   ],
-  "notTitle": "Samen het meeste uit je machines halen",
-  "notText": "We werken het liefst langdurig samen. Hoe beter we jouw lijn, je producten en je mensen kennen, hoe eerder we zien waar de volgende storing vandaan komt. Daarom zijn we het sterkst als vaste partner: we denken mee over het onderhoudsplan, de slimme verbeteringen en de grote stappen.\n\nVoor een losse onderhoudsstop van een week zijn wij niet de logische partij. Wel voor het voorwerk: bepalen wat er in die stop moet gebeuren, welke zwakke plekken je aanpakt en hoe je daarna minder stilstaat. Waar een onderhoudscontract meerwaarde heeft, bieden we dat aan, afgestemd op jouw situatie.",
-  "exampleTitle": "Praktijkvoorbeeld: van dure gewoonte naar stabiel proces",
+  "notTitle": "Wat we wel en niet doen",
+  "notText": "We werken het liefst langdurig samen. Hoe beter we jouw lijn, je producten en je mensen kennen, hoe eerder we zien waar de volgende storing vandaan komt.\n\nWe maken het periodieke onderhoudsplan en voeren machineverbeteringen uit. Het periodieke onderhoud zelf voeren we uit als we het hele systeem in beheer hebben of zelf hebben geleverd.\n\nVoor een losse onderhoudsstop van een week zijn wij niet de logische partij. Wel voor het voorwerk: bepalen wat er in die stop moet gebeuren, welke zwakke plekken je aanpakt en hoe je daarna minder stilstaat. Een 24/7-dienst bieden we niet aan; de aanrijdtijd spreken we vooraf met je af.",
+  "exampleTitle": "Praktijkvoorbeeld: een vuller verbeterd in plaats van vervangen",
   "exampleText": "Bij een voedingsproducent in West-Brabant stond 24 uur per dag een extra operator aan de lijn om verpakkingen te controleren. De vuller startte en stopte niet altijd precies op tijd. Product viel naast de verpakkingen, banden en machines raakten vervuild, vervuilde verpakkingen konden niet verkocht worden en de lijn moest stil om schoon te maken. Wat begon als tijdelijke maatregel, was een vaste gewoonte geworden.\n\nWe hebben de bestaande vuller niet vervangen, maar verbeterd: nauwkeurigere timing en een afblaassysteem dat de vulmond schoon houdt. Eerst tijdelijk opgebouwd om te valideren en fijn af te stellen, daarna definitief uitgevoerd. Gebouwd zonder de machineleverancier in de weg te zitten, en draaiend in het volcontinue proces. **Investering inclusief training en inbedrijfstelling: minder dan €10.000. Besparing: 3 fte.**",
   "exampleLink": "/case-vulproces-voedingsproducent/",
   "proofTitle": "Wat het oplevert",
@@ -93,12 +93,16 @@
       "answer": "Correctief onderhoud is repareren nadat iets kapot is. Preventief onderhoud is vervangen of controleren volgens een vast schema, ook als het onderdeel nog goed is. Predictief onderhoud is ingrijpen op basis van de werkelijke conditie van de machine, gemeten met sensoren of machinedata. Wij combineren ze zo dat je de storingen voorkomt die je het meest kosten, zonder onnodige onderhoudsstops."
     },
     {
+      "question": "Hoe richten jullie het machineonderhoud in?",
+      "answer": "We maken een gericht onderhoudsplan met alleen het onderhoud dat storingen voorkomt. Wat geen effect heeft op de beschikbaarheid, schrappen of verschuiven we. Daarna volgen we de stilstand en storingen, zodat je zwart op wit ziet wat het oplevert. En we leren je mensen de signalen zelf te herkennen."
+    },
+    {
       "question": "Mijn oude machine doet het niet meer. Kunnen jullie hem maken of de besturing vervangen?",
       "answer": "Ja. Bel of app ons gewoon even, ook met alleen een foto of filmpje van de machine. Daarna komen we één dag langs om hem te repareren. Lukt dat niet in die dag, dan nemen we alles op wat nodig is en krijg je binnen een week een plan en offerte, bijvoorbeeld voor een nieuwe besturing. Die dag betaal je, maar kies je daarna voor een grote upgrade bij ons, dan verrekenen we hem met de offerte. Meer hierover lees je bij retrofit."
     },
     {
       "question": "Kunnen jullie ook ons reguliere onderhoud uitvoeren?",
-      "answer": "Waar het meerwaarde heeft, bieden we een onderhoudscontract aan, afgestemd op jouw lijn. Onze kracht zit in het denkwerk: onderhoud zo inrichten dat storingen wegblijven, en samen met jou de machines steeds beter laten draaien. Voor alleen extra handen tijdens een losse onderhoudsstop zijn wij niet de logische partij, wel voor de planning en de slimme verbeteringen daarvoor."
+      "answer": "We maken het periodieke onderhoudsplan en voeren machineverbeteringen uit. Het periodieke onderhoud zelf doen we als we het hele systeem in beheer hebben of zelf hebben geleverd. Voor alleen extra handen tijdens een losse onderhoudsstop zijn wij niet de logische partij, wel voor de planning en de verbeteringen daarvoor."
     },
     {
       "question": "Hoe snel zijn jullie er bij een storing?",

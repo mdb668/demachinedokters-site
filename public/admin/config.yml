@@ -458,6 +458,7 @@ collections:
     fields:
       - { name: title, label: "Titel", widget: string }
       - { name: titleHtml, label: "Titel met regelafbreking (optioneel, gebruik <br>)", widget: string, required: false }
+      - { name: h1, label: "Kop bovenaan de pagina (optioneel)", widget: string, required: false, hint: "Laat leeg om de titel te gebruiken. De titel blijft de naam in het menu en op de kaarten." }
       - { name: tagline, label: "Korte slogan", widget: string }
       - { name: short, label: "Korte omschrijving (kaart)", widget: text }
       - { name: icon, label: "Icoon", widget: select, options: [timer, gauge, activity, trending-up, trending-down, euro, user-minus, package, swap, route, robot-arm, wrench, gear, retrofit, shield, check, eye, clock, factory, people, flag, sprout, alert, code] }

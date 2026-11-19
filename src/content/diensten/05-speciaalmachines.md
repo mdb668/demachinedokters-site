@@ -1,15 +1,16 @@
 ---
 title: "Machinebouw & speciaalmachines"
 titleHtml: "Machinebouw<br>& speciaalmachines"
-tagline: "Maatwerk voor unieke producten."
+h1: "Speciaalmachinebouw: een machine op maat laten bouwen"
+tagline: "Voor producten die niet in een standaardmachine passen."
 short: "Past jouw product niet in een standaardmachine? Als machinebouwer ontwerpen en bouwen we speciaalmachines vanaf een blanco vel, precies afgestemd op jouw productie. Van een automatisering vanaf €6.000 tot complete lijnen."
 icon: "gear"
 image: "/images/fotos/transportsysteem.jpg"
 imageAlt: "Op maat gebouwd transportsysteem met rollenbanen in een fabriekshal."
 order: 5
 slug: "speciaalmachines"
-seoTitle: "Machine laten bouwen: machinebouw op maat | De Machinedokters"
-seoDescription: "Machine laten bouwen voor handling, palletiseren, bewerkingen of assemblage? Wij bouwen hem op maat in Alphen. Gemiddeld een half jaar tot hij draait."
+seoTitle: "Machine laten bouwen: speciaal machinebouw op maat | De Machinedokters"
+seoDescription: "Machine laten bouwen? We ontwerpen en bouwen hem zelf, in Alphen. Projecten vanaf €6.000 excl. btw, gemiddeld een half jaar tot hij draait."
 ctaTitle: "Idee voor een machine?"
 ctaText: "Bespreek het met ons. We denken mee over haalbaarheid, investering en terugverdientijd."
 relatedCases:
@@ -18,7 +19,9 @@ relatedCases:
   - "case-altrex"
 faq:
   - question: "Wat kost een speciaalmachine?"
-    answer: "Onze projecten liggen tussen de €6.000 en €400.000 per project. Een eenvoudige automatisering van één handeling begint al rond €6.000. Een kant-en-klare cobot-palletiseerder voor dozen staat er vanaf ongeveer €41.500, geïnstalleerd met een standaard pickpoint. Complete lijnen of meerdere machines kunnen samen hoger uitkomen. Wat het jou kost, hangt af van het aantal handelingen, de snelheid, de productvariatie en hoeveel flexibiliteit je nodig hebt."
+    answer: "Onze projecten liggen tussen de €6.000 en €400.000 excl. btw per project. Een eenvoudige automatisering van één handeling begint al rond €6.000. Een kant-en-klare cobot-palletiseerder voor dozen staat er vanaf ongeveer €41.500, geïnstalleerd met een standaard pickpoint. Complete lijnen of meerdere machines kunnen samen hoger uitkomen. Wat het jou kost, hangt af van het aantal handelingen, de snelheid, de productvariatie en hoeveel flexibiliteit je nodig hebt."
+  - question: "Werken jullie met een vaste prijs?"
+    answer: "Dat ligt aan de grootte van het project. Meestal spreken we een vaste prijs af."
   - question: "Hoe bereken je of een speciaalmachine zich terugverdient?"
     answer: "Meestal zetten we de investering af tegen de extra productie per jaar of de besparing in fte per jaar. Kwaliteitswinst ten opzichte van handwerk, zoals minder afkeur of minder fysieke belasting, verschilt sterk per project. Die brengen we per situatie in kaart. Zo weet je vooraf waar je op uitkomt."
   - question: "Hoe lang duurt het bouwen van een speciaalmachine?"
@@ -33,29 +36,31 @@ faq:
     answer: "Ja. Aansluiten op bestaande lijnen, transportsystemen of besturingen is een vast onderdeel van ons werk. In de eerste fase leggen we vast op welke machines en componenten we moeten aansluiten, zodat de nieuwe machine meedraait met wat er al staat."
 ---
 
-Sommige producten passen simpelweg niet in een machine uit de catalogus: een afwijkend formaat, een kwetsbaar materiaal, een handeling die tot nu toe alleen met de hand lukte. Dan bouwen we hem zelf. Als machinebouwer ontwerpen we speciaalmachines vanaf een blanco vel rond jouw product en jouw proces, zodat ze precies doen wat nodig is en niets overbodigs. Dat is speciaalmachinebouw: je laat een machine bouwen die vanaf het begin voor jouw product is ontworpen.
-
-We beginnen altijd in de fabriek, niet achter een tekentafel. We kijken hoe het product nu door de lijn gaat, waar het hapert en wat operators dagelijks moeten corrigeren. Daaruit volgt een concept dat we samen met jouw team toetsen, voordat we ook maar één plaat laten snijden. Zo voorkomen we over-engineering en bouwen we machines die eenvoudig zijn, en daardoor betrouwbaar.
-
-Ontwerp, mechanica, besturing, inbedrijfstelling en CE-markering doen we in eigen huis. Van een enkel werkstation tot een complete assemblagelijn: je krijgt één aanspreekpunt, korte lijnen en een machine die aansluit op wat er al staat. En omdat we ook onderhoud en optimalisatie doen, bouwen we vanaf dag één met het oog op de jaren daarna: goed bereikbaar en snel om te bouwen.
-
-## Ook zonder tekeningen
-
-Niet elk project begint bij een leeg vel. Vaak bouwen we om, verplaatsen we machines of passen we bestaande installaties aan waar we niet vanaf de tekening bij zijn geweest. Dan is niet alles gedocumenteerd, en lossen we het op zoals we het tegenkomen: in het werk, op de vloer. Zo verplaatsten en verbeterden we bij een [producent in de verpakkingsindustrie](/case-verpakkingsindustrie/) een complete lijn.
+Sommige producten passen niet in een machine uit de catalogus: een afwijkend formaat, een kwetsbaar materiaal, een handeling die tot nu toe alleen met de hand lukte. Dan bouwen we hem zelf: machines voor handling, palletiseren, bewerkingen en assemblage. We ontwerpen hem rond jouw product en jouw proces, zodat hij precies doet wat nodig is en niets overbodigs.
 
 ## Wat kost machinebouw op maat?
 
-Onze projecten liggen tussen de **€6.000 en €400.000** per project. Een eenvoudige automatisering begint al rond €6.000, een kant-en-klare cobot-palletiseerder voor dozen staat er vanaf ongeveer €41.500, geïnstalleerd met een standaard pickpoint. Bij complete lijnen of meerdere machines kan het totaal hoger uitkomen.
+Onze projecten liggen tussen de **€6.000 en €400.000** excl. btw per project. Een eenvoudige automatisering begint al rond €6.000, een kant-en-klare cobot-palletiseerder voor dozen staat er vanaf ongeveer €41.500, geïnstalleerd met een standaard pickpoint. Bij complete lijnen of meerdere machines kan het totaal hoger uitkomen.
+
+Meestal spreken we een vaste prijs af. Dat ligt aan de grootte van het project.
 
 We rekenen de investering meestal door tegen de **extra productie per jaar** of de **besparing in fte per jaar**. Kwaliteitswinst ten opzichte van handwerk is per project anders; die brengen we samen met je in kaart.
 
-## Een machine laten bouwen: zo werkt het
+## Een machine ontwerpen begint in jouw fabriek
+
+We beginnen altijd in de fabriek, niet achter een tekentafel. We kijken hoe het product nu door de lijn gaat, waar het hapert en wat operators dagelijks moeten corrigeren. Daaruit volgt een concept dat we samen met jouw team toetsen, voordat we ook maar één plaat laten snijden. Zo voorkomen we over-engineering en bouwen we machines die eenvoudig zijn, en daardoor betrouwbaar.
+
+## Ontwerp, bouw en CE-markering in eigen huis
+
+Ontwerp, mechanica, besturing, inbedrijfstelling en CE-markering doen we in eigen huis. Dat geldt voor een enkel werkstation en voor een complete assemblagelijn. Je hebt één aanspreekpunt, korte lijnen en een machine die aansluit op wat er al staat. En omdat we ook onderhoud en optimalisatie doen, bouwen we vanaf dag één met het oog op de jaren daarna: goed bereikbaar en snel om te bouwen.
+
+## Een machine laten bouwen in vijf stappen
 
 Meestal gaat het om repeterend werk. Een machine neemt dat over, zodat je mensen kunt inzetten voor leuker werk.
 
 ### 1. Kennismaken en goed kijken
 
-We komen bij je langs. Dat eerste bezoek is altijd gratis, als er maar koffie is. We zoeken uit wat er echt nodig is. Om welke producten gaat het, en hoeveel? Wat zijn de grootste en kleinste maten, en hoeveel varianten zijn er? Wil je één instelbare machine of een machine per product? Handmatig of automatisch?
+We komen bij je langs. Dat eerste bezoek is altijd gratis, als er maar koffie is. [Plan het eerste bezoek](/contact/). We zoeken uit wat er echt nodig is. Om welke producten gaat het, en hoeveel? Wat zijn de grootste en kleinste maten, en hoeveel varianten zijn er? Wil je één instelbare machine of een machine per product? Handmatig of automatisch?
 
 We praten ook meteen over de investering. Meestal kunnen we na dat eerste bezoek al zeggen waar je ongeveer aan moet denken. Lukt dat nog niet, dan zeggen we dat eerlijk.
 
@@ -81,6 +86,10 @@ Eerst testen we de machine bij ons, daarna bij jou in de productie. Je kunt ook 
 
 In een SLA (Service Level Agreement) leggen we vast wat je van ons kunt verwachten bij onderhoud en storingen.
 
-### Hoe lang duurt het?
+## Hoe lang duurt het bouwen van een machine?
 
 Gemiddeld zit er een half jaar tussen het eerste bezoek en een draaiende machine. Een eenvoudige machine of een aangepaste bestaande machine kan sneller. Een groot engineeringproject duurt meestal langer.
+
+## Ombouwen en verplaatsen, ook zonder tekeningen
+
+Niet elk project begint bij een leeg vel. Vaak bouwen we om, verplaatsen we machines of passen we bestaande installaties aan waar we niet vanaf de tekening bij zijn geweest. Dan is niet alles gedocumenteerd, en lossen we het op zoals we het tegenkomen: in het werk, op de vloer. Zo verplaatsten en verbeterden we bij een [producent in de verpakkingsindustrie](/case-verpakkingsindustrie/) een complete lijn.

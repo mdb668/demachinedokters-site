@@ -41,6 +41,16 @@ const ld = [
     </section>
   )}
 
+  {p.notTitle && (
+    <section class="section-sm">
+      <div class="container-narrow">
+        <h2>{p.notTitle}</h2>
+        <div class="muted" set:html={renderText(p.notText)} />
+        <p class="muted">Wil je weten hoe we een storing tot op de bodem uitzoeken? Lees meer over <a href="/diensten/onderhoud-storingsanalyse/">storingsanalyse</a>. Je eigen operators en monteurs leren de signalen zelf herkennen? Dat doen we met <a href="/diensten/training-ondersteuning/">training en ondersteuning</a>.</p>
+      </div>
+    </section>
+  )}
+
   <section class="section-sm section-bg">
     <div class="container blocks">
       {p.blocks.map((b: any) => (
@@ -89,16 +99,6 @@ const ld = [
             <a class="card stat" href={r.link}><strong>{r.value}</strong><span class="muted">{r.label}</span><span class="more">Bekijk de case <Icon name="arrow-right" size={18} /></span></a>
           ))}
         </div>
-      </div>
-    </section>
-  )}
-
-  {p.notTitle && (
-    <section class="section-sm">
-      <div class="container-narrow">
-        <h2>{p.notTitle}</h2>
-        <div class="muted" set:html={renderText(p.notText)} />
-        <p class="muted">Wil je weten hoe we een storing tot op de bodem uitzoeken? Lees meer over <a href="/diensten/onderhoud-storingsanalyse/">storingsanalyse</a>. Je eigen operators en monteurs leren de signalen zelf herkennen? Dat doen we met <a href="/diensten/training-ondersteuning/">training en ondersteuning</a>.</p>
       </div>
     </section>
   )}

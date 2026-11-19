@@ -53,7 +53,7 @@ const ld = [
 ];
 ---
 <Base title={title} description={description} image={d.image} jsonLd={ld}>
-  <PageHero title={d.title} subtitle={d.tagline} intro={d.short}>
+  <PageHero title={d.h1 || d.title} subtitle={d.tagline} intro={d.short}>
     <nav class="crumbs" aria-label="Kruimelpad"><a href="/">Home</a> › <a href="/diensten">Diensten</a> › <span>{d.title}</span></nav>
   </PageHero>
 

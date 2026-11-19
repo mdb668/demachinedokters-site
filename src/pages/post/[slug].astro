@@ -14,7 +14,11 @@ const { post } = Astro.props;
 const site = (await getEntry('settings', 'site'))!.data;
 const p = (await getEntry('pages', 'blog'))!.data;
 const { Content } = await render(post);
-const others = (await getCollection('blog', (b) => b.data.published && b.id !== post.id)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, 3);
+// "Lees ook": de drie berichten die in de tijd op dit bericht volgen (rondlopend),
+// zodat elk bericht vanaf andere berichten gelinkt wordt en niet alleen de nieuwste drie.
+const sorted = (await getCollection('blog', (b) => b.data.published)).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const at = sorted.findIndex((b) => b.id === post.id);
+const others = [1, 2, 3].map((n) => sorted[(at + n) % sorted.length]).filter((b, i, arr) => b.id !== post.id && arr.indexOf(b) === i);
 const ld = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',

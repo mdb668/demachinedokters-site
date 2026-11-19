@@ -93,3 +93,32 @@ if (webpUrls.size) {
 const mb = (n) => (n / 1048576).toFixed(2);
 console.log(`postbuild: ${converted} afbeeldingen naar WebP (${mb(bytesBefore)} MB -> ${mb(bytesAfter)} MB, ${mb(bytesBefore - bytesAfter)} MB bespaard)` +
   `${skipped ? `, ${skipped} overgeslagen (WebP niet kleiner)` : ''}, ${webpPages} html-bestanden bijgewerkt`);
+
+// ---------------------------------------------------------------------------
+// Afbeeldingen uit de lopende tekst (Markdown) hebben geen width/height. Die
+// vullen we hier in vanuit het bestand zelf, zodat de pagina niet verspringt
+// tijdens het laden, en we laden ze pas als ze in beeld komen.
+// ---------------------------------------------------------------------------
+let sized = 0;
+for (const file of walk(dist)) {
+  const before = readFileSync(file, 'utf8');
+  const tags = [...new Set(before.match(/<img\b[^>]*>/gi) ?? [])].filter((t) => !/\swidth\s*=/.test(t) && !/\sclass\s*=/.test(t));
+  let after = before;
+  for (const tag of tags) {
+    const src = tag.match(/\ssrc\s*=\s*"(\/[^"]+)"/)?.[1];
+    if (!src) continue;
+    let local = src;
+    try { local = decodeURI(src); } catch {}
+    const path = join(dist, local);
+    if (!existsSync(path)) { console.warn("afmetingen: niet gevonden", path); continue; }
+    try {
+      const { width, height } = await sharp(path).metadata();
+      if (!width || !height) continue;
+      const extra = ` width="${width}" height="${height}"` + (/\sloading\s*=/.test(tag) ? '' : ' loading="lazy" decoding="async"');
+      after = after.split(tag).join(tag.replace(/\s*\/?>$/, extra + '>'));
+      sized++;
+    } catch (e) { console.warn("afmetingen:", src, e.message); }
+  }
+  if (after !== before) writeFileSync(file, after);
+}
+console.log(`postbuild: ${sized} tekstafbeeldingen voorzien van afmetingen en lazy loading`);
